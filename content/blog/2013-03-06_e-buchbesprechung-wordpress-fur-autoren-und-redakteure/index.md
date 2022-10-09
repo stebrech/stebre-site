@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2013-03-06"
 updated:
 description: "WordPress für Autoren und Redakteure ist ein E-Book und richtet sich an WordPress Neuanwender. Das E-Book ist eine Anleitung und beschreibt das redaktionelle Arbeiten mit WordPress."
-categories: []
+categories:
 tags: ["Literatur", "WordPress"]
 featuredImage: "images/wordpress-fuer-autoren-und-redakteure.jpg"
 ---

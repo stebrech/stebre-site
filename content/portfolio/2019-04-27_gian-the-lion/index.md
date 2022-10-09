@@ -6,7 +6,7 @@ date: "2019-04-27"
 updated:
 description: "Für die Einladungskarte der Taufe unseres Jüngsten habe ich das Maskottchen «Gian the Lion» gezeichnet und vektorisiert."
 categories: ["Design"]
-tags: []
+tags:
 featuredImage: "images/loewe-gian.png"
 ---
 Für die Einladungskarte der Taufe unseres Jüngsten habe ich das Maskottchen «Gian the Lion» gezeichnet und vektorisiert.

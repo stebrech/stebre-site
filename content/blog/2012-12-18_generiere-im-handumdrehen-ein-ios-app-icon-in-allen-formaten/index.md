@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2012-12-18"
 updated:
 description: "Durch einen Beitrag auf codevisually.com bin ich auf ein nettes Helferlein namens iOS App Icon Template gestossen. Mithilfe von Photoshop und diesem freien PSD-File lässt sich im Handumdrehen eine eigenes iOS App Icon erstellen. Das Beste dabei – es werden sämtliche Grössenformate automatisch erstellt."
-categories: []
+categories:
 tags: ["Icon", "Photoshop"]
 featuredImage: "images/Generiere-im-Handumdrehen-ein-iOS-App-Icon-in-allen-Formaten.jpg"
 ---

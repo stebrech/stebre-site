@@ -6,7 +6,7 @@ date: "2017-09-09"
 updatet:
 description: "Am 9.9.2017 fand die WordPress-Veranstaltung in Bern statt. Ich war im Organisationsteam mit dabei und durfte die Gestaltung von Logo, T-Shirts, Batches und Weiterem übernehmen."
 categories: ["Design", "Branding"]
-tags: []
+tags:
 featuredImage: "images/wcbern_t-shirt-mockup-2-3.jpg"
 weblink: "https://bern.wordcamp.org/2017/"
 ---

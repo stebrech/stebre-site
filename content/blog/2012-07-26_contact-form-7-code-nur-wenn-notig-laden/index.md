@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2012-07-26"
 updated:
 description: "Verwendet ihr das WordPress Plugin Contact Form 7 auf eurer Website? Vielleicht ist euch schon aufgefallen, dass eine JavaScript- und eine CSS-Datei auf jeder einzelnen Seite eurer Website in den Header geladen wird."
-categories: []
+categories:
 tags: ["Performance", "WordPress"]
 featuredImage: "images/artikelbild_contact_form_7_code_nur_wenn_noetig_laden.jpg"
 ---

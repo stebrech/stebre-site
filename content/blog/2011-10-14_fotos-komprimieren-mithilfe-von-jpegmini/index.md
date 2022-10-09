@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2011-10-14"
 updated: 
 description: "Die israelische Firma ICVT, welche sich dem Thema Medien Kompression widmet, entwickelte JPEGmini. JPEGmini reduziert ein JPEG Bild bis zu 80%, angeblich ohne sichtbaren Qualitätsverlust."
-categories: []
+categories:
 tags: ["Bildoptimierung", "Webtool"]
 featuredImage: "images/tease-fotos-komprimieren-mithilfe-von-jpegmini.jpg"
 ---

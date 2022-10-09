@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2020-02-26"
 updated:
 description: "… sondern ein Muss. Die digitale Barrierefreiheit wird gerne als nice-to-have-Erweiterung betrachtet, die man am besten kurz vor Projektende noch schnell «installiert»."
-categories: []
+categories:
 tags: ["Barrierefreiheit"]
 featuredImage: "images/priscilla-du-preez-lcC42aLmmo4-unsplash.jpg"
 ---

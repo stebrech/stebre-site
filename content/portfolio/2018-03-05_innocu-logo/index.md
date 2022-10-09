@@ -6,7 +6,7 @@ date: "2018-03-05"
 updated:
 description: "Für meinen Schwiegervater habe ich das Logo Innocu umgesetzt. Es ist eine Wort-Bild-Marke und besteht aus dem Text «INNOCU» – was abgekürzt für Innovation Cueni steht – und dem abstrakten Signet, welches die Buchstaben c und i kombiniert."
 categories: ["Animation", "Branding", "Design"]
-tags: []
+tags:
 featuredImage: "images/logo-innocu.png"
 ---
 Für meinen Schwiegervater habe ich das Logo Innocu umgesetzt. Es ist eine Wort-Bild-Marke und besteht aus dem Text «INNOCU» – was abgekürzt für Innovation Cueni steht – und dem abstrakten Signet, welches die Buchstaben c und i kombiniert.

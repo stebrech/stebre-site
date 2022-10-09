@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2017-02-20"
 updated:
 description: "Im zweiten Teil dieser Artikelreihe möchte ich die Grundanforderungen eines zugänglichen PDF-Dokuments etwas beleuchten. Der Beitrag soll aufzeigen was gemacht oder beachtet werden muss."
-categories: []
+categories:
 tags: ["Barrierefreiheit", "PDF"]
 featuredImage: "images/pdfA11y-750x375.jpg"
 ---

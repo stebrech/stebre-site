@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2011-10-27"
 updated:
 description: "alternativeto.net ist eine Software-Suchmaschine. Wird nach einer Software gesucht, werden neben Informationen zur gesuchten Applikation, alternative Softwarevorschläge empfohlen."
-categories: []
+categories:
 tags: ["Webtool"]
 featuredImage: "images/AlternativeTo.jpg"
 ---

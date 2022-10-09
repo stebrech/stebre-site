@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2018-04-16"
 updated:
 description: "Eine grosse Herausforderung bei der medienneutralen Datenherstellung ist das fehlende Bewusstsein für strukturierte Inhalte. Werden Inhalte (zuerst) in Textverarbeitungsprogrammen wie Microsoft Word erstellt, wird versucht diese ansprechend zu gestalten."
-categories: []
+categories:
 tags: ["Barrierefreiheit", "InDesign", "Markdown"]
 featuredImage: "images/markdown-workflow.png"
 ---

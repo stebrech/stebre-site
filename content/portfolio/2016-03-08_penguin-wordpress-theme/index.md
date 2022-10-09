@@ -6,7 +6,7 @@ date: "2016-03-08"
 updated:
 description: "Das zweite entwickelte WordPress Theme nannte ich Penguin. Dessen Design ist schlicht und nutzt den sogenannten Masonry-Karten-Stil auf einem grösseren Desktop-Bildschirm."
 categories: ["Template", "Webentwicklung", "WordPress"]
-tags: []
+tags:
 featuredImage: "images/screenshot_penguin.png"
 weblink: "https://github.com/pixelstrolch/penguin"
 ---

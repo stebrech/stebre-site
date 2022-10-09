@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2014-04-09"
 updated:
 description: "Beim Surfen durch das Web gelangt man immer wieder mal auf eine Website welche mit einem ansprechenden Design ausgestattet ist. Nutzt man WordPress und vermutet, dass gefundene Seite ebenfalls mit WordPress läuft, wäre es doch nützlich rasch herauszufinden welches Theme eingesetzt wird – nicht?"
-categories: []
+categories:
 tags: ["Webtool", "WordPress"]
 featuredImage: "images/screenshot-wpthemedetector.jpg"
 ---

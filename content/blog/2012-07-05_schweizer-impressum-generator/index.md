@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2012-07-05"
 updated:
 description: "Kürzlich bin ich über eine Seite gestossen, mit dem es möglich ist, ein auf die betriebene Website passendes Impressum zu generieren. Dieser Generator soll auf schweizerisches Recht abgestimmt sein."
-categories: []
+categories:
 tags: ["Rechtliches"]
 featuredImage: "images/Impressum.jpg"
 ---

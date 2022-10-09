@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2012-04-06"
 updated:
 description: "Es bestehen Möglichkeiten das WordPress Backend an persönliche Bedürfnisse anzupassen. Abstimmungen an das Corporate Design wird wohl einer, der bedeutendsten Gründe dafür sein. Nebst Änderungen am Aussehen, möchte ich auch auf das Ausblenden von Plugin-, Theme-Editor und der Admin Bar eingehen."
-categories: []
+categories:
 tags: ["WordPress"]
 featuredImage: "images/Das_WP-Backend_Interface_anpassen_und_moegliche_ungewuenschte_Funktionen_ausblenden.jpg"
 ---

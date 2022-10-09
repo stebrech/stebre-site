@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2013-02-14"
 updated:
 description: "Insbesondere beim Bloggen schreibt man über Dinge die man im Web entdeckt hat und verlinkt den Artikel damit. Nun kommt es immer wieder vor, dass jene Links nicht mehr gültig sind, indem sie unter einer anderen Adresse erreichbar oder ganz verschwunden sind. Folgendes Plugin hilft dabei, ungültige Links aufzuspüren und zu berarbeiten."
-categories: []
+categories:
 tags: ["WordPress"]
 featuredImage: "images/broken-link-checker-rhythmus-einstellungen-750x196.jpg"
 ---

@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2013-11-13"
 updated:
 description: "flaticon.com ist eine Suchmaschine um geeignete Icons im «Flat»-Stil ausfindig zu machen. Der Dienst stammt von den Machern von freepik, einer beliebten Suchmaschine für Vektorgrafiken, Fotos und Photoshop-Dateien."
-categories: []
+categories:
 tags: ["Icon"]
 featuredImage: "images/flaticon-home.jpg"
 ---

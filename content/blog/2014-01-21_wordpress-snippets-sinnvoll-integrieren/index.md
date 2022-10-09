@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2014-01-21"
 updated:
 description: "Mit Snippets sind kleine Codeschnipsel gemeint, welche eure WP Installation mit zuätzlichen Funktionen erweitert. Um solche Snippets einzubinden, wird immer wieder auf die functions.php, welche sich im Themeordner befindet, verwiesen. In diesem Artikel möchte ich euch eine sinnvollere Vorgehensweise im Zusammenhang eines Plugins erläutern."
-categories: []
+categories:
 tags: ["WordPress"]
 featuredImage: "images/plugin-code-snippets.jpg"
 ---

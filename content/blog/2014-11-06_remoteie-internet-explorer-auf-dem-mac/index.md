@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2014-11-06"
 updated:
 description: "Obwohl der Internet Explorer unter Webentwicklern nicht gerade grosse Beliebtheit geniest, wäre es zum Testen von Webseiten am einfachsten, man könnte ihn auf einem Mac installieren."
-categories: []
+categories:
 tags: ["Webtool"]
 featuredImage: "images/RemoteIE.jpg"
 ---

@@ -54,6 +54,26 @@ export default function Template({
                   <a href={frontmatter.weblink}>Weblink</a>
                 </p>
               )}
+              {frontmatter.categories && (
+                <div>
+                  <h2>Kategorien:</h2>
+                  <ul className={style.tags}>
+                    {frontmatter.categories.map(category => {
+                      return (
+                        <li key={frontmatter.categories}>
+                          <Link to={"/category/" + _.lowerCase(category)}>
+                            <TagIcon
+                              aria-hidden="true"
+                              className={style.tagIcon}
+                            />
+                            {category}
+                          </Link>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                </div>
+              )}
               {frontmatter.tags && (
                 <div>
                   <h2>Stichworte:</h2>
@@ -88,6 +108,7 @@ export const pageQuery = graphql`
       excerpt
       frontmatter {
         author
+        categories
         date(formatString: "DD. MMMM YYYY", locale: "de")
         featuredImage {
           childImageSharp {

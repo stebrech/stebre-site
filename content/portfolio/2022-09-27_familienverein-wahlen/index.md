@@ -6,7 +6,7 @@ date: "2022-09-27"
 updated: 
 description: "Im ersten Quartal 2021 entstand die Website für den Familienverein Wahlen. Es ist das zweite Projekt, dass ich mit Gatsby umgesetzt habe."
 categories: ["Branding", "Webentwicklung"]
-tags: []
+tags:
 featuredImage: "images/website-screenshot-fhd-1664886750083.png"
 featured: true
 weblink: "https://familienverein-wahlen.ch"

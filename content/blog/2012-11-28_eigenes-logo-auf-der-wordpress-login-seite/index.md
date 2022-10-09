@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2012-11-28"
 updated:
 description: "Für die Einen unnötige Spielerei, für die Anderen das i-Pünktchen um WordPress zu personalisieren. Ich spreche davon das eigene Logo anstatt dem WordPress Logo auf der Login-Seite anzeigen zu lassen."
-categories: []
+categories:
 tags: ["WordPress"]
 featuredImage: "images/Eigenes-Logo-auf-der-WordPress-Login-Seite.jpg"
 ---

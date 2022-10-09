@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2012-07-13"
 updated:
 description: "Vor einer ganzen Weile habe ich über ein praktisches Tool namens JPEGmini berichtet. JPEGmini verspricht eine verlustfreie Komprimierung. In meinem Artikel hatte ich einige Tests mit demselben Bild, aber verschiedener Bildqualität als Ausgangslage, durchgeführt."
-categories: []
+categories:
 tags: ["Bildoptimierung", "Performance"]
 featuredImage: "images/jpegmini_mac_app.jpg"
 ---

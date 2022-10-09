@@ -6,7 +6,7 @@ date: "2014-06-10"
 updated:
 description: "Auf Noun Project habe ich die vier angezeigten Icons zur Verfügung gestellt."
 categories: ["Design", "Icons"]
-tags: []
+tags:
 featuredImage: "images/noun-project-1.png"
 ---
 Auf Noun Project habe ich die vier angezeigten Icons zur Verfügung gestellt. Hier gelangst du zum Download auf Noun Project:

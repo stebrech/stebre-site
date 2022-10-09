@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2016-10-31"
 updated:
 description: "Letzte Woche ist die Schweizer Accessibility-Studie 2016 der Stiftung Zugang für alle erschienen. Sie untersucht Webauftritte öffentlicher Institutionen, also Webseiten von Departementen, Kantonen und grösseren Städten sowie Hochschulen und Newsportalen."
-categories: []
+categories:
 tags: ["Barrierefreiheit", "PDF"]
 featuredImage: "images/pdfA11y-750x375.jpg"
 ---

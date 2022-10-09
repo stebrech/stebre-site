@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2016-04-21"
 updated: 
 description: "Shortcodes wurden in der WordPress Version 2.5 eingeführt. Einen Shortcode erkennt man an den eckigen Klammern […]. Solche Shortcodes können auf sehr einfache Weise in den Beitragseditor eingegeben werden, welche eine hinterlegte Funktion auslösen."
-categories: []
+categories:
 tags: ["WordPress"]
 featuredImage: "images/Remove_Orphan_Shortcodes.jpg"
 ---

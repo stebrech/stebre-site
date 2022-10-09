@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2012-12-25"
 updated:
 description: "In diesem kleinem Beitrag möchte ich aufzeigen wie der Text des Weiterlesen-Links individuell angepasst werden kann."
-categories: []
+categories:
 tags: ["WordPress"]
 featuredImage: "images/Weiterlesen-Link-Beispiel.jpeg"
 ---

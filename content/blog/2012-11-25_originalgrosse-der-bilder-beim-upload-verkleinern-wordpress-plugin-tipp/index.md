@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2012-11-25"
 updated:
 description: "Ich möchte euch ein praktisches WordPress Plugin empfehlen, welches auf eure hochgeladene Bilder Einfluss nimmt. Das Plugin hört auf den Namen Resize images before upload und verkleinert das hochgeladene Originalbild auf die definierte Maximalgrösse."
-categories: []
+categories:
 tags: ["Performance", "WordPress"]
 featuredImage: "images/Resize-image-before-upload.jpg"
 ---

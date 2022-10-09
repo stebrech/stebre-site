@@ -6,7 +6,7 @@ date: "2013-01-01"
 updated:
 description: "AlbinoMouse war mein erstes WordPress Theme, welches ich entwickelt habe und im offiziellen Verzeichnis auf wordpress.org zur Verfügung gestellt habe."
 categories: ["Template", "Webentwicklung", "WordPress"]
-tags: []
+tags:
 featuredImage: "images/albinomouse.png"
 weblink: "https://wordpress.org/themes/albinomouse/"
 ---

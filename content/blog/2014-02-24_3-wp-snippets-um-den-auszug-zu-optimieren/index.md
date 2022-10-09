@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2014-02-24"
 updated:
 description: "Der Auszug (Excerpt) ist eine kurze unformatierte Zusammenfassung eines Beitrags in WordPress. Falls ihr kein eigener Auszug hinzufügt, nimmt sich WordPress einfach die ersten Wörter des Beitrags."
-categories: []
+categories:
 tags: ["WordPress"]
 ---
 Der Auszug (Excerpt) ist eine kurze unformatierte Zusammenfassung eines Beitrags in WordPress. Falls ihr kein eigener Auszug hinzufügt, nimmt sich WordPress einfach die ersten Wörter des Beitrags.

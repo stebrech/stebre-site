@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2015-01-25"
 updated: 
 description: "Die Macher von Tower, einem beliebten Git Client, bieten auf ihrer Website zusätzlich Lernressourcen zum Thema Git an. Die Inhalte sind in Englisch und in eBook, Videokurse und Webinar aufgeteilt."
-categories: []
+categories:
 tags: ["Git"]
 featuredImage: "images/tower-git-learn.png"
 ---

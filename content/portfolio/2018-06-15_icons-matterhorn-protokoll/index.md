@@ -6,7 +6,7 @@ date: "2018-06-15"
 updatet:
 description: "Mit diesen Icons wollte ich die verschiedenen Prüfpunkte des Matterhorn Protokolls visualiseren."
 categories: ["Design", "Icons"]
-tags: []
+tags:
 featuredImage: "images/matterhorn-protocoll-icons.png"
 weblink: "https://github.com/pixelstrolch/icons-matterhorn-protocol"
 ---

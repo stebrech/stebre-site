@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2012-10-08"
 updated:
 description: "Um die Ladezeit einer Website zu verbessern ist die Optimierung von Bildern einer der wichtigsten Massnahmen. Das neue WordPress Plugin Optimus von Sergej Müller bietet eine komfortable automatische Optimierung während des Upload-Vorgangs."
-categories: []
+categories:
 tags: ["Bildoptimierung", "Performance", "WordPress"]
 featuredImage: "images/optimus.jpg"
 ---

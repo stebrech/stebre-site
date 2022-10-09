@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2015-09-11"
 updated:
 description: "WordPress Themes bestehen aus verschiedenen Templates um beispielsweise die Blog-Startseite, den einzelnen Beitrag, die Archivseite, etc. unterschiedlich darstellen zu können. Damit die Inhalte im korrekten Template geladen werden, wird eine Rangordnung – die Template Hierarchie benötigt."
-categories: []
+categories:
 tags: ["WordPress"]
 featuredImage: "images/wphierarchy.jpg"
 ---

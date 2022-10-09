@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2013-01-02"
 updated:
 description: "Heute habe ich bei t3n von einem eindrucksvollen Webtool gelesen. Es handelt sich um PlaceIt von Breezi. Dank PlaceIt sind Produktfotos für beispielsweise Software, Webseiten und Apps ein Kinderspiel."
-categories: []
+categories:
 tags: ["Marketing", "Webtool"]
 featuredImage: "images/breezi_placeit.png"
 ---

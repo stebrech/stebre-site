@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2017-05-12"
 updated:
 description: "PAC ist einzigartiges Prüftool um PDFs auf deren Barrierefreiheit / Zugänglichkeit zu testen. In «Barrierefreie PDFs – Eine Übersicht zur Herausforderung» habe ich kurz über das Tool berichtet. Man kann damit Prüfpunkte des Matterhorn Protokolls kontrollieren."
-categories: []
+categories:
 tags: ["Barrierefreiheit", "PDF"]
 featuredImage: "images/PAC2_mit_CrossOver_auf_Mac.jpg"
 ---

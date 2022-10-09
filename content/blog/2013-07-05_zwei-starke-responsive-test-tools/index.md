@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2013-07-05"
 updated:
 description: "Das Web ist mobil. Es werden täglich mehr User, welche ihre Inhalte mit einem mobilen Gerät im Netz aufsuchen. Aufgrund dessen werden Webseiten vermehrt mit einem anpassungsfähigen Design angeboten. Das englische “Zauberwort” dafür heisst Responsive und bedeutet, dass sich eine Webseite an die Auflösung des Ausgabegeräts anpasst."
-categories: []
+categories:
 tags: ["Responsive", "Webtool"]
 featuredImage: "images/viewport-resizer-750x276.jpg"
 ---

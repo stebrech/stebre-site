@@ -5,7 +5,7 @@ author: "Stefan Brechbühl"
 date: "2012-07-10"
 updated:
 description: "Folgendes Szenario: Ihr betreibt mithilfe von WordPress ein Blog. Zusätzlich bietet ihr noch Inhalte auf einigen Pages oder Custom Post Types an. Ihr möchtet in der Sidebar des Blogs einige spezifische Widgets wie zum Beispiel eine Kategorie- oder Tagliste anzeigen. Diese Widgets sollen aber nur im Blog und nicht auf den anderen Pages angezeigt werden."
-categories: []
+categories:
 tags: ["WordPress"]
 featuredImage: "images/WordPress_Widget-Logic.jpg"
 ---
