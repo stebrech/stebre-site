@@ -18,7 +18,6 @@ const Header = ({ siteTitle }) => (
         </li>
       </ul>
     </nav>
-    <Search indices={searchIndices} />
   </header>
 )
 
