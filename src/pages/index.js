@@ -1,122 +1,186 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
+import PostLink from "../components/postLink"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
+import * as style from "../styles/index.module.css"
 
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-  },
-  {
-    text: "Examples",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
-    description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-  },
-]
+import { Linkedin as LinkedInIcon } from "@styled-icons/fa-brands"
+import { Twitter as TwitterIcon } from "@styled-icons/fa-brands"
 
-const samplePageLinks = [
-  {
-    text: "Page 2",
-    url: "page-2",
-    badge: false,
-    description:
-      "A simple example of linking to another page within a Gatsby site",
-  },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
-]
+const IndexPage = ({ data }) => {
+  const Portfolio = data.portfolio.edges.map(edge => (
+    <PostLink key={edge.node.id} post={edge.node} />
+  ))
+  const BlogPosts = data.blog.edges.map(edge => (
+    <PostLink key={edge.node.id} post={edge.node} />
+  ))
+  const Erfahrung = new Date().getFullYear() - 2000
 
-const moreLinks = [
-  { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
-  {
-    text: "Documentation",
-    url: "https://gatsbyjs.com/docs/",
-  },
-  {
-    text: "Starters",
-    url: "https://gatsbyjs.com/starters/",
-  },
-  {
-    text: "Showcase",
-    url: "https://gatsbyjs.com/showcase/",
-  },
-  {
-    text: "Contributing",
-    url: "https://www.gatsbyjs.com/contributing/",
-  },
-  { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
-]
-
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
-
-const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <div className={styles.textCenter}>
-      <StaticImage
-        src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      />
-      <h1>
-        Welcome to <b>Gatsby!</b>
-      </h1>
-      <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
-      </p>
-    </div>
-    <ul className={styles.list}>
-      {links.map(link => (
-        <li key={link.url} className={styles.listItem}>
-          <a
-            className={styles.listItemLink}
-            href={`${link.url}${utmParameters}`}
+  return (
+    <Layout>
+      <Seo title="Home" />
+      <div className="headerShadow">
+        <section className={style.hero}>
+          <div
+            data-sal="slide-up"
+            data-sal-delay="100"
+            className={style.heroContainer}
           >
-            {link.text} ↗
-          </a>
-          <p className={styles.listItemDescription}>{link.description}</p>
-        </li>
-      ))}
-    </ul>
-    {moreLinks.map((link, i) => (
-      <React.Fragment key={link.url}>
-        <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-        {i !== moreLinks.length - 1 && <> · </>}
-      </React.Fragment>
-    ))}
-  </Layout>
-)
+            <div className={style.intro}>
+              <h1>Was und wer ist SteBre?</h1>
+              <p>
+                Hey, mein Name ist <strong>Ste</strong>fan <strong>Bre</strong>
+                chbühl. SteBre ist meine persönliche Website. Hier zeige ich{" "}
+                <Link to="/portfolio">meine Nebenprojekte</Link> und{" "}
+                <Link to="/blog">
+                  schreibe über Publishing und technische Themen
+                </Link>
+                .
+              </p>
+              <p>
+                Mich fasziniert das Publizieren in digitale Kanäle und Print,
+                weshalb ich mich Publishing-Enthusiast nenne. Vor {Erfahrung}{" "}
+                Jahre startete ich meine Lehre als Polygraf und schloss diese
+                2004 ab. Seither bilde ich mich autodidaktisch für das Gestalten
+                und Entwickeln von Websites weiter.
+              </p>
+              <p>
+                Im Sommer 2022 schloss ich erfolgreich die höhere Fachschule
+                Medienwirtschaft und Medienmanagement (
+                <a href="https://sfgb-b.ch/bildungsangebote/hoehere-fachschule-hf/hf-medienwirtschaft-und-medienmanagement">
+                  HF TSM
+                </a>
+                ) in der Schule für Gestaltung in Bern ab.
+              </p>
+              <p>
+                Seit Anfang 2022 arbeite ich als System Engineer Applications in
+                der <a href="https://a-f.ch/">a&f systems ag</a>.
+              </p>
+              <p>
+                <ul className={style.socialList}>
+                  <li>
+                    <a href="https://www.linkedin.com/in/stefan-brechbuehl/">
+                      <LinkedInIcon
+                        aria-hidden="false"
+                        alt="LinkedIn Profil"
+                        className={style.socialIcon}
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.twitter.com/pixelstrolch/">
+                      <TwitterIcon
+                        aria-hidden="false"
+                        alt="Twitter Profil"
+                        className={style.socialIcon}
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </p>
+            </div>
+            <div
+              data-sal="slide-down"
+              data-sal-delay="500"
+              className={style.profilePic}
+            >
+              <StaticImage
+                src="../images/20151127_154311_Stefan.jpg"
+                width={400}
+                alt="Foto von mir."
+                style={{ marginBottom: `var(--size-m)` }}
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+      <section>
+        <div className="containerL">
+          <h2 className={style.sectionTitle}>Arbeiten aus dem Portfolio</h2>
+          <ul className="grid">{Portfolio}</ul>
+          <Link to="/portfolio" className="linkButton">
+            Komplettes Portfolio anschauen
+          </Link>
+        </div>
+      </section>
+      <section>
+        <div className="containerL">
+          <h2 className={style.sectionTitle}>Letzte Blogartikel</h2>
+          <ul className="grid">{BlogPosts}</ul>
+          <Link to="/blog" className="linkButton">
+            Alle Blogartikel
+          </Link>
+        </div>
+      </section>
+    </Layout>
+  )
+}
 
 export default IndexPage
+
+export const pageQuery = graphql`
+  query {
+    blog: allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: {
+        fields: { postType: { eq: "blog" } }
+        frontmatter: { date: { ne: "" } }
+      }
+      limit: 3
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            postType
+          }
+          frontmatter {
+            date(formatString: "DD. MMMM YYYY", locale: "de")
+            description
+            featuredImage {
+              childImageSharp {
+                gatsbyImageData(aspectRatio: 1.777)
+              }
+            }
+            slug
+            title
+            updated(formatString: "DD. MMMM YYYY", locale: "de")
+          }
+        }
+      }
+    }
+    portfolio: allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: {
+        fields: { postType: { eq: "portfolio" } }
+        frontmatter: { featured: { eq: true } }
+      }
+      limit: 3
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            postType
+          }
+          frontmatter {
+            date(formatString: "DD. MMMM YYYY", locale: "de")
+            description
+            featuredImage {
+              childImageSharp {
+                gatsbyImageData(aspectRatio: 1.777)
+              }
+            }
+            featured
+            slug
+            title
+            updated(formatString: "DD. MMMM YYYY", locale: "de")
+          }
+        }
+      }
+    }
+  }
+`
