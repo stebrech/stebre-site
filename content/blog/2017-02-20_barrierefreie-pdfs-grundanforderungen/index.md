@@ -157,7 +157,7 @@ Deshalb wird in PDFs vielfach die zweite Variante, nämlich das Verlinken der We
 
 | Linktext ohne aussagekräftigen Text | Linktext mit aussagekräftigen Text | Hyperlink als Linktext |
 | --- | --- | --- |
-| siehe [hier](#) | [Matterhorn Protokoll](https://www.pdfa.org/publication/matterhorn-protokoll-1-02-deutsche-uebersetzung/?lang=de) | [https://www.pdfa.org/publication/matterhorn-protokoll-1-02-deutsche-uebersetzung/?lang=de](https://www.pdfa.org/publication/matterhorn-protokoll-1-02-deutsche-uebersetzung/?lang=de) |
+| siehe [hier](https://www.pdfa.org/publication/matterhorn-protokoll-1-02-deutsche-uebersetzung/?lang=de) | [Matterhorn Protokoll](https://www.pdfa.org/publication/matterhorn-protokoll-1-02-deutsche-uebersetzung/?lang=de) | [https://www.pdfa.org/publication/matterhorn-protokoll-1-02-deutsche-uebersetzung/?lang=de](https://www.pdfa.org/publication/matterhorn-protokoll-1-02-deutsche-uebersetzung/?lang=de) |
 | Sollte nie angewendet werden | Sehr gut für die Bildschirmanzeige. Wird ein PDF gedruckt fehlt dem Lesenden die Hyperlink-Adresse. | Geeignet innerhalb eines PDFs. Lange Hyperlinks werden idealerweise als Kurzlink verwendet. |
 
 Auch die Formatierung der Hyperlinks sollte man beachten. Ein Link muss sich von anderem Text unterscheiden. Die typische Kennzeichnung ist der Unterstrich. Das Aussehen darf nicht mit anderen Formatierungen verwechselt werden. Haben Links beispielsweise einen Unterstrich, darf dieser nicht auch für Überschriften angewendet werden. Auch zu beachten ist das Thema Farbfehlsichtigkeit, falls Links nur durch Farbe kenntlich gemacht werden.

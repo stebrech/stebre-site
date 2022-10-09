@@ -51,10 +51,10 @@ add_filter('the_excerpt', 'excerpt_read_more_link');
 
 Normalerweise endet der Auszug, wenn er automatisch generiert wurde, mit Eckklammern und drei Punkten. Das soll andeuten, dass der Beitrag noch nicht zu Ende ist. Wer diese Zeichen durch lediglich drei Punkte oder sonst eine Zeichenfolge ersetzen möchte, kann folgendes Schnipsel verwenden.
 
-```
+``` php
 <?php
 function new_excerpt_more( $more ) {
-	return '...';
+  return '...';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 ?>

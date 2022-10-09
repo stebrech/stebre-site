@@ -29,4 +29,4 @@ Im Namen FirIA versteckt sich die verwendete Schrift Fira Sans. Alle haben ihre 
 
 ## Vorschau
 
-![](images/screenshot.png)
+![FirIA Muster. Screenshot](images/screenshot.png)

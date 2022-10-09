@@ -15,4 +15,4 @@ Die Lernvideos werden wiederum in Git mit Kommandozeile und Git mit Tower aufget
 
 Die Qualität hat mich durchaus überzeugt. Die Vertonung ist gut und die Sprache klar verständlich. Zudem sind die Videos in einzelne Themen unterteilt und kurz gehalten. Hier ein Beispiel zum Thema «Rebase as an Alternative to Merge»:
 
-https://www.youtube.com/watch?v=PnHlnx_nmCI
+[https://www.youtube.com/watch?v=PnHlnx_nmCI](https://www.youtube.com/watch?v=PnHlnx_nmCI)

@@ -125,7 +125,7 @@ usw. bis und mit H6
 
 ### Listen
 
-```
+``` Markdown
 * Listenpunkt
 * Listenpunkt
 * Listenpunkt
@@ -133,7 +133,7 @@ usw. bis und mit H6
 
 ergibt eine undefinierten Liste. Anstatt `*` kann auch ein `-` verwendet werden.
 
-```
+``` Markdown
 1. Listenpunkt
 2. Listenpunkt
 3. Listenpunkt
@@ -143,7 +143,7 @@ ergibt eine definierte, nummerierte Liste.
 
 ### Hyperlinks
 
-```
+``` Markdown
 [Linktext](URL)
 ```
 
@@ -151,7 +151,7 @@ fügt einen Hyperlink ein. Der Linktext wird in eckigen Klammern und die URL in 
 
 ### Bild/Grafik
 
-```
+``` Markdown
 ![Alt-Text](Bild URL)
 ```
 

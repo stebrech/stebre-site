@@ -15,7 +15,7 @@ Dies machen übrigens viele andere Plugins auch. Bei einem Plugin wie [Contact F
 
 Kürzlich bin ich über ein [passendes und nützliches Snippet auf wpsnipp.com gestolpert](http://wpsnipp.com/index.php/functions-php/enable-contact-form-7-on-specified-pages-only-otherwise-wp_deregister_script/ "Link zum Snippet auf wpsnipp.com"), welches dem entgegenwirkt. Dieses Snippet könnt ihr in euere functions.php des Themes einfügen. Falls ihr das [Toolbox-Plugin von Sergej Müller](http://playground.ebiene.de/toolbox-wordpress-plugin/ "Was ist das Toolbox-Plugin?") im Einsatz habt, könnt ihr euch auch ein neues Modul anlegen und den Code einsetzen.
 
-```
+``` php
 add_action( 'wp_print_scripts', 'deregister_cf7_javascript', 100 );
 function deregister_cf7_javascript() {
   if ( !is_page(array(8,10)) ) {

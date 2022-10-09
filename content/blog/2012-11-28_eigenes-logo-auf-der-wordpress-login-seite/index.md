@@ -21,7 +21,7 @@ Falls ihr das Logo mit dem Media Uploader im WordPress Backend hochlädt, müsst
 
 Jetzt müsst nur noch das Snippet in euer Theme einfügen. Öffnet die functions.php Datei und fügt folgendes ein:
 
-```
+``` php
 function custom_login_logo() {
   echo '<style type="text/css">
     h1 a {

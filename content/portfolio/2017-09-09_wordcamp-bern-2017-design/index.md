@@ -40,6 +40,6 @@ Hier kann das [WordCamp Factsheet](https://2017.bern.wordcamp.org/files/2017/04/
 
 ![Der Event-Badge in den fünf verschiedenen Ausführungen.](images/say-hi.png "Badges in den verschiedenen Ausführungen. Wer bei der Anmeldung angab das erste Mal an einem WordCamp teilzunehmen, hatte die Markierung «Say hi!».")
 
-![](images/flyera6_wcbrn.jpg "Flyer Vorderseite")
+![Flyer WordCamp Bern. Vorderseite.](images/flyera6_wcbrn.jpg "Flyer Vorderseite")
 
-![](images/flyera6_wcbrn2.jpg "Flyer Rückseite")
+![Flyer WordCamp Bern. Rückseite.](images/flyera6_wcbrn2.jpg "Flyer Rückseite")

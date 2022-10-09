@@ -44,7 +44,7 @@ Nebst dem unscharfen Sehen, können Sehbehinderte auch unter folgenden Symptomen
 
 Damit sehbehinderte und blinde Menschen Inhalte auf einem Bildschirm trotzdem lesen können, werden sie von Bildschirmlupen, Screenreader (Bildschirmlesegerät) und der elektronischen Braille-Zeile unterstützt.
 
-https://www.youtube.com/watch?v=-lxQD9I5xIQ
+[https://www.youtube.com/watch?v=-lxQD9I5xIQ](https://www.youtube.com/watch?v=-lxQD9I5xIQ)
 
 ### Farbenfehlsichtigkeit
 
@@ -78,7 +78,7 @@ Die Vielfalt von Behinderungen und die Anzahl Betroffener ist gross:
 
 > 20% der Schweizer sind von der digitalen Welt ausgeschlossen  
 > 20% potentielle Kunden
-> 
+>  
 > Zugang für alle, Schweizer Accessibility-Studie 2016
 
 Diese Zahl ist beeindruckend – oder nicht? Aber nicht nur dies – Verbesserungen der Barrierefreiheit haben auch noch weitere positiven Auswirkungen und betreffen alle:
