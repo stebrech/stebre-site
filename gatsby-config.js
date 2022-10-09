@@ -64,15 +64,21 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `stebre.ch`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `stebre.ch`,
-        short_name: `stebre`,
+        name: `SteBre`,
+        short_name: `SteBre`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#ecf0f1`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+        // theme_color: `#0288d1`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
