@@ -1928,6 +1928,11 @@
     chrome-trace-event "^1.0.2"
     nullthrows "^1.1.1"
 
+"@pixelstrolch/prettier-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@pixelstrolch/prettier-config/-/prettier-config-1.0.0.tgz#9f8f927aa871e098b032c6ecc9bc22964c0bba1b"
+  integrity sha512-9Hz82FIOzqmv2MY4R3+ILGqE7powTzemEL5QJJUSfKQNc5Q12Y7bqpDgLnBncvqDOUfZ81NZ4/J8TIO/Okf6qg==
+
 "@pmmmwh/react-refresh-webpack-plugin@^0.5.7":
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.5.7.tgz#58f8217ba70069cc6a73f5d7e05e85b458c150e2"
