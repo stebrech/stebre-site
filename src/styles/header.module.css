@@ -23,7 +23,7 @@
   margin: 0 var(--size-xs) 0 0;
 }
 
-.mainnav a {
+.mainnav a:not(.logo) {
   background-color: var(--color-primary);
   border-radius: var(--border-radius);
   color: #fff;
@@ -36,7 +36,27 @@
   height: 0;
 }
 
-.mainnav a:hover::before {
+.mainnav li:not(.logo) a:hover:before {
   height: 100%;
   top: 0%;
+}
+
+.mainnav .logo {
+  font-size: 0;
+}
+
+.mainnav .logo a {
+  border-radius: 50%;
+  padding: 0;
+}
+
+.mainnav .logo img {
+  background-color: transparent;
+  border-radius: 50%;
+  height: 2.4rem;
+  margin-top: 0;
+}
+
+.mainnav .logo img:not(:hover) {
+  filter: brightness(100);
 }
