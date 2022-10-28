@@ -36,9 +36,9 @@ export default function Template({
               alt: frontmatter.title,
             },
             {
-              url: site.siteMetadata.siteUrl + "/logo-stebre.png",
-              width: 400,
-              height: 400,
+              url: site.siteMetadata.siteUrl + "/stebre-ogImage.png",
+              width: 1200,
+              height: 630,
               alt: site.siteMetadata.title,
             },
           ],
