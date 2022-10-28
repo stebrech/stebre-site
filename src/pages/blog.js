@@ -1,28 +1,50 @@
-import * as React from "react"
-import { graphql, Link } from "gatsby"
-import kebabCase from "lodash/kebabCase"
+import * as React from "react";
+import { graphql, Link } from "gatsby";
+import kebabCase from "lodash/kebabCase";
+import { GatsbySeo } from "gatsby-plugin-next-seo";
 
-import Layout from "../components/layout"
-import PostLink from "../components/postLink"
-import Seo from "../components/seo"
-import * as style from "../styles/markdown.module.css"
+import Layout from "../components/layout";
+import PostLink from "../components/postLink";
+import * as style from "../styles/markdown.module.css";
 
 const BlogPage = ({ data }) => {
-  const Posts = data.blog.edges.map(edge => (
-    <PostLink key={edge.node.id} post={edge.node} />
-  ))
-  const Tags = data.tags.group.map(tag => (
+  const Title = "Alle Blogbeiträge";
+  const Description = "Alle Blogbeiträge auf stebre.ch";
+  // const LogoUrl = data.logo.publicURL;
+  const Site = data.site.siteMetadata.title;
+  const Posts = data.blog.edges.map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
+  const Tags = data.tags.group.map((tag) => (
     <li key={tag.fieldValue}>
       <Link to={`/tag/${kebabCase(tag.fieldValue)}/`}>
         {tag.fieldValue} ({tag.totalCount})
       </Link>
     </li>
-  ))
+  ));
   return (
     <Layout>
-      <Seo
-        title="Alle Blogbeiträge von SteBre.ch"
-        description="Alle Blogbeiträge von SteBre.ch"
+      <GatsbySeo
+        title={Title}
+        titleTemplate="%s | stebre.ch"
+        description={Description}
+        openGraph={{
+          url: "https://stebre.ch/blog",
+          title: Title + " | stebre.ch",
+          description: Description,
+          // images: [
+          //   {
+          //     url: LogoUrl,
+          //     width: 400,
+          //     height: 400,
+          //     alt: Site,
+          //   },
+          // ],
+          site_name: Site,
+        }}
+        twitter={{
+          handle: "@stebre_ch",
+          site: "@stebre_ch",
+          cardType: "summary_large_image",
+        }}
       />
       <header>
         <div className="containerL">
@@ -35,19 +57,16 @@ const BlogPage = ({ data }) => {
         <ul className="grid">{Posts}</ul>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogPage
+export default BlogPage;
 
 export const pageQuery = graphql`
   query {
     blog: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: {
-        fields: { postType: { eq: "blog" } }
-        frontmatter: { date: { ne: "" } }
-      }
+      filter: { fields: { postType: { eq: "blog" } }, frontmatter: { date: { ne: "" } } }
     ) {
       edges {
         node {
@@ -76,5 +95,14 @@ export const pageQuery = graphql`
         totalCount
       }
     }
+    site: site {
+      siteMetadata {
+        siteUrl
+        title
+      }
+    }
+    logo: file(id: { eq: "dc42c5c1-870f-5f98-b3a6-751a98b54ad9" }) {
+      publicURL
+    }
   }
-`
+`;

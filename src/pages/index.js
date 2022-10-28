@@ -1,63 +1,75 @@
-import * as React from "react"
-import { graphql, Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { graphql, Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
+import { GatsbySeo } from "gatsby-plugin-next-seo";
 
-import Layout from "../components/layout"
-import PostLink from "../components/postLink"
-import Seo from "../components/seo"
-import * as style from "../styles/index.module.css"
+import Layout from "../components/layout";
+import PostLink from "../components/postLink";
+import * as style from "../styles/index.module.css";
 
-import { Linkedin as LinkedInIcon } from "@styled-icons/fa-brands"
-import { Twitter as TwitterIcon } from "@styled-icons/fa-brands"
+import { Linkedin as LinkedInIcon } from "@styled-icons/fa-brands";
+import { Twitter as TwitterIcon } from "@styled-icons/fa-brands";
 
 const IndexPage = ({ data }) => {
-  const Portfolio = data.portfolio.edges.map(edge => (
+  // const LogoUrl = data.logo.publicURL;
+  const Site = data.site.siteMetadata.title;
+  const Portfolio = data.portfolio.edges.map((edge) => (
     <PostLink key={edge.node.id} post={edge.node} />
-  ))
-  const BlogPosts = data.blog.edges.map(edge => (
-    <PostLink key={edge.node.id} post={edge.node} />
-  ))
-  const Erfahrung = new Date().getFullYear() - 2000
+  ));
+  const BlogPosts = data.blog.edges.map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
+  const Erfahrung = new Date().getFullYear() - 2000;
 
   return (
     <Layout>
-      <Seo title="Home" />
+      <GatsbySeo
+        title={Site}
+        openGraph={{
+          url: "https://stebre.ch",
+          title: Site,
+          // images: [
+          //   {
+          //     url: LogoUrl,
+          //     width: 400,
+          //     height: 400,
+          //     alt: Site,
+          //   },
+          // ],
+          site_name: Site,
+        }}
+        twitter={{
+          handle: "@stebre_ch",
+          site: "@stebre_ch",
+          cardType: "summary_large_image",
+        }}
+      />
       <div className="headerShadow">
         <section className={style.hero}>
-          <div
-            data-sal="slide-up"
-            data-sal-delay="100"
-            className={style.heroContainer}
-          >
+          <div data-sal="slide-up" data-sal-delay="100" className={style.heroContainer}>
             <div className={style.intro}>
               <h1>Was und wer ist SteBre?</h1>
               <p>
                 Hey, mein Name ist <strong>Ste</strong>fan <strong>Bre</strong>
                 chbühl. SteBre ist meine persönliche Website. Hier zeige ich{" "}
                 <Link to="/portfolio">meine Nebenprojekte</Link> und{" "}
-                <Link to="/blog">
-                  schreibe über Publishing und technische Themen
-                </Link>
-                .
+                <Link to="/blog">schreibe über Publishing und technische Themen</Link>.
               </p>
               <p>
-                Mich fasziniert das Publizieren in digitale Kanäle und Print,
-                weshalb ich mich Publishing-Enthusiast nenne. Vor {Erfahrung}{" "}
-                Jahre startete ich meine Lehre als Polygraf und schloss diese
-                2004 ab. Seither bilde ich mich autodidaktisch für das Gestalten
-                und Entwickeln von Websites weiter.
+                Mich fasziniert das Publizieren in digitale Kanäle und Print, weshalb ich mich
+                Publishing-Enthusiast nenne. Vor {Erfahrung} Jahre startete ich meine Lehre als
+                Polygraf und schloss diese 2004 ab. Seither bilde ich mich autodidaktisch für das
+                Gestalten und Entwickeln von Websites weiter.
               </p>
               <p>
-                Im Sommer 2022 schloss ich erfolgreich die höhere Fachschule
-                Medienwirtschaft und Medienmanagement (
+                Im Sommer 2022 schloss ich erfolgreich die höhere Fachschule Medienwirtschaft und
+                Medienmanagement (
                 <a href="https://sfgb-b.ch/bildungsangebote/hoehere-fachschule-hf/hf-medienwirtschaft-und-medienmanagement">
                   HF TSM
                 </a>
                 ) in der Schule für Gestaltung in Bern ab.
               </p>
               <p>
-                Seit Anfang 2022 arbeite ich als System Engineer Applications in
-                der <a href="https://a-f.ch/">a&f systems ag</a>.
+                Seit Anfang 2022 arbeite ich als System Engineer Applications in der{" "}
+                <a href="https://a-f.ch/">a&f systems ag</a>.
               </p>
               <p>
                 <ul className={style.socialList}>
@@ -82,11 +94,7 @@ const IndexPage = ({ data }) => {
                 </ul>
               </p>
             </div>
-            <div
-              data-sal="slide-down"
-              data-sal-delay="500"
-              className={style.profilePic}
-            >
+            <div data-sal="slide-down" data-sal-delay="500" className={style.profilePic}>
               <StaticImage
                 src="../images/20151127_154311_Stefan.jpg"
                 width={400}
@@ -116,19 +124,16 @@ const IndexPage = ({ data }) => {
         </div>
       </section>
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query {
     blog: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: {
-        fields: { postType: { eq: "blog" } }
-        frontmatter: { date: { ne: "" } }
-      }
+      filter: { fields: { postType: { eq: "blog" } }, frontmatter: { date: { ne: "" } } }
       limit: 3
     ) {
       edges {
@@ -154,10 +159,7 @@ export const pageQuery = graphql`
     }
     portfolio: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: {
-        fields: { postType: { eq: "portfolio" } }
-        frontmatter: { featured: { eq: true } }
-      }
+      filter: { fields: { postType: { eq: "portfolio" } }, frontmatter: { featured: { eq: true } } }
       limit: 3
     ) {
       edges {
@@ -182,5 +184,14 @@ export const pageQuery = graphql`
         }
       }
     }
+    site: site {
+      siteMetadata {
+        siteUrl
+        title
+      }
+    }
+    logo: file(id: { eq: "dc42c5c1-870f-5f98-b3a6-751a98b54ad9" }) {
+      publicURL
+    }
   }
-`
+`;

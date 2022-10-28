@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `SteBre`,
     description: ``,
-    author: `@pixelstrolch`,
+    author: `@stebre_ch`,
     siteUrl: `https://stebre.ch`,
   },
   plugins: [
@@ -12,6 +12,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-next-seo`,
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {

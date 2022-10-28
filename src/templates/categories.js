@@ -1,46 +1,68 @@
-import React from "react"
-import { graphql, Link } from "gatsby"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import PostLink from "../components/postLink"
+import React from "react";
+import { graphql, Link } from "gatsby";
+import { GatsbySeo } from "gatsby-plugin-next-seo";
 
-import * as style from "../styles/markdown.module.css"
+import Layout from "../components/layout";
+import PostLink from "../components/postLink";
+
+import * as style from "../styles/markdown.module.css";
 
 const Categories = ({ pageContext, data }) => {
-  const { category } = pageContext
-  const { edges, totalCount } = data.allMarkdownRemark
+  const { category } = pageContext;
+  const { edges, totalCount } = data.allMarkdownRemark;
+  const Title = "Arbeiten mit der Kategorie " + category;
+  const Description =
+    "Alle Arbeiten im Portfolio von SteBre, die mit der Kategorie " + category + " markiert sind.";
+  const Site = data.site.siteMetadata.title;
+  const PageUrl = data.site.siteMetadata.siteUrl + "/" + category;
+  // const LogoUrl = data.file.publicURL;
   const categoryHeader = () => {
     if (totalCount > 1) {
       return (
         <>
           {totalCount} Arbeiten, die mit der Kateogorie{" "}
-          <span className={style.categoryInTitle}>{category}</span> markiert
-          sind
+          <span className={style.categoryInTitle}>{category}</span> markiert sind
         </>
-      )
+      );
     } else {
       return (
         <>
           {totalCount} Arbeit, die mit der Kategorie{" "}
           <span className={style.categoryInTitle}>{category}</span> markiert ist
         </>
-      )
+      );
     }
-  }
+  };
 
   const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+    .filter((edge) => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
 
   return (
     <Layout>
-      <Seo
-        title={"Arbeiten mit der Kategorie  " + category}
-        description={
-          "Alle Arbeiten im Portfolio von SteBre, die mit der Kategorie " +
-          category +
-          " markiert sind."
-        }
+      <GatsbySeo
+        title={Title}
+        titleTemplate="%s | stebre.ch"
+        description={Description}
+        openGraph={{
+          url: PageUrl,
+          title: Title,
+          description: Description,
+          // images: [
+          //   {
+          //     url: LogoUrl,
+          //     width: 400,
+          //     height: 400,
+          //     alt: Site,
+          //   },
+          // ],
+          site_name: Site,
+        }}
+        twitter={{
+          handle: "@stebre_ch",
+          site: "@stebre_ch",
+          cardType: "summary_large_image",
+        }}
       />
       <header>
         <div className="containerL">
@@ -54,10 +76,10 @@ const Categories = ({ pageContext, data }) => {
         </Link>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default Categories
+export default Categories;
 
 export const pageQuery = graphql`
   query ($category: String) {
@@ -84,5 +106,14 @@ export const pageQuery = graphql`
         }
       }
     }
+    site {
+      siteMetadata {
+        siteUrl
+        title
+      }
+    }
+    file(id: { eq: "dc42c5c1-870f-5f98-b3a6-751a98b54ad9" }) {
+      publicURL
+    }
   }
-`
+`;

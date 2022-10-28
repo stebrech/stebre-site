@@ -1,24 +1,62 @@
-import React from "react"
-import { graphql, Link } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import React from "react";
+import { graphql, Link } from "gatsby";
+import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbySeo } from "gatsby-plugin-next-seo";
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../components/layout";
 
-import * as style from "../styles/markdown.module.css"
-import { Tag as TagIcon } from "@styled-icons/evil"
-import { Link as LinkIcon } from "@styled-icons/evil"
+import * as style from "../styles/markdown.module.css";
+import { Tag as TagIcon } from "@styled-icons/evil";
+import { Link as LinkIcon } from "@styled-icons/evil";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html, excerpt } = markdownRemark
-  const image = getImage(frontmatter.featuredImage)
-  const _ = require("lodash")
+  const { markdownRemark, site, file } = data; // data.markdownRemark holds your post data
+  const { frontmatter, html } = markdownRemark;
+  const _ = require("lodash");
+  const pageUrl = site.siteMetadata.siteUrl + frontmatter.slug;
+  const ogImgUrl = frontmatter.featuredImage
+    ? site.siteMetadata.siteUrl + frontmatter.featuredImage.childImageSharp.fixed.src
+    : "";
   return (
     <Layout>
-      <Seo title={frontmatter.title} description={excerpt} />
+      <GatsbySeo
+        title={frontmatter.title}
+        titleTemplate="%s | stebre.ch"
+        description={frontmatter.description}
+        openGraph={{
+          url: pageUrl,
+          title: frontmatter.title,
+          description: frontmatter.description,
+          images: [
+            {
+              url: ogImgUrl,
+              width: 800,
+              height: 450,
+              alt: frontmatter.title,
+            },
+            // {
+            //   url: file.publicURL,
+            //   width: 400,
+            //   height: 400,
+            //   alt: site.siteMetadata.title,
+            // },
+          ],
+          site_name: site.siteMetadata.title,
+          article: {
+            publishedTime: frontmatter.date,
+            modifiedTime: frontmatter.updated,
+            authors: frontmatter.author,
+            tags: frontmatter.tags,
+          },
+        }}
+        twitter={{
+          handle: "@stebre_ch",
+          site: "@stebre_ch",
+          cardType: "summary_large_image",
+        }}
+      />
       <article>
         <div className="headerShadow">
           <header className={style.headerPost}>
@@ -26,7 +64,7 @@ export default function Template({
               <div className="containerM">
                 <h1 className={style.title}>{frontmatter.title}</h1>
                 <div className={style.featuredImage}>
-                  <GatsbyImage image={image} />
+                  <GatsbyImage image={frontmatter.featuredImage.childImageSharp.gatsbyImageData} />
                 </div>
               </div>
             ) : (
@@ -38,15 +76,10 @@ export default function Template({
         </div>
         <div className="containerL">
           <div className={style.contentContainer}>
-            <div
-              className={style.content}
-              dangerouslySetInnerHTML={{ __html: html }}
-            />
+            <div className={style.content} dangerouslySetInnerHTML={{ __html: html }} />
             <footer className={style.metadata}>
               {frontmatter.date && <p>Publiziert am: {frontmatter.date}</p>}
-              {frontmatter.updated && (
-                <p>Aktualisiert am: {frontmatter.updated}</p>
-              )}
+              {frontmatter.updated && <p>Aktualisiert am: {frontmatter.updated}</p>}
               {frontmatter.author && <p>Autor: {frontmatter.author}</p>}
               {frontmatter.weblink && (
                 <p className={style.weblink}>
@@ -58,18 +91,15 @@ export default function Template({
                 <div>
                   <h2>Kategorien:</h2>
                   <ul className={style.tags}>
-                    {frontmatter.categories.map(category => {
+                    {frontmatter.categories.map((category) => {
                       return (
                         <li key={frontmatter.categories}>
                           <Link to={"/category/" + _.lowerCase(category)}>
-                            <TagIcon
-                              aria-hidden="true"
-                              className={style.tagIcon}
-                            />
+                            <TagIcon aria-hidden="true" className={style.tagIcon} />
                             {category}
                           </Link>
                         </li>
-                      )
+                      );
                     })}
                   </ul>
                 </div>
@@ -78,18 +108,15 @@ export default function Template({
                 <div>
                   <h2>Stichworte:</h2>
                   <ul className={style.tags}>
-                    {frontmatter.tags.map(tag => {
+                    {frontmatter.tags.map((tag) => {
                       return (
                         <li key={frontmatter.tags}>
                           <Link to={"/tag/" + _.lowerCase(tag)}>
-                            <TagIcon
-                              aria-hidden="true"
-                              className={style.tagIcon}
-                            />
+                            <TagIcon aria-hidden="true" className={style.tagIcon} />
                             {tag}
                           </Link>
                         </li>
-                      )
+                      );
                     })}
                   </ul>
                 </div>
@@ -99,20 +126,23 @@ export default function Template({
         </div>
       </article>
     </Layout>
-  )
+  );
 }
 export const pageQuery = graphql`
   query ($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
-      excerpt
       frontmatter {
         author
         categories
         date(formatString: "DD. MMMM YYYY", locale: "de")
+        description
         featuredImage {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH, aspectRatio: 1.777)
+            fixed(width: 800, height: 450) {
+              src
+            }
           }
         }
         slug
@@ -122,5 +152,14 @@ export const pageQuery = graphql`
         weblink
       }
     }
+    site {
+      siteMetadata {
+        siteUrl
+        title
+      }
+    }
+    file(id: { eq: "dc42c5c1-870f-5f98-b3a6-751a98b54ad9" }) {
+      publicURL
+    }
   }
-`
+`;
