@@ -49,7 +49,7 @@ const Tags = ({ pageContext, data }) => {
           description: PageDescription,
           images: [
             {
-              url: site.siteMetadata.siteUrl + "/static/logo-stebre.png",
+              url: site.siteMetadata.siteUrl + "/logo-stebre.png",
               width: 400,
               height: 400,
               alt: site.siteMetadata.title,

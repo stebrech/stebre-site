@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => {
           title: site.siteMetadata.title,
           images: [
             {
-              url: site.siteMetadata.siteUrl + "/static/logo-stebre.png",
+              url: site.siteMetadata.siteUrl + "/logo-stebre.png",
               width: 400,
               height: 400,
               alt: site.siteMetadata.title,
