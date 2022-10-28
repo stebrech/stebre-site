@@ -8,14 +8,11 @@ import PostLink from "../components/postLink";
 import * as style from "../styles/markdown.module.css";
 
 const BlogPage = ({ data }) => {
-  const Title = "Portfolio";
-  const Description = "Portfolio von stebre.ch";
-  // const LogoUrl = data.logo.publicURL;
-  const Site = data.site.siteMetadata.title;
-  const Posts = data.portfolio.edges.map((edge) => (
-    <PostLink key={edge.node.id} post={edge.node} />
-  ));
-  const Category = data.categories.group.map((category) => (
+  const { portfolio, categories, site } = data;
+  const PageTitle = "Portfolio";
+  const PageDescription = "Portfolio von stebre.ch";
+  const Posts = portfolio.edges.map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
+  const Category = categories.group.map((category) => (
     <li key={category.fieldValue}>
       <Link to={`/category/${kebabCase(category.fieldValue)}/`}>
         {category.fieldValue} ({category.totalCount})
@@ -26,22 +23,22 @@ const BlogPage = ({ data }) => {
   return (
     <Layout>
       <GatsbySeo
-        title={Title}
-        titleTemplate="%s | stebre.ch"
-        description={Description}
+        title={PageTitle}
+        titleTemplate={"%s | " + site.siteMetadata.title}
+        description={PageDescription}
         openGraph={{
-          url: "https://stebre.ch/portfolio",
-          title: Title + " | stebre.ch",
-          description: Description,
-          // images: [
-          //   {
-          //     url: LogoUrl,
-          //     width: 400,
-          //     height: 400,
-          //     alt: Site,
-          //   },
-          // ],
-          site_name: Site,
+          url: site.siteMetadata.siteUrl + "/portfolio",
+          title: PageTitle + " | " + site.siteMetadata.title,
+          description: PageDescription,
+          images: [
+            {
+              url: site.siteMetadata.siteUrl + "/static/logo-stebre.png",
+              width: 400,
+              height: 400,
+              alt: PageTitle + " | " + site.siteMetadata.title,
+            },
+          ],
+          site_name: site.siteMetadata.title,
         }}
         twitter={{
           handle: "@stebre_ch",
@@ -103,9 +100,6 @@ export const pageQuery = graphql`
         siteUrl
         title
       }
-    }
-    logo: file(id: { eq: "dc42c5c1-870f-5f98-b3a6-751a98b54ad9" }) {
-      publicURL
     }
   }
 `;

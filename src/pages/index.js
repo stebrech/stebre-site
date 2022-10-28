@@ -11,30 +11,27 @@ import { Linkedin as LinkedInIcon } from "@styled-icons/fa-brands";
 import { Twitter as TwitterIcon } from "@styled-icons/fa-brands";
 
 const IndexPage = ({ data }) => {
-  // const LogoUrl = data.logo.publicURL;
-  const Site = data.site.siteMetadata.title;
-  const Portfolio = data.portfolio.edges.map((edge) => (
-    <PostLink key={edge.node.id} post={edge.node} />
-  ));
-  const BlogPosts = data.blog.edges.map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
+  const { site, portfolio, blog } = data;
+  const Portfolio = portfolio.edges.map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
+  const BlogPosts = blog.edges.map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
   const Erfahrung = new Date().getFullYear() - 2000;
 
   return (
     <Layout>
       <GatsbySeo
-        title={Site}
+        title={site.siteMetadata.title}
         openGraph={{
           url: "https://stebre.ch",
-          title: Site,
-          // images: [
-          //   {
-          //     url: LogoUrl,
-          //     width: 400,
-          //     height: 400,
-          //     alt: Site,
-          //   },
-          // ],
-          site_name: Site,
+          title: site.siteMetadata.title,
+          images: [
+            {
+              url: site.siteMetadata.siteUrl + "/static/logo-stebre.png",
+              width: 400,
+              height: 400,
+              alt: site.siteMetadata.title,
+            },
+          ],
+          site_name: site.siteMetadata.title,
         }}
         twitter={{
           handle: "@stebre_ch",
@@ -189,9 +186,6 @@ export const pageQuery = graphql`
         siteUrl
         title
       }
-    }
-    logo: file(id: { eq: "dc42c5c1-870f-5f98-b3a6-751a98b54ad9" }) {
-      publicURL
     }
   }
 `;

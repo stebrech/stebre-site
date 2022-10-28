@@ -9,13 +9,12 @@ import * as style from "../styles/markdown.module.css";
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext;
-  const { edges, totalCount } = data.allMarkdownRemark;
-  const Title = "Beiträge mit dem Tag " + tag;
-  const Description =
+  const { allMarkdownRemark, site } = data;
+  const { edges, totalCount } = allMarkdownRemark;
+  const PageTitle = "Beiträge mit dem Tag " + tag;
+  const PageDescription =
     "Alle Beiträge auf stebre.ch, die mit dem Schlagwort " + tag + " versehen sind.";
-  const Site = data.site.siteMetadata.title;
-  const PageUrl = data.site.siteMetadata.siteUrl + "/" + tag;
-  // const LogoUrl = data.file.publicURL;
+  const PageUrl = site.siteMetadata.siteUrl + "/" + tag;
   const tagHeader = () => {
     if (totalCount > 1) {
       return (
@@ -41,22 +40,22 @@ const Tags = ({ pageContext, data }) => {
   return (
     <Layout>
       <GatsbySeo
-        title={Title}
-        titleTemplate="%s | stebre.ch"
-        description={Description}
+        title={PageTitle}
+        titleTemplate={"%s | " + site.siteMetadata.title}
+        description={PageDescription}
         openGraph={{
           url: PageUrl,
-          title: Title,
-          description: Description,
-          // images: [
-          //   {
-          //     url: LogoUrl,
-          //     width: 400,
-          //     height: 400,
-          //     alt: Site,
-          //   },
-          // ],
-          site_name: Site,
+          title: PageTitle,
+          description: PageDescription,
+          images: [
+            {
+              url: site.siteMetadata.siteUrl + "/static/logo-stebre.png",
+              width: 400,
+              height: 400,
+              alt: site.siteMetadata.title,
+            },
+          ],
+          site_name: site.siteMetadata.title,
         }}
         twitter={{
           handle: "@stebre_ch",
@@ -111,9 +110,6 @@ export const pageQuery = graphql`
         siteUrl
         title
       }
-    }
-    file(id: { eq: "dc42c5c1-870f-5f98-b3a6-751a98b54ad9" }) {
-      publicURL
     }
   }
 `;

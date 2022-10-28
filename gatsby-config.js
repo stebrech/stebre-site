@@ -2,7 +2,7 @@ require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
-    title: `SteBre`,
+    title: `stebre.ch`,
     description: ``,
     author: `@stebre_ch`,
     siteUrl: `https://stebre.ch`,
@@ -74,15 +74,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `SteBre`,
-        short_name: `SteBre`,
+        name: `stebre.ch`,
+        short_name: `stebre.ch`,
         start_url: `/`,
         background_color: `#ecf0f1`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#0288d1`,
         display: `minimal-ui`,
-        icon: `src/images/logo-stebre.png`, // This path is relative to the root of the site.
+        icon: `static/logo-stebre.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

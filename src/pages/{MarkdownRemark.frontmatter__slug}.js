@@ -12,36 +12,35 @@ import { Link as LinkIcon } from "@styled-icons/evil";
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
-  const { markdownRemark, site, file } = data; // data.markdownRemark holds your post data
+  const { markdownRemark, site } = data;
   const { frontmatter, html } = markdownRemark;
   const _ = require("lodash");
-  const pageUrl = site.siteMetadata.siteUrl + frontmatter.slug;
-  const ogImgUrl = frontmatter.featuredImage
+  const PostImage = frontmatter.featuredImage
     ? site.siteMetadata.siteUrl + frontmatter.featuredImage.childImageSharp.fixed.src
     : "";
   return (
     <Layout>
       <GatsbySeo
         title={frontmatter.title}
-        titleTemplate="%s | stebre.ch"
+        titleTemplate={"%s | " + site.siteMetadata.title}
         description={frontmatter.description}
         openGraph={{
-          url: pageUrl,
+          url: site.siteMetadata.siteUrl + frontmatter.slug,
           title: frontmatter.title,
           description: frontmatter.description,
           images: [
             {
-              url: ogImgUrl,
+              url: PostImage,
               width: 800,
               height: 450,
               alt: frontmatter.title,
             },
-            // {
-            //   url: file.publicURL,
-            //   width: 400,
-            //   height: 400,
-            //   alt: site.siteMetadata.title,
-            // },
+            {
+              url: site.siteMetadata.siteUrl + "/static/logo-stebre.png",
+              width: 400,
+              height: 400,
+              alt: site.siteMetadata.title,
+            },
           ],
           site_name: site.siteMetadata.title,
           article: {
@@ -64,7 +63,10 @@ export default function Template({
               <div className="containerM">
                 <h1 className={style.title}>{frontmatter.title}</h1>
                 <div className={style.featuredImage}>
-                  <GatsbyImage image={frontmatter.featuredImage.childImageSharp.gatsbyImageData} />
+                  <GatsbyImage
+                    image={frontmatter.featuredImage.childImageSharp.gatsbyImageData}
+                    alt=""
+                  />
                 </div>
               </div>
             ) : (
@@ -157,9 +159,6 @@ export const pageQuery = graphql`
         siteUrl
         title
       }
-    }
-    file(id: { eq: "dc42c5c1-870f-5f98-b3a6-751a98b54ad9" }) {
-      publicURL
     }
   }
 `;

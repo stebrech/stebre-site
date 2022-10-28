@@ -9,13 +9,13 @@ import * as style from "../styles/markdown.module.css";
 
 const Categories = ({ pageContext, data }) => {
   const { category } = pageContext;
-  const { edges, totalCount } = data.allMarkdownRemark;
-  const Title = "Arbeiten mit der Kategorie " + category;
-  const Description =
+  const { allMarkdownRemark, site } = data;
+  const { edges, totalCount } = allMarkdownRemark;
+  const PageTitle = "Arbeiten mit der Kategorie " + category;
+  const PageDescription =
     "Alle Arbeiten im Portfolio von SteBre, die mit der Kategorie " + category + " markiert sind.";
-  const Site = data.site.siteMetadata.title;
-  const PageUrl = data.site.siteMetadata.siteUrl + "/" + category;
-  // const LogoUrl = data.file.publicURL;
+  const Site = site.siteMetadata.title;
+  const PageUrl = site.siteMetadata.siteUrl + "/" + category;
   const categoryHeader = () => {
     if (totalCount > 1) {
       return (
@@ -41,21 +41,21 @@ const Categories = ({ pageContext, data }) => {
   return (
     <Layout>
       <GatsbySeo
-        title={Title}
-        titleTemplate="%s | stebre.ch"
-        description={Description}
+        title={PageTitle}
+        titleTemplate={"%s | " + site.siteMetadata.title}
+        description={PageDescription}
         openGraph={{
           url: PageUrl,
-          title: Title,
-          description: Description,
-          // images: [
-          //   {
-          //     url: LogoUrl,
-          //     width: 400,
-          //     height: 400,
-          //     alt: Site,
-          //   },
-          // ],
+          title: PageTitle,
+          description: PageDescription,
+          images: [
+            {
+              url: site.siteMetadata.siteUrl + "/static/logo-stebre.png",
+              width: 400,
+              height: 400,
+              alt: site.siteMetadata.title,
+            },
+          ],
           site_name: Site,
         }}
         twitter={{
@@ -111,9 +111,6 @@ export const pageQuery = graphql`
         siteUrl
         title
       }
-    }
-    file(id: { eq: "dc42c5c1-870f-5f98-b3a6-751a98b54ad9" }) {
-      publicURL
     }
   }
 `;
