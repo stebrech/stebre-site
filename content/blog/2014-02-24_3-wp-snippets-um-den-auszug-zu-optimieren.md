@@ -18,10 +18,10 @@ Mit diesem Artikel möchte ich euch drei Snippets aufzeigen mit denen ihr eure A
 
 Wird der Auszug durch WordPress automatisch generiert, wird die Anzahl der Wörter auf 55 beschränkt. Mithilfe der folgenden Zeilen lässt sich dieses Limit ändern.
 
-```
+```php
 <?php
 function custom_excerpt_length( $length ) {
-	return 20;
+  return 20;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 ?>
@@ -35,11 +35,11 @@ Bei einem Beitrag welcher aus weniger Wörter als die maximale Wörteranzahl bes
 
 Das folgende Schnipsel zeigt den Weiterlesen-Link immer an:
 
-```
+```php
 <?php
 function excerpt_read_more_link($output) {
-    global $post;
-    return $output . '<a href="'. get_permalink($post->ID) . '">Read All ...</a>';
+  global $post;
+  return $output . '<a href="'. get_permalink($post->ID) . '">Read All ...</a>';
 }
 add_filter('the_excerpt', 'excerpt_read_more_link');
 ?>
@@ -51,7 +51,7 @@ add_filter('the_excerpt', 'excerpt_read_more_link');
 
 Normalerweise endet der Auszug, wenn er automatisch generiert wurde, mit Eckklammern und drei Punkten. Das soll andeuten, dass der Beitrag noch nicht zu Ende ist. Wer diese Zeichen durch lediglich drei Punkte oder sonst eine Zeichenfolge ersetzen möchte, kann folgendes Schnipsel verwenden.
 
-``` php
+```php
 <?php
 function new_excerpt_more( $more ) {
   return '...';
