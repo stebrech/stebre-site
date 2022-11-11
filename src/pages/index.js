@@ -104,7 +104,7 @@ const IndexPage = ({ data }) => {
       </div>
       <section>
         <div className="containerL">
-          <h2 className={style.sectionTitle}>Arbeiten aus dem Portfolio</h2>
+          <h2 className={style.sectionTitle}>Ausgewählte Arbeiten aus dem Portfolio</h2>
           <ul className="grid">{Portfolio}</ul>
           <Link to="/portfolio" className="linkButton">
             Komplettes Portfolio anschauen
@@ -113,7 +113,7 @@ const IndexPage = ({ data }) => {
       </section>
       <section>
         <div className="containerL">
-          <h2 className={style.sectionTitle}>Letzte Blogartikel</h2>
+          <h2 className={style.sectionTitle}>Neuste Blogartikel</h2>
           <ul className="grid">{BlogPosts}</ul>
           <Link to="/blog" className="linkButton">
             Alle Blogartikel
