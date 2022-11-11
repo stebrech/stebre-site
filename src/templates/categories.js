@@ -91,6 +91,9 @@ export const pageQuery = graphql`
       edges {
         node {
           id
+          fields {
+            postType
+          }
           frontmatter {
             date(formatString: "DD. MMMM YYYY", locale: "de")
             description
