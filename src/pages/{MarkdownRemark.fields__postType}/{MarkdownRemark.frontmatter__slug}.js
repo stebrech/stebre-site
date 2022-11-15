@@ -16,7 +16,7 @@ export default function Template({
   const { frontmatter, html } = markdownRemark;
   const _ = require("lodash");
   const PostImage = frontmatter.featuredImage
-    ? site.siteMetadata.siteUrl + frontmatter.featuredImage.childImageSharp.fixed.src
+    ? site.siteMetadata.siteUrl + frontmatter.featuredImage.childImageSharp
     : "";
   return (
     <Layout>
@@ -142,9 +142,6 @@ export const pageQuery = graphql`
         featuredImage {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH, aspectRatio: 1.777)
-            fixed(width: 800, height: 450) {
-              src
-            }
           }
         }
         slug
