@@ -129,40 +129,45 @@ a:focus {
 *:focus:not(:focus-visible) {
   outline: none;
 }
-@media(hover:hover) {
-  a:not(:focus)::before {
-    background: var(--color-secondary);
-    background: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-secondary-light) 100%);
-    border-radius: var(--border-radius);
-    content: "";
-    display: inline-block;
-    position: absolute;
-    z-index: -1;
-    transition: all .2s ease;
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    left: 0;
-    height: 0;
-  }
 
-  a:hover::before {
-    height: 100%;
-    top: 0%;
-  }
+a:not(:focus)::before {
+  background: var(--color-secondary);
+  background: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-secondary-light) 100%);
+  border-radius: var(--border-radius);
+  content: "";
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+  transition: all .2s ease;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 0;
+}
+
+a:hover::before,
+a:hover:not(> img)::before {
+  height: 100%;
+  top: 0%;
 }
 
 
 /* Media */
 img {
-  border-style: none;
   max-width: 100%;
+}
+
+figure .gatsby-resp-image-wrapper {
+  margin: 0 !important;
 }
 
 figcaption {
   font-size: var(--size-m);
-  font-style: italic;
-  margin-top: var(--size-m);
+  font-style: normal;
+  margin: var(--size-s) 0 var(--size-xxl);
+  text-align: center;
+  width: max-content ;
 }
 
 code,

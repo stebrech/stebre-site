@@ -32,6 +32,10 @@
   padding: var(--size-xs) var(--size-s);
 }
 
+.mainnav a:not(.logo):hover {
+  color: var(--color-gray-dark);
+}
+
 .mainnav a:not(:focus)::before {
   height: 0;
 }
