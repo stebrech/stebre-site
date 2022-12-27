@@ -129,7 +129,7 @@ export default IndexPage;
 export const pageQuery = graphql`
   query {
     blog: allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: { fields: { postType: { eq: "blog" } }, frontmatter: { date: { ne: "" } } }
       limit: 3
     ) {
@@ -155,7 +155,7 @@ export const pageQuery = graphql`
       }
     }
     portfolio: allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: { fields: { postType: { eq: "portfolio" } }, frontmatter: { featured: { eq: true } } }
       limit: 3
     ) {

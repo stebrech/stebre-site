@@ -64,7 +64,7 @@ export default BlogPage;
 export const pageQuery = graphql`
   query {
     blog: allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: { fields: { postType: { eq: "blog" } }, frontmatter: { date: { ne: "" } } }
     ) {
       edges {
@@ -89,7 +89,7 @@ export const pageQuery = graphql`
       }
     }
     tags: allMarkdownRemark {
-      group(field: frontmatter___tags) {
+      group(field: { frontmatter: { tags: SELECT } }) {
         fieldValue
         totalCount
       }

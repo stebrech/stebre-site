@@ -84,7 +84,7 @@ export default Categories;
 export const pageQuery = graphql`
   query ($category: String) {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { categories: { in: [$category] } } }
     ) {
       totalCount
