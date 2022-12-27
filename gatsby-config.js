@@ -39,6 +39,7 @@ module.exports = {
               wrapperStyle: `margin-left: 0`,
             },
           },
+          `gatsby-remark-prismjs`,
         ],
       },
     },
