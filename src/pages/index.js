@@ -7,8 +7,10 @@ import Layout from "../components/layout";
 import PostLink from "../components/postLink";
 import * as style from "../styles/index.module.css";
 
+import { Github as GithubIcon } from "@styled-icons/fa-brands/Github";
 import { Linkedin as LinkedInIcon } from "@styled-icons/fa-brands";
 import { Twitter as TwitterIcon } from "@styled-icons/fa-brands";
+import { Mastodon as MastodonIcon } from "@styled-icons/fa-brands/Mastodon";
 
 const IndexPage = ({ data }) => {
   const { site, portfolio, blog } = data;
@@ -80,10 +82,28 @@ const IndexPage = ({ data }) => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.twitter.com/pixelstrolch/">
+                    <a href="https://www.github.com/stebrech/">
+                      <GithubIcon
+                        aria-hidden="false"
+                        alt="Github Profil"
+                        className={style.socialIcon}
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/stebre_ch/">
                       <TwitterIcon
                         aria-hidden="false"
                         alt="Twitter Profil"
+                        className={style.socialIcon}
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://mastodontech.de/@stebre">
+                      <MastodonIcon
+                        aria-hidden="false"
+                        alt="Mastodon Profil"
                         className={style.socialIcon}
                       />
                     </a>
