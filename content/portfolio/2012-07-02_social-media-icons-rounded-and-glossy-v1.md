@@ -8,10 +8,10 @@ description: "«Rounded & Glossy» ist ein kleines Paket mit 30 Social Media Ico
 categories: ["Design", "Icons"]
 tags:
 featuredImage: "assets/2012-07-02/rounded-and-glossy-v1.jpg"
-weblink: "https://github.com/pixelstrolch/social-media-icons-rounded-glossy-1"
+weblink: "https://github.com/stebrech/social-media-icons-rounded-glossy-1"
 ---
 «Rounded & Glossy» ist ein kleines Paket mit 30 Social Media Icons. Die Icons haben eine abgerundete Form mit einem Glanzeffekt. Die Icons sind in der Auflösung 128px und 32px, im PNG-Dateiformat und auch für kommerzielle Zwecke frei verfügbar.
 
 Die Icons werden mit unten stehender Lizenz verbreitet. Die vorgesehene Namensnennung ist insbesondere bei der Weitergabe Pflicht. Bei Verwendung in eigenen Projekten ist die Namensnennung freiwillig. Ich würde mich sehr freuen, wenn der Verwendungsort in Form eines Kommentars mitgeteilt wird.
 
-Download: [https://github.com/pixelstrolch/social-media-icons-rounded-glossy-1](https://github.com/pixelstrolch/social-media-icons-rounded-glossy-1)
+Download: [https://github.com/stebrech/social-media-icons-rounded-glossy-1](https://github.com/stebrech/social-media-icons-rounded-glossy-1)

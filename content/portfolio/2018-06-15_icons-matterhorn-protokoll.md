@@ -8,7 +8,7 @@ description: "Mit diesen Icons wollte ich die verschiedenen Prüfpunkte des Matt
 categories: ["Design", "Icons"]
 tags:
 featuredImage: "assets/2018-06-15/matterhorn-protocoll-icons.png"
-weblink: "https://github.com/pixelstrolch/icons-matterhorn-protocol"
+weblink: "https://github.com/stebrech/icons-matterhorn-protocol"
 ---
 Mit diesen Icons wollte ich die verschiedenen Prüfpunkte des Matterhorn Protokolls visualiseren. Eigentlich war die Idee, diese Icons auf [accessible-pdf.info](https://accessible-pdf.info/de/) zu verwenden, dies habe ich dann aber wieder verworfen.
 
@@ -16,6 +16,6 @@ Mit diesen Icons wollte ich die verschiedenen Prüfpunkte des Matterhorn Protoko
 
 Mithilfe des Matterhorn Protokoll kann ein PDF-Dokument ob es PDF/UA konform ist. PDF/UA ist eine PDF-Spezifikation und ISO-Standard, welcher definiert was es benötigt damit ein PDF als barrierefrei und zugänglich gilt.
 
-[Icons «Matterhorn Protokoll» herunterladen](https://github.com/pixelstrolch/icons-matterhorn-protocol)
+[Icons «Matterhorn Protokoll» herunterladen](https://github.com/stebrech/icons-matterhorn-protocol)
 
 [Icons «Matterhorn Protokoll» auf Dribbble](https://dribbble.com/shots/4710628-Icons-Matterhorn-Protocol)

@@ -15,7 +15,7 @@ Wird im Editor mithilfe von _Medien hinzufügen_ ein Bild hinzugefügt, lässt s
 
 Durch Themes, Plugins oder durch Hinzufügen von `<?php add_image_size( $name, $width, $height, $crop ); ?>` in die functions.php werden zusätzliche Bilddimensionen definiert. Mithilfe des folgenden Codeschnipsels werden sämtlich vorhandene Bildgrössen in erwähntem Dropdown-Feld angezeigt.
 
-[https://gist.github.com/pixelstrolch/9075245](https://gist.github.com/pixelstrolch/9075245)
+[https://gist.github.com/stebrech/9075245](https://gist.github.com/stebrech/9075245)
 
 ## Quellen
 

@@ -27,7 +27,7 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 ?>
 ```
 
-[https://gist.github.com/pixelstrolch/9119695](https://gist.github.com/pixelstrolch/9119695)
+[https://gist.github.com/stebrech/9119695](https://gist.github.com/stebrech/9119695)
 
 ## Den Weiterlesen-Link immer anzeigen
 
@@ -45,7 +45,7 @@ add_filter('the_excerpt', 'excerpt_read_more_link');
 ?>
 ```
 
-[https://gist.github.com/pixelstrolch/9119525](https://gist.github.com/pixelstrolch/9119525)
+[https://gist.github.com/stebrech/9119525](https://gist.github.com/stebrech/9119525)
 
 ## Die Zeichen [...] (Eckklammern mit drei Punkten) ersetzen
 
@@ -60,4 +60,4 @@ add_filter('excerpt_more', 'new_excerpt_more');
 ?>
 ```
 
-[https://gist.github.com/pixelstrolch/9169866](https://gist.github.com/pixelstrolch/9169866)
+[https://gist.github.com/stebrech/9169866](https://gist.github.com/stebrech/9169866)

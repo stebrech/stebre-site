@@ -37,4 +37,4 @@ add_action('login_head', 'custom_login_logo');
 
 ## Toolbox Modul
 
-Anstatt das Snippet in die functions.php hinzufügen, kann auch ein neues Toolbox Modul angelegt werden. Toolbox ist ein Plugin von Sergej Müller, welche das Ausführen und Verwalten von Funktionen ermöglicht. So wird die functions.php nicht vollgestopft und ihr müsst die Funktionen beim Theme-Wechsel nicht erneut hinzufügen. Interessierte können mein Toolbox Modul [hier herunterladen](https://gist.github.com/pixelstrolch/4176105 "WP Toolbox Modul: Eigenes Login Logo").
+Anstatt das Snippet in die functions.php hinzufügen, kann auch ein neues Toolbox Modul angelegt werden. Toolbox ist ein Plugin von Sergej Müller, welche das Ausführen und Verwalten von Funktionen ermöglicht. So wird die functions.php nicht vollgestopft und ihr müsst die Funktionen beim Theme-Wechsel nicht erneut hinzufügen. Interessierte können mein Toolbox Modul [hier herunterladen](https://gist.github.com/stebrech/4176105 "WP Toolbox Modul: Eigenes Login Logo").
