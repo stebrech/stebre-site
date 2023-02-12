@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { GatsbySeo } from "gatsby-plugin-next-seo";
 
 import Layout from "../../components/layout";
@@ -16,7 +16,7 @@ export default function Template({
   const { frontmatter, html } = markdownRemark;
   const _ = require("lodash");
   const PostImage = frontmatter.featuredImage
-    ? site.siteMetadata.siteUrl + frontmatter.featuredImage.childImageSharp
+    ? site.siteMetadata.siteUrl + frontmatter.featuredImage.childImageSharp.original.src
     : "";
   return (
     <Layout>
@@ -25,7 +25,7 @@ export default function Template({
         titleTemplate={"%s | " + site.siteMetadata.title}
         description={frontmatter.description}
         openGraph={{
-          url: site.siteMetadata.siteUrl + frontmatter.slug,
+          url: site.siteMetadata.siteUrl + "/" + frontmatter.slug,
           title: frontmatter.title,
           description: frontmatter.description,
           images: [
@@ -142,6 +142,9 @@ export const pageQuery = graphql`
         featuredImage {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH, aspectRatio: 1.777)
+            original {
+              src
+            }
           }
         }
         slug
