@@ -1,6 +1,6 @@
 ---
-title: "Schnelle Umwandlung von HEIC und WebP Bildern im Mac OS Finder und weitere Möglichkeiten mit Automator"
-slug: "schnelle-umwandlung-von-heic-und-webp-bildern-im-mac-os-finder-und-weitere-moeglichkeiten-mit-automator"
+title: "Schnelle Umwandlung von HEIC und WebP Bildern im MacOS Finder und weitere Möglichkeiten mit Automator"
+slug: "schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator"
 author: "Stefan Brechbühl"
 date: "2023-02-12"
 updated:
@@ -11,7 +11,7 @@ featuredImage: "assets/2023-02-12/robot-heic-jpeg.png"
 ---
 Bildformate wie `HEIC` und `WebP` werden von vielen Applikationen noch nicht unterstützt. Daher ergeben sich immer wieder Situationen in denen man Bilder in ein `JPEG` oder `PNG` umwandeln muss. 
 
-Im Finder von Mac OS lässt sich das ganz schnell und einfach bewerkstelligen. Mit der Standard-App [Automator](https://support.apple.com/de-ch/guide/automator/welcome/mac) lassen sich zudem einfache Bildanpassungen automatisiert mit einem Mausklick anwenden.
+Im Finder von MacOS lässt sich das ganz schnell und einfach bewerkstelligen. Mit der Standard-App [Automator](https://support.apple.com/de-ch/guide/automator/welcome/mac) lassen sich zudem einfache Bildanpassungen automatisiert mit einem Mausklick anwenden.
 
 ## Was sind WebP Bilder?
 
@@ -19,7 +19,7 @@ Im Finder von Mac OS lässt sich das ganz schnell und einfach bewerkstelligen. M
 
 ## iPhone Fotos im `HEIC`-Format
 
-Seit iOS 11 werden Fotos standardmässig mit der Dateiendung `.heic` gespeichert, sofern dies in den Einstellungen nicht angepasst wird. Gegenüber dem `JPEG` nimmt es weniger Speicher in Anspruch. Durch die neue Standardeinstellung hat das Format rasch an Beliebtheit gewonnen. In Mac OS wird eine Schnellaktion mitgeliefert, welche das Umwandeln per Mausklick im Finder ermöglicht, mehr dazu weiter unten.
+Seit iOS 11 werden Fotos standardmässig mit der Dateiendung `.heic` gespeichert, sofern dies in den Einstellungen nicht angepasst wird. Gegenüber dem `JPEG` nimmt es weniger Speicher in Anspruch. Durch die neue Standardeinstellung hat das Format rasch an Beliebtheit gewonnen. In MacOS wird eine Schnellaktion mitgeliefert, welche das Umwandeln per Mausklick im Finder ermöglicht, mehr dazu weiter unten.
 
 ### HEIC, HEIF, HEVC
 
