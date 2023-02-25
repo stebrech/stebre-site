@@ -8,6 +8,6 @@ description: "Designer Tools ist eine kleine Icon Sammlung welche ich in Illustr
 categories: ["Design", "Icons"]
 tags:
 featuredImage: "assets/2015-10-13/designer-tools-800x400.jpg"
-weblink: "https://thenounproject.com/pixelstrolch/collection/designer-tools/"
+weblink: "https://thenounproject.com/browse/collection-icon/designer-tools-6729/"
 ---
-[Designer Tools](https://thenounproject.com/pixelstrolch/collection/designer-tools/) ist eine kleine Icon Sammlung welche ich in Illustrator gezeichnet und auf Noun Project als Vektorgrafiken zur Verfügung stelle.
+[Designer Tools](https://thenounproject.com/browse/collection-icon/designer-tools-6729/) ist eine kleine Icon Sammlung welche ich in Illustrator gezeichnet und auf Noun Project als Vektorgrafiken zur Verfügung stelle.
