@@ -1,0 +1,339 @@
+:root {
+	--border-radius: 4px;
+	--color-gray-lighter: #ecf0f1;
+	--color-gray-light: #ced4da;
+	--color-gray: #90a4ae;
+	--color-gray-dark: #2b3d4f;
+	--color-primary: #0288d1;
+	--color-primary-dark: #0277bd;
+	--color-secondary-light: #fdd835;
+	--color-secondary: #f9a825;
+	--font-sans: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+		sans-serif;
+	--font-mono: "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+		"Courier New", monospace;
+	--font-weight-normal: 400;
+	--font-weight-bold: 700;
+	--size-xxl: 1.75rem;
+	--size-xl: 1.5rem;
+	--size-l: 1.25rem;
+	--size-m: 1rem;
+	--size-s: 0.75rem;
+	--size-xs: 0.5rem;
+	--size-xxs: 0.25rem;
+	--line-height-loose: 1.75;
+	--line-height-normal: 1.5;
+	--line-height-dense: 1.2;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	box-sizing: border-box;
+	font: sans-serif;
+	font-size: 16px;
+	line-height: var(--line-height-normal);
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 60rem) {
+	html {
+		font-size: 18px;
+	}
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	background-color: var(--color-gray-lighter);
+	color: var(--color-gray-dark);
+	font-family: sans-serif;
+	font-family: var(--font-sans);
+	font-weight: var(--font-weight-normal);
+	margin: 0;
+	word-wrap: break-word;
+}
+
+.site {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+/* Header */
+
+.site_header {
+	align-items: center;
+	background-color: var(--color-primary-dark);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	display: flex;
+	height: 4rem;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: var(--size-m);
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+#mainnav ul {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+}
+
+#mainnav li {
+	list-style-type: none;
+	margin: 0 var(--size-xs) 0 0;
+}
+
+#mainnav a:not(.logo) {
+	background-color: var(--color-primary);
+	border-radius: var(--border-radius);
+	color: #fff;
+	font-weight: var(--font-weight-normal);
+	text-decoration: none;
+	padding: var(--size-xs) var(--size-s);
+}
+
+#mainnav li.nav-item-active a {
+	background-color: var(--color-secondary);
+	color: var(--color-gray-dark);
+}
+
+#mainnav a:not(.logo)::before {
+	background: var(--color-secondary);
+	background: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-secondary-light) 100%);
+	border-radius: var(--border-radius);
+	content: "";
+	display: inline-block;
+	height: 0;
+	left: 0;
+	position: absolute;
+	transition: all 0.2s ease;
+	top: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+#mainnav a:not(.logo):hover {
+	border-color: transparent;
+	color: var(--color-gray-dark);
+}
+
+#mainnav a:not(:focus)::before {
+	height: 0;
+}
+
+#mainnav li:not(.logo) a:hover:before {
+	height: 100%;
+	top: 0%;
+}
+
+#mainnav .logo {
+	font-size: 0;
+}
+
+#mainnav .logo a {
+	border-radius: 50%;
+	padding: 0;
+	margin-right: 0.5rem;
+}
+
+#mainnav .logo img {
+	background-color: transparent;
+	border-radius: 50%;
+	height: 2.4rem;
+	margin-top: 0;
+	width: 100%;
+}
+
+#mainnav .logo img:not(:hover) {
+	filter: brightness(100);
+}
+
+/* Layout classes */
+
+.grid {
+	display: grid;
+	margin: 0;
+	/* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
+	--w: 30ch;
+	--n: 3;
+	gap: var(--size-xxl);
+	grid-template-columns: repeat(auto-fill, minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr));
+	margin-bottom: var(--size-xxl);
+	margin-top: var(--size-xxl);
+}
+
+.containerM {
+	margin: 0 auto;
+	max-width: 60rem;
+	padding: var(--size-l);
+}
+
+.containerL {
+	margin: 0 auto;
+	max-width: 75rem;
+	padding: var(--size-l);
+}
+
+/* Home, Blog, Tags, ... */
+
+.header .title {
+	margin-top: 5rem;
+}
+
+.header + .filter h2,
+.header + .results h2,
+.header + .hidden + .results h2 {
+	margin-top: 0;
+}
+
+.tagList {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tagList li {
+	list-style-type: none;
+	margin-right: var(--size-m);
+}
+
+/* Post, Page */
+
+.headerShadow {
+	filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
+}
+
+.headerShadow .containerL {
+	padding-bottom: 4rem;
+}
+
+.headerPost {
+	background-color: var(--color-primary);
+	/* background-image: url(../img/ffflux.svg); */
+	background-size: cover;
+	clip-path: polygon(0 0, 100% 0, 100% calc(100% + -4vw), 0 100%);
+}
+
+.headerPost .title {
+	color: #fff;
+	margin-top: 5rem;
+}
+
+.featuredImage {
+	margin-top: var(--size-xxl);
+	margin-bottom: -1rem;
+}
+
+.contentContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: var(--size-xxl);
+}
+
+@media screen and (min-width: 60rem) {
+	.content {
+		font-size: var(--size-l);
+	}
+}
+
+@media screen and (min-width: 60rem) {
+	.contentContainer {
+		flex-direction: row;
+	}
+
+	.content {
+		margin-right: var(--size-m);
+		max-width: 70ch;
+	}
+}
+
+.content > :first-child {
+	margin-top: 0;
+}
+
+.metadata {
+	border-top: 1px solid var(--color-gray);
+	margin-top: var(--size-xxl);
+	min-width: 25%;
+	padding-top: var(--size-l);
+}
+
+@media screen and (min-width: 60rem) {
+	.metadata {
+		border: none;
+		margin-top: calc(var(--size-l) - var(--size-m));
+		margin-left: calc(2 * var(--size-xxl));
+		padding-top: 0;
+	}
+}
+
+.metadata p {
+	margin-top: 0;
+}
+
+.metadata h2 {
+	font-size: 1em;
+	margin-top: var(--size-xl);
+}
+
+.weblink {
+	display: grid;
+	grid-template-columns: 1.5em 1fr;
+	margin-left: -1.5em;
+}
+
+.metadata .icon {
+	align-self: center;
+}
+
+.metadata .icon img {
+	margin-top: 0;
+}
+
+p.weblink {
+	margin-top: var(--size-m);
+}
+
+.metadata li {
+	list-style-type: none;
+}
+
+.metadata li::marker {
+	font-size: 2em;
+	line-height: 0;
+}
+
+.weblink li {
+	list-style-image: url(../img/link.svg);
+}
+
+.tags li {
+	list-style-image: url(../img/tag.svg);
+	margin-top: 0;
+}
+
+/* Footer */
+
+.site_footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: auto;
+	padding: calc(var(--size-xxl) * 2) var(--size-m) var(--size-m);
+}
+
+#footermenu {
+	display: flex;
+	flex-direction: row;
+	margin: 0 0 var(--size-m) 0;
+	padding: 0;
+}
+
+#footermenu li {
+	list-style-type: none;
+	margin: 0 var(--size-xs) 0 0;
+}
