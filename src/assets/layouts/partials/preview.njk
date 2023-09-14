@@ -1,20 +1,22 @@
 {% for post in results %}
-	<article class="postPreview animate__animated slideInUp">
-		<div class="postPreview_container">
-			<h3 class="postPreview_title">
-				<a href="{{ post.url }}" class="postPreview_link">{{ post.data.title }}</a>
-			</h3>
-			<footer>
-				<p class="postPreview_metadata">vom <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate }}</time>{% if post.data.updated %}, aktualisiert am <time datetime="{{ post.data.updated | htmlDateString }}">{{ post.data.updated | readableDate}}</time>{% endif %}</p>
-			</footer>
-			<p class="postPreview_excerpt">{{ post.data.description }}</p>
-		</div> 
-		{% if post.data.featuredImage %}
-			<div class="postPreview_featuredImage">
-				<div class="container">
-				{% image post.data.featuredImage, "" %}
-				</div>
-			</div>
-		{% endif %}
-	</article>
+	<div class="animate__wrapper animate__animated">
+		<article class="postPreview ">
+				<div class="postPreview_container">
+					<h3 class="postPreview_title">
+						<a href="{{ post.url }}" class="postPreview_link">{{ post.data.title }}</a>
+					</h3>
+					<footer>
+						<p class="postPreview_metadata">vom <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate }}</time>{% if post.data.updated %}, aktualisiert am <time datetime="{{ post.data.updated | htmlDateString }}">{{ post.data.updated | readableDate}}</time>{% endif %}</p>
+					</footer>
+					<p class="postPreview_excerpt">{{ post.data.description }}</p>
+				</div> 
+				{% if post.data.featuredImage %}
+					<div class="postPreview_featuredImage">
+						<div class="container">
+						{% image post.data.featuredImage, "" %}
+						</div>
+					</div>
+				{% endif %}
+		</article>
+	</div>
 {% endfor %}
