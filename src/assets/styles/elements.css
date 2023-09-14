@@ -93,6 +93,10 @@ a:focus {
 	outline: none;
 }
 
+.postPreview_link:focus:focus-visible {
+	display: block;
+}
+
 /* a:not(:focus)::before {
 	background: var(--color-secondary);
 	background: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-secondary-light) 100%);
