@@ -1,0 +1,10 @@
+{
+	"title": "stebre.ch",
+	"description": "SteBre ist die Website von Stefan Brechbühl.",
+	"url": "https://stebre.ch",
+	"author": {
+		"name": "Stefan Brechbühl",
+		"email": "mail@stebre.ch"
+	},
+	"private": "true"
+}

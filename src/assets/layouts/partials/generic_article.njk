@@ -1,0 +1,44 @@
+<article>
+	<div class="headerShadow">
+		<header class="headerPost">
+			{% if featuredImage %}
+				<div class="containerM">
+					<h1 class="title">{{ title }}</h1>
+					<div class="featuredImage">
+						{% image featuredImage, "" %}
+					</div>
+				</div>
+			{% else %}
+				<div class="containerL">
+					<h1 class="title">{{ title }}</h1>
+				</div>
+			{% endif %}
+		</header>
+	</div>
+	<div class="containerL">
+		<div class="contentContainer">
+			<div class="content">{{ content | safe }}</div>
+			<footer class="metadata">
+				{% if date %}<p>Publiziert am: {{ date | readableDate }}</p>{% endif %}
+				{% if updated %}<p>Aktualisiert am: {{ updated | readableDate }}</p>{% endif %}
+				{% if author %}<p>Autor: {{ author }}</p>{% endif %}
+				{% if weblink %}
+					<ul class="weblink">
+						<li><a href={{ weblink }}>Weblink</a></li>
+					</ul>
+				{% endif %}
+				{% if tags %}
+					<div>
+						<h2>Tags:</h2>
+						<ul class="tags">
+							{%- for tag in tags | excludeTagsFromTagList %}
+								{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+								<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+							{%- endfor %}
+						</ul>
+					</div>
+				{% endif %}
+			</footer>
+		</div>
+	</div>
+</article>
