@@ -83,7 +83,5 @@ Was jetzt noch fehlt sind die generellen Einstellungen deines Workflows. Diese f
 
 Die Möglichkeiten in Automator sind auf einfache Anpassungen beschränkt. Pixometry ist eine Applikation, die Bilder mithilfe von künstlicher Intelligenz automatisch optimiert und erweiterte Bildworkflow-Möglichkeiten beherrscht. Weitere Infos zum Produkt und Kontaktmöglichkeiten zur Beratung sind auf der [a&f Website](https://www.a-f.ch/produkte/pixometry/) zu finden.
 
----
-
-<small>Quelle Artikelbild: DALL·E generiertes Bild (mit Text ergänzt).</small>
+Quelle Artikelbild: DALL·E generiertes Bild (mit Text ergänzt).
 
