@@ -3,7 +3,6 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const pluginFilters = require("./eleventy.config.filters.js");
 const pluginImages = require("./eleventy.config.images.js");
-const pluginMarkdown = require("./eleventy.config.markdown.js");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const CleanCSS = require("clean-css");
 
@@ -37,7 +36,6 @@ module.exports = function (eleventyConfig) {
 	// Add plugins
 	eleventyConfig.addPlugin(pluginFilters);
 	eleventyConfig.addPlugin(pluginImages);
-	eleventyConfig.addPlugin(pluginMarkdown);
 
 	// CSS minifier
 	eleventyConfig.addFilter("cssmin", function (code) {
