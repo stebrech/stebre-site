@@ -182,7 +182,7 @@ async function createMarkdownFiles(dbId, postType, postTypes) {
 
 			// Download images from Notion and replace URL in markdown file
 			let images = mdContent.match(
-				/(?<=featuredImage:\s\").*(?=\")|(?<=\!\[.*\]\()https?:\/\/.*(?<!\))/g
+				/(?<=featuredImage:\s\")https?:\/\/.*(amazonaws).*(?=\")|(?<=\!\[.*\]\()https?:\/\/.*(amazonaws).*(?<!\))/g
 			);
 			if (images) {
 				for (j = 0; j < images.length; j++) {
@@ -202,9 +202,7 @@ async function createMarkdownFiles(dbId, postType, postTypes) {
 			}
 
 			// Download pdfs from Notion and replace URL in markdown file
-			let pdfs = mdContent.match(
-				/(?<=\[.*\]\()https?:\/\/.*secure.notion-static.com.*\.pdf.*(?<!\))/g
-			);
+			let pdfs = mdContent.match(/(?<=\[.*\]\()https?:\/\/.*(amazonaws).*(\.pdf).*(?<!\))/g);
 			if (pdfs) {
 				for (j = 0; j < pdfs.length; j++) {
 					let pdfUrl = pdfs[j];
@@ -219,7 +217,9 @@ async function createMarkdownFiles(dbId, postType, postTypes) {
 			}
 
 			// Download movies from Notion and replace URL in markdown file
-			let movies = mdContent.match(/(?<=\[.*\]\()https?:\/\/.*(\.mov|\.mp4).*(?<!\))/g);
+			let movies = mdContent.match(
+				/(?<=\[.*\]\()https?:\/\/.*(amazonaws).*(\.mov|\.mp4).*(?<!\))/g
+			);
 			if (movies) {
 				for (j = 0; j < movies.length; j++) {
 					let movieUrl = movies[j];
