@@ -205,7 +205,6 @@ ul li::marker {
 li > ol,
 li > ul {
 	margin-bottom: calc(var(--size-l) / 2);
-	margin-left: var(--size-l);
 	margin-top: calc(var(--size-l) / 2);
 }
 
@@ -291,14 +290,6 @@ pre {
 pre > code {
 	background: transparent;
 }
-
-/* prism-vsc-dark-plus.css */
-/* https://github.com/PrismJS/prism-themes/blob/447479fc7b2be2051fe27e561aceed7cc87a589f/themes/prism-vsc-dark-plus.css */
-
-/**
- * VS theme by Andrew Lock (https://andrewlock.net)
- * Inspired by Visual Studio syntax coloring
- */
 
 code[class*="language-"],
 pre[class*="language-"] {
