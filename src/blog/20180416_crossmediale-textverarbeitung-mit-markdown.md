@@ -2,7 +2,7 @@
 title: "Crossmediale Textverarbeitung mit Markdown"
 layout: "post.njk"
 date: 2018-04-16
-featuredImage: "src/assets/img/20180416_crossmediale-textverarbeitung-mit-markdown_0.png"
+featuredImage: "src/assets/img/20180416_crossmediale-textverarbeitung-mit-markdown_0.jpg"
 description: "Eine grosse Herausforderung bei der medienneutralen Datenherstellung ist das fehlende Bewusstsein für strukturierte Inhalte. Werden Inhalte (zuerst) in Textverarbeitungsprogrammen wie Microsoft Word erstellt, wird versucht diese ansprechend zu gestalten."
 tags: [Barrierefreiheit,InDesign,Markdown]
 permalink: "blog/2018/04/crossmediale-textverarbeitung-mit-markdown/"
@@ -125,13 +125,17 @@ usw. bis und mit H6
 ### Listen
 
 ```markdown
-* Listenpunkt* Listenpunkt* Listenpunkt
+* Listenpunkt
+* Listenpunkt
+* Listenpunkt
 ```
 
 ergibt eine undefinierten Liste. Anstatt `*` kann auch ein `-` verwendet werden.
 
 ```markdown
-1. Listenpunkt2. Listenpunkt3. Listenpunkt
+1. Listenpunkt
+2. Listenpunkt
+3. Listenpunkt
 ```
 
 ergibt eine definierte, nummerierte Liste.

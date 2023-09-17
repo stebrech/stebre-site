@@ -5,7 +5,7 @@ date: 2017-10-31
 featuredImage: "src/assets/img/20171031_accessible-pdfinfo_0.png"
 description: "Die Erstellung von barrierefreien PDF-Dokumenten ist ein leidenschaftliches Thema, mit dem ich mich seit 2014 intensiv beschäftige. In meiner Freizeit pflege und betreibe ich die Website accessible-pdf.info"
 tags: [Branding,Content,Webentwicklung]
-featured: true
+featured: false
 weblink: "https://accessible-pdf.info/de"
 permalink: "portfolio/accessible-pdfinfo/"
 ---

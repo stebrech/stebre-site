@@ -2,6 +2,7 @@
 title: "stebre.ch: Relaunch und Namensänderung"
 layout: "project.njk"
 date: 2022-11-15
+updated: 2023-09-17
 featuredImage: "src/assets/img/20221115_stebrech-relaunch-und-namensaenderung_0.png"
 description: "stebre.ch: Klammheimlich habe ich ein Relaunch meiner persönlichen Website durchgeführt und zudem noch den Namen geändert. Ich möchte es aber nicht unterlassen dir einen kleinen Einblick zu geben."
 tags: [Branding,Design,Webentwicklung]
@@ -70,6 +71,8 @@ Das Design der Website ist selbst entwickelt und nutzt ein paar nette Effekte wi
 
 - das Einfärben der Posts bei Maus-Hover
 - animiertes Einblenden der Elemente beim Scrollen
+
+**Update 17.09.2023:** Gatsby wurde durch [11ty](https://www.11ty.dev/) ersetzt. Die Inhalte werden neu in Notion gepflegt und als Markdown heruntergeladen, siehe auch [11ty mit Notion verbinden](https://stebre.ch/blog/2023/09/11ty-mit-notion-verbinden/).
 
 ### Noch am Anfang
 
