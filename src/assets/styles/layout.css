@@ -306,7 +306,7 @@ body {
 }
 
 @media screen and (min-width: 60rem) {
-	.content {
+	.contentContainer > .content {
 		font-size: var(--size-l);
 	}
 }
@@ -316,13 +316,13 @@ body {
 		flex-direction: row;
 	}
 
-	.content {
+	.contentContainer > .content {
 		margin-right: var(--size-m);
 		max-width: 70ch;
 	}
 }
 
-.content > :first-child {
+.contentContainer > .content > :first-child {
 	margin-top: 0;
 }
 
