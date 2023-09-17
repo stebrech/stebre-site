@@ -66,7 +66,7 @@ h3 {
 /* Links */
 
 a {
-	color: var(--color-gray-dark);
+	color: var(--color-text);
 	display: inline-block;
 	text-decoration: underline;
 	text-decoration-thickness: 0.15em;
@@ -78,7 +78,7 @@ a {
 
 a:active,
 a:hover {
-	color: var(--color-gray-dark);
+	color: var(--color-text);
 	outline-width: 0;
 	text-decoration: none;
 }
@@ -158,15 +158,6 @@ figcaption {
 	width: 100%;
 }
 
-code,
-kbd,
-pre,
-samp {
-	font-family: var(--font-mono);
-	font-size: 1em;
-	line-height: inherit;
-}
-
 hr {
 	background: hsla(0, 0%, 0%, 0.2);
 	border: none;
@@ -238,40 +229,11 @@ td:not(:last-child) {
 }
 
 thead tr {
-	border-bottom: 3px solid var(--color-gray-dark);
+	border-bottom: 3px solid var(--color-text);
 }
 
 tr:not(:last-child) {
-	border-bottom: 1px solid var(--color-gray-dark);
-}
-
-/* Code */
-
-pre {
-	background: var(--color-gray-light) !important;
-	color: var(--color-gray-dark) !important;
-	border-radius: var(--border-radius);
-	margin: var(--size-m) 0 0 0;
-	font-size: var(--size-m);
-	line-height: var(--line-height-normal);
-	overflow: auto;
-	word-wrap: normal;
-	padding: var(--size-l);
-}
-
-code {
-	background-color: var(--color-gray-light) !important;
-	border-radius: var(--border-radius);
-	color: var(--color-gray-dark) !important;
-	font-family: var(--font-mono);
-	font-size: var(--size-m);
-	padding: var(--size-xxs);
-	word-break: normal;
-	vertical-align: middle;
-}
-
-pre code {
-	background: none;
+	border-bottom: 1px solid var(--color-text);
 }
 
 /* Inline styling */
@@ -293,8 +255,164 @@ acronym {
 	cursor: help;
 }
 
-/* Helper classes */
+/* Code */
 
-.marginTop0 {
-	margin-top: 0;
+code,
+kbd,
+pre,
+samp {
+	font-family: var(--font-mono);
+	line-height: inherit;
+}
+
+code,
+pre {
+	background: #fff;
+	color: var(--color-text);
+	border-radius: var(--border-radius);
+	margin: var(--size-m) 0 0 0;
+	font-size: var(--size-m);
+}
+
+pre {
+	margin: var(--size-m) 0 0 0;
+	line-height: var(--line-height-normal);
+	overflow: auto;
+	word-wrap: normal;
+	padding: var(--size-l);
+}
+
+:not(pre) > code {
+	padding: var(--size-xxs) var(--size-xs);
+	word-break: normal;
+	vertical-align: middle;
+}
+
+pre > code {
+	background: transparent;
+}
+
+/* prism-vsc-dark-plus.css */
+/* https://github.com/PrismJS/prism-themes/blob/447479fc7b2be2051fe27e561aceed7cc87a589f/themes/prism-vsc-dark-plus.css */
+
+/**
+ * VS theme by Andrew Lock (https://andrewlock.net)
+ * Inspired by Visual Studio syntax coloring
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+
+	-moz-tab-size: 2;
+	-o-tab-size: 2;
+	tab-size: 2;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: var(--color-gray);
+	font-style: italic;
+}
+
+.token.namespace {
+	opacity: 0.7;
+}
+
+.token.string {
+	color: var(--color-primary-dark-alt);
+}
+
+.token.punctuation,
+.token.operator {
+	color: var(--color-text); /* no highlight */
+}
+
+.token.url,
+.token.symbol,
+.token.number,
+.token.boolean,
+.token.variable,
+.token.constant,
+.token.inserted {
+	color: var(--color-secondary-dark);
+}
+
+.token.atrule,
+.token.keyword,
+.token.attr-value,
+.language-autohotkey .token.selector,
+.language-json .token.boolean,
+.language-json .token.number,
+code[class*="language-css"] {
+	color: var(--color-secondary-darker);
+}
+
+.token.function {
+	color: var(--color-secondary-dark);
+}
+
+.token.deleted,
+.language-autohotkey .token.tag {
+	color: var(--color-secondary-darker);
+}
+
+.token.selector,
+.language-autohotkey .token.keyword {
+	color: var(--color-primary-dark-alt);
+}
+
+.token.important {
+	color: var(--color-secondary);
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+
+.token.italic {
+	font-style: italic;
+}
+
+.token.class-name,
+.language-json .token.property {
+	color: #2b91af;
+}
+
+.token.tag,
+.token.selector {
+	color: #800000;
+}
+
+.token.attr-name,
+.token.property,
+.token.regex,
+.token.entity {
+	color: var(--color-primary);
+}
+
+.token.directive.tag .tag {
+	background: var(--color-secondary-light);
+	color: var(--color-text);
+}
+
+/* Selection */
+
+*::-moz-selection,
+* ::-moz-selection,
+*::selection,
+* ::selection {
+	background: var(--color-primary-dark);
+	color: #fff;
 }

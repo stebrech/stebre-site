@@ -4,6 +4,7 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const pluginFilters = require("./eleventy.config.filters.js");
 const pluginImages = require("./eleventy.config.images.js");
 const pluginMarkdown = require("./eleventy.config.markdown.js");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const CleanCSS = require("clean-css");
 
 module.exports = function (eleventyConfig) {
@@ -31,6 +32,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+	eleventyConfig.addPlugin(syntaxHighlight);
 
 	// Add plugins
 	eleventyConfig.addPlugin(pluginFilters);

@@ -59,7 +59,7 @@
 }
 
 .postPreview_link {
-	color: var(--color-gray-dark);
+	color: var(--color-text);
 	position: static;
 	text-decoration: none;
 }
