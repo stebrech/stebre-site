@@ -3,12 +3,12 @@ title: "11ty mit Notion verbinden"
 layout: "post.njk"
 date: 2023-09-17
 featuredImage: "src/assets/img/20230917_11ty-mit-notion-verbinden_0.png"
-description: "Für stebre.ch und bisher zwei weiteren Websites habe ich mir etwas neues ausgedacht. Da verwende ich nun den lieb gewonnen Static Site Generator 11ty in Kombination von Notion, einem vielseitigen Content Tool in der Cloud."
+description: "Für stebre.ch und bisher zwei weiteren Websites habe ich mir etwas neues ausgedacht. Da verwende ich neu den lieb gewonnen Static Site Generator 11ty in Kombination von Notion, einem vielseitigen Content Tool in der Cloud."
 tags: [11ty]
 permalink: "blog/2023/09/11ty-mit-notion-verbinden/"
 ---
 
-Für [stebre.ch](http://stebre.ch/) und bisher zwei weiteren Websites habe ich mir etwas neues ausgedacht. Da verwende ich nun den lieb gewonnen Static Site Generator [11ty](11ty) in Kombination von [Notion](https://www.notion.so/), einem vielseitigen Content Tool in der Cloud.
+Für [stebre.ch](http://stebre.ch/) und bisher zwei weiteren Websites habe ich mir etwas neues ausgedacht. Da verwende ich neu den lieb gewonnen Static Site Generator [11ty](11ty) in Kombination von [Notion](https://www.notion.so/), einem vielseitigen Content Tool in der Cloud.
 
 ## Was ist 11ty?
 
@@ -201,7 +201,7 @@ Innerhalb der for-Schleife gehts weiter mit Variablen, die für das Speichern un
 …
 ```
 
-Danach wird der Frontmatter, also die Metadaten am Anfang des Markdown-Files, zusammengestellt und in der Variable `mdContent` mit dem Inhalt in der Variable `content` vereint. Zudem überflüssige Leerzeilen bereinigt und aufeinanderfolgende Bilder in einem Div-Container gruppiert. Dieser Containter mit der Klasse `imagesContainer` kann genutzt werden um die Bilder in einer Gallerie darzustellen.
+Danach wird der Frontmatter, also die Metadaten am Anfang des Markdown-Files, zusammengestellt und in der Variable `mdContent` mit dem Inhalt in der Variable `content` vereint. Zudem werden überflüssige Leerzeilen bereinigt und aufeinanderfolgende Bilder in einem Div-Container gruppiert. Dieser Container mit der Klasse `imagesContainer` kann genutzt werden um die Bilder in einer Galerie darzustellen.
 
 ```javascript
 …
@@ -246,7 +246,7 @@ Danach wird der Frontmatter, also die Metadaten am Anfang des Markdown-Files, zu
 
 Auch Assets wie Bilder, PDFs und Filme möchte ich im 11ty Repository gesichert haben. Die Assets sind sowieso nur mit einer kurzzeitig öffentlichen URL aus der AWS Cloud erreichbar.
 
-Die Bilder sind aufgrund der Markdown-Syntax (`![alt](url)`) leicht von den anderen Assetstypen PDF und Filme zu unterscheiden. Schwieriger ist jedoch die Unterscheidung ob das  Asset in Notion hochgeladen wurde oder es an einem anderen Ort liegt, beispielsweise ein PDF, welches ich verlinke. Dies habe ich jetzt mal so gelöst, dass die URL `amazonaws` enthalten muss. 
+Die Bilder sind aufgrund der Markdown-Syntax (`![alt](url)`) leicht von den anderen Assetstypen (PDFs und Filme) zu unterscheiden. Schwieriger ist jedoch die Unterscheidung ob das Asset in Notion hochgeladen wurde oder es an einem anderen Ort liegt, beispielsweise ein PDF, welches ich verlinke. Dies habe ich jetzt mal so gelöst, dass die URL `amazonaws` enthalten muss. 
 
 ```javascript
 …
@@ -345,7 +345,7 @@ Zum Schluss wird das Markdown-File geschrieben und der Status in Notion umgestel
 }
 ```
 
-Im Github-Repository [stebrech/stebre-site](https://github.com/stebrech/stebre-site) kann ist die komplette `fetchContent.js` zugänglich. Ich freue mich wenn du einen Verbesserungsvorschlag oder Bug dort meldest.
+Im Github-Repository [stebrech/stebre-site](https://github.com/stebrech/stebre-site) ist die komplette `fetchContent.js` zugänglich. Ich freue mich wenn du einen Verbesserungsvorschlag oder Bug dort meldest.
 
 Für die Umsetzung hat mir unter anderem der Blogpost [From Notion to Eleventy](https://iamschulz.com/from-notion-to-eleventy/) von Daniel Schulz geholfen und auch ChatGPT musste ich hin und wieder um Rat fragen ;-)
 
