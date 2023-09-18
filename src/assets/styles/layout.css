@@ -216,7 +216,7 @@ body {
 	border-radius: 50%;
 	height: 2.4rem;
 	margin-top: 0;
-	width: 100%;
+	width: 2.4rem;
 }
 
 #mainnav .logo img:not(:hover) {
@@ -295,7 +295,7 @@ body {
 
 .featuredImage {
 	margin-top: var(--size-xxl);
-	margin-bottom: -1rem;
+	margin-bottom: -1.25rem;
 }
 
 .contentContainer {
