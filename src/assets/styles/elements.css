@@ -254,6 +254,23 @@ acronym {
 	cursor: help;
 }
 
+/* Forms */
+
+button {
+	cursor: pointer;
+	line-height: var(--line-height-normal);
+	padding: var(--size-l) var(--size-l) var(--size-l) var(--size-l);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: 4px solid var(--color-secondary);
+	outline-offset: 0px;
+	z-index: 9;
+}
+
 /* Code */
 
 code,

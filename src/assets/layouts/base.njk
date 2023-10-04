@@ -30,10 +30,18 @@
 		<style>
 			{{ css | cssmin | safe }}
 		</style>
+		<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
 		<link rel="stylesheet" href="/assets/styles/animate.min.css">
 
 		{#- Scripts #}
 		<script src="/assets/js/animateInViewport.js" defer></script>
+		<script src="/assets/js/search.js" defer></script>
+		<script src="/pagefind/pagefind-ui.js" defer></script>
+		<script>
+				window.addEventListener('DOMContentLoaded', (event) => {
+						new PagefindUI({ element: "#search", showSubResults: true });
+				});
+		</script>
 
 		{#- Favicons #}
 		{% include "partials/favicon.njk" %}
@@ -51,9 +59,18 @@
 
 			<header class="site_header" role="banner">
 				{% include "partials/nav_main.njk" %}
+				<button id="search-icon" aria-label="Search">
+					{% image "src/assets/img/svg/search.svg", "Search Icon" %}
+				</button>
 			</header>
 
 			<main id="primary" class="site_main">
+				<div id="search-container" class="containerM screen-reader-text" aria-hidden="true">
+					<div id="search"></div>
+					<div id="search-close-container">
+						<button id="search-close" aria-label="Schliessen">Suche schliessen</button>
+					</div>
+				</div>
 				{{ content | safe }}
 			</main>
 

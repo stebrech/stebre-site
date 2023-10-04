@@ -11,7 +11,7 @@ html {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	padding: calc(4 * var(--size-l)) var(--size-l) 0 var(--size-l);
+	padding: calc(var(--size-m));
 	overflow: hidden;
 }
 
@@ -25,14 +25,15 @@ html {
 }
 
 .hero .bgimage img {
+	height: 100%;
+	margin-top: 0;
 	object-fit: cover;
 	width: 100%;
-	height: 100%;
 }
 
 @media screen and (min-width: 60rem) {
 	.hero {
-		padding-top: 10rem;
+		padding-top: 5rem;
 	}
 }
 
