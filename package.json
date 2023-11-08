@@ -35,8 +35,8 @@
     "Notion"
   ],
   "scripts": {
-    "start": "node fetchContent.js && npx -y pagefind --site public && npx @11ty/eleventy --serve",
-    "build": "node fetchContent.js && npx -y pagefind --site public && npx @11ty/eleventy",
+    "start": "node fetchContent.js && npx @11ty/eleventy --serve && npx -y pagefind --site public",
+    "build": "node fetchContent.js && npx @11ty/eleventy && npx -y pagefind --site public",
     "debug": "DEBUG=* npx @11ty/eleventy"
   },
   "repository": {
