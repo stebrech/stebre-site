@@ -1,6 +1,6 @@
 require("dotenv").config();
 const fs = require("fs");
-const download = require("download");
+const axios = require("axios");
 const { Client } = require("@notionhq/client");
 const { NotionToMarkdown } = require("notion-to-md");
 
@@ -177,17 +177,43 @@ async function createMarkdownFiles(dbId, postType, postTypes) {
 			// Add a div container around images
 			mdContent = mdContent.replace(
 				/!\[.*?\]\(.*?\)(?:\n\s*!?\[.*?\]\(.*?\))+/g,
-				`<div class="imagesContainer">\n\n$&\n\n</div>`
+				`<div class="imagesContainer">\n\n$&\n\n</div>`,
 			);
+
+			// Use axaio to get images, pdfs and movies from Notion
+			async function getFiles(url, outputPath, filename) {
+				try {
+					const response = await axios({
+						url: url,
+						method: "GET",
+						responseType: "stream",
+					});
+
+					const filePath = `${outputPath}/${filename}`;
+					const writer = fs.createWriteStream(filePath);
+					response.data.pipe(writer);
+
+					await new Promise((resolve, reject) => {
+						writer.on("finish", resolve);
+						writer.on("error", reject);
+					});
+
+					console.log(`File downloaded successfully: ${filePath}`);
+					return filePath;
+				} catch (error) {
+					console.error(`Error downloading file from ${url}:`, error.message);
+					throw error; // Rethrow the error to indicate failure
+				}
+			}
 
 			// Download images from Notion and replace URL in markdown file
 			let images = mdContent.match(
-				/(?<=featuredImage:\s\")https?:\/\/.*(amazonaws).*(?=\")|(?<=\!\[.*\]\()https?:\/\/.*(amazonaws).*(?<!\))/g
+				/(?<=featuredImage:\s\")https?:\/\/.*(amazonaws).*(?=\")|(?<=\!\[.*\]\()https?:\/\/.*(amazonaws).*(?<!\))/g,
 			);
 			if (images) {
 				for (j = 0; j < images.length; j++) {
-					let imgUrl = images[j];
-					let imgFiletype = imgUrl.match(/(?<=\.)[a-z]+(?=\?)/g);
+					const imgUrl = images[j];
+					const imgFiletype = imgUrl.match(/(?<=\.)[a-z]+(?=\?)/g);
 					let imgRenamed = "";
 					if (arr[i].date) {
 						imgRenamed =
@@ -195,8 +221,7 @@ async function createMarkdownFiles(dbId, postType, postTypes) {
 					} else {
 						imgRenamed = titleSlug + "_" + j + "." + imgFiletype;
 					}
-					let imgPath = "src/assets/img/" + imgRenamed;
-					download(imgUrl, "src/assets/img/", { filename: imgRenamed });
+					const imgPath = await getFiles(imgUrl, "src/assets/img", imgRenamed);
 					mdContent = mdContent.replace(imgUrl, imgPath);
 				}
 			}
@@ -205,30 +230,30 @@ async function createMarkdownFiles(dbId, postType, postTypes) {
 			let pdfs = mdContent.match(/(?<=\[.*\]\()https?:\/\/.*(amazonaws).*(\.pdf).*(?<!\))/g);
 			if (pdfs) {
 				for (j = 0; j < pdfs.length; j++) {
-					let pdfUrl = pdfs[j];
+					const pdfUrl = pdfs[j];
 					let pdfFilename = pdfUrl.match(/(?<=\/)[^\/]+(?=\?)/g);
 					pdfFilename = pdfFilename.toString();
-					let pdfOutput = "src/assets/pdf/";
+					const pdfOutput = "src/assets/pdf/";
 					let pdfPath = "/assets/pdf/";
 					pdfPath = pdfPath.concat(pdfFilename);
-					await download(pdfUrl, pdfOutput, { filename: pdfFilename });
+					await getFiles(pdfUrl, pdfOutput, pdfFilename);
 					mdContent = mdContent.replace(pdfUrl, pdfPath);
 				}
 			}
 
 			// Download movies from Notion and replace URL in markdown file
 			let movies = mdContent.match(
-				/(?<=\[.*\]\()https?:\/\/.*(amazonaws).*(\.mov|\.mp4).*(?<!\))/g
+				/(?<=\[.*\]\()https?:\/\/.*(amazonaws).*(\.mov|\.mp4).*(?<!\))/g,
 			);
 			if (movies) {
 				for (j = 0; j < movies.length; j++) {
-					let movieUrl = movies[j];
+					const movieUrl = movies[j];
 					let movieFilename = movieUrl.match(/(?<=\/)[^\/]+(?=\?)/g);
 					movieFilename = movieFilename.toString();
-					let movieOutput = "src/assets/movies/";
+					const movieOutput = "src/assets/movies/";
 					let moviePath = "/assets/movies/";
 					moviePath = moviePath.concat(movieFilename);
-					await download(movieUrl, movieOutput, { filename: movieFilename });
+					await getFiles(movieUrl, movieOutput, movieFilename);
 					mdContent = mdContent.replace(movieUrl, moviePath);
 				}
 			}
