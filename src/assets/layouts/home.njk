@@ -11,27 +11,33 @@ templateClass: home
 				<ul class="socialList">
 					<li>
 						<a href="https://www.linkedin.com/in/stefan-brechbuehl/">
-							<img src="/assets/img/linkedin.svg" aria-hidden="false" alt="LinkedIn Profil" class="socialIcon" width="31.5px" height="36px" />
+							<div class="socialIcon">
+								{% image "src/assets/img/linkedin.svg", "LinkedIn Profil", [60px] %}
+							</div>
 						</a>
 					</li>
 					<li>
 						<a href="https://www.github.com/stebrech/">
-							<img src="/assets/img/github.svg" aria-hidden="false" alt="Github Profil" class="socialIcon" width="35px" height="36px" />
+						<div class="socialIcon">
+								{% image "src/assets/img/github.svg", "Github Profil", [60px] %}
+						</div>
 						</a>
 					</li>
 					<li>
 						<a href="https://mastodontech.de/@stebre">
-							<img src="/assets/img/mastodon.svg" aria-hidden="false" alt="Mastodon Profil" class="socialIcon" width="31.5px" height="36px" />
+						<div class="socialIcon">
+								{% image "src/assets/img/mastodon.svg", "Mastodon Profil", [60px] %}
+						</div>
 						</a>
 					</li>
 				</ul>
 			</div>
 			<p class="profilePic animate__animated animate__jackInTheBox animate__delay-1s">
-				{% image "src/assets/img/copy/Stefan.jpg", "Foto von mir." %}
+				{% image "src/assets/img/Stefan.jpg", "Foto von mir." %}
 			</p>
 		</div>
 		<div class="bgimage">
-			{% image "src/assets/img/svg/ffflux.svg", "" %}
+			{% image "src/assets/img/ffflux.svg", "" %}
 		</div>
 	</section>
 </div>

@@ -9,9 +9,6 @@ const CleanCSS = require("clean-css");
 module.exports = function (eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	eleventyConfig.addPassthroughCopy({
-		"./src/assets/img/svg": "/assets/img",
-		"./src/assets/img/gif": "/assets/img",
-		"./src/assets/img/*_0.jpg": "/assets/img/og",
 		"./src/assets/movies": "/assets/movies",
 		"./src/assets/fonts": "/assets/fonts",
 		"./src/assets/pdf": "/assets/pdf",

@@ -5,7 +5,7 @@ const markdownItEleventyImg = require("markdown-it-eleventy-img");
 
 let defaultImageWidths = [400, 880, 1200, "auto"];
 let defaultImageSizes = "(min-width: 70rem) 70rem, 100vw";
-let defaultImageFormats = ["webp", "gif", "auto"];
+let defaultImageFormats = ["webp", "svg", "gif", "auto"];
 
 module.exports = (eleventyConfig) => {
 	// Eleventy Image shortcode
@@ -18,6 +18,7 @@ module.exports = (eleventyConfig) => {
 			formats: defaultImageFormats,
 			urlPath: "/assets/img/",
 			outputDir: path.join(eleventyConfig.dir.output, "/assets/img/"),
+			svgShortCiruit: "size",
 			sharpOptions: {
 				animated: true,
 				limitInputPixels: false,
@@ -52,6 +53,6 @@ module.exports = (eleventyConfig) => {
 				decoding: "async",
 				sizes: defaultImageSizes,
 			},
-		})
+		}),
 	);
 };

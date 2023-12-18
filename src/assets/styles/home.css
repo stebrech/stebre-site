@@ -118,13 +118,6 @@ h2.sectionTitle {
 }
 
 .socialIcon {
-	height: 2em;
-}
-
-.socialIcon path {
-	fill: var(--color-primary-dark);
-}
-
-.socialIcon:hover path {
-	fill: var(--color-secondary);
+	max-height: 2rem;
+	max-width: 2rem;
 }

@@ -2,7 +2,7 @@
 	<ul id="mainmenu" class="visible">
 		<li class="logo">
 			<a href="/">
-				{% image "src/assets/img/svg/logo-stebre.svg", "Startseite {{ metadata.title }}", [375, 750], [100vw] %}
+				{% image "src/assets/img/logo-stebre.svg", "Startseite {{ metadata.title }}", [375, 750], [100vw] %}
 			</a>
 		</li>
 		{%- for entry in collections.all | eleventyNavigation %}
