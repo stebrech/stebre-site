@@ -33,7 +33,9 @@
 
 @font-face {
 	font-family: "Fira Sans";
-	src: local("Fira Sans Regular"), local("FiraSans-Regular"),
+	src:
+		local("Fira Sans Regular"),
+		local("FiraSans-Regular"),
 		url("/assets/fonts/FiraSans-Regular.woff2") format("woff2"),
 		url("/assets/fonts/FiraSans-Regular.woff") format("woff"),
 		url("/assets/fonts/FiraSans-Regular.ttf") format("truetype");
@@ -44,7 +46,9 @@
 
 @font-face {
 	font-family: "Fira Sans";
-	src: local("Fira Sans Italic"), local("FiraSans-Italic"),
+	src:
+		local("Fira Sans Italic"),
+		local("FiraSans-Italic"),
 		url("/assets/fonts/FiraSans-Italic.woff2") format("woff2"),
 		url("/assets/fonts/FiraSans-Italic.woff") format("woff"),
 		url("/assets/fonts/FiraSans-Italic.ttf") format("truetype");
@@ -55,7 +59,9 @@
 
 @font-face {
 	font-family: "Fira Sans";
-	src: local("Fira Sans Bold"), local("FiraSans-Bold"),
+	src:
+		local("Fira Sans Bold"),
+		local("FiraSans-Bold"),
 		url("/assets/fonts/FiraSans-Bold.woff2") format("woff2"),
 		url("/assets/fonts/FiraSans-Bold.woff") format("woff"),
 		url("/assets/fonts/FiraSans-Bold.ttf") format("truetype");
@@ -66,7 +72,9 @@
 
 @font-face {
 	font-family: "Fira Sans";
-	src: local("Fira Sans Bold Italic"), local("FiraSans-BoldItalic"),
+	src:
+		local("Fira Sans Bold Italic"),
+		local("FiraSans-BoldItalic"),
 		url("/assets/fonts/FiraSans-BoldItalic.woff2") format("woff2"),
 		url("/assets/fonts/FiraSans-BoldItalic.woff") format("woff"),
 		url("/assets/fonts/FiraSans-BoldItalic.ttf") format("truetype");
@@ -77,7 +85,9 @@
 
 @font-face {
 	font-family: "Fira Code";
-	src: local("Fira Code Regular"), local("FiraCode-Regular"),
+	src:
+		local("Fira Code Regular"),
+		local("FiraCode-Regular"),
 		url("/assets/fonts/FiraCode-Regular.woff2") format("woff2"),
 		url("/assets/fonts/FiraCode-Regular.woff") format("woff"),
 		url("/assets/fonts/FiraCode-Regular.ttf") format("truetype");
@@ -88,7 +98,9 @@
 
 @font-face {
 	font-family: "Fira Code";
-	src: local("Fira Code Bold"), local("FiraCode-Bold"),
+	src:
+		local("Fira Code Bold"),
+		local("FiraCode-Bold"),
 		url("/assets/fonts/FiraCode-Bold.woff2") format("woff2"),
 		url("/assets/fonts/FiraCode-Bold.woff") format("woff"),
 		url("/assets/fonts/FiraCode-Bold.ttf") format("truetype");
@@ -395,7 +407,6 @@ body {
 
 .headerPost {
 	background-color: var(--color-primary);
-	/* background-image: url(../img/ffflux.svg); */
 	background-size: cover;
 	clip-path: polygon(0 0, 100% 0, 100% calc(100% + -4vw), 0 100%);
 }
@@ -469,8 +480,6 @@ body {
 }
 
 .weblink {
-	display: grid;
-	grid-template-columns: 1.5em 1fr;
 	margin-left: -1.5em;
 }
 
@@ -496,11 +505,11 @@ p.weblink {
 }
 
 .weblink li {
-	list-style-image: url(../img/link.svg);
+	list-style-image: url(/assets/img/link.svg);
 }
 
 .tags li {
-	list-style-image: url(../img/tag.svg);
+	list-style-image: url(/assets/img/tag.svg);
 	margin-top: 0;
 }
 
