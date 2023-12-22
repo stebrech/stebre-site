@@ -9,6 +9,7 @@ const CleanCSS = require("clean-css");
 module.exports = function (eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	eleventyConfig.addPassthroughCopy({
+		"./src/assets/img/copy": "/assets/img",
 		"./src/assets/movies": "/assets/movies",
 		"./src/assets/fonts": "/assets/fonts",
 		"./src/assets/pdf": "/assets/pdf",
@@ -18,6 +19,7 @@ module.exports = function (eleventyConfig) {
 		"./src/assets/favicons": "/",
 		"./src/assets/robots.txt": "/robtos.txt",
 		"./src/sw.js": "/sw.js",
+		"./src/copy": "/",
 	});
 
 	// Run Eleventy when these files change:
