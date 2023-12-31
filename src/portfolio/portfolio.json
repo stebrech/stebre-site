@@ -1,7 +1,6 @@
 {
 	"author": "Stefan Brechbühl",
-	"tags": "projects",
 	"featuredImage": "src/assets/img/banner-stebre.png",
 	"layout": "project.njk",
-	"permalink": "portfolio/{{ page.fileSlug }}/"
+	"permalink": "{{ page.filePathStem }}/"
 }

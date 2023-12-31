@@ -37,7 +37,18 @@ module.exports = (eleventyConfig) => {
 	});
 
 	eleventyConfig.addFilter("excludeTagsFromTagList", (tags) => {
-		return (tags || []).filter((tag) => ["all", "posts", "projects", "pages"].indexOf(tag) === -1);
+		return (tags || []).filter(
+			(tag) =>
+				[
+					"all",
+					"posts",
+					"posts/drafts",
+					"projects",
+					"projects/drafts",
+					"pages",
+					"pages/drafts",
+				].indexOf(tag) === -1,
+		);
 	});
 
 	eleventyConfig.addFilter("sortTagList", (tags) => {
