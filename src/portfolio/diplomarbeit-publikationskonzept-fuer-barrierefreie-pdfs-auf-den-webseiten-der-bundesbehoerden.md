@@ -8,6 +8,7 @@ tags:
   - Design
   - Webentwicklung
   - projects
+  - Barrierefreiheit
 featured: true
 weblink: https://da-bfpdf-bund.netlify.app
 aliases:

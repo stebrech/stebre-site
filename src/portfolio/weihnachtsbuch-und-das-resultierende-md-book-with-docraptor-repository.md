@@ -33,7 +33,7 @@ Ich wollte es jedoch mit dem PDF Renderer [Prince](https://www.princexml.com/) b
 
 Obwohl ich den Inhalt und das Cover schlussendlich mit dem lokal installierten Prince gerendert habe, entstanden mit diesem Buch zwei Node.js-Skripte, die ich im Repository [md-book-with-docraptor](https://github.com/stebrech/md-book-with-docraptor) auf Github zur Verfügung stelle. 
 
-Die beiden Skripte werde ich hier nicht im Detail beschreiben. Kurz gesagt wandelt `md2html.js` die Markdown-Files in mehrere HTML-Dateien um und `docraptor.js` sendet die HTML-Dateien, welche den CSS-Code und Assets inline enthalten, an [docraptor.com](https://docraptor.com/). DocRaptor ist eine Onlineservice mit einer API um Prince in der Cloud zu nutzen.
+Die beiden Skripte werde ich hier nicht im Detail beschreiben. Kurz gesagt wandelt `md2html.js` die Markdown-Files in mehrere HTML-Dateien um und `docraptor.js` sendet die HTML-Dateien, welche den CSS-Code und Assets inline enthalten, an [docraptor.com](https://docraptor.com/). DocRaptor ist ein Onlineservice mit einer API um Prince in der Cloud zu nutzen.
 
 ## Web-Ausleitung
 

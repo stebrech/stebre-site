@@ -8,6 +8,7 @@ tags:
   - Content
   - Webentwicklung
   - projects
+  - Barrierefreiheit
 featured: false
 weblink: https://accessible-pdf.info/de
 aliases:
