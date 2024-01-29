@@ -1,5 +1,6 @@
 # Redirects from what the browser requests to what we serve
 https://stebre.netlify.app/*        https://stebre.ch/:splat
+/portfolio/* /arbeiten/:splat
 /10-beliebte-und-freie-icon-font-sets/        /blog
 /11-freie-und-praktische-css-onlinetools/        /blog
 /3-losungswege-um-webfonts-in-die-eigene-website-einzubinden/        /blog

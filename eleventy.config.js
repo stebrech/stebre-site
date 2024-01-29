@@ -8,24 +8,23 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const CleanCSS = require("clean-css");
 
 module.exports = function (eleventyConfig) {
-	// Copy the contents of the `public` folder to the output folder
 	eleventyConfig.addPassthroughCopy({
-		"./src/assets/img/copy": "/assets/img",
-		"./src/assets/movies": "/assets/movies",
-		"./src/assets/fonts": "/assets/fonts",
-		"./src/assets/pdf": "/assets/pdf",
-		"./src/assets/styles": "/assets/styles",
-		"./src/assets/js": "/assets/js",
+		"./assets/img/copy": "/assets/img",
+		"./assets/movies": "/assets/movies",
+		"./assets/fonts": "/assets/fonts",
+		"./assets/pdf": "/assets/pdf",
+		"./assets/styles": "/assets/styles",
+		"./assets/js": "/assets/js",
 		"./node_modules/animate.css/animate.min.css": "/assets/styles/animate.min.css",
-		"./src/assets/favicons": "/",
-		"./src/assets/robots.txt": "/robtos.txt",
-		"./src/sw.js": "/sw.js",
-		"./src/copy": "/",
+		"./assets/favicons": "/",
+		"./assets/robots.txt": "/robtos.txt",
+		"./sw.js": "/sw.js",
+		"./_copy": "/",
 	});
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
-	eleventyConfig.addWatchTarget("src/assets");
+	eleventyConfig.addWatchTarget("./assets");
 
 	// Official plugins
 	eleventyConfig.addPlugin(pluginRss);
@@ -47,6 +46,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addCollection("featuredProjects", (collection) => {
 		return collection.getFilteredByTag("projects").filter((item) => item.data.featured);
 	});
+	eleventyConfig.addCollection("feed", (collection) => {
+		return collection.getFilteredByGlob(["arbeiten/*.md", "blog/*.md"]);
+	});
 
 	// Features to make your build faster (when you need them)
 
@@ -67,10 +69,10 @@ module.exports = function (eleventyConfig) {
 		htmlTemplateEngine: "njk",
 
 		dir: {
-			input: "src", // default: "."
-			includes: "assets/layouts", // default: "_includes"
-			data: "_data", // default: "_data"
-			output: "public", // default: "_site
+			input: ".",
+			includes: "_includes",
+			data: "_data",
+			output: "_site",
 		},
 	};
 };

@@ -1,0 +1,33 @@
+---
+layout: base.njk
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - projects
+    - featuredProjects
+    - posts
+permalink: /tags/{{ tag }}/
+templateClass: postlist
+---
+<header class="header containerL">
+  <h1 class="title">{{ tag }}</h1>
+</header>
+
+{% set results = collections[ tag ] | filterTags(["posts"]) | reverse %}
+<section class="results containerL{% if results.length === 0 %} hidden{% endif %}">
+	<h2 class="sectionTitle">Projekte mit dem Schlagwort <code>{{ tag }}</code></h2>
+	<div class="grid">
+    {% include "partials/preview.njk" %}
+  </div>
+</section>
+
+{% set results = collections[ tag ] | filterTags(["projects"]) | reverse %}
+<section class="results containerL{% if results.length === 0 %} hidden{% endif %}">
+	<h2 class="sectionTitle">Blogposts mit dem Schlagwort <code>{{ tag }}</code></h2>
+	<div class="grid">
+    {% include "partials/preview.njk" %}
+  </div>
+</section>

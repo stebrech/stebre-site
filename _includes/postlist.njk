@@ -1,0 +1,30 @@
+---
+layout: base.njk
+templateClass: postlist
+---
+<header class="header containerL">
+  <h1 class="title">{{ title }}</h1>
+</header>
+
+{% if content %}
+<section class="intro containerL">
+	{{ content | safe }}
+</section>
+{% endif %}
+
+<section class="filter containerL">
+	<h2 class="sectionTitle">Nach einem Schlagwort filtern</h2>
+	<ul class="tagList">
+		{% for tag in collections[collection] | getAllTags | sortTagList | excludeTagsFromTagList %}
+		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+			<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+		{% endfor %}
+	</ul>
+</section>
+
+<section class="results containerL">
+  <div class="grid">
+		{% set results = collections[collection] | reverse %}
+		{% include "partials/preview.njk" %}
+	</div>
+</section>
