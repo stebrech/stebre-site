@@ -1,8 +1,9 @@
 const markdownItWikilinks = require("markdown-it-wikilinks");
+const slugify = require("slugify");
 
 module.exports = function (eleventyConfig) {
 	const wikilinksOptions = {
-		generatePageNameFromLabel: (label) => slugify(label, { lower: true }),
+		generatePagePathFromLabel: (label) => slugify(label, { lower: true }),
 		baseURL: "/",
 		makeAllLinksAbsolute: true,
 		uriSuffix: "",
