@@ -434,3 +434,19 @@ code[class*="language-css"] {
 	background: var(--color-primary-dark);
 	color: #fff;
 }
+
+/* Callouts */
+
+.callout {
+	background: var(--color-primary-light);
+	border-left: 3px solid var(--color-primary-dark);
+	color: var(--color-primary-dark);
+	margin-top: 1em;
+	padding: var(--size-xxs) var(--size-xs) var(--size-xxs) var(--size-s);
+}
+
+.callout.warning {
+	background: var(--color-secondary-light);
+	border-left-color: var(--color-secondary-dark);
+	color: var(--color-text);
+}
