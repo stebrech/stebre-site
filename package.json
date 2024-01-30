@@ -28,12 +28,11 @@
   "keywords": [
     "eleventy",
     "blog",
-    "portfolio",
     "11ty"
   ],
   "scripts": {
-    "start": "npx @11ty/eleventy --serve && npx -y pagefind --site public",
-    "build": "npx @11ty/eleventy && npx -y pagefind --site public",
+    "start": "npx @11ty/eleventy --serve && npx -y pagefind --site _site",
+    "build": "npx @11ty/eleventy && npx -y pagefind --site _site",
     "debug": "DEBUG=* npx @11ty/eleventy"
   },
   "repository": {
