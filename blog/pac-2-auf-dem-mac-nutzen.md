@@ -13,7 +13,8 @@ PAC ist einzigartiges Prüftool um PDFs auf deren Barrierefreiheit / Zugänglich
 
 Leider ist dieses Prüftool zur Zeit nur für das Windows Betriebssystem verfügbar.
 
-**Update 18.08.2023:** Der PDF Accessibility Checker gibt es mittlerweile auch als Webapplikation und nennt sich [axesCheck](https://www.axes4.com/de/software-services/axescheck).
+> [!info] Update 18.08.2023
+Der PDF Accessibility Checker gibt es mittlerweile auch als Webapplikation und nennt sich [axesCheck](https://www.axes4.com/de/software-services/axescheck).
 
 ## Bisherige, offizielle Lösung für Mac-Benutzer
 
