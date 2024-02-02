@@ -20,6 +20,7 @@ module.exports = function (eleventyConfig) {
 		"./assets/robots.txt": "/robtos.txt",
 		"./sw.js": "/sw.js",
 		"./_copy": "/",
+		"./_redirects": "/_redirects",
 	});
 
 	// Run Eleventy when these files change:
