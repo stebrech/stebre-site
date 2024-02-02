@@ -66,10 +66,10 @@ h3 {
 /* Links */
 
 a {
-	color: var(--color-text);
+	color: inherit;
 	display: inline-block;
 	text-decoration: underline;
-	text-decoration-thickness: 0.15em;
+	text-decoration-thickness: var(--line-thickness);
 	text-decoration-color: var(--color-secondary);
 	text-underline-offset: 0.2em;
 	position: relative;
@@ -83,7 +83,6 @@ a[href*="//"]:not([href*="stebre.ch"])
 
 a:active,
 a:hover {
-	color: var(--color-text);
 	outline-width: 0;
 	text-decoration: none;
 }
@@ -439,14 +438,29 @@ code[class*="language-css"] {
 
 .callout {
 	background: var(--color-primary-light);
-	border-left: 3px solid var(--color-primary-dark);
+	border-left: var(--line-thickness) solid var(--color-primary);
 	color: var(--color-primary-dark);
 	margin-top: 1em;
 	padding: var(--size-xxs) var(--size-xs) var(--size-xxs) var(--size-s);
 }
 
-.callout.warning {
+.callout[data-callout="warning"] {
 	background: var(--color-secondary-light);
 	border-left-color: var(--color-secondary-dark);
 	color: var(--color-text);
+}
+
+.callout-title {
+	align-items: center;
+	display: flex;
+	font-weight: var(--font-weight-bold);
+}
+
+.callout-title-icon {
+	line-height: 1;
+	margin-right: var(--size-xxs);
+}
+
+.callout-content p {
+	margin-top: 0.25em;
 }

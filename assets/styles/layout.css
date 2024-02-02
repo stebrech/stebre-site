@@ -29,6 +29,7 @@
 	--line-height-loose: 1.75;
 	--line-height-normal: 1.5;
 	--line-height-dense: 1.2;
+	--line-thickness: 0.2rem;
 }
 
 @font-face {

@@ -1,5 +1,6 @@
 const markdownItWikilinks = require("markdown-it-wikilinks");
 const slugify = require("slugify");
+const mdItObsidianCallouts = require("markdown-it-obsidian-callouts");
 
 module.exports = function (eleventyConfig) {
 	const wikilinksOptions = {
@@ -9,5 +10,7 @@ module.exports = function (eleventyConfig) {
 		uriSuffix: "",
 	};
 
-	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItWikilinks(wikilinksOptions)));
+	eleventyConfig.amendLibrary("md", (mdLib) =>
+		mdLib.use(markdownItWikilinks(wikilinksOptions), mdLib.use(mdItObsidianCallouts)),
+	);
 };

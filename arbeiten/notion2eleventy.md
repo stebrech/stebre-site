@@ -120,7 +120,8 @@ Wohin die Markdown und Assets Dateien gespeichert werden, muss für jeden Beitra
 
 `notion2eleventy` nutzt das Node Paket `dotenv`. Damit werden *Environment*-Variablen in einer `.env`-Datei gespeichert und API-Keys nicht direkt in den Code geschrieben.
 
-<div class="callout warning"><strong>Achtung:</strong> Füge <code>.env</code> deiner <code>.gitignore</code>-Datei hinzu damit die Keys nicht unbewusst veröffentlicht werden. </div>
+> [!warning] Achtung: Teile deine Keys nicht in öffentlichen Repositories
+> Füge `.env` deiner `.gitignore`-Datei hinzu damit die Keys nicht unbewusst veröffentlicht werden.
 
 Füge eine `.env`-Datei mit folgenden Variablen dem Root-Ordner hinzu:
 
