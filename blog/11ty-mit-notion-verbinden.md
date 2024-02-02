@@ -1,18 +1,19 @@
 ---
 title: 11ty mit Notion verbinden
 date: 2023-09-17
+updated: 2024-02-02
 featuredImage: assets/img/20230917_11ty-mit-notion-verbinden_0.png
 description: Für stebre.ch und bisher zwei weiteren Websites habe ich mir etwas neues ausgedacht. Da verwende ich neu den lieb gewonnen Static Site Generator 11ty in Kombination von Notion, einem vielseitigen Content Tool in der Cloud.
 tags:
   - 11ty
-  - posts
   - Markdown
-  - TODO
+  - posts
 ---
 
-Für [stebre.ch](http://stebre.ch/) und bisher zwei weiteren Websites habe ich mir etwas neues ausgedacht. Da verwende ich neu den lieb gewonnen Static Site Generator [11ty](https://www.11ty.dev/) in Kombination von [Notion](https://www.notion.so/), einem vielseitigen Content Tool in der Cloud.
+Für ~~[stebre.ch](http://stebre.ch/)~~ und bisher zwei weiteren Websites habe ich mir etwas neues ausgedacht. Da verwende ich neu den lieb gewonnen Static Site Generator [11ty](https://www.11ty.dev/) in Kombination von [Notion](https://www.notion.so/), einem vielseitigen Content Tool in der Cloud.
 
-> [!info] Update 23.01.2024: Für stebre.ch nutze ich mittlerweile [Obsidian](https://obsidian.md/) für die lokale Inhaltserstellung. Da ich die Notion-Schnittstelle aber für [[../arbeiten/creation-eliane|création eliane]], [[../arbeiten/familienverein-wahlen|Familienverein Wahlen]] und hoffentlich auch bald für weitere spannende Projekte nutze, pflege ich diese weiter. 
+> [!info] Update 2.2.2024
+> Für stebre.ch nutze ich mittlerweile [Obsidian](https://obsidian.md/) zur Erstellung und Verwaltung der Inhalte. Da ich die Notion-Schnittstelle weiterhin für création eliane, [[../arbeiten/familienverein-wahlen|Familienverein Wahlen]] und hoffentlich auch bald für weitere spannende Projekte nutze, pflege ich diese weiter. Mit [[arbeiten/notion2eleventy|notion2eleventy]] habe ich ein besser konfigurierbares 11ty Plugin gebaut.
 
 ## Was ist 11ty?
 
@@ -20,7 +21,7 @@ Für [stebre.ch](http://stebre.ch/) und bisher zwei weiteren Websites habe ich m
 
 Mit 11ty lässt sich mit nur sehr wenig Code bereits Resultate erzielen, ist also minimalistisch aber konfigurativ stark erweiterbar. Es kommt von Grund auf mit wenig Node.js Abhängigkeiten (Dependencies) aus und gehört zu den Schnellsten wenn es darum geht die Website zu generieren (Build Time). Die vielen möglichen Templatesprachen sind ebenfalls ein grosser Vorteil. Ich nutze eine Kombination aus Markdown und Nunjucks.
 
-Folgendes YouTube-Video von [11ty Rocks!](https://11ty.rocks/) demonstriert ein Drei-Minuten-Setup mit 11ty: [https://www.youtube.com/watch?v=BKdQEXqfFA0](https://www.youtube.com/watch?v=BKdQEXqfFA0)
+Folgendes YouTube-Video von [11ty Rocks!](https://11ty.rocks/) demonstriert ein Drei-Minuten-Setup mit 11ty: [Build an 11ty Site in 3 Minutes](https://www.youtube.com/watch?v=BKdQEXqfFA0)
 
 ## Was ist Notion?
 
@@ -49,6 +50,9 @@ Um die Notion API zu nutzen wird das Node Paket [`notionhq/client`](https://www.
 Ich wollte die Inhalte innerhalb des 11ty Repositories haben und als Markdown Files herunterladen. Somit habe ich für meine Inhalte auch gleich ein Backup. Um dies zu erreichen braucht es ein weiteres Node Paket: [`notion-to-md`](https://www.npmjs.com/package/notion-to-md).
 
 ### fetchContent.js
+
+> [!info] Update 2.2.2024
+> Der im folgenden aufgezeigten Code ist zum Teil überholt. Mit [[arbeiten/notion2eleventy|notion2eleventy]] und habe ich ihn ein Node Paket überführt.
 
 Die Konfiguration wie die Markdown-Files heruntergeladen und befüllt werden sollen, habe ich in einer neuen JavaScript-Datei (`fetchContent.js`) vorgenommen. 
 
@@ -349,7 +353,7 @@ Zum Schluss wird das Markdown-File geschrieben und der Status in Notion umgestel
 }
 ```
 
-Im Github-Repository [stebrech/stebre-site](https://github.com/stebrech/stebre-site) ist die komplette `fetchContent.js` zugänglich. Ich freue mich wenn du einen Verbesserungsvorschlag oder Bug dort meldest.
+~~Im Github-Repository [stebrech/stebre-site](https://github.com/stebrech/stebre-site) ist die komplette `fetchContent.js` zugänglich. Ich freue mich wenn du einen Verbesserungsvorschlag oder Bug dort meldest.~~
 
 Für die Umsetzung hat mir unter anderem der Blogpost [From Notion to Eleventy](https://iamschulz.com/from-notion-to-eleventy/) von Daniel Schulz geholfen und auch ChatGPT musste ich hin und wieder um Rat fragen ;-)
 
