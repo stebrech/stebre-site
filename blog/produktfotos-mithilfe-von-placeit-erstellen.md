@@ -4,8 +4,8 @@ date: 2013-01-02
 featuredImage: assets/img/20130102_produktfotos-mithilfe-von-placeit-erstellen_0.png
 description: Heute habe ich bei t3n von einem eindrucksvollen Webtool gelesen. Es handelt sich um PlaceIt von Breezi. Dank PlaceIt sind Produktfotos für beispielsweise Software, Webseiten und Apps ein Kinderspiel.
 tags:
+  - App
   - Marketing
-  - Web-Applikation
   - posts
 ---
 Heute habe ich bei [t3n](http://t3n.de/news/placeit-produkt-screenshots-drag-434247/) von einem eindrucksvollen Webtool gelesen. Es handelt sich um [PlaceIt](http://placeit.breezi.com/) von [Breezi](http://breezi.com/). Dank [PlaceIt](http://placeit.breezi.com/) sind Produktfotos für beispielsweise Software, Webseiten und Apps ein Kinderspiel.

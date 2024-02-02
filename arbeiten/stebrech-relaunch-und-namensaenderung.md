@@ -5,8 +5,9 @@ updated: 2023-09-17
 featuredImage: assets/img/20221115_stebrech-relaunch-und-namensaenderung_0.png
 description: "stebre.ch: Klammheimlich habe ich ein Relaunch meiner persönlichen Website durchgeführt und zudem noch den Namen geändert. Ich möchte es aber nicht unterlassen dir einen kleinen Einblick zu geben."
 tags:
+  - 11ty
   - Branding
-  - Design
+  - Content
   - Webentwicklung
   - projects
 featured: false

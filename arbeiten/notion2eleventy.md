@@ -4,9 +4,10 @@ date: 2024-01-29
 featuredImage: assets/img/20230917_11ty-mit-notion-verbinden_0.png
 description: "notion2eleventy ist ein Plugin für den Static Site Generator Eleventy (kurz: 11ty). Es lädt Inhalte von Notion in dein 11ty-Verzeichnis. Mit einem statusbasierten Workflow wird dafür gesorgt, dass nur die Inhalte heruntergeladen werden, die sich verändert haben. Das Plugin ist als Node Modul auf npmjs.com verfügbar."
 tags:
-  - projects
   - 11ty
   - Markdown
+  - Notion
+  - projects
 featured: true
 weblink: https://github.com/stebrech/notion2eleventy
 aliases:

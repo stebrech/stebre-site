@@ -6,7 +6,6 @@ description: Für meinen Schwiegervater habe ich das Logo Innocu umgesetzt. Es i
 tags:
   - Animation
   - Branding
-  - Design
   - projects
 featured: false
 aliases:

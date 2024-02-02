@@ -4,7 +4,7 @@ date: 2014-11-06
 featuredImage: assets/img/20141106_remoteie--internet-explorer-auf-dem-mac_0.jpg
 description: Obwohl der Internet Explorer unter Webentwicklern nicht gerade grosse Beliebtheit geniest, wäre es zum Testen von Webseiten am einfachsten, man könnte ihn auf einem Mac installieren.
 tags:
-  - Web-Applikation
+  - App
   - posts
 ---
 Obwohl der Internet Explorer unter Webentwicklern nicht gerade grosse Beliebtheit geniest, wäre es zum Testen von Webseiten am einfachsten, man könnte ihn auf einem Mac installieren.

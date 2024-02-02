@@ -4,7 +4,6 @@ date: 2012-07-04
 featuredImage: assets/img/20120704_social-media-icons-rounded-and-glossy-v2_0.jpg
 description: Die Icons bestehen, wie bereits die Vorgängerversion, aus einer Reihe von Symbolen diverser Social Media Diensten. Diese Icons wurden durch einen runderen Hintergrund ersetzt.
 tags:
-  - Design
   - Icons
   - projects
 featured: false

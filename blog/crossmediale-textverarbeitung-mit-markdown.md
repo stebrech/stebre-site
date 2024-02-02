@@ -5,10 +5,10 @@ featuredImage: assets/img/20180416_crossmediale-textverarbeitung-mit-markdown_0.
 description: Eine grosse Herausforderung bei der medienneutralen Datenherstellung ist das fehlende Bewusstsein für strukturierte Inhalte. Werden Inhalte (zuerst) in Textverarbeitungsprogrammen wie Microsoft Word erstellt, wird versucht diese ansprechend zu gestalten.
 tags:
   - Barrierefreiheit
+  - ContentFirst
   - InDesign
   - Markdown
   - posts
-  - ContentFirst
 ---
 Eine grosse Herausforderung bei der medienneutralen Datenherstellung ist das fehlende Bewusstsein für strukturierte Inhalte. Werden Inhalte (zuerst) in Textverarbeitungsprogrammen wie Microsoft Word erstellt, wird versucht diese ansprechend zu gestalten. Meist bleibt eine saubere Struktur dabei aber auf der Strecke.
 

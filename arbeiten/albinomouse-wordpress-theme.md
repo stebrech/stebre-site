@@ -4,9 +4,7 @@ date: 2013-01-01
 featuredImage: assets/img/20130101_albinomouse-wordpress-theme_0.png
 description: AlbinoMouse war mein erstes WordPress Theme, welches ich entwickelt habe und im offiziellen Verzeichnis auf wordpress.org zur Verfügung gestellt habe.
 tags:
-  - Template
   - Webentwicklung
-  - WordPress
   - projects
 featured: false
 weblink: https://wordpress.org/themes/albinomouse/
