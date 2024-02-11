@@ -1,14 +1,35 @@
 {% for post in results %}
 	<div class="animate__wrapper animate__animated">
-		<article class="postPreview ">
+		<article class="postPreview">
 				<div class="postPreview_container">
-					<h3 class="postPreview_title">
+					<h3 class="postPreview_title"{% if post.data.lang === "en" %} lang="en"{% endif %}>
 						<a href="{{ post.url }}" class="postPreview_link">{{ post.data.title }}</a>
 					</h3>
-					<footer>
-						<p class="postPreview_metadata">vom <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate }}</time>{% if post.data.updated %}, aktualisiert am <time datetime="{{ post.data.updated | htmlDateString }}">{{ post.data.updated | readableDate}}</time>{% endif %}</p>
+					<footer class="postPreview_metadata">
+						<p>{% if post.data.collection === "bookmarks" %}gefunden am{% else %}vom{% endif %} <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate }}</time>{% if post.data.updated %}<br>aktualisiert am <time datetime="{{ post.data.updated | htmlDateString }}">{{ post.data.updated | readableDate}}</time>{% endif %}</p>
+						{% if post.data.tags %}
+							<ul>
+							{% if post.data.lang === "en" %}
+								<li class="postPreview_tag lang">EN</li>
+							{% endif %}
+							{% if templateClass === "taglist" %}
+								{% if post.data.collection === "bookmarks" %}
+									<li class="postPreview_tag bookmarks">Lesezeichen</li>
+								{% elif post.data.collection === "projects" %}
+									<li class="postPreview_tag projects">Arbeiten</li>
+								{% elif post.data.collection === "posts" %}
+									<li class="postPreview_tag posts">Blog</li>
+								{% endif %}
+							{% endif %}
+							{% for tag in post.data.tags | excludeTagsFromTagList %}
+								<li class="postPreview_tag">#{{ tag }}</a>
+							{% endfor %}
+							</ul>
+						{% endif %}
 					</footer>
-					<p class="postPreview_excerpt">{{ post.data.description }}</p>
+					<p class="postPreview_excerpt">
+						{{ post.data.description }}
+					</p>
 				</div> 
 				{% if post.data.featuredImage %}
 					<div class="postPreview_featuredImage">

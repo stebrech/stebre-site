@@ -26,6 +26,14 @@ permalink: /sitemap.xml
 			<priority>{{ item.data.sitemapPriority | default(0.8) }}</priority>
 		</url>
 	{% endfor %}
+	{% for item in collections.bookmarks | reverse %}
+		<url>
+			<loc>{{ metadata.url }}{{ item.url }}</loc>
+			<lastmod>{{ item.date | htmlDateString }}</lastmod>
+			<changefreq>{{ item.data.sitemapChangefreq | default("monthly") }}</changefreq>
+			<priority>{{ item.data.sitemapPriority | default(0.2) }}</priority>
+		</url>
+	{% endfor %}
 	{% for item in collections.pages %}
 		<url>
 			<loc>{{ metadata.url }}{{ item.url }}</loc>

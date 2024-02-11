@@ -20,8 +20,11 @@
 			{% include "assets/styles/accessibility.css" %}
 			{% include "assets/styles/layout.css" %}
 			{% include "assets/styles/elements.css" %}
-			{% if templateClass === "home" or templateClass === "postlist" %}
+			{% if templateClass === "home" or templateClass === "postlist" or templateClass === "taglist" %}
 				{% include "assets/styles/post_preview.css" %}
+			{% endif %}
+			{% if templateClass === "linktipps" %}
+				{% include "assets/styles/linktipps.css" %}
 			{% endif %}
 			{% if templateClass === "home" %}
 				{% include "assets/styles/home.css" %}
@@ -42,6 +45,10 @@
 						new PagefindUI({ element: "#search", showSubResults: true });
 				});
 		</script>
+		{% if templateClass === "linktipps" %}
+		<script src="/assets/tablefilter/tablefilter.js"></script>
+		{% endif %}
+
 
 		{#- Favicons #}
 		{% include "partials/favicon.njk" %}

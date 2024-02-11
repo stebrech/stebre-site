@@ -1,42 +1,46 @@
 <article data-pagefind-body>
 	<div class="headerShadow">
 		<header class="headerPost">
-			{% if featuredImage %}
 				<div class="containerM">
-					<h1 class="title">{{ title }}</h1>
-					<div class="featuredImage">
-						{% image featuredImage, "" %}
-					</div>
+					<h1 class="title"{% if post.data.lang === "en" %} lang="en"{% endif %}>
+						{{ title }}
+					</h1>
+					{% if featuredImage %}
+						<div class="featuredImage">
+							{% image featuredImage, "" %}
+						</div>
+					{% endif %}
 				</div>
-			{% else %}
-				<div class="containerL">
-					<h1 class="title">{{ title }}</h1>
-				</div>
-			{% endif %}
 		</header>
 	</div>
 	<div class="containerL">
 		<div class="contentContainer">
-			<div class="content">{{ content | safe }}</div>
+			<div class="content"{% if post.data.lang === "en" %} lang="en"{% endif %}>
+				{{ content | safe }}
+			</div>
 			<footer class="metadata">
-				{% if date %}<p>Publiziert am: {{ date | readableDate }}</p>{% endif %}
+				{% if date %}<p>{% if collection === "bookmarks" %}Gefunden am:{% else %}Publiziert am:{% endif %} {{ date | readableDate }}</p>{% endif %}
 				{% if updated %}<p>Aktualisiert am: {{ updated | readableDate }}</p>{% endif %}
 				{% if author %}<p>Autor: {{ author }}</p>{% endif %}
-				{% if weblink %}
-					<ul class="weblink">
-						<li><a href={{ weblink }}>Weblink</a></li>
+				{% if tags.length > 1 %}
+					<h2>Tags</h2>
+					<ul class="tags">
+						{%- for tag in tags | excludeTagsFromTagList %}
+							{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+							<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+						{%- endfor %}
 					</ul>
 				{% endif %}
-				{% if tags %}
-					<div>
-						<h2>Tags:</h2>
-						<ul class="tags">
-							{%- for tag in tags | excludeTagsFromTagList %}
-								{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-								<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
-							{%- endfor %}
-						</ul>
-					</div>
+				{% if timeToRead %}
+					<h2>Ungefähre Lesezeit</h2>
+					<p>{{ timeToRead }} Minuten</p>
+				{% endif %}
+				{% if lang %}
+					<h2>Sprache</h2>
+					<p>{% if lang === "en" %}Englisch{% elif lang === "de" %}Deutsch{% endif %}</p>
+				{% endif %}
+				{% if weblink %}
+					<p class="weblink"><a href={{ weblink }}>Zur Website</a></p>
 				{% endif %}
 			</footer>
 		</div>

@@ -48,7 +48,7 @@ module.exports = function (eleventyConfig) {
 		return collection.getFilteredByTag("projects").filter((item) => item.data.featured);
 	});
 	eleventyConfig.addCollection("feed", (collection) => {
-		return collection.getFilteredByGlob(["arbeiten/*.md", "blog/*.md"]);
+		return collection.getFilteredByGlob(["arbeiten/*.md", "blog/*.md", "bookmarks/*.md"]);
 	});
 
 	// Features to make your build faster (when you need them)

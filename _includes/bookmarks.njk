@@ -1,16 +1,15 @@
 ---
 layout: base.njk
 templateClass: postlist
+pagination:
+  data: collections.bookmarks
+  size: 10
+  alias: bookmarks
+permalink: /lesezeichen/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}/
 ---
 <header class="header containerM">
   <h1 class="title">{{ title }}</h1>
 </header>
-
-{% if content %}
-<section class="intro containerM">
-	{{ content | safe }}
-</section>
-{% endif %}
 
 <section class="filter containerM">
 	<h2 class="sectionTitle">Nach einem Schlagwort filtern</h2>
@@ -22,9 +21,11 @@ templateClass: postlist
 	</ul>
 </section>
 
-<section class="results containerL">
-  <div class="cards">
-		{% set results = collections[collection] | reverse %}
-		{% include "partials/preview.njk" %}
+<section class="results containerM">
+	<div class="list">
+		{% set results = bookmarks | reverse %}
+			{% include "partials/preview.njk" %}
 	</div>
+	{% include "partials/nav_pagination.njk" %}
 </section>
+
