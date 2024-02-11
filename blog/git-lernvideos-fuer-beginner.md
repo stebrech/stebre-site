@@ -4,8 +4,8 @@ date: 2015-01-25
 featuredImage: assets/img/20150125_git-lernvideos-fuer-beginner_0.png
 description: Die Macher von Tower, einem beliebten Git Client, bieten auf ihrer Website zusätzlich Lernressourcen zum Thema Git an. Die Inhalte sind in Englisch und in eBook, Videokurse und Webinar aufgeteilt.
 tags:
-  - Git
-  - Webentwicklung
+  - git
+  - webentwicklung
   - posts
 ---
 Die Macher von Tower, einem beliebten Git Client, bieten auf ihrer Website zusätzlich [Lernressourcen zum Thema Git](http://www.git-tower.com/learn/) an. Die Inhalte sind in Englisch und in eBook, Videokurse und Webinar aufgeteilt.

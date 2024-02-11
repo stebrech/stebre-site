@@ -4,7 +4,7 @@ date: 2013-11-13
 featuredImage: assets/img/20131113_flaticoncom--waehle-aus-tausenden-icons-und-erzeuge-einen-webfont_0.jpg
 description: " ist eine Suchmaschine um geeignete Icons im «Flat»-Stil ausfindig zu machen. Der Dienst stammt von den Machern von freepik, einer beliebten Suchmaschine für Vektorgrafiken, Fotos und Photoshop-Dateien."
 tags:
-  - Icons
+  - icons
   - posts
 ---
 [flaticon.com](http://www.flaticon.com/) ist eine Suchmaschine um geeignete Icons im “Flat”-Stil ausfindig zu machen. Der Dienst stammt von den Machern von [freepik](http://www.freepik.com/), einer beliebten Suchmaschine für Vektorgrafiken, Fotos und Photoshop-Dateien.

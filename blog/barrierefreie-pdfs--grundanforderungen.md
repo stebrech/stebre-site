@@ -4,8 +4,8 @@ date: 2017-02-20
 featuredImage: assets/img/20170220_barrierefreie-pdfs--grundanforderungen_0.jpg
 description: Im zweiten Teil dieser Artikelreihe möchte ich die Grundanforderungen eines zugänglichen PDF-Dokuments etwas beleuchten. Der Beitrag soll aufzeigen was gemacht oder beachtet werden muss.
 tags:
-  - Barrierefreiheit
-  - PDF
+  - barrierefreiheit
+  - pdf
   - posts
 ---
 Im zweiten Teil dieser Artikelreihe möchte ich die Grundanforderungen eines zugänglichen PDF-Dokuments etwas beleuchten. Der Beitrag soll aufzeigen was gemacht oder beachtet werden muss.

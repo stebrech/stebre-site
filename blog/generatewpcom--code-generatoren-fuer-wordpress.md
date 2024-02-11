@@ -3,8 +3,8 @@ title: generatewp.com – Code Generatoren für WordPress
 date: 2013-05-01
 description: Das Aufbohren von WordPress funktioniert entweder via Plugin oder Theme. Obwohl für wahrscheinlich jedes Szenario ein Plugin besteht, gibt es auch Vorteile selbst Hand anzulegen. Dies geschieht entweder durch das Erstellen eines eigenen Plugins oder durch das Erweitern des Themes mithilfe der functions.php.
 tags:
-  - App
-  - WordPress
+  - app
+  - wordpress
   - posts
 ---
 Das Aufbohren von WordPress funktioniert entweder via Plugin oder Theme. Obwohl für wahrscheinlich jedes Szenario ein Plugin besteht, gibt es auch Vorteile selbst Hand anzulegen. Dies geschieht entweder durch das Erstellen eines eigenen Plugins oder durch das Erweitern des Themes mithilfe der functions.php.

@@ -4,7 +4,7 @@ date: 2014-10-06
 featuredImage: assets/img/20141006_die-ersten-vier-icons-auf-noun-project_0.png
 description: Auf Noun Project habe ich die vier angezeigten Icons zur Verfügung gestellt.
 tags:
-  - Icons
+  - icons
   - projects
 featured: false
 aliases:

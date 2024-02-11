@@ -4,8 +4,8 @@ date: 2011-10-14
 featuredImage: assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_0.jpg
 description: Die israelische Firma ICVT, welche sich dem Thema Medien Kompression widmet, entwickelte JPEGmini. JPEGmini reduziert ein JPEG Bild bis zu 80%, angeblich ohne sichtbaren Qualitätsverlust.
 tags:
-  - App
-  - Bildoptimierung
+  - app
+  - bildoptimierung
   - posts
 ---
 Seit sich die digitale Fotografie in unser Leben integrierte, brauchen wir uns nicht mehr um die Fotoentwicklung und deren Kosten zu kümmern. Wir knipsen also drauf los und suchen uns die schönsten Bilder aus. Nun speichern wir die Daten auf eigenen Festplatten oder externen Servern ab oder teilen sie in sozialen Netzen. Nach etlichen Fotos folgen die ersten Probleme wie eine logische Namensgebung und Sortierung, aber eben auch die platzraubende Datenmenge.

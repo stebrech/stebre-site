@@ -4,8 +4,8 @@ date: 2014-04-09
 featuredImage: assets/img/20140409_wie-finde-ich-heraus-welches-wordpress-theme-auf-einer-seite-benutzt-wird_0.jpg
 description: Beim Surfen durch das Web gelangt man immer wieder mal auf eine Website welche mit einem ansprechenden Design ausgestattet ist. Nutzt man WordPress und vermutet, dass gefundene Seite ebenfalls mit WordPress läuft, wäre es doch nützlich rasch herauszufinden welches Theme eingesetzt wird – nicht?
 tags:
-  - App
-  - WordPress
+  - app
+  - wordpress
   - posts
 ---
 Beim Surfen durch das Web gelangt man immer wieder mal auf eine Website welche mit einem ansprechenden Design ausgestattet ist. Nutzt man WordPress und vermutet, dass gefundene Seite ebenfalls mit WordPress läuft, wäre es doch nützlich rasch herauszufinden welches Theme eingesetzt wird – nicht?

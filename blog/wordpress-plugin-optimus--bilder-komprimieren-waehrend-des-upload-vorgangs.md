@@ -4,9 +4,9 @@ date: 2012-10-08
 featuredImage: assets/img/20121008_wordpress-plugin-optimus--bilder-komprimieren-waehrend-des-upload-vorgangs_0.jpg
 description: Um die Ladezeit einer Website zu verbessern ist die Optimierung von Bildern einer der wichtigsten Massnahmen. Das neue WordPress Plugin Optimus von Sergej Müller bietet eine komfortable automatische Optimierung während des Upload-Vorgangs.
 tags:
-  - Bildoptimierung
-  - WordPress
-  - Performance
+  - bildoptimierung
+  - wordpress
+  - performance
   - posts
 ---
 Um die Ladezeit einer Website zu verbessern ist die Optimierung von Bildern einer der wichtigsten Massnahmen. [Das neue WordPress Plugin Optimus von Sergej Müller](http://wordpress.org/plugins/optimus/) bietet eine komfortable automatische Optimierung während des Upload-Vorgangs.

@@ -4,7 +4,7 @@ date: 2012-03-11
 featuredImage: assets/img/20120311_url-weiterleitungen-aus-dem-wordpress-backend-steuern_0.jpg
 description: Gerade wenn man sich um eine grössere Anzahl URL-Weiterleitungen kümmern muss, ist Übersicht gefragt. Bei meinem Umzug zu WordPress musste ich mich um viele dieser Umleitungen kümmern. So habe ich nach einem Plugin gesucht und bin auf Redirection gestossen.
 tags:
-  - WordPress
+  - wordpress
   - posts
 ---
 Gerade wenn man sich um eine grössere Anzahl URL-Weiterleitungen kümmern muss, ist Übersicht gefragt. [Bei meinem Umzug zu WordPress](https://www.pixelstrol.ch/pixelstrol-ch-ist-von-joomla-zu-wordpress-umgezogen/) musste ich mich um viele dieser Umleitungen kümmern. So habe ich nach einem Plugin gesucht und bin auf [Redirection](http://wordpress.org/plugins/redirection/) gestossen.

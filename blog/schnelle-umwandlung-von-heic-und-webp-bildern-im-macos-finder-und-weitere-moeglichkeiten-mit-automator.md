@@ -4,8 +4,8 @@ date: 2023-02-12
 featuredImage: assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_0.png
 description: Bildformate wie HEIC und WebP werden von vielen Applikationen noch nicht unterstützt. Daher ergeben sich immer wieder Situationen in denen man Bilder in ein JPEG oder PNG umwandeln muss.
 tags:
-  - Automatisierung
-  - Bildoptimierung
+  - automatisierung
+  - bildoptimierung
   - posts
 ---
 Bildformate wie `HEIC` und `WebP` werden von vielen Applikationen noch nicht unterstützt. Daher ergeben sich immer wieder Situationen in denen man Bilder in ein `JPEG` oder `PNG` umwandeln muss.

@@ -4,7 +4,7 @@ date: 2014-02-07
 featuredImage: assets/img/20140207_wp-snippet-alle-bildgroessen-im-medien-uploader-anzeigen_0.jpg
 description: Der WordPress Medien Uploader generiert beim Hochladen von Bildern automatisch mehrere Bildkopien in den definierten Bildgrössen. Die Standardgrössen Miniaturbild, mittlere Bildgrösse und maximale Bildgrösse lassen sich in den Einstellungen festlegen.
 tags:
-  - WordPress
+  - wordpress
   - posts
 ---
 Der WordPress Medien Uploader generiert beim Hochladen von Bildern automatisch mehrere Bildkopien in den definierten Bildgrössen. Die Standardgrössen _Miniaturbild, mittlere Bildgrösse und maximale Bildgrösse_ lassen sich in den Einstellungen festlegen.

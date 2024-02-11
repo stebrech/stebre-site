@@ -6,7 +6,7 @@ featuredImage: assets/img/20230917_11ty-mit-notion-verbinden_0.png
 description: Für stebre.ch und bisher zwei weiteren Websites habe ich mir etwas neues ausgedacht. Da verwende ich neu den lieb gewonnen Static Site Generator 11ty in Kombination von Notion, einem vielseitigen Content Tool in der Cloud.
 tags:
   - 11ty
-  - Markdown
+  - markdown
   - posts
 ---
 

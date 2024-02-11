@@ -4,12 +4,10 @@ date: 2018-06-15
 featuredImage: assets/img/20180615_icons-matterhorn-protokoll_0.png
 description: Mit diesen Icons wollte ich die verschiedenen Prüfpunkte des Matterhorn Protokolls visualiseren.
 tags:
-  - Icons
+  - icons
   - projects
 featured: false
 weblink: https://github.com/stebrech/icons-matterhorn-protocol
-aliases:
-  - Icons «Matterhorn Protokoll»
 ---
 Mit diesen Icons wollte ich die verschiedenen Prüfpunkte des Matterhorn Protokolls visualiseren. Eigentlich war die Idee, diese Icons auf [accessible-pdf.info](https://accessible-pdf.info/de/) zu verwenden, dies habe ich dann aber wieder verworfen.
 

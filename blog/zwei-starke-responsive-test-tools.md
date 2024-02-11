@@ -4,8 +4,8 @@ date: 2013-07-05
 featuredImage: assets/img/20130705_zwei-starke-responsive-test-tools_0.jpg
 description: Das Web ist mobil. Es werden täglich mehr User, welche ihre Inhalte mit einem mobilen Gerät im Netz aufsuchen. Aufgrund dessen werden Webseiten vermehrt mit einem anpassungsfähigen Design angeboten. Das englische “Zauberwort” dafür heisst Responsive und bedeutet, dass sich eine Webseite an die Auflösung des Ausgabegeräts anpasst.
 tags:
-  - App
-  - Webentwicklung
+  - app
+  - webentwicklung
   - posts
 ---
 Das Web ist mobil. Es werden täglich mehr User, welche ihre Inhalte mit einem mobilen Gerät im Netz aufsuchen. Aufgrund dessen werden Webseiten vermehrt mit einem anpassungsfähigen Design angeboten. Das englische “Zauberwort” dafür heisst Responsive und bedeutet, dass sich eine Webseite an die Auflösung des Ausgabegeräts anpasst.

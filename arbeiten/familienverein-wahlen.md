@@ -5,10 +5,10 @@ updated: 2024-02-02
 featuredImage: assets/img/20220927_familienverein-wahlen_0.png
 description: Im ersten Quartal 2021 entstand die Website für den Familienverein Wahlen. Es ist das zweite Projekt, dass ich mit Gatsby umgesetzt habe.
 tags:
-  - Branding
-  - Notion
+  - branding
+  - notion
   - 11ty
-  - Webentwicklung
+  - webentwicklung
   - projects
 featured: false
 weblink: https://familienverein-wahlen.ch

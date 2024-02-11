@@ -4,7 +4,7 @@ date: 2023-12-17
 featuredImage: assets/img/20231217_iphone-als-notfalltelefon-nutzen_0.png
 description: Mit der Funktion «unterstützender Zugriff», die ab iOS Version 17 verfügbar ist, kann die komplette Bedienung des iPhones stark reduziert werden. So können essenzielle Apps, wie Telefon, Nachrichten und Kontakte mit grossen Icons dargestellt werden. Dies hilft Menschen mit kognitiven Einschränkungen.
 tags:
-  - Apple
+  - apple
   - posts
 ---
 Mit der Funktion «unterstützender Zugriff», die ab iOS Version 17 verfügbar ist, kann die komplette Bedienung des iPhones stark reduziert werden. So können essenzielle Apps, wie Telefon, Nachrichten und Kontakte mit grossen Icons dargestellt werden. Dies hilft Menschen mit kognitiven Einschränkungen

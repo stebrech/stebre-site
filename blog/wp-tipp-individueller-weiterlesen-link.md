@@ -4,7 +4,7 @@ date: 2012-12-25
 featuredImage: assets/img/20121225_wp-tipp-individueller-weiterlesen-link_0.jpeg
 description: In diesem kleinem Beitrag möchte ich aufzeigen wie der Text des Weiterlesen-Links individuell angepasst werden kann.
 tags:
-  - WordPress
+  - wordpress
   - posts
 ---
 In diesem kleinem Beitrag möchte ich aufzeigen wie der Text des Weiterlesen-Links individuell angepasst werden kann.

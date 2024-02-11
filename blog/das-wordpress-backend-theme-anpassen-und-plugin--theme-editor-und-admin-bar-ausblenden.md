@@ -4,7 +4,7 @@ date: 2012-04-06
 featuredImage: assets/img/20120406_das-wordpress-backend-theme-anpassen-und-plugin--theme-editor-und-admin-bar-ausblenden_0.jpg
 description: Es bestehen Möglichkeiten das WordPress Backend an persönliche Bedürfnisse anzupassen. Abstimmungen an das Corporate Design wird wohl einer, der bedeutendsten Gründe dafür sein. Nebst Änderungen am Aussehen, möchte ich auch auf das Ausblenden von Plugin-, Theme-Editor und der Admin Bar eingehen.
 tags:
-  - WordPress
+  - wordpress
   - posts
 ---
 Es bestehen Möglichkeiten das WordPress Backend an persönliche Bedürfnisse anzupassen. Abstimmungen an das Corporate Design wird wohl einer, der bedeutendsten Gründe dafür sein. Nebst Änderungen am Aussehen, möchte ich auch auf das Ausblenden von Plugin-, Theme-Editor und der Admin Bar eingehen.

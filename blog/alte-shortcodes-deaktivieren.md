@@ -4,7 +4,7 @@ date: 2016-04-21
 featuredImage: assets/img/20160421_alte-shortcodes-deaktivieren_0.jpg
 description: Shortcodes wurden in der WordPress Version 2.5 eingeführt. Einen Shortcode erkennt man an den eckigen Klammern […]. Solche Shortcodes können auf sehr einfache Weise in den Beitragseditor eingegeben werden, welche eine hinterlegte Funktion auslösen.
 tags:
-  - WordPress
+  - wordpress
   - posts
 ---
 Shortcodes wurden in der WordPress Version 2.5 eingeführt. Einen Shortcode erkennt man an den eckigen Klammern `[…]`. Solche Shortcodes können auf sehr einfache Weise in den Beitragseditor eingegeben werden, welche eine hinterlegte Funktion auslösen.
