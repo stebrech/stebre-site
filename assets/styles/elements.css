@@ -106,6 +106,12 @@ a[href*="//"]:not([href*="stebre.ch"]):focus
 	display: block;
 }
 
+.post-tag::before {
+	content: "#";
+	color: var(--color-secondary);
+	font-weight: var(--font-weight-bold);
+}
+
 /* a:not(:focus)::before {
 	background: var(--color-secondary);
 	background: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-secondary-light) 100%);
@@ -244,6 +250,51 @@ tr:not(:last-child) {
 	border-bottom: 1px solid var(--color-text);
 }
 
+/* Callouts and Quotes */
+
+.callout,
+blockquote {
+	background: var(--callout-bg, transparent);
+	border-left: var(--line-thickness) solid var(--callout-border-color, var(--color-gray-dark));
+	color: var(--callout-color, var(--color-gray-dark));
+	margin-top: 1em;
+	padding: var(--size-xxs) var(--size-xs) var(--size-xxs) var(--size-s);
+}
+
+.callout[data-callout="info"] {
+	--callout-bg: var(--color-primary-light);
+	--callout-border-color: var(--color-primary);
+	--callout-color: var(--color-primary-dark);
+}
+.callout[data-callout="warning"] {
+	--callout-bg: var(--color-secondary-light);
+	--callout-border-color: var(--color-secondary-dark);
+	--callout-color: var(--color-text);
+}
+
+.callout-title {
+	align-items: center;
+	display: flex;
+	font-weight: var(--font-weight-bold);
+}
+
+.callout-title-icon {
+	line-height: 1;
+	margin-right: var(--size-xxs);
+}
+
+.callout-content p {
+	margin-top: 0.25em;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+blockquote > p:first-child {
+	margin-top: 0;
+}
+
 /* Inline styling */
 
 b,
@@ -268,7 +319,7 @@ acronym {
 button {
 	cursor: pointer;
 	line-height: var(--line-height-normal);
-	padding: var(--size-l) var(--size-l) var(--size-l) var(--size-l);
+	padding: var(--size-s);
 }
 
 input:focus,
@@ -432,35 +483,4 @@ code[class*="language-css"] {
 * ::selection {
 	background: var(--color-primary-dark);
 	color: #fff;
-}
-
-/* Callouts */
-
-.callout {
-	background: var(--color-primary-light);
-	border-left: var(--line-thickness) solid var(--color-primary);
-	color: var(--color-primary-dark);
-	margin-top: 1em;
-	padding: var(--size-xxs) var(--size-xs) var(--size-xxs) var(--size-s);
-}
-
-.callout[data-callout="warning"] {
-	background: var(--color-secondary-light);
-	border-left-color: var(--color-secondary-dark);
-	color: var(--color-text);
-}
-
-.callout-title {
-	align-items: center;
-	display: flex;
-	font-weight: var(--font-weight-bold);
-}
-
-.callout-title-icon {
-	line-height: 1;
-	margin-right: var(--size-xxs);
-}
-
-.callout-content p {
-	margin-top: 0.25em;
 }

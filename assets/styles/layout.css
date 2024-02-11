@@ -29,7 +29,7 @@
 	--line-height-loose: 1.75;
 	--line-height-normal: 1.5;
 	--line-height-dense: 1.2;
-	--line-thickness: 0.2rem;
+	--line-thickness: 0.15rem;
 }
 
 @font-face {
@@ -151,7 +151,6 @@ body {
 	background-color: var(--color-primary-dark);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 	display: flex;
-	height: 4rem;
 	justify-content: space-between;
 	margin: 0 auto;
 	padding: var(--size-m);
@@ -160,41 +159,78 @@ body {
 	z-index: 1000;
 }
 
-#mainnav ul {
+/* Navigation */
+
+nav ul,
+nav ol {
 	display: flex;
 	flex-direction: row;
 	margin: 0;
+	padding: 0;
 }
 
-#mainnav li {
+.nav-item {
 	list-style-type: none;
 	margin: 0 var(--size-xs) 0 0;
 }
 
-#mainnav a {
+.metadata .weblink {
+	margin-top: calc(var(--size-m) * 2);
+}
+
+.nav-item a,
+.weblink a {
 	line-height: var(--line-height-dense);
 }
 
-#mainnav li:not(.logo) a {
-	background-color: #fff;
+.nav-item:not(.logo) a,
+.weblink a {
+	background-color: var(--color-nav-item-bg, --color-gray-lighter);
 	border-radius: var(--border-radius);
-	color: var(--color-primary-dark);
+	color: var(--color-nav-item-text);
 	font-weight: var(--font-weight-bold);
 	text-decoration: none;
 	padding: var(--size-s);
 }
 
-#mainnav li:not(.logo) a:hover {
+#mainnav .nav-item:not(.logo) a {
+	--color-nav-item-bg: #fff;
+	--color-nav-item-text: var(--color-primary-dark);
+}
+
+#pagination .nav-item:not(.logo) a {
+	--color-nav-item-text: var(--color-secondary);
+	border: var(--line-thickness) solid var(--color-secondary);
+	padding: var(--size-s) var(--size-m);
+}
+
+.weblink a {
+	--color-nav-item-bg: var(--color-primary);
+	--color-nav-item-text: #fff;
+}
+
+.nav-item:not(.logo) a:hover,
+.weblink a:hover {
 	border-color: transparent;
 	color: var(--color-text);
 }
 
-#mainnav li.nav-item-active a {
+.nav-item.nav-item-active a,
+.nav-item a[aria-current="page"] {
 	background-color: var(--color-secondary);
+}
+
+.nav-item.nav-item-active a {
 	color: var(--color-text);
 }
 
-#mainnav li:not(.logo) a::before {
+.nav-item a[aria-current="page"] {
+	border-color: var(--color-secondary);
+	color: var(--color-gray-lighter);
+}
+
+.nav-item:not(.logo) a::before,
+.weblink a::before {
 	background: var(--color-secondary);
 	background: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-secondary-light) 100%);
 	border-radius: var(--border-radius);
@@ -209,17 +245,23 @@ body {
 	z-index: -1;
 }
 
-#mainnav a:not(:focus)::before {
+#pagination .nav-item:not(.logo) a::before {
+	border-radius: 0;
+}
+
+a:not(:focus)::before {
 	height: 0;
 }
 
-#mainnav li:not(.logo) a:hover:before {
+.nav-item:not(.logo) a:hover::before,
+.weblink a:hover::before {
 	height: 100%;
 	top: 0%;
 }
 
 #mainnav .logo {
 	font-size: 0;
+	margin-top: 0;
 }
 
 #mainnav .logo a {
@@ -240,6 +282,22 @@ body {
 	filter: brightness(100);
 }
 
+#pagination {
+	display: flex;
+	margin-top: var(--size-xxl);
+}
+
+#pagination ol {
+	margin: var(--size-xxl) 0 0 0;
+}
+
+/* 
+.pagination a:hover,
+.pagination a[aria-current="page"] {
+	background-color: var(--color-secondary);
+	color: var(--color-gray-lighter);
+} */
+
 /* Search form */
 body {
 	--pagefind-ui-scale: 1;
@@ -258,7 +316,7 @@ body {
 #search-icon {
 	background-color: transparent;
 	border: none;
-	padding-right: 0;
+	padding: 0;
 }
 
 #search-icon img {
@@ -344,7 +402,7 @@ body {
 
 /* Layout classes */
 
-.grid {
+.cards {
 	display: grid;
 	margin: 0;
 	/* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
@@ -352,6 +410,13 @@ body {
 	--n: 3;
 	gap: var(--size-xxl);
 	grid-template-columns: repeat(auto-fill, minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr));
+	margin-bottom: var(--size-xxl);
+	margin-top: var(--size-xxl);
+}
+
+.list {
+	display: grid;
+	gap: var(--size-xxl);
 	margin-bottom: var(--size-xxl);
 	margin-top: var(--size-xxl);
 }
@@ -483,20 +548,12 @@ body {
 	margin-top: var(--size-xl);
 }
 
-.weblink {
-	margin-left: -1.5em;
-}
-
 .metadata .icon {
 	align-self: center;
 }
 
 .metadata .icon img {
 	margin-top: 0;
-}
-
-p.weblink {
-	margin-top: var(--size-m);
 }
 
 .metadata li {
@@ -508,12 +565,7 @@ p.weblink {
 	line-height: 0;
 }
 
-.weblink li {
-	list-style-image: url(/assets/img/link.svg);
-}
-
 .tags li {
-	list-style-image: url(/assets/img/tag.svg);
 	margin-top: 0;
 }
 

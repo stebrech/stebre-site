@@ -3,13 +3,23 @@
 	background: #fff;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 	display: flex;
-	filter: grayscale(1);
 	flex-direction: column;
 	height: 100%;
 	margin: 0;
 	overflow: hidden;
 	position: relative;
 	transition: all 0.5s ease-out;
+}
+
+.list .postPreview {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 40rem) {
+	.list .postPreview {
+		grid-template-columns: 1fr 3fr;
+	}
 }
 
 .postPreview a::before {
@@ -19,7 +29,6 @@
 .postPreview:hover,
 .postPreview:focus-within {
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-	filter: grayscale(0);
 	transform: scale(1.05) !important;
 }
 
@@ -32,9 +41,29 @@
 }
 
 .postPreview_featuredImage {
-	clip-path: polygon(0 0, 100% 0, 100% calc(100% + -1.5rem), 0 100%);
 	height: 100%;
+	filter: grayscale(1);
 	order: -1;
+	transition: all 0.5s ease-out;
+}
+
+.postPreview:hover .postPreview_featuredImage,
+.postPreview:focus-within .postPreview_featuredImage {
+	filter: grayscale(0);
+}
+
+.grid .postPreview_featuredImage {
+	clip-path: polygon(0 0, 100% 0, 100% calc(100% + -1.5rem), 0 100%);
+}
+
+.list .postPreview_featuredImage {
+	display: none;
+}
+
+@media screen and (min-width: 40rem) {
+	.list .postPreview_featuredImage {
+		display: block;
+	}
 }
 
 .postPreview_featuredImage .container {
@@ -79,8 +108,48 @@
 }
 
 .postPreview_metadata {
+	display: flex;
+	flex-direction: column;
 	font-size: var(--size-s);
 	margin-top: var(--size-xs);
+}
+
+.postPreview_metadata p {
+	margin-top: var(--size-xxs);
+}
+
+.postPreview_metadata ul {
+	align-items: flex-end;
+	display: flex;
+	flex-direction: row;
+	margin: var(--size-xxs) 0 0 0;
+	padding: 0;
+}
+
+.postPreview_metadata .postPreview_tag {
+	background-color: var(--color-gray-light);
+	margin: 0 var(--size-xxs);
+	list-style: none;
+	padding: 0 var(--size-xxs);
+}
+
+.postPreview_metadata .postPreview_tag.lang,
+.postPreview_metadata .postPreview_tag.bookmarks {
+	background-color: var(--color-gray-dark);
+	color: var(--color-gray-lighter);
+}
+
+.postPreview_metadata .postPreview_tag.posts {
+	background-color: var(--color-primary);
+	color: var(--color-gray-lighter);
+}
+
+.postPreview_metadata .postPreview_tag.projects {
+	background-color: var(--color-secondary);
+}
+
+.postPreview_metadata li:first-of-type {
+	margin-left: 0;
 }
 
 .postPreview_excerpt {
