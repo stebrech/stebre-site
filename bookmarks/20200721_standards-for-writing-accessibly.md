@@ -1,0 +1,25 @@
+---
+title: |
+  Standards for Writing Accessibly
+date: 2020-07-21
+tags:
+  - barrierefreiheit
+  - bookmarks
+slug: standards-for-writing-accessibly
+weblink: https://alistapart.com/article/standards-for-writing-accessibly/
+domainName: alistapart.com
+lang: en
+metaDescription: |
+  In this excerpt from Writing Is Designing, Michael J. Metts and Andy Welfle discuss critical accessibility considerations for content authors, including reading order, references to additional content, and instructions.
+pocketDescription: |
+  Writing to meet WCAG2 standards can be a challenge, but it’s worthwhile. Albert Einstein, the archetypical genius and physicist, once said, “Any fool can make things bigger, more complex, and more violent. It takes a touch of genius—and a lot of courage—to move in the opposite direction.
+description: |
+  Einige wertvolle Tipps zur Barrierefreiheit aus dem Buch «Writing Is Designing» sind in diesem Blogartikel zu finden.
+featuredImage: assets/img/20200721_standards-for-writing-accessibly.png
+timeToRead: 5
+newsletter: false
+---
+<blockquote lang="en">In this excerpt from Writing Is Designing, Michael J. Metts and Andy Welfle discuss critical accessibility considerations for content authors, including reading order, references to additional content, and instructions.
+<footer>— Andy Welfle, Michael J. Metts, <a href="https://alistapart.com/article/standards-for-writing-accessibly/">alistapart.com</a></footer></blockquote>
+
+Einige wertvolle Tipps zur Barrierefreiheit aus dem Buch «[Writing Is Designing](https://rosenfeldmedia.com/books/writing-is-designing/)» sind in diesem Blogartikel zu finden.

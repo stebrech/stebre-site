@@ -1,0 +1,5 @@
+{
+	"collection": "bookmarks",
+	"layout": "post",
+	"permalink": "lesezeichen/{{ slug }}/"
+}
