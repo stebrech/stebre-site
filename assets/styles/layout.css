@@ -30,6 +30,7 @@
 	--line-height-normal: 1.5;
 	--line-height-dense: 1.2;
 	--line-thickness: 0.15rem;
+	--button-height: 3rem;
 }
 
 @font-face {
@@ -180,6 +181,9 @@ nav ol {
 
 .nav-item a,
 .weblink a {
+	align-items: center;
+	display: flex;
+	height: var(--button-height);
 	line-height: var(--line-height-dense);
 }
 
@@ -190,7 +194,7 @@ nav ol {
 	color: var(--color-nav-item-text);
 	font-weight: var(--font-weight-bold);
 	text-decoration: none;
-	padding: var(--size-s);
+	padding: 0 var(--size-s);
 }
 
 #mainnav .nav-item:not(.logo) a {
@@ -201,7 +205,7 @@ nav ol {
 #pagination .nav-item:not(.logo) a {
 	--color-nav-item-text: var(--color-secondary);
 	border: var(--line-thickness) solid var(--color-secondary);
-	padding: var(--size-s) var(--size-m);
+	padding: 0 var(--size-m);
 }
 
 .weblink a {
@@ -316,6 +320,8 @@ body {
 #search-icon {
 	background-color: transparent;
 	border: none;
+	box-shadow: none;
+	margin: 0;
 	padding: 0;
 }
 
@@ -355,14 +361,11 @@ body {
 
 #search .pagefind-ui__search-clear {
 	height: 2.8rem;
-	padding: var(--size-s);
-}
-
-#search-close-container {
-	margin-top: 0.2rem;
+	padding: 0 var(--size-s);
 }
 
 #search-close {
+	margin-top: 0;
 	padding: var(--size-xs) var(--size-s);
 	white-space: nowrap;
 }
@@ -398,6 +401,13 @@ body {
 	font-size: 1rem;
 	height: 3rem;
 	line-height: var(--line-height-normal);
+}
+
+/* Newsletter */
+
+.newsletter {
+	display: flex;
+	flex-direction: column;
 }
 
 /* Layout classes */
@@ -436,12 +446,12 @@ body {
 /* Home, Blog, Tags, ... */
 
 #primary {
-	padding-top: 4rem;
+	padding-top: 5rem;
 }
 
 @media screen and (min-width: 60rem) {
 	.header .title {
-		margin-top: 3rem;
+		margin-top: 2rem;
 	}
 }
 
@@ -483,7 +493,7 @@ body {
 
 @media screen and (min-width: 60rem) {
 	.headerPost .title {
-		margin-top: 2rem;
+		margin-top: 1rem;
 	}
 }
 
@@ -556,17 +566,18 @@ body {
 	margin-top: 0;
 }
 
-.metadata li {
-	list-style-type: none;
-}
-
-.metadata li::marker {
-	font-size: 2em;
-	line-height: 0;
+.metadata ul {
+	padding-left: 0rem;
+	list-style-position: inside;
 }
 
 .tags li {
 	margin-top: 0;
+	list-style: none;
+}
+
+.metadata hr {
+	margin-top: var(--size-xxl);
 }
 
 /* Footer */

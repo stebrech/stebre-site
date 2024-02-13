@@ -111,7 +111,6 @@
 	display: flex;
 	flex-direction: column;
 	font-size: var(--size-s);
-	margin-top: var(--size-xs);
 }
 
 .postPreview_metadata p {
@@ -119,16 +118,16 @@
 }
 
 .postPreview_metadata ul {
-	align-items: flex-end;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	margin: var(--size-xxs) 0 0 0;
 	padding: 0;
 }
 
 .postPreview_metadata .postPreview_tag {
 	background-color: var(--color-gray-light);
-	margin: 0 var(--size-xxs);
+	margin: 0 var(--size-xxs) var(--size-xxs) 0;
 	list-style: none;
 	padding: 0 var(--size-xxs);
 }
