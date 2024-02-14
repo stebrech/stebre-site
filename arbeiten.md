@@ -7,4 +7,4 @@ eleventyNavigation:
   order: "1"
 sitemapPriority: 1.0
 ---
-Hier gebe ich einen Einblick in einige Projekte, die ich selbstständig umgesetzt habe. Es handelt sich um gestalterische Arbeiten sowie Entwicklungen im Webbereich.
+Hier gebe ich einen Einblick in einige Projekte, die ich selbstständig umgesetzt habe. Es handelt sich um gestalterische Arbeiten sowie Webentwicklungen.
