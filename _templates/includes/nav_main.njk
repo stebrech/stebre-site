@@ -1,0 +1,24 @@
+<nav id="mainnav" role="navigation" aria-label="Hauptmenü" labeledby="mainmenu">
+	<span id="nav-label" hidden>Hauptmenü</span>
+	<button id="btnOpen" class="open-btn" aria-expanded="false" aria-labelledby="nav-label">
+		{# <img src="/assets/img/menu.svg" alt="" width="40" height="24" /> #}
+		{% include "./logo.svg" %}
+		<span class="open-btn-txt">Menü</span>
+	</button>	
+	<div class="menu-container" role="dialog" aria-labelledby="nav-label">
+		<button id="btnClose" class="close-btn" aria-label="Close">
+			{# <img src="/assets/img/close.svg" alt="" width="28" height="27" /> #}
+			{% include "./close.svg" %}
+		</button>
+		<ul id="mainmenu" class="menu-links visible">
+			<li class="logo nav-item">
+				<a href="/">
+					{% include "./logo.svg" %}
+				</a>
+			</li>
+			{%- for entry in collections.all | eleventyNavigation %}
+				<li class="topnav__item nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}" class="menu-links">{{ entry.title }}</a></li>
+			{%- endfor %}
+		</ul>
+	</div>
+</nav>

@@ -1,6 +1,6 @@
 ---
 title: Blogbeiträge
-layout: postlist
+layout: layouts/postlist.njk
 collection: posts
 eleventyNavigation:
   key: "Blog"

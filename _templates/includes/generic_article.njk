@@ -1,16 +1,16 @@
 <article data-pagefind-body>
 	<div class="headerShadow">
 		<header class="headerPost">
-				<div class="containerM">
-					<h1 class="title"{% if post.data.lang === "en" %} lang="en"{% endif %}>
-						{{ title }}
-					</h1>
-					{% if featuredImage %}
-						<div class="featuredImage">
-							{% image featuredImage, "" %}
-						</div>
-					{% endif %}
-				</div>
+			<div class="containerM">
+				<h1 class="title"{% if post.data.lang === "en" %} lang="en"{% endif %}>
+					{{ title }}
+				</h1>
+				{% if featuredImage %}
+					<div class="featuredImage">
+						{% image featuredImage, "" %}
+					</div>
+				{% endif %}
+			</div>
 		</header>
 	</div>
 	<div class="containerL">
@@ -42,6 +42,17 @@
 				{% if weblink %}
 					<p class="weblink"><a href={{ weblink }}>Zur Website</a></p>
 				{% endif %}
+				<hr>
+				<h2>Newsletter abonnieren</h2>
+				{% include "./form_newsletter.njk" %}
+				<hr>
+				<h2>RSS-Feed abonnieren</h2>
+				<ul>
+					<li><a href="https://stebre.ch/feed.xml">Alle Beiträge</a></li>
+					<li><a href="https://stebre.ch/feed_posts.xml">Blogbeiträge</a></li>
+					<li><a href="https://stebre.ch/feed_projects.xml">Arbeiten</a></li>
+					<li><a href="https://stebre.ch/feed_bookmarks.xml">Lesezeichen</a></li>
+				</ul>
 			</footer>
 		</div>
 	</div>

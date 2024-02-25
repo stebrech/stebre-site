@@ -1,7 +1,7 @@
 {
 	"author": "Stefan Brechbühl",
 	"featuredImage": "assets/img/banner-stebre.png",
-	"layout": "post",
+	"layout": "layouts/post.njk",
 	"permalink": "{{ page.filePathStem }}/",
 	"collection": "projects"
 }

@@ -1,6 +1,6 @@
 ---
 title: Lesezeichen
-layout: bookmarks
+layout: layouts/bookmarks.njk
 collection: bookmarks
 eleventyNavigation:
   key: "Lesezeichen"

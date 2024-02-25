@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: layouts/base.njk
 templateClass: taglist
 pagination:
   data: collections
@@ -23,6 +23,6 @@ permalink: /tags/{{ tag }}/
 <section class="results containerM{% if results.length === 0 %} hidden{% endif %}">
 	<h2 class="sectionTitle">Alle Inhalte mit dem Schlagwort <code>#{{ tag }}</code></h2>
 	<div class="list">
-    {% include "partials/preview.njk" %}
+    {% include "includes/preview.njk" %}
   </div>
 </section>

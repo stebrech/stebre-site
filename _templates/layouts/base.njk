@@ -37,13 +37,15 @@
 		<link rel="stylesheet" href="/assets/styles/animate.min.css">
 
 		{#- Scripts #}
+		<script src="/assets/js/body-scroll-lock-upgrade/index.umd.js"></script>
+		<script src="/assets/js/menu.js" defer></script>
 		<script src="/assets/js/animateInViewport.js" defer></script>
 		<script src="/assets/js/search.js" defer></script>
 		<script src="/pagefind/pagefind-ui.js" defer></script>
 		<script>
-				window.addEventListener('DOMContentLoaded', (event) => {
-						new PagefindUI({ element: "#search", showSubResults: true });
-				});
+			window.addEventListener('DOMContentLoaded', (event) => {
+				new PagefindUI({ element: "#search", showSubResults: true });
+			});
 		</script>
 		{% if templateClass === "linktipps" %}
 		<script src="/assets/tablefilter/tablefilter.js"></script>
@@ -51,10 +53,10 @@
 
 
 		{#- Favicons #}
-		{% include "partials/favicon.njk" %}
+		{% include "includes/favicon.njk" %}
 
 		{#- Open Graph #}
-		{% include "partials/og.njk" %}
+		{% include "includes/og.njk" %}
 
 		{#- Love for 11ty #}
 		<meta name="generator" content="{{ eleventy.generator }}">
@@ -64,8 +66,8 @@
 		<div class="site">
 			<a href="#primary" class="skip_link screen-reader-text">Zum Inhalt springen</a>
 
-			<header class="site_header" role="banner">
-				{% include "partials/nav_main.njk" %}
+			<header class="site_header topnav wrapper" role="banner">
+				{% include "includes/nav_main.njk" %}
 				<button id="search-icon" aria-label="Search">
 					{% image "assets/img/search.svg", "Search Icon" %}
 				</button>
@@ -81,7 +83,7 @@
 				{{ content | safe }}
 			</main>
 
-			{% include "partials/footer.njk" %}
+			{% include "includes/footer.njk" %}
 
 		</div>
 

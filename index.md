@@ -1,6 +1,6 @@
 ---
 title: Was und wer ist SteBre?
-layout: home
+layout: layouts/home.njk
 sitemapPriority: 1.0
 ---
 Hey, mein Name ist **Ste**fan **Bre**chbühl. SteBre ist meine persönliche Website. Hier zeige ich [[arbeiten|meine Nebenprojekte]] und [[blog|schreibe über Publishing und technische Themen]].

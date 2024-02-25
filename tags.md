@@ -1,4 +1,4 @@
 ---
 title: Tags
-layout: taglist
+layout: layouts/taglist.njk
 ---

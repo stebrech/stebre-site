@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: layouts/base.njk
 templateClass: postlist
 ---
 <header class="header containerM">
@@ -25,6 +25,6 @@ templateClass: postlist
 <section class="results containerL">
   <div class="cards">
 		{% set results = collections[collection] | reverse %}
-		{% include "partials/preview.njk" %}
+		{% include "includes/preview.njk" %}
 	</div>
 </section>
