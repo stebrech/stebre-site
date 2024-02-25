@@ -187,6 +187,7 @@ a:hover #logo {
 	align-items: center;
 	display: flex;
 	flex-direction: row;
+	justify-content: flex-start;
 	padding: var(--size-xxs) var(--size-xs);
 	width: 100%;
 }
