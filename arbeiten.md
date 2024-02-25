@@ -1,6 +1,6 @@
 ---
 title: Arbeiten
-layout: postlist
+layout: layouts/postlist.njk
 collection: projects
 eleventyNavigation:
   key: "Arbeiten"
