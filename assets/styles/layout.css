@@ -173,8 +173,6 @@ a:hover #logo {
 .close-btn {
 	--button-color-bg: #fff;
 	--button-color-shadow: var(--color-text);
-	align-items: center;
-	display: flex;
 	margin-top: 0;
 }
 
@@ -186,7 +184,12 @@ a:hover #logo {
 }
 
 .open-btn {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 	padding: var(--size-xxs) var(--size-xs);
+	width: 100%;
 }
 
 .open-btn svg path {
@@ -213,7 +216,11 @@ a:hover #logo {
 	margin-block-end: 8rem;
 }
 
-.close-btn img {
+.open-btn svg {
+	margin-right: 0.25rem;
+}
+.open-btn svg,
+.close-btn svg {
 	width: 2rem;
 }
 
@@ -290,7 +297,6 @@ nav ol {
 	padding: 0 var(--size-s);
 }
 
-/* #mainnav .nav-item:not(.logo) a { */
 #mainnav .nav-item a {
 	--color-nav-item-bg: #fff;
 	--color-nav-item-text: var(--color-primary-dark);
