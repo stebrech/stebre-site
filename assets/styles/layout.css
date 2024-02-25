@@ -216,7 +216,11 @@ a:hover #logo {
 	margin-block-end: 8rem;
 }
 
-.close-btn img {
+.open-btn svg {
+	margin-right: 0.25rem;
+}
+.open-btn svg,
+.close-btn svg {
 	width: 2rem;
 }
 
