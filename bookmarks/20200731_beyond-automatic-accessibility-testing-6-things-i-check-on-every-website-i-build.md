@@ -6,6 +6,7 @@ tags:
   - barrierefreiheit
   - bookmarks
   - testen
+  - webentwicklung
 slug: beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build
 weblink: https://www.matuzo.at/blog/beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build/
 domainName: matuzo.at

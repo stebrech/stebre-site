@@ -8,6 +8,7 @@ tags:
   - css
   - formular
   - svg
+  - webentwicklung
 slug: inclusively-hiding-and-styling-checkboxes-and-radio-buttons
 weblink: https://sarasoueidan.com/blog/inclusively-hiding-and-styling-checkboxes-and-radio-buttons/
 domainName: sarasoueidan.com
