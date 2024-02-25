@@ -16,6 +16,7 @@ module.exports = function (eleventyConfig) {
 		"./assets/styles": "/assets/styles",
 		"./assets/js": "/assets/js",
 		"./node_modules/animate.css/animate.min.css": "/assets/styles/animate.min.css",
+		"./node_modules/body-scroll-lock-upgrade/lib": "/assets/js/body-scroll-lock-upgrade",
 		"./assets/favicons": "/",
 		"./assets/robots.txt": "/robtos.txt",
 		"./sw.js": "/sw.js",
