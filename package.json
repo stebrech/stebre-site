@@ -38,7 +38,7 @@
     "start": "npx @11ty/eleventy --serve && npx -y pagefind --site _site",
     "build": "npx @11ty/eleventy && npx -y pagefind --site _site",
     "debug": "DEBUG=* npx @11ty/eleventy",
-    "pocket": "node fetchPocketSaves.js"
+    "pocket": "node _scripts/fetchPocketSaves.js",
   },
   "repository": {
     "type": "git",
