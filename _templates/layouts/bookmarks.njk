@@ -5,7 +5,7 @@ pagination:
   data: collections.bookmarks
   size: 10
   alias: bookmarks
-	reverse: true
+  reverse: true
 permalink: /lesezeichen/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}/
 ---
 <header class="header containerM">
@@ -25,7 +25,7 @@ permalink: /lesezeichen/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumb
 <section class="results containerM">
 	<div class="list">
 		{% set results = bookmarks %}
-			{% include "includes/preview.njk" %}
+		{% include "includes/preview.njk" %}
 	</div>
 	{% include "includes/nav_pagination.njk" %}
 </section>
