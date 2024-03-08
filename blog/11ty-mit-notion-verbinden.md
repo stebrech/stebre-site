@@ -14,7 +14,7 @@ tags:
 
 ## Was ist 11ty?
 
-[11ty](https://www.11ty.dev/) (auch Eleventy genannt) ist eines von vielen Static Site Generators (kurz: SSG), betrieben mit [Node.js](https://nodejs.org/de). Ein SSG ist verantwortlich für die eigentliche Ausgabe (Frontend) einer Website/Webapp und ist bewusst von der Inhaltsadministration (Backend) getrennt. 
+[11ty](https://www.11ty.dev/) (auch Eleventy genannt) ist eines von vielen Static Site Generators (kurz: SSG), betrieben mit [Node.js](https://nodejs.org). Ein SSG ist verantwortlich für die eigentliche Ausgabe (Frontend) einer Website/Webapp und ist bewusst von der Inhaltsadministration (Backend) getrennt. 
 
 Mit 11ty lässt sich mit nur sehr wenig Code bereits Resultate erzielen, ist also minimalistisch aber konfigurativ stark erweiterbar. Es kommt von Grund auf mit wenig Node.js Abhängigkeiten (Dependencies) aus und gehört zu den Schnellsten wenn es darum geht die Website zu generieren (Build Time). Die vielen möglichen Templatesprachen sind ebenfalls ein grosser Vorteil. Ich nutze eine Kombination aus Markdown und Nunjucks.
 

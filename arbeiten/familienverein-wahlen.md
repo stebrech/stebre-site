@@ -3,7 +3,7 @@ title: Familienverein Wahlen
 date: 2022-09-27
 updated: 2024-02-02
 featuredImage: assets/img/20220927_familienverein-wahlen_0.png
-description: Im ersten Quartal 2021 entstand die Website für den Familienverein Wahlen. Es ist das zweite Projekt, dass ich mit [Gatsby](https://www.gatsbyjs.com/) umgesetzt habe. Die Anbindung an ein Headless CMS war für mich Première und der Entscheid fiel auf [Netlify CMS](https://www.netlifycms.org/).
+description: Im ersten Quartal 2021 entstand die Website für den Familienverein Wahlen. Es ist das zweite Projekt, dass ich mit [Gatsby](https://www.gatsbyjs.com/) umgesetzt habe. Die Anbindung an ein Headless CMS war für mich Première und der Entscheid fiel auf [Netlify CMS](https://decapcms.org/).
 tags:
   - branding
   - notion
@@ -24,7 +24,7 @@ _Artikelansicht beginnend mit einem grossen Bild über die ganze Breite des View
 
 ### Wintermarkt
 
-Im November 2021 organisierte der Verein einen gelungenen Wintermarkt im Dorf. Für diesen Anlass habe ich eine [Landingpage](https://familienverein-wahlen.ch/wahlner-wintermarkt-2021/) gemacht, die aus einer interaktiven Karte bestand. Mit Klick auf eine Nummer konnte der User erfahren, was der entsprechende Stand anbietet.
+Im November 2021 organisierte der Verein einen gelungenen Wintermarkt im Dorf. Für diesen Anlass habe ich eine [Landingpage](https://familienverein-wahlen.ch/wahlner-wintermarkt) gemacht, die aus einer interaktiven Karte bestand. Mit Klick auf eine Nummer konnte der User erfahren, was der entsprechende Stand anbietet.
 
 ![Landingpage Wintermarkt 2021. Screenshot.](assets/img/20220927_familienverein-wahlen_2.png)
 

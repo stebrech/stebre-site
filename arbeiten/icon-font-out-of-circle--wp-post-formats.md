@@ -15,8 +15,8 @@ Mehr zu den Post Formaten könnt ihr in der [offiziellen WordPress Dokumentation
 
 Die Grafiken bestehen aus feinen Linien, weswegen der Einsatz nur mit grosszügiger Schriftgrösse empfohlen wird.
 
-[Hier geht es zur Vorschauseite.](https://pixelstrolch.github.io/OOC-WP-PF/)
+[Hier geht es zur Vorschauseite.](https://stebrech.github.io/OOC-WP-PF/)
 
-[Dieser Icon Font steht frei unter OFL-Lizenz zur Verfügung.](https://pixelstrolch.github.io/OOC-WP-PF/license.txt)
+[Dieser Icon Font steht frei unter OFL-Lizenz zur Verfügung.](https://stebrech.github.io/OOC-WP-PF/license.txt)
 
 [Out Of Circle – WP Post Formats herunterladen.](https://github.com/stebrech/OOC-WP-PF)
