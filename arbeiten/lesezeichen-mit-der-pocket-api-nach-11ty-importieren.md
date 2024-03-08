@@ -6,6 +6,7 @@ description: Pocket bietet eine API, mit der die gespeicherten Lesezeichen verwe
 tags:
   - projects
   - 11ty
+  - automatisierung
   - webentwicklung
 aliases:
 ---
