@@ -142,10 +142,6 @@ img {
 	max-width: 100%;
 }
 
-figure .gatsby-resp-image-wrapper {
-	margin: 0 !important;
-}
-
 figcaption {
 	font-size: var(--size-m);
 	font-style: normal;
