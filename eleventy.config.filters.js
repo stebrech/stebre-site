@@ -1,4 +1,6 @@
 const { DateTime } = require("luxon");
+const markdownIt = require("markdown-it");
+const removeMd = require('remove-markdown');
 
 module.exports = (eleventyConfig) => {
 	eleventyConfig.addFilter("readableDate", (dateObj) => {
@@ -48,5 +50,18 @@ module.exports = (eleventyConfig) => {
 
 	eleventyConfig.addFilter("limit", function (arr, limit) {
 		return arr.slice(0, limit);
+	});
+
+	// Add within your config module
+	const md = new markdownIt({
+		html: true,
+	});
+
+	eleventyConfig.addFilter("markdown", (content) => {
+		return md.render(content);
+	});
+
+	eleventyConfig.addFilter("removeMarkdown", (content) => {
+		return removeMd(content);
 	});
 };

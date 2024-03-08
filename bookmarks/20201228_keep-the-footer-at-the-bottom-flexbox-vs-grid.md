@@ -20,5 +20,3 @@ timeToRead: 3
 ---
 <blockquote lang="en">Floating footers can occur for many reasons, but modern CSS methods using either flexbox or CSS grid let us plan a future-proof solution for any size layout.
 <footer>— Stephanie Eckles, <a href="https://moderncss.dev/keep-the-footer-at-the-bottom-flexbox-vs-grid/">moderncss.dev</a></footer></blockquote>
-
-Moderne Möglichkeiten wie mit CSS der Footer immer am unteren Bildschirmrand angezeigt wird, egal wieviel Inhalt die aktuelle Seite enthält.

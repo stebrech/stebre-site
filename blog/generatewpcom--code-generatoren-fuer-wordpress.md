@@ -7,8 +7,6 @@ tags:
   - wordpress
   - posts
 ---
-Das Aufbohren von WordPress funktioniert entweder via Plugin oder Theme. Obwohl für wahrscheinlich jedes Szenario ein Plugin besteht, gibt es auch Vorteile selbst Hand anzulegen. Dies geschieht entweder durch das Erstellen eines eigenen Plugins oder durch das Erweitern des Themes mithilfe der functions.php.
-
 Mithilfe von [GenerateWP.com](http://generatewp.com/) wird dem Nutzer das Durchstöbern der Dokumentation zumindest teilweise abgenommen. Die Code Generatoren helfen bei:
 
 - [wp-config.php](http://generatewp.com/wp-config/)

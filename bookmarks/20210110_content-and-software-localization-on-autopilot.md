@@ -19,5 +19,3 @@ timeToRead: 5
 ---
 <blockquote lang="en">Software & content localization on autopilot. Effective teams choose Localazy for automated SW i18n and content localization. Go international today!
 <footer>— <a href="https://localazy.com/">localazy.com</a></footer></blockquote>
-
-Ich habe bisher keine Erfahrung mit localazy gemacht. Es scheint jedoch ein umfangreiches und spannendes Übersetzungstool zu sein. 

@@ -12,8 +12,6 @@ weblink: https://dribbble.com/shots/4655287-under-fir-trees-6?utm_source=Clipboa
 aliases:
   - Etiketten für Hausgemachtes
 ---
-In unserem Garten steht ein Holunderbaum dessen Blüten wir jedes Jahr ernten und Sirup daraus machen. Ausserdem verarbeiten wir auch andere Dinge, die in unserem Garten wachsen.
-
 Dieses Hausgemachte eignet sich gut als kleines Geschenk und «Mitbringsel». Dafür habe ich unsere Adresse als Logo entworfen und in verschiedenen gestalteten Etiketten wiederverwendet.
 
 <div class="imagesContainer">

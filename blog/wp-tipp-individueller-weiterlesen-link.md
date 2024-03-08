@@ -7,8 +7,6 @@ tags:
   - wordpress
   - posts
 ---
-In diesem kleinem Beitrag möchte ich aufzeigen wie der Text des Weiterlesen-Links individuell angepasst werden kann.
-
 ## Den Weiterlesen-Link setzen
 
 Der WP Editor kennt zwei Ansichten – die visuelle und die Text Ansicht (ehemals HTML Ansicht). In der visuellen Ansicht wird folgender Button verwendet um ein Weiterlesen-Link einzufügen.

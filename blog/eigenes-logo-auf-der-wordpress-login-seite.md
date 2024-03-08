@@ -7,8 +7,6 @@ tags:
   - wordpress
   - posts
 ---
-Für die Einen unnötige Spielerei, für die Anderen das i-Pünktchen um WordPress zu personalisieren. Ich spreche davon das eigene Logo anstatt dem WordPress Logo auf der Login-Seite anzeigen zu lassen.
-
 ## Vorbereitung
 
 Damit das folgende Snippet funktioniert, müsst Ihr das Logo an entsprechenden Ort auf dem Server ablegen. Speichert dazu euer Logo in den **uploads Ordner** welcher sich im **wp-content** Ordner befindet. Danach müsst ihr noch die Datei in **login.png** umbenennen.

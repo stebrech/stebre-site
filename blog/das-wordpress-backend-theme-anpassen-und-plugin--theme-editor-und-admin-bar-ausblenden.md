@@ -7,8 +7,6 @@ tags:
   - wordpress
   - posts
 ---
-Es bestehen Möglichkeiten das WordPress Backend an persönliche Bedürfnisse anzupassen. Abstimmungen an das Corporate Design wird wohl einer, der bedeutendsten Gründe dafür sein. Nebst Änderungen am Aussehen, möchte ich auch auf das Ausblenden von Plugin-, Theme-Editor und der Admin Bar eingehen.
-
 ## Die Oberfläche des Backends ändern
 
 Ein sehr umfangreiches Plugin kommt aus der Schmiede von [bueltge.de und nennt sich Adminimize](http://bueltge.de/wordpress-admin-theme-adminimize/674/). Um ehrlich zu sein, habe ich das Plugin bisher nicht ausgiebig getestet. Es bietet tonnenweise Einstellungsmöglichkeiten, welche getrennt an den verschiedenen Benutzergruppen angewendet werden können. Mir persönlich passt die Backend Oberfläche grundsätzlich so wie sie ist, weshalb ich mich nach einem schlankeren Lösungsweg umsah.

@@ -21,4 +21,3 @@ timeToRead: 9
 <blockquote lang="en">Detailed explanation with real examples of a CSS grid technique I used to prevent layout shifts when a component state changes.
 <footer>— Hubert SABLONNIERE, <a href="https://www.hsablonniere.com/prevent-layout-shifts-with-css-grid-stacks--qcj5jo/">hsablonniere.com</a></footer></blockquote>
 
-Layout Shifts sind störende Verschiebungen des Layouts, die durch eine Aktion ausgelöst werden. Dieser Erfahrungsbericht zeigt wie dies mit CSS Grid verhindert werden konnte.

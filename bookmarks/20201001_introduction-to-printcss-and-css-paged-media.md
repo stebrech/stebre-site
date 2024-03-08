@@ -18,6 +18,4 @@ featuredImage: assets/img/20201001_introduction-to-printcss-and-css-paged-media_
 timeToRead: 3
 ---
 <blockquote lang="en">PrintCSS/CSS Paged Media (PDF generation from XML and HTML using CSS stylesheets) tutorial and showcase with lessons, tool descriptions and comparions. PDFreactor Antennahouse PrinceXML
-<footer>— Weasyprint, PDFreactor, <a href="https://www.print-css.rocks/">print-css.rocks</a></footer></blockquote>
-
-Wer sich für PrintCSS interessiert, kommt nicht an dieser Gegenüberstellung der bekanntesten Lösungen vorbei.
+<footer>— <a href="https://www.print-css.rocks/">print-css.rocks</a></footer></blockquote>

@@ -2,7 +2,7 @@
 title: Crossmediale Textverarbeitung mit Markdown
 date: 2018-04-16
 featuredImage: assets/img/20180416_crossmediale-textverarbeitung-mit-markdown_0.jpg
-description: Eine grosse Herausforderung bei der medienneutralen Datenherstellung ist das fehlende Bewusstsein für strukturierte Inhalte. Werden Inhalte (zuerst) in Textverarbeitungsprogrammen wie Microsoft Word erstellt, wird versucht diese ansprechend zu gestalten.
+description: Eine grosse Herausforderung bei der medienneutralen Datenherstellung ist das fehlende Bewusstsein für strukturierte Inhalte. Werden Inhalte (zuerst) in Textverarbeitungsprogrammen wie Microsoft Word erstellt, wird versucht diese ansprechend zu gestalten. Meist bleibt eine saubere Struktur dabei aber auf der Strecke.
 tags:
   - barrierefreiheit
   - content-first
@@ -10,8 +10,6 @@ tags:
   - markdown
   - posts
 ---
-Eine grosse Herausforderung bei der medienneutralen Datenherstellung ist das fehlende Bewusstsein für strukturierte Inhalte. Werden Inhalte (zuerst) in Textverarbeitungsprogrammen wie Microsoft Word erstellt, wird versucht diese ansprechend zu gestalten. Meist bleibt eine saubere Struktur dabei aber auf der Strecke.
-
 Mit Word und ähnlicher Software können Formatierungen schnell und einfach angewendet werden. Beim Ausdruck auf dem Bürodrucker mag noch niemand merken, dass die angewendeten Formatierungen vielleicht nicht die besten waren:
 
 - rein visuell gestaltete Überschriften

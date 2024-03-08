@@ -8,8 +8,6 @@ tags:
   - webentwicklung
   - posts
 ---
-Das Web ist mobil. Es werden täglich mehr User, welche ihre Inhalte mit einem mobilen Gerät im Netz aufsuchen. Aufgrund dessen werden Webseiten vermehrt mit einem anpassungsfähigen Design angeboten. Das englische “Zauberwort” dafür heisst Responsive und bedeutet, dass sich eine Webseite an die Auflösung des Ausgabegeräts anpasst.
-
 Um eine Website auf allen möglichen Geräten zu testen, ist, aufgrund der Anzahl verschiedenen Auflösungen, unmöglich. Aus diesem Grund wurden bereits etliche Tools entwickelt um eine Website direkt im Browser in verschiedenen Ausgabegrössen zu testen.
 
 Zu diesem Zweck möchte ich euch meine zwei Favoriten-Tools vorstellen:

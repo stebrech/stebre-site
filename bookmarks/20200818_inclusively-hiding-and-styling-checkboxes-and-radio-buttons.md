@@ -24,5 +24,3 @@ newsletter: true
 ---
 <blockquote lang="en">Checkboxes and radio buttons are two common examples of interactive form elements that we desperately want to have full control over styling but we don’t.
 <footer>— <a href="https://sarasoueidan.com/blog/inclusively-hiding-and-styling-checkboxes-and-radio-buttons/">sarasoueidan.com</a></footer></blockquote>
-
-Checkboxen und Optionsfelder lassen sich leider nicht so einfach mit CSS gestalten. Sara zeigt auf wie man es mit SVG Grafiken und zudem barrierfrei umsetzen kann.

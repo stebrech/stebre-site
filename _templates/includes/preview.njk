@@ -27,9 +27,9 @@
 							</ul>
 						{% endif %}
 					</footer>
-					<p class="postPreview_excerpt">
-						{{ post.data.description }}
-					</p>
+					<div class="postPreview_excerpt">
+						{{ post.data.description | markdown | safe }}
+					</div>
 				</div> 
 				{% if post.data.featuredImage %}
 					<div class="postPreview_featuredImage">

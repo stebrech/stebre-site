@@ -20,4 +20,3 @@ featuredImage: assets/img/20201109_typogrep-hilft-dir-dabei,-das-setzen-typogra�
 <blockquote lang="de">Typogrep ist das Nachschlagewerk für GREP, Reguläre Ausdrücke und automatisierte Typografie im Kontext von Desktop-Publishing.
 <footer>— <a href="https://www.typogrep.de">typogrep.de</a></footer></blockquote>
 
-In InDesign werden mithilfe von regulären Ausdrücken gezieltere Suchabfragen gemacht oder automatisierte Formate angelegt. Dieses Nachschlagewerk hilft dir dabei.

@@ -16,4 +16,3 @@ featuredImage: assets/img/20201023_state-of-css_screenshot.png
 <blockquote>
 <footer>— <a href="https://stateofcss.com/">stateofcss.com</a></footer></blockquote>
 
-State of CSS ist eine Auswertung einer jährlichen Umfrage zu den Kenntnissen der CSS Möglichkeiten und Eigenschaften.

@@ -7,8 +7,6 @@ tags:
   - wordpress
   - posts
 ---
-Shortcodes wurden in der WordPress Version 2.5 eingeführt. Einen Shortcode erkennt man an den eckigen Klammern `[…]`. Solche Shortcodes können auf sehr einfache Weise in den Beitragseditor eingegeben werden, welche eine hinterlegte Funktion auslösen.
-
 Die Standard-Shortcodes, welche WordPress von Haus aus mitbringt, sind:
 
 - [audio](https://codex.wordpress.org/Audio_Shortcode)

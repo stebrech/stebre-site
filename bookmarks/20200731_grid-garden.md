@@ -22,5 +22,3 @@ newsletter: true
 ---
 <blockquote lang="en">A game for learning CSS grid layout
 <footer>— <a href="https://cssgridgarden.com">cssgridgarden.com</a></footer></blockquote>
-
-Auf CSS Grid Garden kann spielerisch der Umgang mit Layout Raster (CSS Grid) gelernt werden.

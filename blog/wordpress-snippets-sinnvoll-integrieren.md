@@ -7,8 +7,6 @@ tags:
   - wordpress
   - posts
 ---
-Jeder engagierte WordPress Nutzer ist schon einmal über den Begriff _Snippets_ gestossen. Mit Snippets sind kleine Codeschnipsel gemeint, welche eure WP Installation mit zuätzlichen Funktionen erweitert. Um solche Snippets einzubinden, wird immer wieder auf die _functions.php_, welche sich im Themeordner befindet, verwiesen. In diesem Artikel möchte ich euch eine sinnvollere Vorgehensweise im Zusammenhang eines Plugins erläutern.
-
 ## Nachteile Themeordner
 
 Googelt man nach einer Lösung wie man gewisse Abläufe in WordPress schneller und besser erledigen kann, stösst man immer wieder auf den Begriff _WordPress Snippets_. Man wird angewiesen ein Codeschnipsel in die _functions.php_ zu kopieren – et voilà – es funktioniert.

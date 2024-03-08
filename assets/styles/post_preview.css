@@ -156,6 +156,10 @@
 	margin-top: var(--size-s);
 }
 
+.postPreview_excerpt a {
+	text-decoration: none;
+}
+
 .hidden {
 	display: none;
 }

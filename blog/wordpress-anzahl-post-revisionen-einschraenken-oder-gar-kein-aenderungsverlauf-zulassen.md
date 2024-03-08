@@ -7,8 +7,6 @@ tags:
   - wordpress
   - posts
 ---
-Wordpress speichert per Standard den Verlauf der Änderungen eines Artikels. Diese findet man im unteren Teil des Artikel Bearbeitungsmodus mit dem Titel Revisionen. Sofern diese nicht angezeigt werden, können Sie mithilfe der Optionen im Kopfbereich sichtbar gemacht werden.
-
 Die Liste dieser Revisionen kann, je nachdem wie lange an einem Artikel “geschraubt” wird, ziemlich lange werden. Sämtliche Revisionen werden dabei in der Datenbank gespeichert.
 
 Obwohl ich dieses Feature sehr schätze und auch bereits mehrmals benötigte, halte ich es für sinnvoll die Anzahl gespeicherten Änderungen zu maximieren. Dies kann mit einer einzigen Zeile in der config.php erledigt werden. Die config.php befindet sich im root-Verzeichnis (Hauptordner) der WordPress Installation.

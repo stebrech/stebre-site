@@ -10,7 +10,7 @@ featured: false
 aliases:
   - Die ersten vier Icons auf Noun Project
 ---
-Auf Noun Project habe ich die vier angezeigten Icons zur Verfügung gestellt. Hier gelangst du zum Download auf Noun Project:
+Hier gelangst du zum Download auf Noun Project:
 
 - [Beer](http://thenounproject.com/term/beer/53973/)
 - [Coffee Capsule](http://thenounproject.com/term/coffee-capsule/17251/)

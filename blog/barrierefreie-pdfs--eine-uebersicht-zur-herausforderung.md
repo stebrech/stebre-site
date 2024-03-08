@@ -2,14 +2,14 @@
 title: Barrierefreie PDFs – Eine Übersicht zur Herausforderung
 date: 2016-10-31
 featuredImage: assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung_0.jpg
-description: Letzte Woche ist die Schweizer Accessibility-Studie 2016 der Stiftung Zugang für alle erschienen. Sie untersucht Webauftritte öffentlicher Institutionen, also Webseiten von Departementen, Kantonen und grösseren Städten sowie Hochschulen und Newsportalen.
+description: Letzte Woche ist die [Schweizer Accessibility-Studie 2016](https://www.access-for-all.ch/ch/aktuell-sp-19351/518-schweizer-accessibility-studie-2016.html) der Stiftung [Zugang für alle](http://www.access-for-all.ch/ch/) erschienen. Sie untersucht Webauftritte öffentlicher Institutionen, also Webseiten von Departementen, Kantonen und grösseren Städten sowie Hochschulen und Newsportalen. Ein auffällig konstantes Manko ist die Zugänglichkeit von PDF-Dokumenten.
 tags:
   - barrierefreiheit
   - pdf
   - posts
+aliases:
+  - Barrierefreie PDFs – Eine Übersicht zur Herausforderung
 ---
-Letzte Woche ist die [Schweizer Accessibility-Studie 2016](https://www.access-for-all.ch/ch/aktuell-sp-19351/518-schweizer-accessibility-studie-2016.html) der Stiftung [Zugang für alle](http://www.access-for-all.ch/ch/) erschienen. Sie untersucht Webauftritte öffentlicher Institutionen, also Webseiten von Departementen, Kantonen und grösseren Städten sowie Hochschulen und Newsportalen. Ein auffällig konstantes Manko ist die Zugänglichkeit von PDF-Dokumenten.
-
 ## Ausgangslage
 
 Das [Portable Document Format (kurz: PDF)](https://de.wikipedia.org/wiki/Portable_Document_Format) ist eines der beliebtesten und weitverbreitetsten Dateiformate überhaupt. PDFs werden in der professionellen Druckvorstufe, sowie auch als plattformunabhängiges Austauschformat im Web verwendet.

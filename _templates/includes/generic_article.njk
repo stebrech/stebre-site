@@ -16,6 +16,11 @@
 	<div class="containerL">
 		<div class="contentContainer">
 			<div class="content"{% if post.data.lang === "en" %} lang="en"{% endif %}>
+				{% if description %}
+					<div class="lead">
+						{{ description | markdown | safe }}
+					</div>
+				{% endif %}
 				{{ content | safe }}
 			</div>
 			<footer class="metadata">

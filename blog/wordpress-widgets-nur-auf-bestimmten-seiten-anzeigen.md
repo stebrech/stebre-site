@@ -2,12 +2,12 @@
 title: "WordPress: Widgets nur auf bestimmten Seiten anzeigen"
 date: 2012-07-10
 featuredImage: assets/img/20120710_wordpress-widgets-nur-auf-bestimmten-seiten-anzeigen_0.jpg
-description: "Folgendes Szenario: Ihr betreibt mithilfe von WordPress ein Blog. Zusätzlich bietet ihr noch Inhalte auf einigen Pages oder Custom Post Types an. Ihr möchtet in der Sidebar des Blogs einige spezifische Widgets wie zum Beispiel eine Kategorie- oder Tagliste anzeigen. Diese Widgets sollen aber nur im Blog und nicht auf den anderen Pages angezeigt werden."
+description: "Folgendes Szenario: Ihr betreibt mithilfe von WordPress ein Blog. Zusätzlich bietet ihr noch Inhalte auf einigen [Pages](http://codex.wordpress.org/Post_Types#Page) oder [Custom Post Types](http://codex.wordpress.org/Post_Types#Custom_Types) an. Ihr möchtet in der Sidebar des Blogs einige spezifische Widgets wie zum Beispiel eine Kategorie- oder Tagliste anzeigen. Diese Widgets sollen aber nur im Blog und nicht auf den anderen Pages angezeigt werden."
 tags:
   - wordpress
   - posts
 ---
-Folgendes Szenario: Ihr betreibt mithilfe von WordPress ein Blog. Zusätzlich bietet ihr noch Inhalte auf einigen [Pages](http://codex.wordpress.org/Post_Types#Page) oder [Custom Post Types](http://codex.wordpress.org/Post_Types#Custom_Types) an. Ihr möchtet in der Sidebar des Blogs einige spezifische Widgets wie zum Beispiel eine Kategorie- oder Tagliste anzeigen. Diese Widgets sollen aber nur im Blog und nicht auf den anderen Pages angezeigt werden. Bei diesem Praxisbeispiel beinhaltet das Page Template dieselbe Sidebar wie das Blog.
+Bei diesem Praxisbeispiel beinhaltet das Page Template dieselbe Sidebar wie das Blog.
 
 Um dies umsetzen zu können verwende ich das Plugin [Widget Logic](http://wordpress.org/plugins/widget-logic/). Nach erfolgter Installation erscheint in den Widgets-Einstellungen ein neues Feld mit dem Titel Widget logic. Bleibt das Feld leer wird das Widget wie bis anhin auf allen Seiten angezeigt. Fügt ihr nun ein für euch zutreffendes [Conditional Tag](http://codex.wordpress.org/Conditional_Tags) ein, wird die Anzeige eingeschränkt.
 

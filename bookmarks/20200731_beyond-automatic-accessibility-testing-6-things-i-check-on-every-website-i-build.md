@@ -23,5 +23,3 @@ newsletter: true
 ---
 <blockquote lang="en">A small collection of accessibility checks I perform in every site I audit and build.
 <footer>— Manuel Matuzovic, <a href="https://www.matuzo.at/blog/beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build/">matuzo.at</a></footer></blockquote>
-
-Automatische Accessibility-Tests sind gut und nützlich. Aber sie ersetzen die manuelle Prüfung nicht. Manuel zeigt in seinem Blopost ein paar praktische Tipps wie getestet werden kann.

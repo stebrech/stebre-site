@@ -19,5 +19,3 @@ timeToRead: 11
 ---
 <blockquote lang="de">Welche Techniken es gibt, um Bilder schärfen zu können, zeigt diese Tutorials. Beschrieben werden gängige Methoden aus der Praxis mit Photoshop.
 <footer>— <a href="https://www.designerinaction.de/tipps-tricks/photoshop/bilder-schaerfen/">designerinaction.de</a></footer></blockquote>
-
-Viele Wege führen nach Rom oder zur gewünschten Schärfe eines Bildes. Im Artikel werden verschiedene Methoden in Photoshop gezeigt.

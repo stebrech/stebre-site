@@ -2,14 +2,12 @@
 title: Schnelle Umwandlung von HEIC und WebP Bildern im MacOS Finder und weitere Möglichkeiten mit Automator
 date: 2023-02-12
 featuredImage: assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_0.png
-description: Bildformate wie HEIC und WebP werden von vielen Applikationen noch nicht unterstützt. Daher ergeben sich immer wieder Situationen in denen man Bilder in ein JPEG oder PNG umwandeln muss.
+description: Bildformate wie `HEIC` und `WebP` werden von vielen Applikationen noch nicht unterstützt. Daher ergeben sich immer wieder Situationen in denen man Bilder in ein `JPEG` oder `PNG` umwandeln muss.
 tags:
   - automatisierung
   - bildoptimierung
   - posts
 ---
-Bildformate wie `HEIC` und `WebP` werden von vielen Applikationen noch nicht unterstützt. Daher ergeben sich immer wieder Situationen in denen man Bilder in ein `JPEG` oder `PNG` umwandeln muss.
-
 Im Finder von MacOS lässt sich das ganz schnell und einfach bewerkstelligen. Mit der Standard-App [Automator](https://support.apple.com/de-ch/guide/automator/welcome/mac) lassen sich zudem einfache Bildanpassungen automatisiert mit einem Mausklick anwenden.
 
 ## Was sind WebP Bilder?

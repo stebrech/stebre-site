@@ -2,7 +2,7 @@
 title: FirIA
 date: 2020-04-19
 featuredImage: assets/img/20200419_firia_0.png
-description: Da ich von Markdown und dem iA Writer begeistert bin, habe ich das iA Writer Template FirIA entwickelt. Im Namen FirIA versteckt sich die verwendete Schrift Fira Sans.
+description: Da ich von Markdown und dem [iA Writer](https://ia.net/de/writer) begeistert bin, habe ich das iA Writer Template **FirIA** entwickelt. Im Namen FirIA versteckt sich die verwendete Schrift Fira Sans.
 tags:
   - markdown
   - projects
@@ -11,8 +11,6 @@ weblink: https://github.com/stebrech/FirIA
 aliases:
   - FirIA
 ---
-Da ich von Markdown und dem [iA Writer](https://ia.net/de/writer) begeistert bin, habe ich das iA Writer Template **FirIA** entwickelt.
-
 Im Namen FirIA versteckt sich die verwendete Schrift Fira Sans. Alle haben ihre Favoritenschrift. Dies ist aktuell meine ;-)
 
 ## Features des Templates

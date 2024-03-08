@@ -1,14 +1,14 @@
 ---
 title: Alternative Software suchen mithilfe von alternativeTo
 date: 2011-10-27
-featuredImage: assets/img/20111027_alternative-software-suchen-mithilfe-von-alternativeto_0.jpg
-description: " ist eine Software-Suchmaschine. Wird nach einer Software gesucht, werden neben Informationen zur gesuchten Applikation, alternative Softwarevorschläge empfohlen."
+featuredImage: assets/img/20111027_alternative-software-suchen-mithilfe-von-alternativeto_0.png
+description: |-
+  [alternativeto.net](https://alternativeto.net) ist eine Software-Suchmaschine. Wird nach einer Software gesucht, werden neben Informationen zur gesuchten Applikation, alternative Softwarevorschläge empfohlen.
 tags:
   - app
   - posts
+weblink: https://alternativeto.net
 ---
-In diesem Artikel möchte ich euch die Website [alternativeto.net](http://alternativeto.net/) empfehlen. [alternativeto.net](http://alternativeto.net/) ist eine Software-Suchmaschine. Wird nach einer Software gesucht, werden neben Informationen zur gesuchten Applikation, alternative Softwarevorschläge empfohlen.
-
 ## Das Rating
 
 Welche Software an erster Stelle als Alternative vorgeschlagen wird, hängt von verschiedenen Faktoren ab. Das wahrscheinlich wichtigste Element des Ratings sind die Anzahl Empfehlungen der Nutzer. Angemeldete Nutzer können mithilfe eines Like-Buttons eine Software empfehlen.

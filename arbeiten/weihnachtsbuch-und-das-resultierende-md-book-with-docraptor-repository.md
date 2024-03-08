@@ -2,7 +2,7 @@
 title: Weihnachtsbuch und das resultierende md-book-with-docraptor Repository
 date: 2023-12-31
 featuredImage: assets/img/20231231_weihnachtsbuch_0.png
-description: Mit dem persönlichen PrintCSS-Projekt haben wir eine eigene Weihnachtsgeschichte zu einem Geschenk gemacht. Sie wurde mit dem Prince Renderer in ein PDF umgewandelt und gedruckt. Zudem kann die Geschichte digital als mobilefreundliche Webseite gelesen werden.
+description: Mit dem persönlichen PrintCSS-Projekt haben wir eine eigene Weihnachtsgeschichte zu einem Geschenk gemacht. Sie wurde mit dem Prince Renderer in ein PDF umgewandelt und gedruckt. Zudem kann die Geschichte digital als [mobilefreundliche Webseite](https://stebre.ch/weihnachtsbuch2023) gelesen werden.
 tags:
   - content-first
   - markdown
@@ -15,8 +15,6 @@ aliases:
   - Weihnachtsbuch und das resultierende md-book-with-docraptor Repository
   - md-book-with-docraptor
 ---
-Mit dem persönlichen PrintCSS-Projekt haben wir eine eigene Weihnachtsgeschichte zu einem Geschenk gemacht. Sie wurde mit dem Prince Renderer in ein PDF umgewandelt und gedruckt. Zudem kann die Geschichte digital als [mobilefreundliche Webseite](https://stebre.ch/weihnachtsbuch2023) gelesen werden.
-
 ## Idee
 
 Als Weihnachtsgeschenk haben wir uns dieses Jahr eine Weihnachtsgeschichte ausgedacht. Die Geschichte «Dr Ben und dr Gian sueche dr Samichlaus» wurde mit Zeichnungen unserer beiden Söhne geschmückt. 

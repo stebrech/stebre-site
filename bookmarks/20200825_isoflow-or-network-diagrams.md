@@ -16,5 +16,3 @@ featuredImage: assets/img/20200825_isoflow-or-network-diagrams_screenshot.png
 ---
 <blockquote>Visualise your architecture. In minutes.
 <footer>— <a href="https://isoflow.io/">isoflow.io</a></footer></blockquote>
-
-Isoflow ist ein Tool um visuell ansprechende Diagramme zu erstellen.

@@ -551,6 +551,10 @@ body {
 
 /* Post, Page */
 
+.lead {
+	font-weight: var(--font-weight-bold);
+}
+
 .headerShadow {
 	filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
 }
