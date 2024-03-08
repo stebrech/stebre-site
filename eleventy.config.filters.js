@@ -64,4 +64,8 @@ module.exports = (eleventyConfig) => {
 	eleventyConfig.addFilter("removeMarkdown", (content) => {
 		return removeMd(content);
 	});
+
+	eleventyConfig.addFilter("featuredImageOgLink", (image) => {
+		return image.replace(/\.[^/.]+$/, "") + "_400.webp";
+	});
 };

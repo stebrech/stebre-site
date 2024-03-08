@@ -2,7 +2,7 @@
 title: Familienverein Wahlen
 date: 2022-09-27
 updated: 2024-02-02
-featuredImage: assets/img/20220927_familienverein-wahlen_0.png
+featuredImage: assets/img/20220927_familienverein-wahlen.png
 description: Im ersten Quartal 2021 entstand die Website für den Familienverein Wahlen. Es ist das zweite Projekt, dass ich mit [Gatsby](https://www.gatsbyjs.com/) umgesetzt habe. Die Anbindung an ein Headless CMS war für mich Première und der Entscheid fiel auf [Netlify CMS](https://decapcms.org/).
 tags:
   - branding

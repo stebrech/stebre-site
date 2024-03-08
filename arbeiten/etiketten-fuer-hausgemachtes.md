@@ -1,7 +1,7 @@
 ---
 title: Etiketten für Hausgemachtes
 date: 2018-05-31
-featuredImage: assets/img/20180531_etiketten-fuer-hausgemachtes_0.png
+featuredImage: assets/img/20180531_etiketten-fuer-hausgemachtes.png
 description: In unserem Garten steht ein Holunderbaum dessen Blüten wir jedes Jahr ernten und Sirup daraus machen. Ausserdem verarbeiten wir auch andere Dinge, die in unserem Garten wachsen.
 tags:
   - animation

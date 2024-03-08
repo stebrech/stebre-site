@@ -1,7 +1,7 @@
 ---
 title: FirIA
 date: 2020-04-19
-featuredImage: assets/img/20200419_firia_0.png
+featuredImage: assets/img/20200419_firia.png
 description: Da ich von Markdown und dem [iA Writer](https://ia.net/de/writer) begeistert bin, habe ich das iA Writer Template **FirIA** entwickelt. Im Namen FirIA versteckt sich die verwendete Schrift Fira Sans.
 tags:
   - markdown

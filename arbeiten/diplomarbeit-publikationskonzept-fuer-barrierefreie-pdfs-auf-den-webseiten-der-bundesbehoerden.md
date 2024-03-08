@@ -1,7 +1,7 @@
 ---
 title: Diplomarbeit Publikationskonzept für barrierefreie PDFs auf den Webseiten der Bundesbehörden
 date: 2022-10-09
-featuredImage: assets/img/20221009_diplomarbeit-publikationskonzept-fuer-barrierefreie-pdfs-auf-den-webseiten-der-bundesbehoerden_0.png
+featuredImage: assets/img/20221009_diplomarbeit-publikationskonzept-fuer-barrierefreie-pdfs-auf-den-webseiten-der-bundesbehoerden.png
 description: In meiner Diplomarbeit habe ich geschrieben wie die Bundesbehörden die Barrierefreiheit ihrer PDFs verbessern können.
 tags:
   - barrierefreiheit

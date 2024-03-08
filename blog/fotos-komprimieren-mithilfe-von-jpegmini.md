@@ -1,7 +1,7 @@
 ---
 title: Fotos komprimieren mithilfe von JPEGmini
 date: 2011-10-14
-featuredImage: assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_0.jpg
+featuredImage: assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini.jpg
 description: "[jpegmini.com](https://www.jpegmini.com/) ist ein Tool, welches die Bildgrösse eines JPEG-Bildes drastisch und ohne sichtbaren Qualitätsverlust reduzieren kann."
 tags:
   - app

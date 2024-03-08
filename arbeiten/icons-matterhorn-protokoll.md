@@ -1,7 +1,7 @@
 ---
 title: Icons «Matterhorn Protokoll»
 date: 2018-06-15
-featuredImage: assets/img/20180615_icons-matterhorn-protokoll_0.png
+featuredImage: assets/img/20180615_icons-matterhorn-protokoll.png
 description: Mit diesen Icons wollte ich die verschiedenen Prüfpunkte des Matterhorn Protokolls visualiseren.
 tags:
   - icons

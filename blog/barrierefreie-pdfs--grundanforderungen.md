@@ -1,7 +1,7 @@
 ---
 title: Barrierefreie PDFs – Grundanforderungen
 date: 2017-02-20
-featuredImage: assets/img/20170220_barrierefreie-pdfs--grundanforderungen_0.jpg
+featuredImage: assets/img/20170220_barrierefreie-pdfs--grundanforderungen.jpg
 description: Im zweiten Teil dieser Artikelreihe möchte ich die Grundanforderungen eines zugänglichen PDF-Dokuments etwas beleuchten. Der Beitrag soll aufzeigen was gemacht oder beachtet werden muss.
 tags:
   - barrierefreiheit
@@ -24,7 +24,7 @@ Das Verwenden von Tags ist die Grundlage um zugängliche Dokumenten zu erstellen
 
 Tags werden im Idealfall durch die Autorensoftware während des PDF-Exports vergeben. Für eine der wichtigsten Tags, den Überschriften, funktioniert dies in der Regel gut. Damit beispielsweise Microsoft Word oder Adobe InDesign «weiss» welcher Tag angewendet werden muss, werden Formatvorlagen benötigt. Diese müssen konsequent angewendet werden.
 
-Die folgenden Tag-Beschreibungen stammen von dem Handbuch «[Erstellen von barrierefreien PDF-Dokumenten mit Adobe Acrobat](https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwixxZK3spLSAhWEjiwKHeenA4MQFggiMAA&url=https%3A%2F%2Fwww.adobe.com%2Fde%2Faccessibility%2Fproducts%2Facrobat%2Fpdfs%2FBRO_HowTo_PDFs_Barrierefrei_DE_2005_09_abReader7.pdf&usg=AFQjCNEYKH-6c_HN15ETgZEX-Gq7yBgPHQ&sig2=z8QEaKS2IgvC99csjyvjRw)»
+Die folgenden Tag-Beschreibungen stammen von dem Handbuch «[Erstellen von barrierefreien PDF-Dokumenten mit Adobe Acrobat](https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwixxZK3spLSAhWEjiwKHeenA4MQFggiMAA&url=https%3A%2F%2Fwww.adobe.com%2Fde%2Faccessibility%2Fproducts%2Facrobat%2Fpdfs%2FBRO_HowTo_PDFs_Barrierefrei_DE_20059_abReader7.pdf&usg=AFQjCNEYKH-6c_HN15ETgZEX-Gq7yBgPHQ&sig2=z8QEaKS2IgvC99csjyvjRw)»
 
 ### Container
 

@@ -1,9 +1,9 @@
 <meta property="og:title" content="{{ title }} | {{ metadata.title }}"/>
 <meta property="og:description" content="{{ description | removeMarkdown or metadata.description }}"/>
 {% if featuredImage %}
-	<meta property="og:image" content="{{ metadata.url }}/assets/img/og/{{ page.fileSlug}}_0.jpg"/>
+	<meta property="og:image" content="{{ metadata.url }}/{{ featuredImage | featuredImageOgLink }}"/>
 {% else %}
-	<meta property="og:image" content="{{ metadata.url }}/assets/img/og/og_default.png"/>
+	<meta property="og:image" content="{{ metadata.url }}/assets/img/stebrech.png"/>
 {% endif %}
 <meta property="og:url" content="{{ metadata.url }}{{ page.url }}"/>
 <meta property="og:site_name" content="{{ metadata.title }}"/>

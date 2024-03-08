@@ -1,7 +1,7 @@
 ---
 title: WordPress Snippets sinnvoll integrieren
 date: 2014-01-21
-featuredImage: assets/img/20140121_wordpress-snippets-sinnvoll-integrieren_0.jpg
+featuredImage: assets/img/20140121_wordpress-snippets-sinnvoll-integrieren.jpg
 description: Mit Snippets sind kleine Codeschnipsel gemeint, welche eure WP Installation mit zuätzlichen Funktionen erweitert. Um solche Snippets einzubinden, wird immer wieder auf die functions.php, welche sich im Themeordner befindet, verwiesen. In diesem Artikel möchte ich euch eine sinnvollere Vorgehensweise im Zusammenhang eines Plugins erläutern.
 tags:
   - wordpress

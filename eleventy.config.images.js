@@ -3,9 +3,9 @@ const eleventyImage = require("@11ty/eleventy-img");
 const markdownIt = require("markdown-it");
 const markdownItEleventyImg = require("markdown-it-eleventy-img");
 
-let defaultImageWidths = [400, 880, 1200, "auto"];
+let defaultImageWidths = [400, 880, "auto"];
 let defaultImageSizes = "(min-width: 70rem) 70rem, 100vw";
-let defaultImageFormats = ["webp", "svg", "gif", "auto"];
+let defaultImageFormats = ["webp", "auto"];
 
 module.exports = (eleventyConfig) => {
 	// Eleventy Image shortcode
@@ -19,13 +19,21 @@ module.exports = (eleventyConfig) => {
 			urlPath: "/assets/img/",
 			outputDir: path.join(eleventyConfig.dir.output, "/assets/img/"),
 			svgShortCiruit: "size",
+			filenameFormat: function (id, src, width, format, options) {
+				// id: hash of the original image
+				// src: original image path
+				// width: current width in px
+				// format: current file format
+				// options: set of options passed to the Image call
+				const filename = path.basename(src, path.extname(src));
+				return `${filename}_${width}.${format}`;
+			},
 			sharpOptions: {
 				animated: true,
 				limitInputPixels: false,
 			},
 		});
 
-		// TODO loading=eager and fetchpriority=high
 		let imageAttributes = {
 			alt,
 			sizes: sizes || defaultImageSizes,
@@ -46,6 +54,15 @@ module.exports = (eleventyConfig) => {
 				sharpOptions: {
 					animated: true,
 					limitInputPixels: false,
+				},
+				filenameFormat: function (id, src, width, format, options) {
+					// id: hash of the original image
+					// src: original image path
+					// width: current width in px
+					// format: current file format
+					// options: set of options passed to the Image call
+					const filename = path.basename(src, path.extname(src));
+					return `${filename}_${width}.${format}`;
 				},
 			},
 			globalAttributes: {

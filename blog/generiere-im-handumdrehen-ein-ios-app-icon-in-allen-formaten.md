@@ -1,7 +1,7 @@
 ---
 title: Generiere im Handumdrehen ein iOS App Icon in allen Formaten
 date: 2012-12-18
-featuredImage: assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten_0.jpg
+featuredImage: assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten.jpg
 description: Durch [einen Beitrag auf codevisually.com](http://codevisually.com/app-icon-template/) bin ich auf ein nettes Helferlein namens [iOS App Icon Template](http://appicontemplate.com/) gestossen. Mithilfe von Photoshop und diesem freien PSD-File lässt sich im Handumdrehen eine eigenes iOS App Icon erstellen.
 tags:
   - app
