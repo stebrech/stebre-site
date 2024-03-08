@@ -42,7 +42,7 @@ Das Script hat folgende Funktionen:
 
 ### Import
 
-Der Import wird mit einer `GET`-Abfrage ausgeführte. Die dafür benötigte URL enthält Parameter zur Authentifizierung und der Bestimmung welchen Lesezeichen importiert werden sollen.
+Der Import wird mit einer `GET`-Abfrage ausgeführt. Die dafür benötigte URL enthält Parameter zur Authentifizierung und der Bestimmung welche Lesezeichen importiert werden sollen.
 
 ```js
 const getPocketDataUrl = `https://getpocket.com/v3/get?consumer_key=${consumerKey}&access_token=${accessToken}&state=unread&tag=bookmarks&detailType=complete`;
@@ -67,7 +67,7 @@ Weitere Parameter sind:
 
 ### Beschreibungstexte
 
-Nebst dem Pocket-Beschreibungstexts möchte ich auch die *Description* aus dem Head der entsprechenden Website beziehen. Da diese meist besser ist, nutze ich dieses als zitierten Inhalt. Ich speichere aber beide im Frontmatter der Markdown-Datei und kann händisch eingreifen. 
+Nebst dem Pocket-Beschreibungstexts möchte ich auch die *Description* aus dem Head der entsprechenden Website beziehen. Diese war bisher meist besser als der Beschreibungstext von Pocket. 
 
 Die Funktion, die ich dafür nutze, sieht wie folgt aus:
 
@@ -105,6 +105,8 @@ async function getMetaDescription(url, filename) {
 
 Mithilfe von `puppeteer` wird programmgesteuert ein Chrome-Browser mit der definierten URL aufgerufen. Dann werden die `description` und die `og:description` je in eine Variable geschrieben. Die Hoffnung ist, dass eine dieser Metadaten gepflegt wurde, ansonsten kann die Funktion keinen Wert übermitteln.
 
+Die Website-*Description* schreibe ich als zitierten Inhalt in meinen Lesezeichen-Beitrag. Für den manuellen Vergleich werden jedoch die Beschreibungstexte von Pocket wie auch der Website in den Frontmatter der Markdown-Datei geschrieben.
+
 ### Screenshot
 
 Kann kein Bild von Pocket heruntergeladen werden, wird folgende Funktion aufgerufen:
@@ -136,19 +138,18 @@ Auch hier wird wieder `puppeteer` genutzt. Nachdem Öffnen der URL wird ein Bild
 
 ## Abschluss
 
-Wenn alle Daten so zusammengestellt sind wie ich sie brauche, schreibe ich ein neues Markdown-File in den entsprechenden Ordner
+Wenn alle Daten so zusammengestellt sind wie ich sie brauche, schreibe ich ein neues Markdown-File in den entsprechenden Ordner:
 
 ```js
 fs.writeFileSync(path.resolve(__dirname, `../bookmarks/${mdPath}`), data, "utf-8");
 ```
 
-und aktualisiere den Link in Pocket indem ich in archiviere:
+Danach wird der Link in Pocket aktualisiert indem er archiviert wird:
 
 ```js
 const modifyPocketDataUrl = `https://getpocket.com/v3/send?consumer_key=${consumerKey}&access_token=${accessToken}&actions=[{"action":"archive","item_id":"${frontmatterData.id}"}]`;
 await axios.get(modifyPocketDataUrl, pocketDataOptions);
 ```
-Ich kann den gleichen Variableninhalt für `pocketDataOption` nutzen, wie ich schon beim 1. Request genutzt habe.
 
 Falls dich alle Details interessieren, kannst du das komplette Script auf [Github](https://github.com/stebrech/stebre-site/blob/main/_scripts/fetchPocketSaves.js) anschauen.
 
