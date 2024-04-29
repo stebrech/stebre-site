@@ -7,7 +7,6 @@ description: Für stebre.ch und bisher zwei weiteren Websites habe ich mir etwas
 tags:
   - 11ty
   - markdown
-  - posts
 ---
 > [!info] Update 2.2.2024
 > Für stebre.ch nutze ich mittlerweile [Obsidian](https://obsidian.md/) zur Erstellung und Verwaltung der Inhalte. Da ich die Notion-Schnittstelle weiterhin für création eliane, [[../arbeiten/familienverein-wahlen|Familienverein Wahlen]] und hoffentlich auch bald für weitere spannende Projekte nutze, pflege ich diese weiter. Mit [[arbeiten/notion2eleventy|notion2eleventy]] habe ich ein besser konfigurierbares 11ty Plugin gebaut.

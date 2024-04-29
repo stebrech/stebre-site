@@ -6,7 +6,6 @@ description: Die Macher von Tower, einem beliebten Git Client, bieten auf ihrer 
 tags:
   - git
   - webentwicklung
-  - posts
 ---
 Die Lernvideos werden wiederum in Git mit Kommandozeile und Git mit Tower aufgeteilt. Da ich Tower nutze habe ich mir diese Videos näher angesehen.
 

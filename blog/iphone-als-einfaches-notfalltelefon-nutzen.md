@@ -5,7 +5,6 @@ featuredImage: assets/img/20231217_iphone-als-notfalltelefon-nutzen.png
 description: Mit der Funktion «unterstützender Zugriff», die ab iOS Version 17 verfügbar ist, kann die komplette Bedienung des iPhones stark reduziert werden. So können essenzielle Apps, wie Telefon, Nachrichten und Kontakte mit grossen Icons dargestellt werden. Dies hilft Menschen mit kognitiven Einschränkungen.
 tags:
   - apple
-  - posts
 ---
 Ein iPhone mit aktivierten «unterstützenden Zugriff» lässt sich auch gut als Notfalltelefon für die Kinder nutzen. Das bedingt natürlich, dass man ein iPhone übrig hat, welches das Updaten auf die Version 17 zulässt.
 

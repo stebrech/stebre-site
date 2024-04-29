@@ -3,7 +3,6 @@ title: |
   Content & Software localization on autopilot
 date: 2021-01-10
 tags:
-  - bookmarks
   - uebersetzung
 slug: content-and-software-localization-on-autopilot
 weblink: https://localazy.com/

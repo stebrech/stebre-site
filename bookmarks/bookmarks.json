@@ -1,5 +1,6 @@
 {
 	"collection": "bookmarks",
+	"tags": "bookmarks",
 	"layout": "layouts/post.njk",
 	"permalink": "lesezeichen/{{ slug }}/"
 }

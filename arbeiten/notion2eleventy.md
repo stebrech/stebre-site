@@ -7,7 +7,6 @@ tags:
   - 11ty
   - markdown
   - notion
-  - projects
 featured: true
 weblink: https://github.com/stebrech/notion2eleventy
 aliases:

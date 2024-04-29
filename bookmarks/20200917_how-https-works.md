@@ -3,7 +3,6 @@ title: |
   How HTTPS Works
 date: 2020-09-17
 tags:
-  - bookmarks
   - netzwerk
   - sicherheit
 slug: how-https-works

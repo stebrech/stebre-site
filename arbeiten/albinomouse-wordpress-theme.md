@@ -5,7 +5,6 @@ featuredImage: assets/img/20130101_albinomouse-wordpress-theme.png
 description: "[AlbinoMouse](https://wordpress.org/themes/albinomouse/) war mein erstes WordPress Theme, welches ich entwickelt habe und im offiziellen Verzeichnis auf wordpress.org zur Verfügung gestellt habe."
 tags:
   - webentwicklung
-  - projects
 featured: false
 weblink: https://wordpress.org/themes/albinomouse/
 aliases:

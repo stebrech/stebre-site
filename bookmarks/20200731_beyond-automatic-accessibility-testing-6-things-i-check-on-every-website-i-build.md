@@ -4,7 +4,6 @@ title: |
 date: 2020-07-31
 tags:
   - barrierefreiheit
-  - bookmarks
   - testen
   - webentwicklung
 slug: beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build

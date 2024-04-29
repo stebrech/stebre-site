@@ -4,7 +4,6 @@ title: |
 date: 2020-09-02
 tags:
   - barrierefreiheit
-  - bookmarks
   - webentwicklung
 slug: 5-most-annoying-website-features-i-face-as-a-blind-person-every-single-day
 weblink: https://bighack.org/5-most-annoying-website-features-i-face-as-a-blind-screen-reader-user-accessibility/

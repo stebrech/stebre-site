@@ -6,7 +6,6 @@ description: Beim Surfen durch das Web gelangt man immer wieder mal auf eine Web
 tags:
   - app
   - wordpress
-  - posts
 ---
 ## WPTD liefert die Informationen
 

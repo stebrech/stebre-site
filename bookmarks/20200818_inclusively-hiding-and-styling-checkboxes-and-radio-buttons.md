@@ -4,7 +4,6 @@ title: |
 date: 2020-08-18
 tags:
   - barrierefreiheit
-  - bookmarks
   - css
   - formular
   - svg

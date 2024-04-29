@@ -6,7 +6,6 @@ description: Ich möchte euch ein praktisches WordPress Plugin empfehlen, welche
 tags:
   - performance
   - wordpress
-  - posts
 ---
 ## Die Bildgrössen in den Mediathek Einstellungen
 

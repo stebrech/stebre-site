@@ -5,7 +5,6 @@ featuredImage: assets/img/20120702_social-media-icons-rounded-and-glossy-v1.jpg
 description: «Rounded & Glossy» ist ein kleines Paket mit 30 Social Media Icons. Die Icons haben eine abgerundete Form mit einem Glanzeffekt.
 tags:
   - icons
-  - projects
 featured: false
 weblink: https://github.com/stebrech/social-media-icons-rounded-glossy-1
 aliases:

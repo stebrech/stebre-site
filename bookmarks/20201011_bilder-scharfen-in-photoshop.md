@@ -3,7 +3,6 @@ title: |
   Bilder schärfen in Photoshop
 date: 2020-10-11
 tags:
-  - bookmarks
   - photoshop
 slug: bilder-scharfen-in-photoshop
 weblink: https://www.designerinaction.de/tipps-tricks/photoshop/bilder-schaerfen/

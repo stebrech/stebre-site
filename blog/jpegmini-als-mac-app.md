@@ -6,7 +6,6 @@ description: Vor einer ganzen Weile habe ich über ein praktisches Tool namens J
 tags:
   - bildoptimierung
   - performance
-  - posts
 ---
 Vor einer ganzen Weile habe ich über ein praktisches Tool namens JPEGmini berichtet. JPEGmini verspricht eine verlustfreie Komprimierung. [In meinem Artikel hatte ich einige Tests](https://www.pixelstrol.ch/fotos-komprimieren-mithilfe-von-jpegmini/) mit demselben Bild, aber verschiedener Bildqualität als Ausgangslage, durchgeführt. 
 

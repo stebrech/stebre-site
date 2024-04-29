@@ -5,7 +5,6 @@ featuredImage: assets/img/20200226_weshalb-barrierefreiheit-keine-option-ist.jpg
 description: "**… sondern ein Muss.** Die digitale Barrierefreiheit wird gerne als nice-to-have-Erweiterung betrachtet, die man am besten kurz vor Projektende noch schnell «installiert»."
 tags:
   - barrierefreiheit
-  - posts
 ---
 Wird man dann mit Kosten konfrontiert, die das Budget massiv überschreiten – ja was denkst du wie wohl der Entscheid ausfallen wird? Die kleine Zielgruppe mit den paar Blinden können wir vernachlässigen.
 

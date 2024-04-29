@@ -6,7 +6,6 @@ description: Im zweiten Teil dieser Artikelreihe möchte ich die Grundanforderun
 tags:
   - barrierefreiheit
   - pdf
-  - posts
 ---
 Wer den ersten Teil «[Barrierefreie PDFs – Eine Übersicht zur Herausforderung](https://www.pixelstrol.ch/barrierefreie-pdfs-eine-uebersicht-zur-herausforderung/)» noch nicht gelesen hat, findet dort allgemeine Informationen zu möglichen Barrieren, Assistiven Technologien (AT), Prüfungsmöglichkeiten und mehr.
 

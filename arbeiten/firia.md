@@ -5,7 +5,6 @@ featuredImage: assets/img/20200419_firia.png
 description: Da ich von Markdown und dem [iA Writer](https://ia.net/de/writer) begeistert bin, habe ich das iA Writer Template **FirIA** entwickelt. Im Namen FirIA versteckt sich die verwendete Schrift Fira Sans.
 tags:
   - markdown
-  - projects
 featured: false
 weblink: https://github.com/stebrech/FirIA
 aliases:

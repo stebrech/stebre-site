@@ -8,7 +8,6 @@ tags:
   - content-first
   - indesign
   - markdown
-  - posts
 ---
 Mit Word und ähnlicher Software können Formatierungen schnell und einfach angewendet werden. Beim Ausdruck auf dem Bürodrucker mag noch niemand merken, dass die angewendeten Formatierungen vielleicht nicht die besten waren:
 

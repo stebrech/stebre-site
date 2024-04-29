@@ -5,7 +5,6 @@ featuredImage: assets/img/20120705_schweizer-impressum-generator.jpg
 description: In einem [Blogartikel auf hostpoint.ch](https://blog.hostpoint.ch/de/2011/12/impressumspflicht-ab-fruehling-auch-in-der-schweiz/) macht [Rechtsanwalt Martin Steiger](https://www.steigerlegal.ch/) auf die seit Frühling 2012 geltende Impressumspflicht in der Schweiz aufmerksam. Kürzlich bin ich über eine Seite gestossen, mit dem es möglich ist, ein auf die betriebene Website passendes Impressum zu generieren.
 tags:
   - rechtliches
-  - posts
 ---
  Dieser Generator soll auf schweizerisches Recht abgestimmt sein. Selbstverständlich nimmt der Betreiber keine Gewähr auf Gültigkeit und Richtigkeit des erzeugten Impressums.
 

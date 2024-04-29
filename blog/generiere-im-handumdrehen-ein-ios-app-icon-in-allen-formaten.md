@@ -6,8 +6,6 @@ description: Durch [einen Beitrag auf codevisually.com](http://codevisually.com/
 tags:
   - app
   - icons
-  - posts
-permalink: blog/2012/12/generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten/
 ---
 Das Beste dabei – es werden sämtliche Grössenformate automatisch erstellt.
 

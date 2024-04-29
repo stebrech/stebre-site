@@ -4,7 +4,6 @@ title: |
 date: 2020-11-25
 tags:
   - barrierefreiheit
-  - bookmarks
   - html
   - webentwicklung
 slug: under-engineered-responsive-tables

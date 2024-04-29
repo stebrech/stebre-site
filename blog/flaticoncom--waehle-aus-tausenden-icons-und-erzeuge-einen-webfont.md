@@ -5,7 +5,6 @@ featuredImage: assets/img/20131113_flaticoncom--waehle-aus-tausenden-icons-und-e
 description: "[flaticon.com](https://www.flaticon.com/) ist eine Suchmaschine um geeignete Icons im “Flat”-Stil ausfindig zu machen. Der Dienst stammt von den Machern von [freepik](https://www.freepik.com/), einer beliebten Suchmaschine für Vektorgrafiken, Fotos und Photoshop-Dateien."
 tags:
   - icons
-  - posts
 ---
 ## Flat Design - was ist das?
 

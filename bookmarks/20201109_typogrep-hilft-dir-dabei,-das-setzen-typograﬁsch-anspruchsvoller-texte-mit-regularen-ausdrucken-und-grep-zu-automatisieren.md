@@ -3,7 +3,6 @@ title: |
   Typogrep hilft dir dabei, das Setzen typograﬁsch anspruchsvoller Texte mit Regulären Ausdrücken und GREP zu automatisieren.
 date: 2020-11-09
 tags:
-  - bookmarks
   - indesign
   - typografie
 slug: typogrep-hilft-dir-dabei,-das-setzen-typograﬁsch-anspruchsvoller-texte-mit-regularen-ausdrucken-und-grep-zu-automatisieren

@@ -4,7 +4,6 @@ title: |
 date: 2020-07-21
 tags:
   - barrierefreiheit
-  - bookmarks
 slug: standards-for-writing-accessibly
 weblink: https://alistapart.com/article/standards-for-writing-accessibly/
 domainName: alistapart.com

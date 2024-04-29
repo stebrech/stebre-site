@@ -4,7 +4,6 @@ date: 2024-03-06
 featuredImage: assets/img/20240308_lesezeichen-mit-der-pocket-api-nach-11ty-importieren.jpg
 description: Pocket bietet eine API, mit der die gespeicherten Lesezeichen verwendet und angepasst werden können. Diese mache ich mir zu nutzen und speichere die Daten in einem Lesezeichenbeitrag auf [stebre.ch](https://stebre.ch/lesezeichen). Es werden Lesezeichen mit einem spezifischen Tag berücksichtigt. Nach der Verarbeitung wird der auf Pocket gespeicherte Link archiviert.
 tags:
-  - projects
   - 11ty
   - automatisierung
   - webentwicklung

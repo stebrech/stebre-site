@@ -6,7 +6,6 @@ description: Letzte Woche ist die [Schweizer Accessibility-Studie 2016](https://
 tags:
   - barrierefreiheit
   - pdf
-  - posts
 aliases:
   - Barrierefreie PDFs – Eine Übersicht zur Herausforderung
 ---

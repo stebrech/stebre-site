@@ -6,7 +6,6 @@ description: Bildformate wie `HEIC` und `WebP` werden von vielen Applikationen n
 tags:
   - automatisierung
   - bildoptimierung
-  - posts
 ---
 Im Finder von MacOS lässt sich das ganz schnell und einfach bewerkstelligen. Mit der Standard-App [Automator](https://support.apple.com/de-ch/guide/automator/welcome/mac) lassen sich zudem einfache Bildanpassungen automatisiert mit einem Mausklick anwenden.
 

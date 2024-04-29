@@ -42,7 +42,7 @@ const pocketDataRequest = async () => {
 				id: dataArray[i].item_id,
 				title: dataArray[i].resolved_title,
 				date: convertEpochToDate(dataArray[i].time_added),
-				tags: `[ ${tags.join(", ")} ]`,
+				tags: `[ ${tags.filter((tag) => tag !== "bookmarks").join(", ")} ]`,
 				excerpt: dataArray[i].excerpt,
 				lang: dataArray[i].lang,
 				slug: slugify(dataArray[i].resolved_title, { remove: /[*+~.–—()'"!?:;@]/g, lower: true }),

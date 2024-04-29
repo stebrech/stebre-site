@@ -8,7 +8,6 @@ tags:
   - markdown
   - print
   - print-css
-  - projects
 featured: true
 weblink: https://stebre.ch/weihnachtsbuch2023
 aliases:

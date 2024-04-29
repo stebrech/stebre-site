@@ -9,7 +9,6 @@ tags:
   - branding
   - content
   - webentwicklung
-  - projects
 featured: false
 aliases:
   - "stebre.ch: Relaunch und Namensänderung"

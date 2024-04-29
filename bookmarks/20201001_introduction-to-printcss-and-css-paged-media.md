@@ -3,7 +3,6 @@ title: |
   Introduction to PrintCSS and CSS Paged Media
 date: 2020-10-01
 tags:
-  - bookmarks
   - print-css
 slug: introduction-to-printcss-and-css-paged-media
 weblink: https://www.print-css.rocks/

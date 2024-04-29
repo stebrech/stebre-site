@@ -6,7 +6,6 @@ description: Am 9.9.2017 fand die WordPress-Veranstaltung in Bern statt. Diese V
 tags:
   - branding
   - print
-  - projects
 featured: false
 weblink: https://bern.wordcamp.org/2017/
 aliases:

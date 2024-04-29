@@ -3,7 +3,6 @@ title: |
   Isoflow | Network diagrams
 date: 2020-08-25
 tags:
-  - bookmarks
   - diagramm
   - webapp
 slug: isoflow-or-network-diagrams

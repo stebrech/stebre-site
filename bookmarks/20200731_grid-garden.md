@@ -3,7 +3,6 @@ title: |
   Grid Garden
 date: 2020-07-31
 tags:
-  - bookmarks
   - css
   - elearning
   - webentwicklung

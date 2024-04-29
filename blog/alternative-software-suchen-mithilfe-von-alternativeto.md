@@ -6,7 +6,6 @@ description: |-
   [alternativeto.net](https://alternativeto.net) ist eine Software-Suchmaschine. Wird nach einer Software gesucht, werden neben Informationen zur gesuchten Applikation, alternative Softwarevorschläge empfohlen.
 tags:
   - app
-  - posts
 weblink: https://alternativeto.net
 ---
 ## Das Rating

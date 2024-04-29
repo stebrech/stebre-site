@@ -9,7 +9,6 @@ tags:
   - notion
   - 11ty
   - webentwicklung
-  - projects
 featured: false
 weblink: https://familienverein-wahlen.ch
 aliases:

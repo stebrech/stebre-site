@@ -3,7 +3,6 @@ title: |
   Keep the Footer at the Bottom: Flexbox vs. Grid
 date: 2020-12-28
 tags:
-  - bookmarks
   - css
   - webentwicklung
 slug: keep-the-footer-at-the-bottom-flexbox-vs-grid

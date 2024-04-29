@@ -6,7 +6,6 @@ description: Für die Einladungskarte der Taufe unseres Jüngsten habe ich das M
 tags:
   - icons
   - print
-  - projects
 featured: false
 aliases:
   - Gian the lion

@@ -7,7 +7,6 @@ tags:
   - branding
   - content
   - webentwicklung
-  - projects
   - barrierefreiheit
 featured: false
 weblink: https://accessible-pdf.info/de

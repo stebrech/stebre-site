@@ -3,7 +3,6 @@ title: |
   Prevent layout shifts with CSS grid stacks
 date: 2020-11-26
 tags:
-  - bookmarks
   - css
   - webentwicklung
 slug: prevent-layout-shifts-with-css-grid-stacks
