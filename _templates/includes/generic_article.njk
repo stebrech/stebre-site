@@ -2,7 +2,7 @@
 	<div class="headerShadow">
 		<header class="headerPost">
 			<div class="containerM">
-				<h1 class="title"{% if post.data.lang === "en" %} lang="en"{% endif %}>
+				<h1 class="title"{% if (page.lang !== "en") and (post.data.lang === "en") %} lang="en"{% endif %}>
 					{{ title }}
 				</h1>
 				{% if featuredImage %}
@@ -15,7 +15,7 @@
 	</div>
 	<div class="containerL">
 		<div class="contentContainer">
-			<div class="content"{% if post.data.lang === "en" %} lang="en"{% endif %}>
+			<div class="content"{% if (page.lang !== "en") and (post.data.lang === "en") %} lang="en"{% endif %}>
 				{% if description %}
 					<div class="lead">
 						{{ description | markdown | safe }}
@@ -24,39 +24,41 @@
 				{{ content | safe }}
 			</div>
 			<footer class="metadata">
-				{% if date %}<p>{% if collection === "bookmarks" %}Gefunden am:{% else %}Publiziert am:{% endif %} {{ date | readableDate }}</p>{% endif %}
-				{% if updated %}<p>Aktualisiert am: {{ updated | readableDate }}</p>{% endif %}
-				{% if author %}<p>Autor: {{ author }}</p>{% endif %}
+				<p>{% if postType === "bookmarks" %}{{ i18n.article.metadata.bookmarkFound[page.lang] }}{% else %}{{ i18n.article.metadata.publishDate[page.lang] }}{% endif %} <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></p>
+				{% if updated %}<p>{{ i18n.article.metadata.lastUpdate[page.lang] }} {{ updated | readableDate }}</p>{% endif %}
+				{% if author %}<p>{{ i18n.article.metadata.author[page.lang] }} {{ author }}</p>{% endif %}
 				{% if tags.length > 1 %}
 					<h2>Tags</h2>
 					<ul class="tags">
 						{%- for tag in tags | excludeTagsFromTagList %}
-							{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+							{%- set tagUrl %}{% if page.lang === "en" %}/en{% endif %}/tags/{{ tag | slugify }}/{% endset %}
 							<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
 						{%- endfor %}
 					</ul>
 				{% endif %}
 				{% if timeToRead %}
-					<h2>Ungefähre Lesezeit</h2>
-					<p>{{ timeToRead }} Minuten</p>
+					<h2>{{ i18n.article.metadata.timeToRead[page.lang] }}</h2>
+					<p>{{ timeToRead }} {{ i18n.article.metadata.minutes[page.lang] }}</p>
 				{% endif %}
-				{% if lang %}
-					<h2>Sprache</h2>
-					<p>{% if lang === "en" %}Englisch{% elif lang === "de" %}Deutsch{% endif %}</p>
+				{% if bookmarkLang %}
+					<h2>{{ i18n.article.metadata.language[page.lang] }}</h2>
+					<p>{% if lang === "en" %}{{ i18n.article.metadata.language.english[page.lang] }}{% elif lang === "de" %}{{ i18n.article.metadata.language.german[page.lang] }}{% endif %}</p>
 				{% endif %}
 				{% if weblink %}
-					<p class="weblink"><a href={{ weblink }}>Zur Website</a></p>
+					<p class="weblink"><a href={{ weblink }}>{{ i18n.article.metadata.weblink[page.lang] }}</a></p>
 				{% endif %}
+				{% if page.lang === "de" %}
 				<hr>
 				<h2>Newsletter abonnieren</h2>
 				{% include "./form_newsletter.njk" %}
+				{% endif %}
 				<hr>
-				<h2>RSS-Feed abonnieren</h2>
+				<h2>{{ i18n.article.metadata.subscribe2feed[page.lang] }}</h2>
 				<ul>
-					<li><a href="https://stebre.ch/feed.xml">Alle Beiträge</a></li>
-					<li><a href="https://stebre.ch/feed_posts.xml">Blogbeiträge</a></li>
-					<li><a href="https://stebre.ch/feed_projects.xml">Arbeiten</a></li>
-					<li><a href="https://stebre.ch/feed_bookmarks.xml">Lesezeichen</a></li>
+					<li><a href="{{ i18n.article.metadata.subscribe2feed.all.url[page.lang] }}">{{ i18n.article.metadata.subscribe2feed.all[page.lang] }}</a></li>
+					<li><a href="{{ i18n.article.metadata.subscribe2feed.blog.url[page.lang] }}">{{ i18n.article.metadata.subscribe2feed.blog[page.lang] }}</a></li>
+					<li><a href="{{ i18n.article.metadata.subscribe2feed.projects.url[page.lang] }}">{{ i18n.article.metadata.subscribe2feed.projects[page.lang] }}</a></li>
+					<li><a href="{{ i18n.article.metadata.subscribe2feed.bookmarks.url[page.lang] }}">{{ i18n.article.metadata.subscribe2feed.bookmarks[page.lang] }}</a></li>
 				</ul>
 			</footer>
 		</div>

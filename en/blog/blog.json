@@ -1,0 +1,5 @@
+{
+	"tags": "blog_en",
+	"postType": "blog",
+	"permalink": "en/blog/{{ title | slugify }}/"
+}

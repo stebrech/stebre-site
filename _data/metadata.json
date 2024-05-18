@@ -1,6 +1,9 @@
 {
 	"title": "stebre.ch",
-	"description": "SteBre ist die Website von Stefan Brechbühl.",
+	"description": {
+		"de": "SteBre ist die Website von Stefan Brechbühl.",
+		"en": "SteBre is the website of Stefan Brechbühl."
+	},
 	"url": "https://stebre.ch",
 	"author": {
 		"name": "Stefan Brechbühl",

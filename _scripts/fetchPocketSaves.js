@@ -44,7 +44,7 @@ const pocketDataRequest = async () => {
 				date: convertEpochToDate(dataArray[i].time_added),
 				tags: `[ ${tags.filter((tag) => tag !== "bookmarks").join(", ")} ]`,
 				excerpt: dataArray[i].excerpt,
-				lang: dataArray[i].lang,
+				bookmarkLang: dataArray[i].lang,
 				slug: slugify(dataArray[i].resolved_title, { remove: /[*+~.–—()'"!?:;@]/g, lower: true }),
 				weblink: dataArray[i]?.resolved_url,
 				domainName: domainName,
@@ -69,7 +69,7 @@ const pocketDataRequest = async () => {
 			data += `weblink: ${frontmatterData.weblink}\n`;
 			data += `domainName: ${frontmatterData.domainName}\n`;
 			if (frontmatterData.lang) {
-				data += `lang: ${frontmatterData.lang}\n`;
+				data += `bookmarkLang: ${frontmatterData.lang}\n`;
 			}
 
 			// Get the meta description of the website

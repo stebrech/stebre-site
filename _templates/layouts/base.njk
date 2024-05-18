@@ -1,18 +1,20 @@
 <!doctype html>
-<html lang="de" dir="ltr">
+<html lang="{{ page.lang }}" dir="{{ dir }}">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{% if templateClass !== "home" %}{{ title or tag }} | {% endif %}{{ metadata.title }}</title>
-		<meta name="description" content="{{ description | removeMarkdown or metadata.description }}">
+		<meta name="description" content="{{ description | removeMarkdown or metadata.description[page.lang] }}">
 
 		{#- Atom and JSON feeds included by default #}
-		<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-		<link rel="alternate" href="/feed.json" type="application/json" title="{{ metadata.title }}">
-		<link rel="alternate" href="/feed_projects.xml" type="application/atom+xml" title="Arbeiten | {{ metadata.title }}">
-		<link rel="alternate" href="/feed_projects.json" type="application/json" title="Arbeiten | {{ metadata.title }}">
-		<link rel="alternate" href="/feed_posts.xml" type="application/atom+xml" title="Blogbeiträge | {{ metadata.title }}">
-		<link rel="alternate" href="/feed_posts.json" type="application/json" title="Blogbeiträge | {{ metadata.title }}">
+		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed.json" type="application/json" title="{{ metadata.title }}">
+		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_projects.xml" type="application/atom+xml" title="{{ i18n.mainnav.arbeiten[page.lang] }} | {{ metadata.title }}">
+		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_projects.json" type="application/json" title="{{ i18n.mainnav.arbeiten[page.lang] }} | {{ metadata.title }}">
+		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_posts.xml" type="application/atom+xml" title="{{ i18n.mainnav.blog[page.lang] }} | {{ metadata.title }}">
+		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_posts.json" type="application/json" title="{{ i18n.mainnav.blog[page.lang] }} | {{ metadata.title }}">
+		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_bookmarks.xml" type="application/atom+xml" title="{{ i18n.mainnav.bookmarks[page.lang] }} | {{ metadata.title }}">
+		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_bookmarks.json" type="application/json" title="{{ i18n.mainnav.bookmarks[page.lang] }} | {{ metadata.title }}">
 
 		{#- Stylesheets #}
 		{% set css %}
@@ -51,7 +53,6 @@
 		<script src="/assets/tablefilter/tablefilter.js"></script>
 		{% endif %}
 
-
 		{#- Favicons #}
 		{% include "includes/favicon.njk" %}
 
@@ -64,29 +65,31 @@
 	</head>
 	<body class="{% if templateClass %}{{ templateClass }}{% endif %}">
 		<div class="site">
-			<a href="#primary" class="skip_link screen-reader-text">Zum Inhalt springen</a>
+			<a href="#primary" class="skip_link screen-reader-text">{{ i18n.skiplink[page.lang] }}</a>
 
 			<header class="site_header topnav wrapper" role="banner">
-				{% include "includes/nav_main.njk" %}
-				<button id="search-icon" aria-label="Search">
-					{% image "assets/img/search.svg", "Search Icon" %}
-				</button>
+				<div class="left">
+					{% include "includes/nav_main.njk" %}
+				</div>
+				<div class="right">
+					{% include "includes/lang_switcher.njk" %}
+					<button id="search-icon" aria-label="Search">
+						{% image "assets/img/search.svg", "Search Icon" %}
+					</button>
+				</div>
 			</header>
 
 			<main id="primary" class="site_main">
 				<div id="search-container" class="containerM screen-reader-text" aria-hidden="true">
 					<div id="search"></div>
 					<div id="search-close-container">
-						<button id="search-close" aria-label="Schliessen">Suche schliessen</button>
+						<button id="search-close" aria-label="Schliessen">{{ i18n.search.close[page.lang] }}</button>
 					</div>
 				</div>
 				{{ content | safe }}
 			</main>
-
 			{% include "includes/footer.njk" %}
-
 		</div>
-
 	</body>
 </html>
 

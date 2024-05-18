@@ -1,0 +1,9 @@
+<section class="filter containerM">
+	<h2 class="sectionTitle">{{ i18n.headings.taglist[page.lang] }}</h2>
+	<ul class="tagList">
+		{% for tag in collections[collection] | getAllTags | sortTagList | excludeTagsFromTagList %}
+		{% set tagUrl %}{% if page.lang === "en" %}/en{% endif %}/tags/{{ tag | slugify }}/{% endset %}
+			<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+		{% endfor %}
+	</ul>
+</section>

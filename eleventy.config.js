@@ -1,4 +1,4 @@
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const { EleventyI18nPlugin, EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const pluginFilters = require("./eleventy.config.filters.js");
@@ -29,6 +29,10 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("./assets");
 
 	// Official plugins
+	eleventyConfig.addPlugin(EleventyI18nPlugin, {
+		locales: ["de", "en"],
+		defaultLanguage: "de",
+	});
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -44,12 +48,18 @@ module.exports = function (eleventyConfig) {
 		return new CleanCSS({}).minify(code).styles;
 	});
 
-	// Custom collections
-	eleventyConfig.addCollection("featuredProjects", (collection) => {
-		return collection.getFilteredByTag("projects").filter((item) => item.data.featured);
+	// Custom Collections
+	eleventyConfig.addCollection("featuredProjectsDe", (collection) => {
+		return collection.getFilteredByTag("projects_de").filter((item) => item.data.featured);
+	});
+	eleventyConfig.addCollection("featuredProjectsEn", (collection) => {
+		return collection.getFilteredByTag("projects_en").filter((item) => item.data.featured);
 	});
 	eleventyConfig.addCollection("feed", (collection) => {
-		return collection.getFilteredByGlob(["arbeiten/*.md", "blog/*.md", "bookmarks/*.md"]);
+		return collection.getFilteredByGlob(["de/arbeiten/*.md", "de/blog/*.md", "de/bookmarks/*.md"]);
+	});
+	eleventyConfig.addCollection("feed_en", (collection) => {
+		return collection.getFilteredByGlob(["en/arbeiten/*.md", "en/blog/*.md", "en/bookmarks/*.md"]);
 	});
 
 	// Features to make your build faster (when you need them)

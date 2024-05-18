@@ -7,21 +7,26 @@ pagination:
   alias: tag
   filter:
     - all
-    - bookmarks
+    - blog_de
+    - blog_en
+    - bookmarks_de
+    - bookmarks_en
+    - featuredProjectsDe
+    - featuredProjectsEn
     - feed
-    - pages
-    - projects
-    - featuredProjects
-    - posts
-permalink: /tags/{{ tag }}/
+    - feed_en
+    - pages_de
+    - pages_en
+    - projects_de
+    - projects_en
 ---
 <header class="header containerM">
   <h1 class="title">#{{ tag }}</h1>
 </header>
 
-{% set results = collections[ tag ] | reverse %}
+{% set results = collections[ tag ] | reverse | localizedTag(page.lang) %}
 <section class="results containerM{% if results.length === 0 %} hidden{% endif %}">
-	<h2 class="sectionTitle">Alle Inhalte mit dem Schlagwort <code>#{{ tag }}</code></h2>
+	<h2 class="sectionTitle">{{ i18n.headings.tagContent[page.lang] }} <code>#{{ tag }}</code></h2>
 	<div class="list">
     {% include "includes/preview.njk" %}
   </div>

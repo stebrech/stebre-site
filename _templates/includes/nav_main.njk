@@ -1,24 +1,35 @@
-<nav id="mainnav" role="navigation" aria-label="Hauptmenü" labeledby="mainmenu">
-	<span id="nav-label" hidden>Hauptmenü</span>
+<nav id="mainnav" role="navigation" aria-label="{{ i18n.mainnav.hiddenLabel[page.lang] }}" labeledby="mainmenu">
+	<span id="nav-label" hidden="">{{ i18n.mainnav.hiddenLabel[page.lang] }}</span>
 	<button id="btnOpen" class="open-btn" aria-expanded="false" aria-labelledby="nav-label">
 		{# <img src="/assets/img/menu.svg" alt="" width="40" height="24" /> #}
 		{% include "./logo.svg" %}
-		<span class="open-btn-txt">Menü</span>
+		<span class="open-btn-txt">{{ i18n.mainnav.mobileLabel[page.lang] }}</span>
 	</button>	
 	<div class="menu-container" role="dialog" aria-labelledby="nav-label">
 		<button id="btnClose" class="close-btn" aria-label="Close">
-			{# <img src="/assets/img/close.svg" alt="" width="28" height="27" /> #}
 			{% include "./close.svg" %}
 		</button>
 		<ul id="mainmenu" class="menu-links visible">
 			<li class="logo nav-item">
-				<a href="/">
+				<a href="{{ i18n.mainnav.home.url[page.lang] }}">
 					{% include "./logo.svg" %}
 				</a>
 			</li>
-			{%- for entry in collections.all | eleventyNavigation %}
-				<li class="topnav__item nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}" class="menu-links">{{ entry.title }}</a></li>
-			{%- endfor %}
+			<li class="nav-item{% if i18n.mainnav.arbeiten.url[page.lang] === page.url %} nav-item-active{% endif %}">
+				<a href="{{ i18n.mainnav.arbeiten.url[page.lang] }}" class="menu-links">
+					{{ i18n.mainnav.arbeiten[page.lang] }}
+				</a>
+			</li>
+			<li class="nav-item{% if i18n.mainnav.blog.url[page.lang] === page.url %} nav-item-active{% endif %}">
+				<a href="{{ i18n.mainnav.blog.url[page.lang] }}" class="menu-links">
+					{{ i18n.mainnav.blog[page.lang] }}
+				</a>
+			</li>
+			<li class="nav-item{% if i18n.mainnav.bookmarks.url[page.lang] === page.url %} nav-item-active{% endif %}">
+				<a href="{{ i18n.mainnav.bookmarks.url[page.lang] }}" class="menu-links">
+					{{ i18n.mainnav.bookmarks[page.lang] }}
+				</a>
+			</li>
 		</ul>
 	</div>
 </nav>

@@ -399,7 +399,7 @@ pre[class*="language-"] {
 }
 
 .token.string {
-	color: var(--color-primary-dark-alt);
+	color: var(--color-primary-darker);
 }
 
 .token.punctuation,
@@ -438,7 +438,7 @@ code[class*="language-css"] {
 
 .token.selector,
 .language-autohotkey .token.keyword {
-	color: var(--color-primary-dark-alt);
+	color: var(--color-primary-darker);
 }
 
 .token.important {

@@ -1,0 +1,17 @@
+<ul id="lang-switcher">
+	<li class="lang-switch current">
+		<a href="{{ page.url }}" lang="{{ page.lang }}" hreflang="{{ page.lang }}">
+			{{ page.lang | upper }}
+		</a>
+		</a>
+	</li>
+
+	{% for link in page.url | locale_links %}
+		<li class="lang-switch">
+			<a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
+				{{ link.lang | upper }}
+			</a>
+			</a>
+		</li>
+	{% endfor %}
+</ul>

@@ -1,6 +1,6 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
-const removeMd = require('remove-markdown');
+const removeMd = require("remove-markdown");
 
 module.exports = (eleventyConfig) => {
 	eleventyConfig.addFilter("readableDate", (dateObj) => {
@@ -38,9 +38,29 @@ module.exports = (eleventyConfig) => {
 		});
 	});
 
+	eleventyConfig.addFilter("localizedTag", (collection, pageLang) => {
+		return collection.filter((item) => {
+			const postLang = item.data.lang;
+			if (postLang == pageLang) {
+				return item;
+			}
+		});
+	});
+
 	eleventyConfig.addFilter("excludeTagsFromTagList", (tags) => {
 		return (tags || []).filter(
-			(tag) => ["all", "posts", "projects", "pages", "bookmarks"].indexOf(tag) === -1,
+			(tag) =>
+				[
+					"all",
+					"blog_de",
+					"blog_en",
+					"projects_de",
+					"projects_en",
+					"pages_de",
+					"pages_en",
+					"bookmarks_de",
+					"bookmarks_en",
+				].indexOf(tag) === -1,
 		);
 	});
 
@@ -52,7 +72,6 @@ module.exports = (eleventyConfig) => {
 		return arr.slice(0, limit);
 	});
 
-	// Add within your config module
 	const md = new markdownIt({
 		html: true,
 	});

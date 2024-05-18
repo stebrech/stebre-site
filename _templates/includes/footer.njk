@@ -1,13 +1,13 @@
 <footer class="site_footer">
 	<nav class="footer_nav" role="navigation" aria-label="Footermenü" labeledby="footermenu">
 		<ul id="footermenu">
-			<li><a href="/impressum">Impressum</a></li>
-			<li><a href="/datenschutz">Datenschutz</a></li>
+			<li><a href="{{ i18n.secondaryNav.imprint.url[page.lang] }}">{{ i18n.secondaryNav.imprint[page.lang] }}</a></li>
+			<li><a href="{{ i18n.secondaryNav.privacy.url[page.lang] }}">{{ i18n.secondaryNav.privacy[page.lang] }}</a></li>
 		</ul>
 	</nav>
 	<small>
 		&copy; {{ helpers.currentYear() }} {{ metadata.title }} <span class"dot">&middot;</span>
-		Website realisiert mit <a href="https://www.11ty.dev/">11ty</a> und 
+		{{ i18n.footer.realizedWith[page.lang] }} <a href="https://www.11ty.dev/">11ty</a> {{ i18n.footer.and[page.lang] }} 
 		<a href="https://www.netlify.com/">Netlify</a>
 	</small>
 </footer>

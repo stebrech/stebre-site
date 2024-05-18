@@ -1,0 +1,204 @@
+{
+	"mainnav": {
+		"hiddenLabel": {
+			"de": "Hauptmenü",
+			"en": "Main menu"
+		},
+		"mobileLabel": {
+			"de": "Menü",
+			"en": "Menu"
+		},
+		"home": {
+			"de": "Startseite",
+			"en": "Home",
+			"url": {
+				"de": "/",
+				"en": "/en/"
+			}
+		},
+		"arbeiten": {
+			"de": "Arbeiten",
+			"en": "Projects",
+			"url": {
+				"de": "/arbeiten/",
+				"en": "/en/arbeiten/"
+			}
+		},
+		"blog": {
+			"de": "Blog",
+			"en": "Blog",
+			"url": {
+				"de": "/blog/",
+				"en": "/en/blog/"
+			}
+		},
+		"bookmarks": {
+			"de": "Lesezeichen",
+			"en": "Bookmarks",
+			"url": {
+				"de": "/bookmarks/",
+				"en": "/en/bookmarks/"
+			}
+		}
+	},
+	"secondaryNav": {
+		"imprint": {
+			"de": "Impressum",
+			"en": "Imprint",
+			"url": {
+				"de": "/impressum/",
+				"en": "/en/imprint/"
+			}
+		},
+		"privacy": {
+			"de": "Datenschutz",
+			"en": "Privacy",
+			"url": {
+				"de": "/datenschutz/",
+				"en": "/datenschutz/"
+			}
+		}
+	},
+	"footer": {
+		"realizedWith": {
+			"de": "Website realisiert mit",
+			"en": "Website realized with"
+		},
+		"and": {
+			"de": "und",
+			"en": "and"
+		}
+	},
+	"headings": {
+		"projects": {
+			"de": "Ausgewählte Arbeiten",
+			"en": "Selected projects"
+		},
+		"blog": {
+			"de": "Neueste Blogartikel",
+			"en": "Latest blog posts"
+		},
+		"tagContent": {
+			"de": "Alle Inhalte mit dem Schlagwort",
+			"en": "All content with the tag"
+		},
+		"taglist": {
+			"de": "Nach einem Schlagwort filtern",
+			"en": "Filter by a tag"
+		}
+	},
+	"skiplink": {
+		"de": "Zum Inhalt springen",
+		"en": "Skip to content"
+	},
+	"search": {
+		"close": {
+			"de": "Suche schliessen",
+			"en": "Close search"
+		}
+	},
+	"links": {
+		"mastodon": {
+			"de": "https://mastodontech.de/@stebre",
+			"en": "https://fosstodon.org/@stebre"
+		}
+	},
+	"imgAlt": {
+		"githubIcon": {
+			"de": "Github Profil",
+			"en": "GitHub profile"
+		},
+		"mastodonIcon": {
+			"de": "Mastodon Profil",
+			"en": "Mastodon profile"
+		},
+		"linkedinIcon": {
+			"de": "LinkedIn Profil",
+			"en": "LinkedIn profile"
+		},
+		"profilePic": {
+			"de": "Profilbild von mir",
+			"en": "Profile picture of me"
+		}
+	},
+	"article": {
+		"metadata": {
+			"bookmarkFound": {
+				"de": "Gefunden am:",
+				"en": "Found on:"
+			},
+			"publishDate": {
+				"de": "Veröffentlicht am:",
+				"en": "Published on:"
+			},
+			"lastUpdate": {
+				"de": "Aktualisiert am:",
+				"en": "Updated on:"
+			},
+			"author": {
+				"de": "Autor:",
+				"en": "Author:"
+			},
+			"timeToRead": {
+				"de": "Ungefähre Lesezeit",
+				"en": "Approximate reading time"
+			},
+			"minutes": {
+				"de": "Minuten",
+				"en": "minutes"
+			},
+			"language": {
+				"de": "Sprache",
+				"en": "Language",
+				"german": {
+					"de": "Deutsch",
+					"en": "German"
+				},
+				"english": {
+					"de": "Englisch",
+					"en": "English"
+				}
+			},
+			"weblink": {
+				"de": "Zur Website",
+				"en": "Visit website"
+			},
+			"subscribe2feed": {
+				"de": "RSS-Feed abonnieren",
+				"en": "Subscribe to RSS feed",
+				"all": {
+					"de": "Alle Beiträge",
+					"en": "All posts",
+					"url": {
+						"de": "https://stebre.ch/feed.xml",
+						"en": "https://stebre.ch/en/feed.xml"
+					}
+				},
+				"projects": {
+					"de": "Arbeiten",
+					"en": "Projects",
+					"url": {
+						"de": "https://stebre.ch/feed_projects.xml",
+						"en": "https://stebre.ch/en/feed_projects.xml"
+					}
+				},
+				"blog": {
+					"de": "Blogbeiträge",
+					"en": "Blog posts",
+					"url": {
+						"de": "https://stebre.ch/feed_posts.xml",
+						"en": "https://stebre.ch/en/feed_posts.xml"
+					}
+				},
+				"bookmarks": {
+					"de": "Lesezeichen",
+					"en": "Bookmarks",
+					"url": {
+						"de": "https://stebre.ch/feed_bookmarks.xml",
+						"en": "https://stebre.ch/en/feed_bookmarks.xml"
+					}
+				}
+			}
+		}
+	}
+}

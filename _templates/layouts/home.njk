@@ -12,28 +12,28 @@ templateClass: home
 					<li>
 						<a href="https://www.linkedin.com/in/stefan-brechbuehl/">
 							<div class="socialIcon">
-								{% image "assets/img/linkedin.svg", "LinkedIn Profil", [60px] %}
+								{% image "assets/img/linkedin.svg", i18n.imgAlt.linkedinIcon[page.lang], [60px] %}
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="https://www.github.com/stebrech/">
 							<div class="socialIcon">
-								{% image "assets/img/github.svg", "Github Profil", [60px] %}
+								{% image "assets/img/github.svg", i18n.imgAlt.githubIcon[page.lang], [60px] %}
 							</div>
 						</a>
 					</li>
 					<li>
-						<a rel="me" href="https://mastodontech.de/@stebre">
+						<a rel="me" href="{{ i18n.links.mastodon[page.lang] }}">
 							<div class="socialIcon">
-								{% image "assets/img/mastodon.svg", "Mastodon Profil", [60px] %}
+								{% image "assets/img/mastodon.svg", i18n.imgAlt.mastodonIcon[page.lang], [60px] %}
 							</div>
 						</a>
 					</li>
 				</ul>
 			</div>
 			<p class="profilePic animate__animated animate__jackInTheBox animate__delay-1s">
-				{% image "assets/img/Stefan.jpg", "Foto von mir." %}
+				{% image "assets/img/Stefan.jpg", i18n.imgAlt.profilePic[page.lang] %}
 			</p>
 		</div>
 		<div class="bgimage">
@@ -42,16 +42,16 @@ templateClass: home
 	</section>
 </div>
 <section class="results containerL">
-	<h2 class="sectionTitle">Ausgewählte Arbeiten</h2>
+	<h2 class="sectionTitle">{{ i18n.headings.projects[page.lang] }}</h2>
 	<div class="cards">
-		{% set results = collections.featuredProjects | reverse | limit(3) %}
+		{% set results = collections[collectionProjects] | reverse | limit(3) %}
 		{% include "includes/preview.njk" %}
 	</div>
 </section>
 <section class="results containerL">
-	<h2 class="sectionTitle">Neuste Blogartikel</h2>
+	<h2 class="sectionTitle">{{ i18n.headings.blog[page.lang] }}</h2>
 	<div class="cards">
-		{% set results = collections.posts | reverse | limit(3) %}
+		{% set results = collections[collectionBlog] | reverse | limit(3) %}
 		{% include "includes/preview.njk" %}
 	</div>
 </section>

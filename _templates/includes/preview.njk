@@ -2,30 +2,28 @@
 	<div class="animate__wrapper animate__animated">
 		<article class="postPreview">
 				<div class="postPreview_container">
-					<h3 class="postPreview_title"{% if post.data.lang === "en" %} lang="en"{% endif %}>
+					<h3 class="postPreview_title"{% if (page.lang !== "en") and (post.data.lang === "en") %} lang="en"{% endif %}>
 						<a href="{{ post.url }}" class="postPreview_link">{{ post.data.title }}</a>
 					</h3>
 					<footer class="postPreview_metadata">
-						<p>{% if post.data.collection === "bookmarks" %}gefunden am{% else %}vom{% endif %} <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate }}</time>{% if post.data.updated %}<br>aktualisiert am <time datetime="{{ post.data.updated | htmlDateString }}">{{ post.data.updated | readableDate}}</time>{% endif %}</p>
-						{% if post.data.tags %}
-							<ul>
-							{% if post.data.lang === "en" %}
-								<li class="postPreview_tag lang">EN</li>
+						<p>{% if postType === "bookmarks" %}{{ i18n.article.metadata.bookmarkFound[page.lang] }}{% else %}{{ i18n.article.metadata.publishDate[page.lang] }}{% endif %} <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate }}</time>{% if post.data.updated %}<br>{{ i18n.article.metadata.lastUpdate[page.lang] }} <time datetime="{{ post.data.updated | htmlDateString }}">{{ post.data.updated | readableDate}}</time>{% endif %}</p>
+						<ul>
+						{% if templateClass === "taglist" %}
+							{% if post.data.postType === "bookmarks" %}
+								<li class="postPreview_tag bookmarks">{{ i18n.mainnav.bookmarks[page.lang] }}</li>
+							{% elif post.data.postType === "projects" %}
+								<li class="postPreview_tag projects">{{ i18n.mainnav.arbeiten[page.lang] }}</li>
+							{% elif post.data.postType === "blog" %}
+								<li class="postPreview_tag posts">{{ i18n.mainnav.bookmarks[page.lang] }}</li>
 							{% endif %}
-							{% if templateClass === "taglist" %}
-								{% if post.data.collection === "bookmarks" %}
-									<li class="postPreview_tag bookmarks">Lesezeichen</li>
-								{% elif post.data.collection === "projects" %}
-									<li class="postPreview_tag projects">Arbeiten</li>
-								{% elif post.data.collection === "posts" %}
-									<li class="postPreview_tag posts">Blog</li>
-								{% endif %}
-							{% endif %}
-							{% for tag in post.data.tags | excludeTagsFromTagList %}
-								<li class="postPreview_tag">#{{ tag }}</a>
-							{% endfor %}
-							</ul>
 						{% endif %}
+						{% if (page.lang !== "en") and (post.data.lang === "en") %}
+							<li class="postPreview_tag lang">EN</li>
+						{% endif %}
+						{% for tag in post.data.tags | excludeTagsFromTagList %}
+							<li class="postPreview_tag">#{{ tag }}</a>
+						{% endfor %}
+						</ul>
 					</footer>
 					<div class="postPreview_excerpt">
 						{{ post.data.description | markdown | safe }}

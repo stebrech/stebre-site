@@ -1,26 +1,16 @@
 ---
 layout: layouts/base.njk
 templateClass: postlist
-pagination:
-  data: collections.bookmarks
-  size: 10
-  alias: bookmarks
-  reverse: true
-permalink: /lesezeichen/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}/
 ---
-<header class="header containerM">
-  <h1 class="title">{{ title }}</h1>
-</header>
+{% include "includes/section_title.njk" %}
 
-<section class="filter containerM">
-	<h2 class="sectionTitle">Nach einem Schlagwort filtern</h2>
-	<ul class="tagList">
-		{% for tag in collections[collection] | getAllTags | sortTagList | excludeTagsFromTagList %}
-		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-			<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
-		{% endfor %}
-	</ul>
+{% if content %}
+<section class="intro containerM">
+	{{ content | safe }}
 </section>
+{% endif %}
+
+{% include "includes/section_filtertags.njk" %}
 
 <section class="results containerM">
 	<div class="list">
@@ -29,4 +19,3 @@ permalink: /lesezeichen/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumb
 	</div>
 	{% include "includes/nav_pagination.njk" %}
 </section>
-
