@@ -8,13 +8,9 @@
 
 		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed.json" type="application/json" title="{{ metadata.title }}">
 		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_projects.xml" type="application/atom+xml" title="{{ i18n.mainnav.arbeiten[page.lang] }} | {{ metadata.title }}">
-		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_projects.json" type="application/json" title="{{ i18n.mainnav.arbeiten[page.lang] }} | {{ metadata.title }}">
 		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_posts.xml" type="application/atom+xml" title="{{ i18n.mainnav.blog[page.lang] }} | {{ metadata.title }}">
-		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_posts.json" type="application/json" title="{{ i18n.mainnav.blog[page.lang] }} | {{ metadata.title }}">
 		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_bookmarks.xml" type="application/atom+xml" title="{{ i18n.mainnav.bookmarks[page.lang] }} | {{ metadata.title }}">
-		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_bookmarks.json" type="application/json" title="{{ i18n.mainnav.bookmarks[page.lang] }} | {{ metadata.title }}">
 
 		{#- Stylesheets #}
 		{% set css %}
