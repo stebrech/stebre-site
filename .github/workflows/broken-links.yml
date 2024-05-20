@@ -1,0 +1,37 @@
+name: Weekly Broken Link Checker
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * 0" # Runs every Sunday at 2 AM UTC
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Run linkinator
+        id: linkinator
+        uses: JustinBeckwith/linkinator-action@v1
+        with:
+          paths: https://stebre.ch
+          recurse: true
+
+      - name: Create report file
+        id: create_report
+        run: |
+          echo "## Broken Links Found" > broken-links.md
+          echo "" >> broken-links.md
+          jq -r '.links[] | select(.state=="BROKEN") | "* [\(.url)](\(.url)) - \(.status)"' ${{ steps.linkinator.outputs.results }} >> broken-links.md
+
+      - name: Check for broken links and create issue
+        if: always()
+        run: |
+          if [ -s broken-links.md ]; then
+            gh issue create --title "Weekly Broken Link Report" --body-file broken-links.md
+          else
+            echo "No broken links found."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
