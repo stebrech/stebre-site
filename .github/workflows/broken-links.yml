@@ -38,5 +38,6 @@ jobs:
             gh issue create --title "Weekly Broken Link Report" --body-file broken-links.md
           else
             echo "No broken links found."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
