@@ -21,6 +21,8 @@ jobs:
         with:
           paths: https://stebre.ch
           recurse: true
+          markdown: false
+          verbosity: error
 
       - name: Create report file
         id: create_report
