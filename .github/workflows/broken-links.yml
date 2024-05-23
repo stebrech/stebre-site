@@ -30,7 +30,7 @@ jobs:
         run: |
           echo "## Broken Links Found" > broken-links.md
           echo "" >> broken-links.md
-          jq -r '.links[] | select(.state=="BROKEN" and .status== "Error") | "* [\(.url)](\(.url)) - \(.status)"' ${{ steps.linkinator.outputs.results }} >> broken-links.md
+          cat ${{ steps.linkinator.outputs.results }} >> broken-links.md
           cat broken-links.md
 
       - name: Create Issue
