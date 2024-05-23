@@ -25,12 +25,16 @@ jobs:
           verbosity: error
         continue-on-error: true
 
+      - name: Save linkinator output
+        run: |
+          echo "${{ steps.linkinator.outputs.results }}" > linkinator-output.txt
+
       - name: Create report file
         id: create_report
         run: |
           echo "## Broken Links Found" > broken-links.md
           echo "" >> broken-links.md
-          cat ${{ steps.linkinator.outputs.results }} >> broken-links.md
+          cat linkinator-output.txt >> broken-links.md
           cat broken-links.md
 
       - name: Create Issue
