@@ -34,7 +34,7 @@ jobs:
 
       - name: Create Issue
         run: |
-          broken_links=$(cat broken-links.md)
+          broken_links=$(grep 'Error' broken-links.md)
           if [[ -n "$broken_links" ]]; then
             issue_data='{
               "title": "Broken Links Found",
