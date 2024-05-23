@@ -23,6 +23,7 @@ jobs:
           recurse: true
           markdown: false
           verbosity: error
+        continue-on-error: true
 
       - name: Create report file
         id: create_report
