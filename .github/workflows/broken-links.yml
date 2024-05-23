@@ -31,13 +31,20 @@ jobs:
           echo "" >> broken-links.md
           jq -r '.links[] | select(.state=="BROKEN") | "* [\(.url)](\(.url)) - \(.status)"' ${{ steps.linkinator.outputs.results }} >> broken-links.md
 
-      - name: Check for broken links and create issue
-        if: always()
+      - name: Create Issue
         run: |
-          if [ -s broken-links.md ]; then
-            gh issue create --title "Weekly Broken Link Report" --body-file broken-links.md
-          else
-            echo "No broken links found."
+          broken_links=$(cat broken-links.md)
+          if [[ -n "$broken_links" ]]; then
+            issue_data='{
+              "title": "Broken Links Found",
+              "body": "'"$broken_links"'"
+            }'
+            curl \
+              -X POST \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              -d "$issue_data" \
+              "https://api.github.com/repos/${{ github.repository }}/issues"
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
