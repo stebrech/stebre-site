@@ -24,6 +24,10 @@ jobs:
           markdown: false
         continue-on-error: true
 
+      - name: Save output to JSON file
+        run: |
+          echo "${{ steps.linkinator.outputs.results }}" > linkinator-results.json
+
       - name: Filter broken links and save to linkinator-output.txt
         run: |
           echo "${{ steps.linkinator.outputs.results }}" | node -e "
