@@ -24,15 +24,10 @@ jobs:
           markdown: false
         continue-on-error: true
 
-      - name: Save output to JSON file
-        run: |
-          echo '${{ steps.linkinator.outputs.results }}' > linkinator-results.json
-
       - name: Create Issue
         run: |
           broken_links=$(node -e "
-            const fs = require('fs');
-            const input = JSON.parse(fs.readFileSync('linkinator-results.json', 'utf-8'));
+            const input = JSON.parse('${{ steps.linkinator.outputs.results }}');
             const brokenLinks = input.links.filter(link => link.state === 'BROKEN');
             console.log(brokenLinks.map(link => link.url).join('\n'));
           ")
@@ -48,5 +43,6 @@ jobs:
               -d "$issue_data" \
               "https://api.github.com/repos/${{ github.repository }}/issues"
           fi
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
