@@ -1,0 +1,59 @@
+name: Broken Link Checker
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "0 2 */2 * *" # Runs every other Sunday at 2 AM UTC
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Linkinator
+        run: |
+          npm install -g linkinator
+
+      - name: Run Linkinator and save broken links
+        run: |
+          linkinator https://stebre.ch --recurse --format=json > linkinator-results.json
+          node -e "
+            const fs = require('fs');
+            const input = JSON.parse(fs.readFileSync('linkinator-results.json', 'utf-8'));
+            const brokenLinks = input.links.filter(link => link.state === 'BROKEN');
+            fs.writeFileSync('broken-links.txt', brokenLinks.map(link => link.url).join(', '));
+          "
+
+      - name: Create Issue
+        run: |
+          broken_links=$(node -e "
+            const fs = require('fs');
+            const input = JSON.parse(fs.readFileSync('linkinator-results.json', 'utf-8'));
+            const brokenLinks = input.links.filter(link => link.state === 'BROKEN');
+            let table = '| Broken Link | Found on page | Error Code |\\n| --- | --- | --- |\\n';
+            brokenLinks.forEach(link => {
+              table += '| ' + link.url + ' | ' + link.parent + ' | ' + link.status + ' |\\n';
+            });
+            console.log(table);
+          ")
+          if [[ -n "$broken_links" ]]; then
+            broken_links_escaped=$(printf '%s' "$broken_links" | jq -Rs .)
+            issue_data='{
+              "title": "Broken Links Found",
+              "body": '"$broken_links_escaped"'
+            }'
+            issue_data=$(echo "$issue_data" | jq -c .)
+            curl -X POST \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              -d "$issue_data" \
+              "https://api.github.com/repos/${{ github.repository }}/issues"
+          fi
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
