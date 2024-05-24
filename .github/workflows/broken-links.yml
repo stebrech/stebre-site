@@ -33,16 +33,16 @@ jobs:
         run: |
           broken_links=$(node -e "
             const fs = require('fs');
-            const brokenLinks = fs.readFileSync('broken-links.txt', 'utf-8').split('\n');
-            console.log(JSON.stringify(brokenLinks));
+            const brokenLinks = fs.readFileSync('broken-links.txt', 'utf-8').split(',');
+            console.log(brokenLinks.join(', '));
           ")
           if [[ -n "$broken_links" ]]; then
             issue_data='{
               "title": "Broken Links Found",
-              "body": '"$broken_links"'
+              "body": "'"${broken_links//\"/\\\"}"'"
             }'
-            curl \
-              -X POST \
+            issue_data=$(echo "$issue_data" | jq -c .)
+            curl -X POST \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Accept: application/vnd.github.v3+json" \
               -d "$issue_data" \
