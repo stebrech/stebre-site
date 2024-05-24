@@ -31,11 +31,15 @@ jobs:
 
       - name: Create Issue
         run: |
-          broken_links=$(cat broken-links.txt)
+          broken_links=$(node -e "
+            const fs = require('fs');
+            const brokenLinks = fs.readFileSync('broken-links.txt', 'utf-8').split('\n');
+            console.log(JSON.stringify(brokenLinks));
+          ")
           if [[ -n "$broken_links" ]]; then
             issue_data='{
               "title": "Broken Links Found",
-              "body": "'"$broken_links"'"
+              "body": '"$broken_links"'
             }'
             curl \
               -X POST \
