@@ -25,9 +25,13 @@ jobs:
           verbosity: error
         continue-on-error: true
 
-      - name: Save linkinator output
+      - name: Save linkinator output to a temporary file
         run: |
-          echo "${{ steps.linkinator.outputs.results }}" | jq -r '.links[] | select(.state == "BROKEN") | .url' > linkinator-output.txt
+          echo "${{ steps.linkinator.outputs.results }}" > temp.json
+
+      - name: Filter broken links and save to linkinator-output.txt
+        run: |
+          cat temp.json | jq -r '.links[] | select(.state == "BROKEN") | .url' > linkinator-output.txt
 
       - name: Create report file
         id: create_report
