@@ -35,9 +35,9 @@ jobs:
             const fs = require('fs');
             const input = JSON.parse(fs.readFileSync('linkinator-results.json', 'utf-8'));
             const brokenLinks = input.links.filter(link => link.state === 'BROKEN');
-            let table = '| Broken Link | Found on page | Error Code |\n| --- | --- | --- |\n';
+            let table = '| Broken Link | Found on page | Error Code |\\n| --- | --- | --- |\\n';
             brokenLinks.forEach(link => {
-              table += `| ${link.url} | ${link.parent} | ${link.status} |\n`;
+              table += '| ' + link.url + ' | ' + link.parent + ' | ' + link.status + ' |\\n';
             });
             console.log(table);
           ")
