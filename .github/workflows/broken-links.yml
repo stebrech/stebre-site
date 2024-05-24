@@ -19,23 +19,23 @@ jobs:
         run: |
           npm install -g linkinator
 
-      - name: Run Linkinator and save broken links
-        run: |
-          linkinator https://stebre.ch --recurse --format=json > linkinator-results.json
-          broken_links=$(node -e "
-            const fs = require('fs');
-            const input = JSON.parse(fs.readFileSync('linkinator-results.json', 'utf-8'));
-            const brokenLinks = input.links.filter(link => link.state === 'BROKEN');
-            console.log(brokenLinks.map(link => link.url).join('\n'));
-          ")
-          echo "BROKEN_LINKS=$broken_links" >> $GITHUB_ENV
+          - name: Run Linkinator and save broken links
+          run: |
+            linkinator https://stebre.ch --recurse --format=json > linkinator-results.json
+            node -e "
+              const fs = require('fs');
+              const input = JSON.parse(fs.readFileSync('linkinator-results.json', 'utf-8'));
+              const brokenLinks = input.links.filter(link => link.state === 'BROKEN');
+              fs.writeFileSync('broken-links.txt', brokenLinks.map(link => link.url).join('\n'));
+            "
 
       - name: Create Issue
         run: |
-          if [[ -n "${{ env.BROKEN_LINKS }}" ]]; then
+          broken_links=$(cat broken-links.txt)
+          if [[ -n "$broken_links" ]]; then
             issue_data='{
               "title": "Broken Links Found",
-              "body": "'"${{ env.BROKEN_LINKS }}"'"
+              "body": "'"$broken_links"'"
             }'
             curl \
               -X POST \
