@@ -22,12 +22,16 @@ jobs:
           paths: https://stebre.ch/en/lesezeichen
           recurse: false
           markdown: false
-          config: .github/workflows/linkinatorrc.json
         continue-on-error: true
 
       - name: Filter broken links and save to linkinator-output.txt
         run: |
-          echo "${{ steps.linkinator.outputs.results }}" | awk -F, '$3 == "BROKEN" { print $1 }' > linkinator-output.txt
+          echo "${{ steps.linkinator.outputs.results }}" | node -e "
+            const fs = require('fs');
+            const input = JSON.parse(fs.readFileSync(0, 'utf-8'));
+            const brokenLinks = input.links.filter(link => link.state === 'BROKEN');
+            fs.writeFileSync('linkinator-output.txt', brokenLinks.map(link => link.url).join('\n'));
+          "
 
       - name: Create report file
         id: create_report
