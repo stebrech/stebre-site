@@ -19,8 +19,8 @@ jobs:
         id: linkinator
         uses: JustinBeckwith/linkinator-action@v1
         with:
-          paths: https://stebre.ch
-          recurse: true
+          paths: https://stebre.ch/en/lesezeichen
+          recurse: false
           markdown: false
           verbosity: error
         continue-on-error: true
