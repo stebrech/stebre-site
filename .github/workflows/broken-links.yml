@@ -25,16 +25,12 @@ jobs:
           paths: https://stebre.ch/en/lesezeichen
           recurse: false
           markdown: false
-          verbosity: error
+          format: csv
         continue-on-error: true
-
-      - name: Save linkinator output to a temporary file
-        run: |
-          echo "${{ steps.linkinator.outputs.results }}" > temp.json
 
       - name: Filter broken links and save to linkinator-output.txt
         run: |
-          cat temp.json | jq -r '.links[] | select(.state == "BROKEN") | .url' > linkinator-output.txt
+          echo "${{ steps.linkinator.outputs.results }}" | awk -F, '$3 == "BROKEN" { print $1 }' > linkinator-output.txt
 
       - name: Create report file
         id: create_report
