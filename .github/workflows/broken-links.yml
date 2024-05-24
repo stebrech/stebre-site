@@ -8,9 +8,6 @@ on:
   schedule:
     - cron: "0 2 * * 0" # Runs every Sunday at 2 AM UTC
 
-env:
-  ACTIONS_STEP_DEBUG: true
-
 jobs:
   link-check:
     runs-on: ubuntu-latest
@@ -25,7 +22,7 @@ jobs:
           paths: https://stebre.ch/en/lesezeichen
           recurse: false
           markdown: false
-          config: .linkinatorrc.json
+          config: ./github/workflows/linkinatorrc.json
         continue-on-error: true
 
       - name: Filter broken links and save to linkinator-output.txt
@@ -40,20 +37,20 @@ jobs:
           cat linkinator-output.txt >> broken-links.md
           cat broken-links.md
 
-      - name: Create Issue
-        run: |
-          broken_links=$(cat broken-links.md)
-          if [[ -n "$broken_links" ]]; then
-            issue_data='{
-              "title": "Broken Links Found",
-              "body": "'"$broken_links"'"
-            }'
-            curl \
-              -X POST \
-              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-              -H "Accept: application/vnd.github.v3+json" \
-              -d "$issue_data" \
-              "https://api.github.com/repos/${{ github.repository }}/issues"
-          fi
+        # - name: Create Issue
+        #   run: |
+        #     broken_links=$(cat broken-links.md)
+        #     if [[ -n "$broken_links" ]]; then
+        #       issue_data='{
+        #         "title": "Broken Links Found",
+        #         "body": "'"$broken_links"'"
+        #       }'
+        #       curl \
+        #         -X POST \
+        #         -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+        #         -H "Accept: application/vnd.github.v3+json" \
+        #         -d "$issue_data" \
+        #         "https://api.github.com/repos/${{ github.repository }}/issues"
+        #     fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
