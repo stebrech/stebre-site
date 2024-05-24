@@ -6,7 +6,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 2 * * 0" # Runs every Sunday at 2 AM UTC
+    - cron: "0 2 */2 * *" # Runs every other Sunday at 2 AM UTC
 
 jobs:
   link-check:
@@ -28,37 +28,25 @@ jobs:
         run: |
           echo '${{ steps.linkinator.outputs.results }}' > linkinator-results.json
 
-      - name: Filter broken links and save to linkinator-output.txt
+      - name: Create Issue
         run: |
-          node -e "
+          broken_links=$(node -e "
             const fs = require('fs');
             const input = JSON.parse(fs.readFileSync('linkinator-results.json', 'utf-8'));
             const brokenLinks = input.links.filter(link => link.state === 'BROKEN');
-            fs.writeFileSync('linkinator-output.txt', brokenLinks.map(link => link.url).join('\n'));
-          "
-
-      - name: Create report file
-        id: create_report
-        run: |
-          echo "## Broken Links Found" > broken-links.md
-          echo "" >> broken-links.md
-          cat linkinator-output.txt >> broken-links.md
-          cat broken-links.md
-
-        # - name: Create Issue
-        #   run: |
-        #     broken_links=$(cat broken-links.md)
-        #     if [[ -n "$broken_links" ]]; then
-        #       issue_data='{
-        #         "title": "Broken Links Found",
-        #         "body": "'"$broken_links"'"
-        #       }'
-        #       curl \
-        #         -X POST \
-        #         -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-        #         -H "Accept: application/vnd.github.v3+json" \
-        #         -d "$issue_data" \
-        #         "https://api.github.com/repos/${{ github.repository }}/issues"
-        #     fi
+            console.log(brokenLinks.map(link => link.url).join('\n'));
+          ")
+          if [[ -n "$broken_links" ]]; then
+            issue_data='{
+              "title": "Broken Links Found",
+              "body": "'"$broken_links"'"
+            }'
+            curl \
+              -X POST \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              -d "$issue_data" \
+              "https://api.github.com/repos/${{ github.repository }}/issues"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
