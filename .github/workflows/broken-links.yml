@@ -27,7 +27,7 @@ jobs:
 
       - name: Save linkinator output
         run: |
-          echo "${{ steps.linkinator.outputs.results }}" > linkinator-output.txt
+          echo "${{ steps.linkinator.outputs.results }}" | jq -r '.links[] | select(.state == "BROKEN") | .url' > linkinator-output.txt
 
       - name: Create report file
         id: create_report
