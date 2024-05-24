@@ -25,7 +25,7 @@ jobs:
           paths: https://stebre.ch/en/lesezeichen
           recurse: false
           markdown: false
-          format: csv
+          config: .linkinatorrc.json
         continue-on-error: true
 
       - name: Filter broken links and save to linkinator-output.txt
