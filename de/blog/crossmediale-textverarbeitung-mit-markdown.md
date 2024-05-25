@@ -1,14 +1,19 @@
 ---
 title: Crossmediale Textverarbeitung mit Markdown
-date: 2018-04-16
+date: 2018-04-16T00:00:00.000Z
 featuredImage: assets/img/20180416_crossmediale-textverarbeitung-mit-markdown.jpg
-description: Eine grosse Herausforderung bei der medienneutralen Datenherstellung ist das fehlende Bewusstsein für strukturierte Inhalte. Werden Inhalte (zuerst) in Textverarbeitungsprogrammen wie Microsoft Word erstellt, wird versucht diese ansprechend zu gestalten. Meist bleibt eine saubere Struktur dabei aber auf der Strecke.
+description: >-
+  Eine grosse Herausforderung bei der medienneutralen Datenherstellung ist das
+  fehlende Bewusstsein für strukturierte Inhalte. Werden Inhalte (zuerst) in
+  Textverarbeitungsprogrammen wie Microsoft Word erstellt, wird versucht diese
+  ansprechend zu gestalten. Meist bleibt eine saubere Struktur dabei aber auf
+  der Strecke.
 tags:
   - barrierefreiheit
   - content-first
   - indesign
   - markdown
-status: needs-translation
+status: done
 ---
 Mit Word und ähnlicher Software können Formatierungen schnell und einfach angewendet werden. Beim Ausdruck auf dem Bürodrucker mag noch niemand merken, dass die angewendeten Formatierungen vielleicht nicht die besten waren:
 
@@ -158,8 +163,8 @@ fügt ein Bild ein. Die Syntax ist gleich wie beim Hyperlink, einfach mit einem 
 
 ### Inline Auszeichnungen
 
-- `Kursiv*` Text zwischen je einem Sternchen-Symbol wird _kursiv_ dargestellt. Anstatt dem Zeichen kann auch das `_`Zeichen verwendet werden.
-- `*Bold**` Text zwischen je zwei Sternchen-Symbolen wird **fett** dargestellt. Anstatt dem Zeichen kann auch das `_`Zeichen verwendet werden.
+- *`*Kursiv*`* Text zwischen je einem Sternchen-Symbol wird _kursiv_ dargestellt. Anstatt dem Zeichen kann auch das `_`Zeichen verwendet werden.
+- **`**Bold**`** Text zwischen je zwei Sternchen-Symbolen wird **fett** dargestellt. Anstatt dem Zeichen kann auch das `_`Zeichen verwendet werden.
 
 ### Weiterführende Dokumentationen
 

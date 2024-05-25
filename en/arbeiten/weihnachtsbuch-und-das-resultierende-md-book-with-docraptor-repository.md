@@ -22,7 +22,7 @@ The aim was a *Content First* implementation, so that a single data basis can be
 
 ## Prince
 
-With the Markdown files I created, I could have implemented the book in InDesign or another layout program, as I wrote down a while ago in [[en/blog/crossmediale-textverarbeitung-mit-markdown|Crossmediale Textverarbeitung mit Markdown]].
+With the Markdown files I created, I could have implemented the book in InDesign or another layout program, as I wrote down a while ago in [Cross-media text processing with Markdown](/en/blog/cross-media-text-processing-with-markdown/).
 
 However, I wanted to solve it with the PDF Renderer [Prince](https://www.princexml.com/) – even if I had to spend a lot more time with it 😅. In addition to wanting to dig deeper and learn from it, the idea was to create a basis for future projects. The strength of CSS paged media is in repetition and standardized output.
 
