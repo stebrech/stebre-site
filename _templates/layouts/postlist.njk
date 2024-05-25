@@ -13,7 +13,7 @@ templateClass: postlist
 {% include "includes/section_filtertags.njk" %}
 
 <section class="results containerL">
-  <div class="cards">
+  <div class="layout-cards">
 		{% set results = collections[collection] | reverse %}
 		{% include "includes/preview.njk" %}
 	</div>

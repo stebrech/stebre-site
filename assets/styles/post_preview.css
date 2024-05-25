@@ -11,13 +11,13 @@
 	transition: all 0.5s ease-out;
 }
 
-.list .postPreview {
+.layout-list .postPreview {
 	display: grid;
 	grid-template-columns: 1fr;
 }
 
 @media screen and (min-width: 40rem) {
-	.list .postPreview {
+	.layout-list .postPreview {
 		grid-template-columns: 1fr 3fr;
 	}
 }
@@ -56,12 +56,12 @@
 	clip-path: polygon(0 0, 100% 0, 100% calc(100% + -1.5rem), 0 100%);
 }
 
-.list .postPreview_featuredImage {
+.layout-list .postPreview_featuredImage {
 	display: none;
 }
 
 @media screen and (min-width: 40rem) {
-	.list .postPreview_featuredImage {
+	.layout-list .postPreview_featuredImage {
 		display: block;
 	}
 }

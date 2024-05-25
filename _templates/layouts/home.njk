@@ -43,14 +43,14 @@ templateClass: home
 </div>
 <section class="results containerL">
 	<h2 class="sectionTitle">{{ i18n.headings.projects[page.lang] }}</h2>
-	<div class="cards">
+	<div class="layout-cards">
 		{% set results = collections[collectionProjects] | reverse | limit(3) %}
 		{% include "includes/preview.njk" %}
 	</div>
 </section>
 <section class="results containerL">
 	<h2 class="sectionTitle">{{ i18n.headings.blog[page.lang] }}</h2>
-	<div class="cards">
+	<div class="layout-cards">
 		{% set results = collections[collectionBlog] | reverse | limit(3) %}
 		{% include "includes/preview.njk" %}
 	</div>

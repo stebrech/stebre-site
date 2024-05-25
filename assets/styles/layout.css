@@ -538,7 +538,7 @@ body {
 
 /* Layout classes */
 
-.cards {
+.layout-cards {
 	display: grid;
 	margin: 0;
 	/* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
@@ -550,7 +550,7 @@ body {
 	margin-top: var(--size-xxl);
 }
 
-.list {
+.layout-list {
 	display: grid;
 	gap: var(--size-xxl);
 	margin-bottom: var(--size-xxl);
