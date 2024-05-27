@@ -8,9 +8,11 @@ tags:
   - performance
 status: needs-translation
 ---
-Vor einer ganzen Weile habe ich über ein praktisches Tool namens JPEGmini berichtet. JPEGmini verspricht eine verlustfreie Komprimierung. [In meinem Artikel hatte ich einige Tests](https://www.pixelstrol.ch/fotos-komprimieren-mithilfe-von-jpegmini/) mit demselben Bild, aber verschiedener Bildqualität als Ausgangslage, durchgeführt. 
+> [!info] Die Mac App scheint nicht mehr verfügbar zu sein.
 
-Diesen Artikel möchte ich der [JPEGmini App für den Mac](https://itunes.apple.com/us/app/jpegmini-lite/id525742250?mt=12) widmen.
+Vor einer ganzen Weile habe ich über ein praktisches Tool namens JPEGmini berichtet. JPEGmini verspricht eine verlustfreie Komprimierung. [In meinem Artikel hatte ich einige Tests](/blog/fotos-komprimieren-mithilfe-von-jpegmini/) mit demselben Bild, aber verschiedener Bildqualität als Ausgangslage, durchgeführt. 
+
+Diesen Artikel möchte ich der JPEGmini App für den Mac widmen.
 
 ## SEO, Google, Performance
 

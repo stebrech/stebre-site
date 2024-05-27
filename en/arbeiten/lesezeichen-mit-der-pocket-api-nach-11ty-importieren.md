@@ -17,7 +17,7 @@ A lot of valuable stuff has accumulated in my Pocket – most of it unread. That
 
 I only want to publish relevant content (from my point of view) on my website. So this is a good opportunity to go through all the links I've saved and to finally resolve of what I've saved for later.
 
-I don't have the time to write a blog article for every valuable link. That's why I created the [[/en/lesezeichen|bookmarks]] section on my website. There I write at least a short personal description text. The rest I would like to automate as far as possible.
+I don't have the time to write a blog article for every valuable link. That's why I created the [[/en/bookmarks|bookmarks]] section on my website. There I write at least a short personal description text. The rest I would like to automate as far as possible.
 
 ## Metadata in Pocket
 

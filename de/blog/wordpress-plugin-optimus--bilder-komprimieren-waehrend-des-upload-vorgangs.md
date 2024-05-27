@@ -17,7 +17,7 @@ Was Optimus auszeichnet ist die voll automatische Komprimierung während des Upl
 
 ![Optimus Anzeige der Komprimierung in der Mediathek](assets/img/20121008_wordpress-plugin-optimus--bilder-komprimieren-waehrend-des-upload-vorgangs_1.jpg)
 
-Wie man es von [JPEGmini](https://www.jpegmini.com/) oder [Smush.it](http://www.smushit.com/ysmush.it/) kennt, entfernt Optimus lediglich unnötige und unsichtbare Bildinformationen. Somit bleibt trotz Komprimierung die Bildqualität bestehen.
+Wie man es von [JPEGmini](https://www.jpegmini.com/) oder Smush.it kennt, entfernt Optimus lediglich unnötige und unsichtbare Bildinformationen. Somit bleibt trotz Komprimierung die Bildqualität bestehen.
 
 ## Der Komprimierungsprozess
 

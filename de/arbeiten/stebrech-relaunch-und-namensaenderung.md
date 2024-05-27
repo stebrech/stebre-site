@@ -51,8 +51,8 @@ _Logo brechbuehl-web.ch Version 4_
 
 Mit dem Namenswechsel zu pixelstrol.ch kam auch der Wechsel zu WordPress. Von Anfang an hatte ich eigene Themes dafür verwendet. Die Themes sind hier beschrieben:
 
-- [[de/arbeiten/albinomouse-wordpress-theme|AlbinoMouse]] [AlbinoMouse](/arbeiten/albinomouse-wordpress-theme)
-- [[de/arbeiten/penguin-wordpress-theme|Penguin]]
+- [[/arbeiten/albinomouse-wordpress-theme|AlbinoMouse]]
+- [[/arbeiten/penguin-wordpress-theme|Penguin]]
 
 Die verschiedenen Logos, die ich bis 2022 nutzte, sind folgende:
 

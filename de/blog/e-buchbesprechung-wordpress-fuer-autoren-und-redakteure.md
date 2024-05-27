@@ -27,7 +27,7 @@ Zum Schluss wird noch auf die Anzeigeoptionen hingewiesen. Hiermit lassen sich i
 
 ## Preis und Formate
 
-WordPress für Autoren und Redakteure kann als [Kindle-Version auf Amazon.de](http://www.amazon.de/WordPress-Autoren-Redakteure-Vladimir-Simovic-ebook/dp/B005KNGSAI) für ca. 3 Euro erworben werden. Die Autoren bieten das E-Book auch als [ePub](http://www.kobobooks.de/ebook/WordPress-3-fuer-Autoren-Redakteure/book-uRlFucU8Ek6t561yrvYn-A/page1.html?s=Axe1LXyJ10uQfH_CP-Kg4w&r=4)- oder PDF-Version zum Download an.
+WordPress für Autoren und Redakteure kann als [Kindle-Version auf Amazon.de](http://www.amazon.de/WordPress-Autoren-Redakteure-Vladimir-Simovic-ebook/dp/B005KNGSAI) für ca. 3 Euro erworben werden. Die Autoren bieten das E-Book auch als [ePub](https://www.kobo.com/ch/de/ebook/wordpress-3-5-fuer-autoren-und-redakteure)- oder PDF-Version zum Download an.
 
 Wer sich für die Weitergabe an Kunden interessiert, findet [auf dieser Seite verschiedene Angebote](http://www.perun.net/wordpress-anleitung-handbuch/) dazu.
 

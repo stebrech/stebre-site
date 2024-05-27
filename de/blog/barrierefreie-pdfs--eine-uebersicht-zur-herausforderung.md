@@ -33,7 +33,7 @@ Obwohl die Digitalisierung vielen behinderten Menschen mehr Möglichkeiten versc
 
 ### Sehbehinderung
 
-In der Schweiz werden 320 000 Sehbehinderte geschätzt, wovon 10 000 als blind gelten (Quelle: [Schweizerischer Zentralverein für das Blindenwesen](http://www.szb.ch/footer/service/infothek/die-wichtigsten-fragen-zu-sehbehinderung-und-blindheit/)). Eine vereinfachte Umschreibung wer als Sehbehindert gilt: Normaler Zeitungsdruck kann auch mit einer Lesebrille oder Kontaktlinsen nicht mehr gelesen werden.
+In der Schweiz werden 320 000 Sehbehinderte geschätzt, wovon 10 000 als blind gelten (Quelle: [Schweizerischer Zentralverein für das Blindenwesen](https://www.szblind.ch/fuer-interessierte/fragen/fragen-und-antworten)). Eine vereinfachte Umschreibung wer als Sehbehindert gilt: Normaler Zeitungsdruck kann auch mit einer Lesebrille oder Kontaktlinsen nicht mehr gelesen werden.
 
 Nebst dem unscharfen Sehen, können Sehbehinderte auch unter folgenden Symptomen leiden:
 
@@ -150,7 +150,7 @@ Soviel vorneweg – ein wichtiger Teil ist die strukturierte Dokumenterstellung.
 - [Übersetztes Matterhorn Protokoll – PDF Association](https://www.pdfa.org/wp-content/until2016_uploads/2016/08/MatterhornProtokoll_1-02-2016-06-29.pdf)
 - [PAC 2 – Zugang für alle](http://www.access-for-all.ch/ch/pdf-werkstatt/pdf-accessibility-checker-pac.html)
 - [Übersetzte WCAG 2.0 – World Wide Web Consortium (W3C)](https://www.w3.org/Translations/WCAG20-de/)
-- [Schweizer Accessibility-Studie 2016 – Zugang für alle](http://www.access-for-all.ch/assets/2016-10-31/Accessibilty_Studie/2016/SchweizerAccessibilityStudie2016.pdf)
+- [Schweizer Accessibility-Studie 2016 – Zugang für alle](https://access-for-all.ch/wp-content/uploads/2022/11/SchweizerAccessibilityStudie2016.pdf)
 
-[embed](//slides.com/pixelstrolch/barrierefreie-pdfs/embed?style=light)
+[Slides.com | Barrierefreie PDFs](https://slides.com/pixelstrolch/barrierefreie-pdfs)
 

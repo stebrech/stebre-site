@@ -38,5 +38,5 @@ Sofern ihr noch kein Impressum in eure Website oder euer Blog eingebunden habt, 
 
 **Besten Dank an die Brunner AG für dieses nützliche Tool!**
 
-Bildquelle: [aboutpixel.de](http://www.aboutpixel.de/) / Impressum © Rainer Sturm
+Bildquelle: aboutpixel.de / Impressum © Rainer Sturm
 

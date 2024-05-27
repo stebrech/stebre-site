@@ -45,7 +45,7 @@ Ja, theoretisch sind heute nur Verwaltungen und staatsnahe Betriebe zur digitale
 
 Weiter oben habe ich etwas von «maschinenlesbar» geschrieben. Ja, Google ist eine Maschine und blind.
 
-Obwohl es – Gott sei Dank – keine offizielle Erhebungen von Behinderungen gibt, wird von einer betroffenen Bevölkerung von 15 bis 20 Prozent ausgegangen. Diese Schätzungen stammen von namhaften Quellen wie der [WHO](https://www.who.int/news-room/fact-sheets/detail/disability-and-health) oder Stiftung [Zugang für alle](https://www.access-for-all.ch/assets/2020-02-26/Accessibilty_Studie/2016/Infografik_SchweizerAccessibilityStudie2016.pdf).
+Obwohl es – Gott sei Dank – keine offizielle Erhebungen von Behinderungen gibt, wird von einer betroffenen Bevölkerung von 15 bis 20 Prozent ausgegangen. Diese Schätzungen stammen von namhaften Quellen wie der [WHO](https://www.who.int/news-room/fact-sheets/detail/disability-and-health) oder Stiftung [Zugang für alle](https://access-for-all.ch/wp-content/uploads/2022/11/SchweizerAccessibilityStudie2016.pdf).
 
 ## Es gibt mehr Betroffene als du vielleicht glaubst
 
