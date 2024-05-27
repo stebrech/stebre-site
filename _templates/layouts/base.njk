@@ -31,8 +31,8 @@
 		<style>
 			{{ css | cssmin | safe }}
 		</style>
-		<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
 		<link rel="stylesheet" href="/assets/styles/animate.min.css">
+		<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
 
 		{#- Scripts #}
 		<script src="/assets/js/body-scroll-lock-upgrade/index.umd.js"></script>
@@ -45,9 +45,6 @@
 				new PagefindUI({ element: "#search", showSubResults: true });
 			});
 		</script>
-		{% if templateClass === "linktipps" %}
-		<script src="/assets/tablefilter/tablefilter.js"></script>
-		{% endif %}
 
 		{#- Favicons #}
 		{% include "includes/favicon.njk" %}
