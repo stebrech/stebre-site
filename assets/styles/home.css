@@ -24,9 +24,10 @@ html {
 	height: 100%;
 }
 
-.hero .bgimage svg {
+.hero .bgimage img {
 	height: 100%;
 	margin-top: 0;
+	object-fit: cover;
 	width: 100%;
 }
 
