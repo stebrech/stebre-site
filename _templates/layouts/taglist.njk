@@ -25,7 +25,7 @@ pagination:
 </header>
 
 {% set results = collections[ tag ] | reverse | localizedTag(page.lang) %}
-<section class="results containerM{% if results.length === 0 %} hidden{% endif %}">
+<section class="results containerM">
 	<h2 class="sectionTitle">{{ i18n.headings.tagContent[page.lang] }} <code>#{{ tag }}</code></h2>
 	<div class="layout-list">
     {% include "includes/preview.njk" %}

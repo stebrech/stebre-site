@@ -5,13 +5,12 @@ html {
 .hero {
 	background-color: var(--color-primary);
 	background: radial-gradient(circle, rgba(179, 229, 252, 1) 0%, rgba(2, 136, 209, 1) 100%);
-	/* background-image: url(/assets/img/ffflux.svg);
-	background-size: cover; */
 	clip-path: polygon(0 0, 100% 0, 100% calc(100% + -4vw), 0 100%);
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	padding: calc(var(--size-m));
+	/* padding: calc(var(--size-m)); */
+	padding-top: var(--header-height);
 	overflow: hidden;
 }
 
@@ -33,7 +32,7 @@ html {
 
 @media screen and (min-width: 60rem) {
 	.hero {
-		padding-top: 5rem;
+		padding-top: calc(var(--header-height) * 2);
 	}
 }
 
