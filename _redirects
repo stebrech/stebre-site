@@ -2,7 +2,8 @@
 # Netlify URL
 https://stebre.netlify.app/*	https://stebre.ch/:splat
 # Renamed Portfolio
-/portfolio/*	/arbeiten/:splat
+/portfolio/*	/projects/:splat
+/arbeiten/*	/projects/:splat
 # Removed date from blog posts
 /blog/:year/:month/:posttitle /blog/:posttitle
 # Deleted blog posts
@@ -68,23 +69,23 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 /wp-snippet-alle-bildgroessen-im-medien-uploader-anzeigen	/blog/wp-snippet-alle-bildgroessen-im-medien-uploader-anzeigen
 /wp-tipp-individueller-weiterlesen-link	/blog/wp-tipp-individueller-weiterlesen-link
 /zwei-starke-responsive-test-tools	/blog/zwei-starke-responsive-test-tools
-# Projects with path /arbeiten
-/accessible-pdf-info	/arbeiten/accessible-pdf-info
-/albinomouse-wordpress-theme	/arbeiten/albinomouse-wordpress-theme
-/category/portfolio	/arbeiten
-/category/portfolio/page/2	/arbeiten
-/designer-tools	/arbeiten/designer-tools
-/die-ersten-vier-icons-auf-noun-project	/arbeiten/die-ersten-vier-icons-auf-noun-project
-/etiketten-fuer-hausgemachtes	/arbeiten/etiketten-fuer-hausgemachtes
-/firia	/arbeiten/firia
-/gian-the-lion	/arbeiten/gian-the-lian
-/icon-font-out-of-circle-wp-post-formats	/arbeiten/icon-font-out-of-circle-wp-post-formats
-/icons-matterhorn-protokoll	/arbeiten/icons-matterhorn-protokoll
-/innocu-logo	/arbeiten/innocu-logo
-/penguin-wordpress-theme	/arbeiten/penguin-wordpress-theme
-/social-media-icons-rounded-and-glossy-v1	/arbeiten/social-media-icons-rounded-and-glossy-v1
-/social-media-icons-rounded-and-glossy-v2	/arbeiten/social-media-icons-rounded-and-glossy-v2
-/wordcamp-bern-2017-design	/arbeiten/wordcamp-bern-2017-design/
+# Projects with path /projects
+/accessible-pdf-info	/projects/accessible-pdf-info
+/albinomouse-wordpress-theme	/projects/albinomouse-wordpress-theme
+/category/portfolio	/projects
+/category/portfolio/page/2	/projects
+/designer-tools	/projects/designer-tools
+/die-ersten-vier-icons-auf-noun-project	/projects/die-ersten-vier-icons-auf-noun-project
+/etiketten-fuer-hausgemachtes	/projects/etiketten-fuer-hausgemachtes
+/firia	/projects/firia
+/gian-the-lion	/projects/gian-the-lian
+/icon-font-out-of-circle-wp-post-formats	/projects/icon-font-out-of-circle-wp-post-formats
+/icons-matterhorn-protokoll	/projects/icons-matterhorn-protokoll
+/innocu-logo	/projects/innocu-logo
+/penguin-wordpress-theme	/projects/penguin-wordpress-theme
+/social-media-icons-rounded-and-glossy-v1	/projects/social-media-icons-rounded-and-glossy-v1
+/social-media-icons-rounded-and-glossy-v2	/projects/social-media-icons-rounded-and-glossy-v2
+/wordcamp-bern-2017-design	/projects/wordcamp-bern-2017-design/
 # Changed tags
 /tag/accessibility	/tags/barrierefreiheit
 /tag/animation	/tags/animation

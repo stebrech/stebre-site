@@ -6,7 +6,7 @@ collectionProjects: featuredProjectsDe
 collectionBlog: blog_de
 status: done
 ---
-Hey, mein Name ist **Ste**fan **Bre**chbühl. SteBre ist meine persönliche Website. Hier zeige ich [[arbeiten|meine Nebenprojekte]] und [[blog|schreibe über Publishing und technische Themen]].
+Hey, mein Name ist **Ste**fan **Bre**chbühl. SteBre ist meine persönliche Website. Hier zeige ich [[projects|meine Nebenprojekte]] und [[blog|schreibe über Publishing und technische Themen]].
 
 Mich fasziniert das Publizieren in digitale Kanäle und Print, weshalb ich mich Publishing-Enthusiast nenne. Vor {{ helpers.experience() }} Jahre startete ich meine Lehre als Polygraf und schloss diese 2004 ab. Seither bilde ich mich autodidaktisch für das Gestalten und Entwickeln von Websites weiter.
 

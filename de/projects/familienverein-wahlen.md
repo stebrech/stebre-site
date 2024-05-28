@@ -16,7 +16,7 @@ aliases:
 status: needs-translation
 ---
 > [!info] Update 2.2.2024
-> Seit Juni 2023 habe ich beide Tools abgelöst. Für die Website nutze ich Notion für die Inhaltsverwaltung, also als CMS-Backend. Für das Frontend, also die eigentlich Website-Auslieferung im Browser, wird dann 11ty genutzt. Mit [[arbeiten/notion2eleventy|notion2eleventy]] habe ich eine Schnittstelle der beiden Tools gebaut.
+> Seit Juni 2023 habe ich beide Tools abgelöst. Für die Website nutze ich Notion für die Inhaltsverwaltung, also als CMS-Backend. Für das Frontend, also die eigentlich Website-Auslieferung im Browser, wird dann 11ty genutzt. Mit [[projects/notion2eleventy|notion2eleventy]] habe ich eine Schnittstelle der beiden Tools gebaut.
 
 ![Beitragsbeispiel, welcher auf familienverein-wahlen.ch veröffentlicht wurde. Screenshot.](assets/img/20220927_familienverein-wahlen_1.png)
 

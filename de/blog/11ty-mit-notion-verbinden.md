@@ -10,7 +10,7 @@ tags:
 status: done
 ---
 > [!info] Update 2.2.2024
-> Für stebre.ch nutze ich mittlerweile [Obsidian](https://obsidian.md/) zur Erstellung und Verwaltung der Inhalte. Da ich die Notion-Schnittstelle weiterhin für création eliane, [[../arbeiten/familienverein-wahlen|Familienverein Wahlen]] und hoffentlich auch bald für weitere spannende Projekte nutze, pflege ich diese weiter. Mit [[../arbeiten/notion2eleventy|notion2eleventy]] habe ich ein besser konfigurierbares 11ty Plugin gebaut.
+> Für stebre.ch nutze ich mittlerweile [Obsidian](https://obsidian.md/) zur Erstellung und Verwaltung der Inhalte. Da ich die Notion-Schnittstelle weiterhin für création eliane, [[../projects/familienverein-wahlen|Familienverein Wahlen]] und hoffentlich auch bald für weitere spannende Projekte nutze, pflege ich diese weiter. Mit [[../projects/notion2eleventy|notion2eleventy]] habe ich ein besser konfigurierbares 11ty Plugin gebaut.
 
 ## Was ist 11ty?
 
@@ -49,7 +49,7 @@ Ich wollte die Inhalte innerhalb des 11ty Repositories haben und als Markdown Fi
 ### fetchContent.js
 
 > [!info] Update 2.2.2024
-> Der im folgenden aufgezeigten Code ist zum Teil überholt. Mit [[../arbeiten/notion2eleventy|notion2eleventy]] habe ich ihn in ein Node Paket überführt.
+> Der im folgenden aufgezeigten Code ist zum Teil überholt. Mit [[../projects/notion2eleventy|notion2eleventy]] habe ich ihn in ein Node Paket überführt.
 
 Die Konfiguration wie die Markdown-Files heruntergeladen und befüllt werden sollen, habe ich in einer neuen JavaScript-Datei (`fetchContent.js`) vorgenommen. 
 

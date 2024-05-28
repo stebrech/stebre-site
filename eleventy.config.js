@@ -56,10 +56,10 @@ module.exports = function (eleventyConfig) {
 		return collection.getFilteredByTag("projects_en").filter((item) => item.data.featured);
 	});
 	eleventyConfig.addCollection("feed", (collection) => {
-		return collection.getFilteredByGlob(["de/arbeiten/*.md", "de/blog/*.md", "de/bookmarks/*.md"]);
+		return collection.getFilteredByGlob(["de/projects/*.md", "de/blog/*.md", "de/bookmarks/*.md"]);
 	});
 	eleventyConfig.addCollection("feed_en", (collection) => {
-		return collection.getFilteredByGlob(["en/arbeiten/*.md", "en/blog/*.md", "en/bookmarks/*.md"]);
+		return collection.getFilteredByGlob(["en/projects/*.md", "en/blog/*.md", "en/bookmarks/*.md"]);
 	});
 
 	// Features to make your build faster (when you need them)

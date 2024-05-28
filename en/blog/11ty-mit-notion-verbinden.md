@@ -10,7 +10,7 @@ tags:
 status: done
 ---
 > [!info] Update 2.2.2024
-> For stebre.ch I now use [Obsidian](https://obsidian.md/) to create and manage the content. Since I continue to use the Notion interface for création eliane, [[en/arbeiten/familienverein-wahlen|Familienverein Wahlen]] and hopefully soon for other exciting projects, I will continue to maintain it. With [[en/arbeiten/notion2eleventy|notion2eleventy]] I have built a more configurable 11ty plugin.
+> For stebre.ch I now use [Obsidian](https://obsidian.md/) to create and manage the content. Since I continue to use the Notion interface for création eliane, [[en/projects/familienverein-wahlen|Familienverein Wahlen]] and hopefully soon for other exciting projects, I will continue to maintain it. With [[en/projects/notion2eleventy|notion2eleventy]] I have built a more configurable 11ty plugin.
 
 ## What is 11ty?
 
@@ -49,7 +49,7 @@ I wanted to have the content within the 11ty repository and download it as Markd
 ### fetchContent.js
 
 > [!info] Update 2.2.2024
-> The code shown below is partially outdated. With [[en/arbeiten/notion2eleventy|notion2eleventy]] I have transferred it to a node package.
+> The code shown below is partially outdated. With [[en/projects/notion2eleventy|notion2eleventy]] I have transferred it to a node package.
 
 I have configured how the Markdown files should be downloaded and filled in a new JavaScript file (`fetchContent.js`).
 s

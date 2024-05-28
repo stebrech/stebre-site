@@ -16,12 +16,12 @@
 				"en": "/en/"
 			}
 		},
-		"arbeiten": {
+		"projects": {
 			"de": "Arbeiten",
 			"en": "Projects",
 			"url": {
-				"de": "/arbeiten/",
-				"en": "/en/arbeiten/"
+				"de": "/projects/",
+				"en": "/en/projects/"
 			}
 		},
 		"blog": {
