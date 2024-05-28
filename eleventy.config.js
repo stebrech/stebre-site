@@ -6,6 +6,9 @@ const pluginImages = require("./eleventy.config.images.js");
 const pluginMarkdown = require("./eleventy.config.markdown.js");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const CleanCSS = require("clean-css");
+const fs = require("fs");
+
+fs.copyFileSync("./node_modules/animate.css/animate.min.css", "./assets/styles/animate.min.css");
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
@@ -15,7 +18,6 @@ module.exports = function (eleventyConfig) {
 		"./assets/pdf": "/assets/pdf",
 		"./assets/styles": "/assets/styles",
 		"./assets/js": "/assets/js",
-		"./node_modules/animate.css/animate.min.css": "/assets/styles/animate.min.css",
 		"./node_modules/body-scroll-lock-upgrade/lib": "/assets/js/body-scroll-lock-upgrade",
 		"./assets/favicons": "/",
 		"./assets/robots.txt": "/robtos.txt",

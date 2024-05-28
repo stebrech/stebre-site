@@ -18,6 +18,7 @@
 			{% include "assets/styles/accessibility.css" %}
 			{% include "assets/styles/layout.css" %}
 			{% include "assets/styles/elements.css" %}
+			{% include "assets/styles/animate.min.css" %}
 			{% if templateClass === "home" or templateClass === "postlist" or templateClass === "taglist" %}
 				{% include "assets/styles/post_preview.css" %}
 			{% endif %}
@@ -31,8 +32,6 @@
 		<style>
 			{{ css | cssmin | safe }}
 		</style>
-		<link rel="stylesheet" href="/assets/styles/animate.min.css">
-		<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
 
 		{#- Scripts #}
 		<script src="/assets/js/body-scroll-lock-upgrade/index.umd.js"></script>
@@ -83,6 +82,7 @@
 			</main>
 			{% include "includes/footer.njk" %}
 		</div>
+		<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
 	</body>
 </html>
 
