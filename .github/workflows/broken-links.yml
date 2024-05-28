@@ -2,9 +2,6 @@ name: Broken Link Checker
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches:
-      - main
   schedule:
     - cron: "0 2 */2 * *" # Runs every other Sunday at 2 AM UTC
 
