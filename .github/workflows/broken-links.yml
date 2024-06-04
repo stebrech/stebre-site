@@ -3,7 +3,7 @@ name: Broken Link Checker
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 2 */2 * *" # Runs every other Sunday at 2 AM UTC
+    - cron: "0 2 1 * *" # Runs the first day of every month at 2am UTC
 
 jobs:
   link-check:
