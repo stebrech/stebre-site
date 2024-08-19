@@ -152,5 +152,5 @@ Soviel vorneweg – ein wichtiger Teil ist die strukturierte Dokumenterstellung.
 - [Übersetzte WCAG 2.0 – World Wide Web Consortium (W3C)](https://www.w3.org/Translations/WCAG20-de/)
 - [Schweizer Accessibility-Studie 2016 – Zugang für alle](https://access-for-all.ch/wp-content/uploads/2022/11/SchweizerAccessibilityStudie2016.pdf)
 
-[Slides.com | Barrierefreie PDFs](https://slides.com/pixelstrolch/barrierefreie-pdfs)
+[Slides.com | Barrierefreie PDFs](https://slides.com/stebrech/barrierefreie-pdfs)
 
