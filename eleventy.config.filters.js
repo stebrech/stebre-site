@@ -85,6 +85,6 @@ module.exports = (eleventyConfig) => {
 	});
 
 	eleventyConfig.addFilter("featuredImageOgLink", (image) => {
-		return image.replace(/\.[^/.]+$/, "") + "_400.webp";
+		return image.replace(/\.[^/.]+$/, "") + "_450.webp";
 	});
 };
