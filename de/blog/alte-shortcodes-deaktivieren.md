@@ -31,7 +31,7 @@ Obwohl das Theme Review Team Shortcodes als [Plugin Territory](https://make.word
 
 Ein passender Artikel dazu ist: [«Mehr ist nicht mehr – Das Feature-Wettrüsten auf Themeforest»](https://www.claudioschwarz.com/2013/mehr-ist-nicht-mehr-das-feature-wettruesten-auf-themeforest/) von Claudio Schwarz.
 
-Als ich [AlbinoMouse](https://wordpress.org/themes/albinomouse/) im Jahr 2011 das erste Mal veröffentlicht habe, waren da auch noch Shortcodes drin. Diese Regel war damals noch kein Thema oder ging beim Review unter. Als dies jedoch bei einem späteren Review bemängelt wurde, musste ich die Nutzer im Backend informieren, dass die eventuell benutzten Shortcodes nicht mehr gültig sein werden.
+Als ich [[../projects/albinomouse-wordpress-theme|AlbinoMouse]] im Jahr 2011 das erste Mal veröffentlicht habe, waren da auch noch Shortcodes drin. Diese Regel war damals noch kein Thema oder ging beim Review unter. Als dies jedoch bei einem späteren Review bemängelt wurde, musste ich die Nutzer im Backend informieren, dass die eventuell benutzten Shortcodes nicht mehr gültig sein werden.
 
 **Wenn ein Shortcode nämlich nicht mehr gültig ist, bleibt er als normaler Text im Beitrag liegen – was ziemlich unschön ist.**
 

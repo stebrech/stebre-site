@@ -51,8 +51,8 @@ _Logo brechbuehl-web.ch Version 4_
 
 Mit dem Namenswechsel zu pixelstrol.ch kam auch der Wechsel zu WordPress. Von Anfang an hatte ich eigene Themes dafür verwendet. Die Themes sind hier beschrieben:
 
-- [[/projects/albinomouse-wordpress-theme|AlbinoMouse]]
-- [[/projects/penguin-wordpress-theme|Penguin]]
+- [[../projects/albinomouse-wordpress-theme|AlbinoMouse]]
+- [[../projects/penguin-wordpress-theme|Penguin]]
 
 Die verschiedenen Logos, die ich bis 2022 nutzte, sind folgende:
 
@@ -70,14 +70,14 @@ _Logo pixelstrol.ch Version 3_
 
 ## Und nun?
 
-Mit stebre.ch nutze ich kein CMS mehr, sondern [Gatsby](https://www.gatsbyjs.com/) als statischen Site-Generator. Die Artikel schreibe ich in einfachem [Markdown](https://de.wikipedia.org/wiki/Markdown) und nutze sie als Datenquelle in Gatsby. Als Schreibprogramm verwende ich [iA Writer](https://ia.net/de/writer), für den ich auch schon mal [ein Template](/portfolio/firia) geschrieben habe.
+Mit stebre.ch nutze ich kein CMS mehr, sondern [Gatsby](https://www.gatsbyjs.com/) als statischen Site-Generator. Die Artikel schreibe ich in einfachem [Markdown](https://de.wikipedia.org/wiki/Markdown) und nutze sie als Datenquelle in Gatsby. Als Schreibprogramm verwende ich [iA Writer](https://ia.net/de/writer), für den ich auch schon mal [[../projects/firia|ein Template]] geschrieben habe.
 
 Das Design der Website ist selbst entwickelt und nutzt ein paar nette Effekte wie
 
 - das Einfärben der Posts bei Maus-Hover
 - animiertes Einblenden der Elemente beim Scrollen
 
-**Update 17.09.2023:** Gatsby wurde durch [11ty](https://www.11ty.dev/) ersetzt. Die Inhalte werden neu in Notion gepflegt und als Markdown heruntergeladen, siehe auch [11ty mit Notion verbinden](https://stebre.ch/blog/2023/09/11ty-mit-notion-verbinden/).
+**Update 17.09.2023:** Gatsby wurde durch [11ty](https://www.11ty.dev/) ersetzt. Die Inhalte werden neu in Notion gepflegt und als Markdown heruntergeladen, siehe auch [[../blog/11ty-mit-notion-verbinden|11ty mit Notion verbinden]].
 
 ### Noch am Anfang
 
