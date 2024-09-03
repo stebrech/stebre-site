@@ -45,7 +45,10 @@ const pocketDataRequest = async () => {
 				tags: `[ ${tags.filter((tag) => tag !== "bookmarks").join(", ")} ]`,
 				excerpt: dataArray[i].excerpt,
 				bookmarkLang: dataArray[i].lang,
-				slug: slugify(dataArray[i].resolved_title, { remove: /[*+~.–—()'"!?:;@]/g, lower: true }),
+				slug: slugify(dataArray[i].resolved_title, {
+					remove: /[*+~.–—()'"!?:;@/\\]/g,
+					lower: true,
+				}),
 				weblink: dataArray[i]?.resolved_url,
 				domainName: domainName,
 				imgUrl: dataArray[i]?.top_image_url,
@@ -121,11 +124,10 @@ const pocketDataRequest = async () => {
 				data += `${frontmatterData.authors}, `;
 			}
 			data += `<a href="${frontmatterData.weblink}">${frontmatterData.domainName}</a></footer></blockquote>\n\n`;
-			data += frontmatterData.description;
 			// End of the content
 
 			// Create a new markdown file with the frontmatter data
-			fs.writeFileSync(path.resolve(__dirname, `../bookmarks/${mdPath}`), data, "utf-8");
+			fs.writeFileSync(path.resolve(__dirname, `../de/bookmarks/${mdPath}`), data, "utf-8");
 			console.log(`${filename} | Markdown file has been created`);
 
 			// Archive the bookmark on Pocket
