@@ -7,6 +7,7 @@ tags:
 slug: our-users-have-no-disabilities
 weblink: https://axesslab.com/users-no-disabilities/
 domainName: axesslab.com
+bookmarkLang: en
 metaDescription: |
   There are a lot of unfortunate misconceptions about people with disabilities. Many trickle down into IT-teams who use them as arguments not to care about…
 pocketDescription: |

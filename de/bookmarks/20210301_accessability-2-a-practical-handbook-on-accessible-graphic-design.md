@@ -9,6 +9,7 @@ tags:
 slug: accessability-2-a-practical-handbook-on-accessible-graphic-design
 weblink: https://rgd.ca/working-in-design/resources/accessability-2-a-practical-handbook-on-accessible-graphic-design
 domainName: rgd.ca
+bookmarkLang: en
 metaDescription: |
   null
 description: |

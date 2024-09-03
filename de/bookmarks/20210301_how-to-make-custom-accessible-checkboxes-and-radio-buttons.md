@@ -9,6 +9,7 @@ tags:
 slug: how-to-make-custom-accessible-checkboxes-and-radio-buttons
 weblink: https://webdesign.tutsplus.com/tutorials/how-to-make-custom-accessible-checkboxes-and-radio-buttons--cms-32074
 domainName: webdesign.tutsplus.com
+bookmarkLang: en
 metaDescription: |
   Form elements like checkboxes and radio buttons look different depending on the user’s browser and operating system. For this reason designers and developers have long been styling their own...
 pocketDescription: |

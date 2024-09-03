@@ -7,6 +7,7 @@ tags:
 slug: a-guide-to-combining-fonts
 weblink: https://betterwebtype.com/articles/2018/08/15/guide-to-combining-fonts/
 domainName: betterwebtype.com
+bookmarkLang: en
 metaDescription: |
   Combining fonts is one of the trickiest parts of typography. Here’s a guide, combined with an example to help you get font combinations right.
 pocketDescription: |

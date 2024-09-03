@@ -8,6 +8,7 @@ tags:
 slug: rz-byleitfaden-barrierefreiheit
 weblink: https://github.com/RZ-BY/Leitfaden-Barrierefreiheit
 domainName: github.com
+bookmarkLang: de
 metaDescription: |
   Leitfaden zur digitalen Barrierefreiheit. Contribute to RZ-BY/Leitfaden-Barrierefreiheit development by creating an account on GitHub.
 pocketDescription: |

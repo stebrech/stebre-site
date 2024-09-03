@@ -8,6 +8,7 @@ tags:
 slug: accessibility-testing-tool
 weblink: https://www.ssa.gov/accessibility/andi/help/install.html
 domainName: ssa.gov
+bookmarkLang: en
 metaDescription: |
   ANDI accessibility testing tool. A free tool to test websites for accessibility.
 pocketDescription: |
