@@ -1,19 +1,23 @@
 ---
+aliases:
+  - Familienverein Wahlen
 title: Familienverein Wahlen
-date: 2022-09-27
-updated: 2024-02-02
+date: 2022-09-27T00:00:00.000Z
+updated: 2024-02-02T00:00:00.000Z
 featuredImage: assets/img/20220927_familienverein-wahlen.png
-description: Im ersten Quartal 2021 entstand die Website für den Familienverein Wahlen. Es ist das zweite Projekt, dass ich mit [Gatsby](https://www.gatsbyjs.com/) umgesetzt habe. Die Anbindung an ein Headless CMS war für mich Première und der Entscheid fiel auf [Netlify CMS](https://decapcms.org/).
+description: >-
+  Im ersten Quartal 2021 entstand die Website für den Familienverein Wahlen. Es
+  ist das zweite Projekt, dass ich mit [Gatsby](https://www.gatsbyjs.com/)
+  umgesetzt habe. Die Anbindung an ein Headless CMS war für mich Première und
+  der Entscheid fiel auf [Netlify CMS](https://decapcms.org/).
 tags:
   - branding
   - notion
   - 11ty
   - webentwicklung
 featured: false
-weblink: https://familienverein-wahlen.ch
-aliases:
-  - Familienverein Wahlen
-status: needs-translation
+weblink: 'https://familienverein-wahlen.ch'
+status: done
 ---
 > [!info] Update 2.2.2024
 > Seit Juni 2023 habe ich beide Tools abgelöst. Für die Website nutze ich Notion für die Inhaltsverwaltung, also als CMS-Backend. Für das Frontend, also die eigentlich Website-Auslieferung im Browser, wird dann 11ty genutzt. Mit [[projects/notion2eleventy|notion2eleventy]] habe ich eine Schnittstelle der beiden Tools gebaut.
