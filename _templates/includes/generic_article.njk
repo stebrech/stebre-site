@@ -42,7 +42,7 @@
 				{% endif %}
 				{% if bookmarkLang %}
 					<h2>{{ i18n.article.metadata.language[page.lang] }}</h2>
-					<p>{% if lang === "en" %}{{ i18n.article.metadata.language.english[page.lang] }}{% elif lang === "de" %}{{ i18n.article.metadata.language.german[page.lang] }}{% endif %}</p>
+					<p>{% if bookmarkLang === "en" %}{{ i18n.article.metadata.language.english[page.lang] }}{% elif bookmarkLang === "de" %}{{ i18n.article.metadata.language.german[page.lang] }}{% endif %}</p>
 				{% endif %}
 				{% if weblink %}
 					<p class="weblink"><a href={{ weblink }}>{{ i18n.article.metadata.weblink[page.lang] }}</a></p>

@@ -6,7 +6,7 @@
 						<a href="{{ post.url }}" class="postPreview_link">{{ post.data.title }}</a>
 					</h3>
 					<footer class="postPreview_metadata">
-						<p>{% if postType === "bookmarks" %}{{ i18n.article.metadata.bookmarkFound[page.lang] }}{% else %}{{ i18n.article.metadata.publishDate[page.lang] }}{% endif %} <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate }}</time>{% if post.data.updated %}<br>{{ i18n.article.metadata.lastUpdate[page.lang] }} <time datetime="{{ post.data.updated | htmlDateString }}">{{ post.data.updated | readableDate}}</time>{% endif %}</p>
+						<p>{% if post.data.postType === "bookmarks" %}{{ i18n.article.metadata.bookmarkFound[page.lang] }}{% else %}{{ i18n.article.metadata.publishDate[page.lang] }}{% endif %} <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate }}</time>{% if post.data.updated %}<br>{{ i18n.article.metadata.lastUpdate[page.lang] }} <time datetime="{{ post.data.updated | htmlDateString }}">{{ post.data.updated | readableDate}}</time>{% endif %}</p>
 						<ul>
 						{% if templateClass === "taglist" %}
 							{% if post.data.postType === "bookmarks" %}
@@ -17,7 +17,7 @@
 								<li class="postPreview_tag posts">{{ i18n.mainnav.bookmarks[page.lang] }}</li>
 							{% endif %}
 						{% endif %}
-						{% if (page.lang !== "en") and (post.data.lang === "en") %}
+						{% if (page.lang !== "en") and (post.data.bookmarkLang === "en") %}
 							<li class="postPreview_tag lang">EN</li>
 						{% endif %}
 						{% for tag in post.data.tags | excludeTagsFromTagList %}
