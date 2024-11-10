@@ -15,7 +15,7 @@ tags:
   - branding
   - notion
   - 11ty
-  - web development
+  - webdev
 featured: false
 weblink: 'https://familienverein-wahlen.ch'
 status: needs-review

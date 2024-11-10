@@ -6,7 +6,7 @@ description: Pocket offers an API with which the saved bookmarks can be used and
 tags:
   - 11ty
   - automation
-  - web-development
+  - webdev
 aliases: 
 featured: true
 status: done

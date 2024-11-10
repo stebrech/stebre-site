@@ -1,4 +1,5 @@
 ---
+aliases: notion2eleventy
 title: notion2eleventy
 date: 2024-01-29T00:00:00.000Z
 updated: 2024-05-10
@@ -10,7 +11,6 @@ tags:
   - notion
 featured: true
 weblink: https://github.com/stebrech/notion2eleventy
-aliases: []
 status: done
 ---
 ## `notion2eleventy` Features

@@ -1,22 +1,23 @@
 ---
 aliases:
-  - "stebre.ch: Relaunch und Namensänderung"
+  - 'stebre.ch: Relaunch und Namensänderung'
   - stebre.ch
-title: "stebre.ch: Relaunch und Namensänderung"
-date: 2022-11-15
-updated: 2023-09-17
+title: 'stebre.ch: Relaunch und Namensänderung'
+date: 2022-11-15T00:00:00.000Z
+updated: 2023-09-17T00:00:00.000Z
 featuredImage: assets/img/20221115_stebrech-relaunch-und-namensaenderung.png
-description: "stebre.ch: Klammheimlich habe ich ein Relaunch meiner persönlichen Website durchgeführt und zudem noch den Namen geändert. Ich möchte es aber nicht unterlassen dir einen kleinen Einblick zu geben."
+description: >-
+  stebre.ch: Klammheimlich habe ich ein Relaunch meiner persönlichen Website
+  durchgeführt und zudem noch den Namen geändert. Ich möchte es aber nicht
+  unterlassen dir einen kleinen Einblick zu geben.
 tags:
   - 11ty
   - branding
   - content
   - webentwicklung
 featured: false
-status: needs-translation
+status: done
 ---
-Klammheimlich habe ich ein Relaunch meiner persönlichen Website durchgeführt und zudem noch den Namen geändert. Ich möchte es aber nicht unterlassen dir einen kleinen Einblick zu geben.
-
 ## Wieso ein neuer Name?
 
 Mit einem _Rebrand_ riskiert man Probleme bei der Wiedererkennung und die Gefahr von Einbussen der Auffindbarkeit in Suchmaschinen. Aber hey – es ist meine persönliche Website und meine Spielwiese um neues auszuprobieren. Ich muss mir keine kommerziellen Gedanken machen, also nehme ich den damit verbundene Aufwand auf mich.
@@ -77,7 +78,8 @@ Das Design der Website ist selbst entwickelt und nutzt ein paar nette Effekte wi
 - das Einfärben der Posts bei Maus-Hover
 - animiertes Einblenden der Elemente beim Scrollen
 
-**Update 17.09.2023:** Gatsby wurde durch [11ty](https://www.11ty.dev/) ersetzt. Die Inhalte werden neu in Notion gepflegt und als Markdown heruntergeladen, siehe auch [[../blog/11ty-mit-notion-verbinden|11ty mit Notion verbinden]].
+> [!info] Update 17.09.2023
+> Gatsby wurde durch [11ty](https://www.11ty.dev/) ersetzt. Die Inhalte werden neu in Notion gepflegt und als Markdown heruntergeladen, siehe auch [[../blog/11ty-mit-notion-verbinden|11ty mit Notion verbinden]].
 
 ### Noch am Anfang
 

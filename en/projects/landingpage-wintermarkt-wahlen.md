@@ -10,7 +10,7 @@ description: >-
   into the new features.
 tags:
   - 11ty
-  - web development
+  - webdev
   - webapp
 featured: true
 weblink: 'https://familienverein-wahlen/wahlner-wintermarkt'
