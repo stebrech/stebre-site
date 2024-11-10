@@ -10,6 +10,8 @@ dotenv.config();
 const AUTH_KEY = process.env.DEEPL_API_KEY;
 const TRANSLATOR = new deepl.Translator(AUTH_KEY);
 
+// console.log(fs.readdirSync(path.resolve("./de"), { recursive: true }));
+
 const posts = fs
 	.readdirSync(path.resolve("./de"), { recursive: true })
 	.filter((file) => file.endsWith(".md"))
@@ -62,6 +64,7 @@ posts.forEach((post) => {
 					matter.stringify(destData),
 					"utf-8",
 				);
+				console.log("Translation complete:", post.name);
 			} catch (error) {
 				console.error("Translation error:", error);
 			}
