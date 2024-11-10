@@ -5,12 +5,12 @@ title: Gian the lion
 date: 2019-04-27T00:00:00.000Z
 featuredImage: assets/img/20190427_gian-the-lion.png
 description: >-
-  Für die Einladungskarte der Taufe unseres Jüngsten habe ich das Maskottchen
-  «Gian the Lion» gezeichnet und vektorisiert.
+  I drew and vectorized the mascot "Gian the Lion" for the invitation card of
+  our youngest's christening.
 tags:
   - icons
   - print
 featured: false
 status: done
 ---
-[Gian the lion auf Dribbble](https://dribbble.com/shots/6401002-Gian-the-lion)
+[Gian the lion on Dribbble](https://dribbble.com/shots/6401002-Gian-the-lion)

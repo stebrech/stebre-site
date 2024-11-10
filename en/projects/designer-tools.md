@@ -7,8 +7,8 @@ featuredImage: assets/img/20151013_designer-tools.jpg
 description: >-
   [Designer
   Tools](https://thenounproject.com/browse/collection-icon/designer-tools-6729/)
-  ist eine kleine Icon Sammlung welche ich in Illustrator gezeichnet und auf
-  Noun Project als Vektorgrafiken zur Verfügung stelle.
+  is a small icon collection which I drew in Illustrator and made available as
+  vector graphics on Noun Project.
 tags:
   - icons
 featured: false
