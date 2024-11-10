@@ -20,4 +20,4 @@ newsletter: false
 status: done
 ---
 <blockquote>In this excerpt from Writing Is Designing, Michael J. Metts and Andy Welfle discuss critical accessibility considerations for content authors, including reading order, references to additional content, and instructions.
-<footer>- Andy Welfle, Michael J. Metts, <a href="https://alistapart.com/article/standards-for-writing-accessibly/">alistapart.com</a></footer></blockquote>
+<footer>— Andy Welfle, Michael J. Metts, <a href="https://alistapart.com/article/standards-for-writing-accessibly/">alistapart.com</a></footer></blockquote>

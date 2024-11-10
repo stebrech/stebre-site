@@ -32,4 +32,4 @@ newsletter: true
 status: done
 ---
 <blockquote lang="en">A small collection of accessibility checks I perform in every site I audit and build.
-<footer>- Manuel Matuzovic, <a href="https://www.matuzo.at/blog/beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build/">matuzo.at</a></footer></blockquote>
+<footer>— Manuel Matuzovic, <a href="https://www.matuzo.at/blog/beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build/">matuzo.at</a></footer></blockquote>

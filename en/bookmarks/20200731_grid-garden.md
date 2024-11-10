@@ -24,4 +24,4 @@ newsletter: true
 status: done
 ---
 <blockquote lang="en">A game for learning CSS grid layout
-<footer>- <a href="https://cssgridgarden.com">cssgridgarden.com</a></footer></blockquote>
+<footer>— <a href="https://cssgridgarden.com">cssgridgarden.com</a></footer></blockquote>

@@ -16,4 +16,4 @@ status: done
 bookmarkLang: en
 ---
 <blockquote>Visualize your architecture. In minutes.
-<footer>- <a href="https://isoflow.io/">isoflow.io</a></footer></blockquote>
+<footer>— <a href="https://isoflow.io/">isoflow.io</a></footer></blockquote>
