@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Icon Font: Out Of Circle – WP Post Formats"
 title: "Icon Font: Out Of Circle – WP Post Formats"
 date: 2013-04-27
 featuredImage: assets/img/20130427_icon-font-out-of-circle--wp-post-formats.png
@@ -7,8 +9,6 @@ tags:
   - icons
 featured: false
 weblink: https://github.com/stebrech/OOC-WP-PF
-aliases:
-  - "Icon Font: Out Of Circle – WP Post Formats"
 status: needs-translation
 ---
 Mehr zu den Post Formaten könnt ihr in der [offiziellen WordPress Dokumentation](https://wordpress.org/support/article/post-formats/) nachlesen.

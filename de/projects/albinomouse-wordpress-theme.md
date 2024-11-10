@@ -1,4 +1,7 @@
 ---
+aliases:
+  - AlbinoMouse WordPress Theme
+  - AlbinoMouse
 title: AlbinoMouse WordPress Theme
 date: 2013-01-01
 featuredImage: assets/img/20130101_albinomouse-wordpress-theme.png
@@ -7,9 +10,6 @@ tags:
   - webentwicklung
 featured: false
 weblink: https://wordpress.org/themes/albinomouse/
-aliases:
-  - AlbinoMouse WordPress Theme
-  - AlbinoMouse
 status: needs-translation
 ---
 Das Starter Theme `_s` und das Framework Bootstrap 3 bildeten die Basis von AlbinoMouse. Es ist ein schlichtes und aufgeräumtes Design für verschiedene Zwecke einsetzbar.

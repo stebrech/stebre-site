@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "stebre.ch: Relaunch und Namensänderung"
+  - stebre.ch
 title: "stebre.ch: Relaunch und Namensänderung"
 date: 2022-11-15
 updated: 2023-09-17
@@ -10,9 +13,6 @@ tags:
   - content
   - webentwicklung
 featured: false
-aliases:
-  - "stebre.ch: Relaunch und Namensänderung"
-  - stebre.ch
 status: needs-translation
 ---
 Klammheimlich habe ich ein Relaunch meiner persönlichen Website durchgeführt und zudem noch den Namen geändert. Ich möchte es aber nicht unterlassen dir einen kleinen Einblick zu geben.

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - Innocu Logo
 title: Innocu Logo
 date: 2018-03-05
 featuredImage: assets/img/20180305_innocu-logo.png
@@ -7,8 +9,6 @@ tags:
   - animation
   - branding
 featured: false
-aliases:
-  - Innocu Logo
 status: needs-translation
 ---
 ![Signetvarianten INNOCU](assets/img/20180305_innocu-logo_1.png)

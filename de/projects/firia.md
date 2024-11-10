@@ -1,4 +1,6 @@
 ---
+aliases:
+  - FirIA
 title: FirIA
 date: 2020-04-19
 featuredImage: assets/img/20200419_firia.png
@@ -7,8 +9,6 @@ tags:
   - markdown
 featured: false
 weblink: https://github.com/stebrech/FirIA
-aliases:
-  - FirIA
 status: needs-translation
 ---
 Im Namen FirIA versteckt sich die verwendete Schrift Fira Sans. Alle haben ihre Favoritenschrift. Dies ist aktuell meine ;-)

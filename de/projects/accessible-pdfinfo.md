@@ -1,4 +1,6 @@
 ---
+aliases:
+  - accessible-pdf.info
 title: accessible-pdf.info
 date: 2017-10-31
 featuredImage: assets/img/20171031_accessible-pdfinfo.png
@@ -10,8 +12,6 @@ tags:
   - barrierefreiheit
 featured: false
 weblink: https://accessible-pdf.info/de
-aliases:
-  - accessible-pdf.info
 status: needs-translation
 ---
 Es ist als freies Nachschlagewerk gedacht. Inhaltliche Änderungen können via Github direkt beantragt werden oder dort diskutiert werden.

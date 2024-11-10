@@ -1,4 +1,6 @@
 ---
+aliases:
+  - Designer Tools
 title: Designer Tools
 date: 2015-10-13
 featuredImage: assets/img/20151013_designer-tools.jpg
@@ -7,7 +9,5 @@ tags:
   - icons
 featured: false
 weblink: https://thenounproject.com/browse/collection-icon/designer-tools-6729/
-aliases:
-  - Designer Tools
 status: needs-translation
 ---

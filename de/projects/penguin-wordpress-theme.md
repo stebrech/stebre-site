@@ -1,4 +1,6 @@
 ---
+aliases:
+  - Penguin WordPress Theme
 title: Penguin WordPress Theme
 date: 2016-08-03
 featuredImage: assets/img/20160803_penguin-wordpress-theme.png
@@ -7,8 +9,6 @@ tags:
   - webentwicklung
 featured: false
 weblink: https://github.com/stebrech/penguin
-aliases:
-  - Penguin WordPress Theme
 status: needs-translation
 ---
 Bei der Umsetzung wurde grossen Wert auf Barrierefreiheit und Performance gelegt.

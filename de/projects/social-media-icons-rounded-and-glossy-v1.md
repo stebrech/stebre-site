@@ -1,4 +1,6 @@
 ---
+aliases:
+  - Social Media Icons Rounded and Glossy v1
 title: Social Media Icons Rounded and Glossy v1
 date: 2012-07-02
 featuredImage: assets/img/20120702_social-media-icons-rounded-and-glossy-v1.jpg
@@ -7,8 +9,6 @@ tags:
   - icons
 featured: false
 weblink: https://github.com/stebrech/social-media-icons-rounded-glossy-1
-aliases:
-  - Social Media Icons Rounded and Glossy v1
 status: needs-translation
 ---
 Die Icons sind in der Auflösung 128px und 32px, im PNG-Dateiformat und auch für kommerzielle Zwecke frei verfügbar.

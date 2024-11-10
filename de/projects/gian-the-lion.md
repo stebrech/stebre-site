@@ -1,4 +1,6 @@
 ---
+aliases:
+  - Gian the lion
 title: Gian the lion
 date: 2019-04-27
 featuredImage: assets/img/20190427_gian-the-lion.png
@@ -7,8 +9,6 @@ tags:
   - icons
   - print
 featured: false
-aliases:
-  - Gian the lion
 status: needs-translation
 ---
 [Gian the lion auf Dribbble](https://dribbble.com/shots/6401002-Gian-the-lion)

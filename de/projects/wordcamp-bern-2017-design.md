@@ -1,4 +1,7 @@
 ---
+aliases:
+  - WordCamp Bern 2017 Design
+  - WordCamp Bern 2017
 title: WordCamp Bern 2017 Design
 date: 2017-09-09
 featuredImage: assets/img/20170909_wordcamp-bern-2017-design.jpg
@@ -8,9 +11,6 @@ tags:
   - print
 featured: false
 weblink: https://bern.wordcamp.org/2017/
-aliases:
-  - WordCamp Bern 2017 Design
-  - WordCamp Bern 2017
 status: needs-translation
 ---
 ## Logo-Design
