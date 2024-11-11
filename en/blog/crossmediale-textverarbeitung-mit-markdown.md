@@ -164,8 +164,8 @@ inserts an image. The syntax is the same as for the hyperlink, simply preceded b
 ### Further documentation
 
 - You can find more about Markdown syntax on the page of [John Gruber (Daring Fireball)](https://daringfireball.net/projects/markdown/syntax), the inventor of Markdown.
-- Github Flavored](https://guides.github.com/features/mastering-markdown/) is an extension of Markdown.
-- More about Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)
+- [Github Flavored](https://guides.github.com/features/mastering-markdown/) is an extension of Markdown.
+- [More about Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)
 
 ## Markdown script for InDesign
 
@@ -178,4 +178,3 @@ In my opinion, this Markdown workflow is suitable if authors (can) work locally 
 I would be very interested to hear the opinions of experienced multichannel publishers who have already gained experience with other solutions and products. It would be very interesting to compare their advantages with the above-mentioned advantages of the Markdown workflow.
 
 Of course, I am always happy to receive your feedback.
-

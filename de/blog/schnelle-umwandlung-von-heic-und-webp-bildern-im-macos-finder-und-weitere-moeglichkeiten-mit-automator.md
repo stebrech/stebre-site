@@ -1,12 +1,18 @@
 ---
-title: Schnelle Umwandlung von HEIC und WebP Bildern im MacOS Finder und weitere Möglichkeiten mit Automator
-date: 2023-02-12
-featuredImage: assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator.png
-description: Bildformate wie `HEIC` und `WebP` werden von vielen Applikationen noch nicht unterstützt. Daher ergeben sich immer wieder Situationen in denen man Bilder in ein `JPEG` oder `PNG` umwandeln muss.
+title: >-
+  Schnelle Umwandlung von HEIC und WebP Bildern im MacOS Finder und weitere
+  Möglichkeiten mit Automator
+date: 2023-02-12T00:00:00.000Z
+featuredImage: >-
+  assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator.png
+description: >-
+  Bildformate wie `HEIC` und `WebP` werden von vielen Applikationen noch nicht
+  unterstützt. Daher ergeben sich immer wieder Situationen in denen man Bilder
+  in ein `JPEG` oder `PNG` umwandeln muss.
 tags:
   - automatisierung
   - bildoptimierung
-status: needs-translation
+status: done
 ---
 Im Finder von MacOS lässt sich das ganz schnell und einfach bewerkstelligen. Mit der Standard-App [Automator](https://support.apple.com/de-ch/guide/automator/welcome/mac) lassen sich zudem einfache Bildanpassungen automatisiert mit einem Mausklick anwenden.
 
@@ -59,21 +65,23 @@ Mit Automator können Abläufe automatisiert werden. Wir schauen uns hier die Er
 
 ## Beispiel eines Bildworkflows
 
-Um aufzuzeigen was mit Automator umgesetzt werden kann, kreieren wir eine Schnellaktion, die zuerst eine Kopie der ausgewählten Bilder anlegt. Die Kopien werden dann in ein `JPEG` umgewandelt und generell die Grösse in 1200 × 600 px angewendet. Zum Schluss werden die Farben noch in Graustufen geändert.
-
-<div class="imagesContainer">
+Um aufzuzeigen was mit Automator umgesetzt werden kann, kreieren wir eine Schnellaktion, die zuerst eine Kopie der ausgewählten Bilder anlegt.
 
 ![Aktion «Finder-Objekte duplizieren» im Workflow platziert. Screenshot.](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_5.png)
 
 ![Aktion «Finder-Objekte umbenennen: Text ersetzen» im Workflow platziert. Screenshot.](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_6.png)
 
+Die Kopien werden dann in ein `JPEG` umgewandelt …
+
 ![Aktion «Bildtyp ändern» im Workflow platziert. Screenshot.](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_7.png)
+
+… und generell die Grösse in 1200 × 600 px angewendet.
 
 ![Aktion «Bildgrösse anpassen» im Workflow platziert. Screenshot.](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_8.png)
 
-![Aktion «Finder-Objekte umbenennen: Text ersetzen» im Workflow platziert. Screenshot.](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_9.png)
+Zum Schluss werden die Farben noch in Graustufen geändert.
 
-</div>
+![Aktion «Finder-Objekte umbenennen: Text ersetzen» im Workflow platziert. Screenshot.](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_9.png)
 
 Was jetzt noch fehlt sind die generellen Einstellungen deines Workflows. Diese findest oberhalb, siehe Bereich 2 im Screenshot oben mit den roten Markierungen. Damit die Schnellaktion bei Bildern erscheint muss im ersten Dropdown auf «Bilddateien» und in «Finder» gewechselt werden. Die beiden unteren Dropdown-Felder steuern das Aussehen des Befehls innerhalb des Menüs «Schnellaktionen» und sind optional.
 
@@ -82,4 +90,3 @@ Was jetzt noch fehlt sind die generellen Einstellungen deines Workflows. Diese f
 Die Möglichkeiten in Automator sind auf einfache Anpassungen beschränkt. Pixometry ist eine Applikation, die Bilder mithilfe von künstlicher Intelligenz automatisch optimiert und erweiterte Bildworkflow-Möglichkeiten beherrscht. Weitere Infos zum Produkt und Kontaktmöglichkeiten zur Beratung sind auf der [a&f Website](https://www.a-f.ch/produkte/pixometry/) zu finden.
 
 Quelle Artikelbild: DALL·E generiertes Bild (mit Text ergänzt).
-
