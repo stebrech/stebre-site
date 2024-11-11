@@ -1,9 +1,10 @@
 # Redirects from what the browser requests to what we serve
 # Netlify URL
 https://stebre.netlify.app/*	https://stebre.ch/:splat
-# Renamed Portfolio
+# Renamed paths
 /portfolio/*	/projects/:splat
 /arbeiten/*	/projects/:splat
+/lesezeichen/*	/bookmarks/:splat
 # Removed date from blog posts
 /blog/:year/:month/:posttitle /blog/:posttitle
 # Deleted blog posts
