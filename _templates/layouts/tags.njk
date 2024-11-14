@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+templateClass: postlist
+---
+{% include "includes/section_title.njk" %}
+
+{% if content %}
+<section class="intro containerM">
+	{{ content | safe }}
+</section>
+{% endif %}
+
+{% include "includes/section_filtertags.njk" %}

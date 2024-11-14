@@ -1,7 +1,8 @@
 ---
 title: Tags
-layout: layouts/taglist.njk
+layout: layouts/tags.njk
+collection: "feed"
 tags: ["pages_de"]
-permalink: /tags/{{ tag }}/
+permalink: /tags/
 status: done
 ---
