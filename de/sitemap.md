@@ -1,5 +1,5 @@
 ---
-layout: includes/sitemap.njk
+layout: layouts/sitemap.njk
 homepage: https://stebre.ch
 collection_blog: blog_de
 collection_projects: projects_de
