@@ -11,6 +11,9 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 /en/lesezeichen/*	/en/bookmarks/:splat
 /category/*	/tags/:splat
 /en/category/*	/en/tags/:splat
+/tag/*	/tags/:splat
+/en/tag/*	/en/tags/:splat
+/de/* /:splat
 
 # Removed date from blog posts
 /blog/:year/:month/:posttitle /blog/:posttitle
@@ -39,6 +42,7 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 /wordpress-beschleunigen	/blog
 
 /blog/produktfotos-mithilfe-von-placeit-erstellen/ /blog
+/blog/remoteie-internet-explorer-auf-dem-mac/ /blog
 
 /bookmarks/5-most-annoying-website-features-i-face-as-a-blind-person-every-single-day/ /bookmarks
 
@@ -51,6 +55,8 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 /category/technisches-entwicklung/page/2	/blog
 /category/technisches-entwicklung/page/3	/blog
 /category/technisches-entwicklung/page/4	/blog
+
+/tags/todo/ /tags
 
 # Blog posts with path /blog
 /3-wp-snippets-um-den-auszug-zu-optimieren	/blog/3-wp-snippets-um-den-auszug-zu-optimieren
@@ -137,7 +143,9 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 /tag/joomla	/tags
 /tag/komprimierung	/tags
 /tag/kostenlos	/tags
+/tag/literatur/ tags
 /tags/literatur	/tags
+/tags/marketing/	/tags
 /tag/mindmap	/tags
 /tag/mockup	/tags
 /tag/photoshop	/tags
@@ -160,4 +168,21 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 # Changed slug
 /projects/accessible-pdfinfo/ /projects/accessible-pdf-info/
 /portfolio/da-bfpdf-bund/ /portfolio/diplomarbeit-publikationskonzept-fuer-barrierefreie-pdfs-auf-den-webseiten-der-bundesbehoerden
+/projects/da-bfpdf-bund/ /portfolio/diplomarbeit-publikationskonzept-fuer-barrierefreie-pdfs-auf-den-webseiten-der-bundesbehoerden
 /portfolio/stebrech-relaunch-und-namensaenderung/ /projects/stebre-ch-relaunch-und-namensaenderung/
+/projects/stebrech-relaunch-und-namensaenderung/ /projects/stebre-ch-relaunch-und-namensaenderung/
+/blog/20121225_wp-tipp-individueller-weiterlesen-link /blog/wp-tipp-individueller-weiterlesen-link
+/tags/contentfirst/ /tags/content-first/
+/tag/word-press/ /tags/wordpress/
+/blog/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator /blog/schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator/
+/tags/printcss/ /tags/print-css/
+/blog/20140121_wordpress-snippets-sinnvoll-integrieren /blog/wordpress-snippets-sinnvoll-integrieren
+/rechtliches/impressum/ /impressum/
+/blog/flaticon-com-waehle-aus-tausenden-icons-und-erzeuge-einen-webfont/ /blog/flaticoncom--waehle-aus-tausenden-icons-und-erzeuge-einen-webfont/
+/projects/icon-font-out-of-circle--wp-post-formats/ /projects/icon-font-out-of-circle-wp-post-formats/
+/tag/in-design/ /tags/indesign/
+/en/projects/familienverein-wahlen /en/projects/family-association-wahlen/
+/blog/wordpress-plugin-optimus-bilder-komprimieren-waehrend-des-upload-vorgangs/ /blog/wordpress-plugin-optimus--bilder-komprimieren-waehrend-des-upload-vorgangs/
+/portfolio/familienverein-wahlen-website/ /projects/familienverein-wahlen
+/blog/generatewp-com-code-generatoren-fuer-wordpress/ /blog/generatewpcom--code-generatoren-fuer-wordpress/
+/blog/das-wordpress-backend-theme-anpassen-und-plugin-theme-editor-und-admin-bar-ausblenden/ /blog/das-wordpress-backend-theme-anpassen-und-plugin--theme-editor-und-admin-bar-ausblenden/
