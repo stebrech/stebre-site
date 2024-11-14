@@ -1,13 +1,21 @@
 # Redirects from what the browser requests to what we serve
 # Netlify URL
 https://stebre.netlify.app/*	https://stebre.ch/:splat
+
 # Renamed paths
 /portfolio/*	/projects/:splat
+/en/portfolio/*	/en/projects/:splat
 /arbeiten/*	/projects/:splat
+/en/arbeiten/*	/en/projects/:splat
 /lesezeichen/*	/bookmarks/:splat
+/en/lesezeichen/*	/en/bookmarks/:splat
+/category/*	/tags/:splat
+/en/category/*	/en/tags/:splat
+
 # Removed date from blog posts
 /blog/:year/:month/:posttitle /blog/:posttitle
-# Deleted blog posts
+
+# Deleted posts
 /10-beliebte-und-freie-icon-font-sets	/blog
 /11-freie-und-praktische-css-onlinetools	/blog
 /3-losungswege-um-webfonts-in-die-eigene-website-einzubinden	/blog
@@ -20,15 +28,6 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 /buchbesprechung-templates-fur-joomla-1-6	/blog
 /buffer-twittern-nach-zeitplan	/blog
 /byword-markdown-editor-mit-wp-verbinden	/blog
-/category/bookmarks	/blog
-/category/design-inspiration	/blog
-/category/design-inspiration/page/2	/blog
-/category/design-inspiration/page/3	/blog
-/category/sonstiges	/blog
-/category/technisches-entwicklung	/blog
-/category/technisches-entwicklung/page/2	/blog
-/category/technisches-entwicklung/page/3	/blog
-/category/technisches-entwicklung/page/4	/blog
 /coggle-it-simples-mindmapping-in-der-cloud	/blog
 /css-section-separator-generator	/blog
 /giessbachfaelle-und-tierpark-goldau	/blog
@@ -38,6 +37,21 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 /selfhtml-wiki	/blog
 /staticgen	/blog
 /wordpress-beschleunigen	/blog
+
+/blog/produktfotos-mithilfe-von-placeit-erstellen/ /blog
+
+/bookmarks/5-most-annoying-website-features-i-face-as-a-blind-person-every-single-day/ /bookmarks
+
+/category/bookmarks	/blog
+/category/design-inspiration	/blog
+/category/design-inspiration/page/2	/blog
+/category/design-inspiration/page/3	/blog
+/category/sonstiges	/blog
+/category/technisches-entwicklung	/blog
+/category/technisches-entwicklung/page/2	/blog
+/category/technisches-entwicklung/page/3	/blog
+/category/technisches-entwicklung/page/4	/blog
+
 # Blog posts with path /blog
 /3-wp-snippets-um-den-auszug-zu-optimieren	/blog/3-wp-snippets-um-den-auszug-zu-optimieren
 /alte-shortcodes-deaktivieren	/blog/alte-shortcodes-deaktivieren
@@ -70,6 +84,7 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 /wp-snippet-alle-bildgroessen-im-medien-uploader-anzeigen	/blog/wp-snippet-alle-bildgroessen-im-medien-uploader-anzeigen
 /wp-tipp-individueller-weiterlesen-link	/blog/wp-tipp-individueller-weiterlesen-link
 /zwei-starke-responsive-test-tools	/blog/zwei-starke-responsive-test-tools
+
 # Projects with path /projects
 /accessible-pdf-info	/projects/accessible-pdf-info
 /albinomouse-wordpress-theme	/projects/albinomouse-wordpress-theme
@@ -78,6 +93,7 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 /designer-tools	/projects/designer-tools
 /die-ersten-vier-icons-auf-noun-project	/projects/die-ersten-vier-icons-auf-noun-project
 /etiketten-fuer-hausgemachtes	/projects/etiketten-fuer-hausgemachtes
+/familienverein-wahlen 	/projects/familienverein-wahlen
 /firia	/projects/firia
 /gian-the-lion	/projects/gian-the-lian
 /icon-font-out-of-circle-wp-post-formats	/projects/icon-font-out-of-circle-wp-post-formats
@@ -87,6 +103,9 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 /social-media-icons-rounded-and-glossy-v1	/projects/social-media-icons-rounded-and-glossy-v1
 /social-media-icons-rounded-and-glossy-v2	/projects/social-media-icons-rounded-and-glossy-v2
 /wordcamp-bern-2017-design	/projects/wordcamp-bern-2017-design/
+
+/en/arbeiten/christmas-book-and-the-resulting-md-book-with-docraptor-repository/ /en/projects/christmas-book-and-the-resulting-md-book-with-docraptor-repository
+
 # Changed tags
 /tag/accessibility	/tags/barrierefreiheit
 /tag/animation	/tags/animation
@@ -102,6 +121,7 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 /tag/webentwicklung	/tags/webentwicklung
 /tag/wordpress	/tags/wordpress
 /tag/wordpress/page/2	/tags/wordpress
+
 # Removed tags
 /tag/cartoon	/tags
 /tag/code-schnipsel	/tags
@@ -136,3 +156,8 @@ https://stebre.netlify.app/*	https://stebre.ch/:splat
 /tag/webdesign	/tags
 /tag/webtool	/tags
 /tag/webtool/page/2	/tags
+
+# Changed slug
+/projects/accessible-pdfinfo/ /projects/accessible-pdf-info/
+/portfolio/da-bfpdf-bund/ /portfolio/diplomarbeit-publikationskonzept-fuer-barrierefreie-pdfs-auf-den-webseiten-der-bundesbehoerden
+/portfolio/stebrech-relaunch-und-namensaenderung/ /projects/stebre-ch-relaunch-und-namensaenderung/
