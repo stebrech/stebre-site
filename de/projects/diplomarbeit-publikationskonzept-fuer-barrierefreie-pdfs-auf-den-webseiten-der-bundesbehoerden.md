@@ -8,7 +8,7 @@ title: >-
   Bundesbehörden
 date: 2022-10-09T00:00:00.000Z
 featuredImage: >-
-  assets/img/20221009_diplomarbeit-publikationskonzept-fuer-barrierefreie-pdfs-auf-den-webseiten-der-bundesbehoerden.png
+  ../../assets/img/20221009_diplomarbeit-publikationskonzept-fuer-barrierefreie-pdfs-auf-den-webseiten-der-bundesbehoerden.png
 description: >-
   In meiner Diplomarbeit habe ich geschrieben wie die Bundesbehörden die
   Barrierefreiheit ihrer PDFs verbessern können.

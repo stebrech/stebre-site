@@ -4,7 +4,7 @@ title: >-
   possibilities with Automator
 date: 2023-02-12T00:00:00.000Z
 featuredImage: >-
-  assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator.png
+  ../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator.png
 description: >-
   Image formats such as `HEIC` and `WebP` are not yet supported by many
   applications. Therefore, there are always situations in which you have to
@@ -35,13 +35,13 @@ If you generally want to do without the newer format, this can be changed in the
 1. Select `Settings` → `Camera` → `Formats`
 2. Change the option to `Maximum compatibility`
 
-![iOS settings. Screenshot](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_1.jpeg)
+![iOS settings. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_1.jpeg)
 
 ## Conversion using quick action
 
 Several `HEIC` or `WebP` images can be selected in the Finder and changed to another format by right-clicking on “Quick actions” → “Convert image”.
 
-![Select quick action “Convert Image” with right-click. Screenshot](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_2.png)
+![Select quick action “Convert Image” with right-click. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_2.png)
 
 
 In a second dialog, the format
@@ -52,7 +52,7 @@ In a second dialog, the format
 
 can be selected. You must also choose one of the predefined image sizes.
 
-![“Convert image” dialog with the selection of the format and image size. Screenshot](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_3.png)
+![“Convert image” dialog with the selection of the format and image size. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_3.png)
 
 ## Create your own quick action in Automator
 
@@ -62,27 +62,27 @@ Automator can be used to automate processes. Here we take a look at how to creat
 2. Select `Quick action` as the type
 3. On the left side is your library with actions and on the right side a still empty workflow
 
-![New quick action in Automator. Screenshot](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_4.png)
+![New quick action in Automator. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_4.png)
 
 ## Example of an image workflow
 
 To show what can be done with Automator, we create a quick action that first creates a copy of the selected images.
 
-![Action "Duplicate Finder objects" placed in the workflow. Screenshot](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_5.png)
+![Action "Duplicate Finder objects" placed in the workflow. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_5.png)
 
-![Action "Rename Finder objects: Replace text" action in the workflow. Screenshot](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_6.png)
+![Action "Rename Finder objects: Replace text" action in the workflow. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_6.png)
 
 The copies are then converted into a `JPEG` …
 
-![Action "Change image type" placed in workflow. Screenshot](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_7.png)
+![Action "Change image type" placed in workflow. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_7.png)
 
 and the size is generally applied in 1200 × 600 px.
 
-![Action "Resize image" placed in workflow. Screenshot](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_8.png)
+![Action "Resize image" placed in workflow. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_8.png)
 
 Finally, the colors are changed to grayscale.
 
-![Action "Rename Finder objects: Replace text" action in the workflow. Screenshot](assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_9.png)
+![Action "Rename Finder objects: Replace text" action in the workflow. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_9.png)
 
 What is still missing are the general settings for your workflow. These can be found above, see area 2 in the screenshot above with the red markings. In order for the quick action to appear for images, you must switch to `Image files` and `Finder` in the first dropdown. The two lower drop-down fields control the appearance of the command within the `Quick actions` menu and are optional.
 

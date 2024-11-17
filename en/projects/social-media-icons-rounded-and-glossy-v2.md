@@ -3,7 +3,7 @@ aliases:
   - Social Media Icons Rounded and Glossy v2
 title: Social Media Icons Rounded and Glossy v2
 date: 2012-07-04T00:00:00.000Z
-featuredImage: assets/img/20120704_social-media-icons-rounded-and-glossy-v2.jpg
+featuredImage: ../../assets/img/20120704_social-media-icons-rounded-and-glossy-v2.jpg
 description: >-
   Like [the previous
   version](https://stebre.ch/projects/social-media-icons-rounded-and-glossy-v1/),

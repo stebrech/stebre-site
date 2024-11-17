@@ -23,7 +23,7 @@ pocketDescription: >
 description: >-
   A comprehensive blog article on responsive tables with a focus on
   accessibility.
-featuredImage: assets/img/20201125_under-engineered-responsive-tables_screenshot.png
+featuredImage: ../../assets/img/20201125_under-engineered-responsive-tables_screenshot.png
 timeToRead: 4
 status: done
 ---

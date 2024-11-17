@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	currentDate() {
 		let today = new Date();
 		return today;

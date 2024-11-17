@@ -15,7 +15,7 @@ pocketDescription: |
   I wrote about fluid web typography in last month’s blog post and I realised that a lot of the popular implementation techniques come with accessibility issues. So I wanted to go back and revisit the basics and the best practices of accessible web typography.
 description: |
   Fünf Tipps für barrierefreie Typografie.
-featuredImage: assets/img/20210225_5-keys-to-accessible-web-typography.png
+featuredImage: ../../assets/img/20210225_5-keys-to-accessible-web-typography.png
 timeToRead: 15
 status: needs-translation
 ---

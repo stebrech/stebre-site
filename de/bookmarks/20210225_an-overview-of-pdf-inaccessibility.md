@@ -15,7 +15,7 @@ pocketDescription: |
   There’s a lot of help online about making Portable Document Format (PDF) accessible. Even with all the advice out there, I still encounter people who find it difficult to make their documents friendly to people with disabilities.
 description: |
   Eine Zusammenfassung zur Herausforderung von barrierefreien PDF-Dokumenten.
-featuredImage: assets/img/20210225_an-overview-of-pdf-inaccessibility_screenshot.png
+featuredImage: ../../assets/img/20210225_an-overview-of-pdf-inaccessibility_screenshot.png
 timeToRead: 10
 status: needs-translation
 ---

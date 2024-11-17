@@ -1,7 +1,7 @@
 ---
 title: Barrierefreie PDFs – Grundanforderungen
 date: 2017-02-20
-featuredImage: assets/img/20170220_barrierefreie-pdfs--grundanforderungen.jpg
+featuredImage: ../../assets/img/20170220_barrierefreie-pdfs--grundanforderungen.jpg
 description: Im zweiten Teil dieser Artikelreihe möchte ich die Grundanforderungen eines zugänglichen PDF-Dokuments etwas beleuchten. Der Beitrag soll aufzeigen was gemacht oder beachtet werden muss.
 tags:
   - barrierefreiheit
@@ -122,7 +122,7 @@ Der Grund für die Reihenfolge-Schaltfläche in Acrobat ist der Umfliessen-Ansic
 
 Leider übernimmt Acrobat für diesen Modus, nicht wie andere AT, die Tag-Reihenfolge. Insbesondere aus DTP-Software, wie InDesign, stimmt die Reihenfolge im Umfliessen-Modus nicht. Der hohe, manuelle Aufwand diese Reihenfolge anzupassen ist meistens nicht verhältnismässig. Ich gehe davon aus, dass dieser Modus nicht viel benutzt wird und betroffene eher eine Bildschirmlupe-Software verwenden.
 
-![Acrobat Screenshot des Tagbaums und der Reihenfolge](assets/img/20170220_barrierefreie-pdfs--grundanforderungen_1.jpg)
+![Acrobat Screenshot des Tagbaums und der Reihenfolge](../../assets/img/20170220_barrierefreie-pdfs--grundanforderungen_1.jpg)
 
 Um die Anforderung Lesereihenfolge zusammenzufassen: **Es ist wichtig zu überprüfen, dass die Tag-Reihenfolge der korrekten Lesereihenfolge entspricht.**
 

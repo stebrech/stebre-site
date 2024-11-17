@@ -22,7 +22,7 @@ description: >-
   gemacht oder automatisierte Formate angelegt. Dieses Nachschlagewerk hilft dir
   dabei.
 featuredImage: >-
-  assets/img/20201109_typogrep-hilft-dir-dabei,-das-setzen-typograﬁsch-anspruchsvoller-texte-mit-regularen-ausdrucken-und-grep-zu-automatisieren_screenshot.png
+  ../../assets/img/20201109_typogrep-hilft-dir-dabei,-das-setzen-typograﬁsch-anspruchsvoller-texte-mit-regularen-ausdrucken-und-grep-zu-automatisieren_screenshot.png
 status: done
 ---
 <blockquote lang="de">Typogrep ist das Nachschlagewerk für GREP, Reguläre Ausdrücke und automatisierte Typografie im Kontext von Desktop-Publishing.

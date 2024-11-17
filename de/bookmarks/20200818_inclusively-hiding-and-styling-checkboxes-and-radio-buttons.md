@@ -23,7 +23,7 @@ description: >
   gestalten. Sara zeigt auf wie man es mit SVG Grafiken und zudem barrierfrei
   umsetzen kann.
 featuredImage: >-
-  assets/img/20200818_inclusively-hiding-and-styling-checkboxes-and-radio-buttons_screenshot.png
+  ../../assets/img/20200818_inclusively-hiding-and-styling-checkboxes-and-radio-buttons_screenshot.png
 timeToRead: 12
 newsletter: true
 status: done

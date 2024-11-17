@@ -20,7 +20,7 @@ pocketDescription: >
 description: >
   Auf CSS Grid Garden kann spielerisch der Umgang mit Layout Raster (CSS Grid)
   gelernt werden.
-featuredImage: assets/img/20200731_grid-garden.png
+featuredImage: ../../assets/img/20200731_grid-garden.png
 newsletter: true
 status: done
 ---

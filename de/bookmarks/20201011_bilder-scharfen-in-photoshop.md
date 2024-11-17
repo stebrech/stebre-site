@@ -19,7 +19,7 @@ pocketDescription: >
 description: >-
   Viele Wege führen nach Rom oder zur gewünschten Schärfe eines Bildes. Im
   Artikel werden verschiedene Methoden in Photoshop gezeigt.
-featuredImage: assets/img/20201011_bilder-scharfen-in-photoshop.png
+featuredImage: ../../assets/img/20201011_bilder-scharfen-in-photoshop.png
 timeToRead: 11
 status: done
 ---

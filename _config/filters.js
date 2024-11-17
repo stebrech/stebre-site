@@ -1,12 +1,11 @@
-const { DateTime } = require("luxon");
-const markdownIt = require("markdown-it");
-const removeMd = require("remove-markdown");
+import { DateTime } from "luxon";
+import markdownIt from "markdown-it";
+import removeMd from "remove-markdown";
+import CleanCSS from "clean-css";
 
-module.exports = (eleventyConfig) => {
+export default function (eleventyConfig) {
 	eleventyConfig.addFilter("readableDate", (dateObj) => {
-		return DateTime.fromJSDate(dateObj, { locale: "utc" })
-			.setLocale("de")
-			.toFormat("dd. MMMM yyyy");
+		return DateTime.fromJSDate(dateObj, { locale: "utc" }).setLocale("de").toFormat("dd.MM.yyyy");
 	});
 
 	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
@@ -87,4 +86,8 @@ module.exports = (eleventyConfig) => {
 	eleventyConfig.addFilter("featuredImageOgLink", (image) => {
 		return image.replace(/\.[^/.]+$/, "") + "_450.webp";
 	});
-};
+
+	eleventyConfig.addFilter("cssmin", function (code) {
+		return new CleanCSS({}).minify(code).styles;
+	});
+}

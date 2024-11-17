@@ -14,7 +14,7 @@ metaDescription: |
   null
 description: |
   Ein praktisches Handbuch für barrierefreies Grafik Design.
-featuredImage: assets/img/20210301_accessability-2-a-practical-handbook-on-accessible-graphic-design.png
+featuredImage: ../../assets/img/20210301_accessability-2-a-practical-handbook-on-accessible-graphic-design.png
 status: needs-translation
 ---
 <blockquote>
