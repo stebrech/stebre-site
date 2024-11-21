@@ -65,21 +65,15 @@ Mit Automator können Abläufe automatisiert werden. Wir schauen uns hier die Er
 
 ## Beispiel eines Bildworkflows
 
-Um aufzuzeigen was mit Automator umgesetzt werden kann, kreieren wir eine Schnellaktion, die zuerst eine Kopie der ausgewählten Bilder anlegt.
+Um aufzuzeigen was mit Automator umgesetzt werden kann, kreieren wir eine Schnellaktion, die zuerst eine Kopie der ausgewählten Bilder anlegt. Die Kopien werden dann in ein `JPEG` umgewandelt und generell die Grösse in 1200 × 600 px angewendet. Zum Schluss werden die Farben noch in Graustufen geändert.
 
 ![Aktion «Finder-Objekte duplizieren» im Workflow platziert. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_5.png)
 
 ![Aktion «Finder-Objekte umbenennen: Text ersetzen» im Workflow platziert. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_6.png)
 
-Die Kopien werden dann in ein `JPEG` umgewandelt …
-
 ![Aktion «Bildtyp ändern» im Workflow platziert. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_7.png)
 
-… und generell die Grösse in 1200 × 600 px angewendet.
-
 ![Aktion «Bildgrösse anpassen» im Workflow platziert. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_8.png)
-
-Zum Schluss werden die Farben noch in Graustufen geändert.
 
 ![Aktion «Finder-Objekte umbenennen: Text ersetzen» im Workflow platziert. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_9.png)
 

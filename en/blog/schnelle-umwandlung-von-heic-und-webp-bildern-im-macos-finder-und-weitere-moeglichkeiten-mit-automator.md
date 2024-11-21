@@ -66,21 +66,15 @@ Automator can be used to automate processes. Here we take a look at how to creat
 
 ## Example of an image workflow
 
-To show what can be done with Automator, we create a quick action that first creates a copy of the selected images.
+To show what can be done with Automator, we create a quick action that first creates a copy of the selected images. The copies are then converted into a `JPEG` and the size is generally applied in 1200 × 600 px. Finally, the colors are changed to grayscale.
 
 ![Action "Duplicate Finder objects" placed in the workflow. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_5.png)
 
 ![Action "Rename Finder objects: Replace text" action in the workflow. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_6.png)
 
-The copies are then converted into a `JPEG` …
-
 ![Action "Change image type" placed in workflow. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_7.png)
 
-and the size is generally applied in 1200 × 600 px.
-
 ![Action "Resize image" placed in workflow. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_8.png)
-
-Finally, the colors are changed to grayscale.
 
 ![Action "Rename Finder objects: Replace text" action in the workflow. Screenshot](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_9.png)
 

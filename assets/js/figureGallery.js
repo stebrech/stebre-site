@@ -1,33 +1,29 @@
-// Alle figure-Elemente auf der Seite auswählen
 const figures = document.querySelectorAll("figure");
+figures.forEach((figure, index) => {
+	figure.setAttribute("figIndex", index + 1);
+});
+const firstFigureInARow = document.querySelectorAll(":not(figure)+figure:has(+ figure)");
+const lastFigureInARow = document.querySelectorAll(
+	"figure:has(+ figure) ~ figure:has(+ :not(figure))",
+);
+console.log(firstFigureInARow);
+console.log(lastFigureInARow);
 
-// Container-Wrapper hinzufügen
-function wrapFiguresInContainer() {
-	let currentContainer = null; // Aktueller Container für benachbarte Figuren
+firstFigureInARow.forEach((figure, index) => {
+	currentContainer = document.createElement("div");
+	currentContainer.classList.add("figureGallery");
 
-	figures.forEach((figure, index) => {
-		const prevFigure = figures[index - 1];
+	figure.parentNode.insertBefore(currentContainer, figure);
 
-		// Prüfen, ob das aktuelle figure direkt auf ein anderes folgt
-		if (prevFigure && figure.previousElementSibling === prevFigure) {
-			if (!currentContainer) {
-				// Neuen Container erstellen
-				currentContainer = document.createElement("div");
-				currentContainer.classList.add("figureGallery");
+	const firstIndex = figure.getAttribute("figIndex");
+	const lastIndex = lastFigureInARow[index].getAttribute("figIndex");
+	console.log(`First figure index: ${firstIndex}, Last figure index: ${lastIndex}`);
 
-				// Das vorherige und das aktuelle figure in den Container verschieben
-				prevFigure.parentNode.insertBefore(currentContainer, prevFigure);
-				currentContainer.appendChild(prevFigure);
-			}
+	let count = 0;
 
-			// Das aktuelle figure in den Container verschieben
-			currentContainer.appendChild(figure);
-		} else {
-			// Container zurücksetzen, wenn keine direkte Nachbarschaft vorliegt
-			currentContainer = null;
-		}
-	});
-}
-
-// Funktion ausführen
-wrapFiguresInContainer();
+	for (let i = firstIndex; i <= lastIndex; i++) {
+		const figure = document.querySelector(`figure[figIndex="${i}"]`);
+		currentContainer.appendChild(figure);
+		count++;
+	}
+});

@@ -136,19 +136,21 @@ picture > img {
 	margin-top: 0;
 }
 
-.figureGallery {
-	display: grid;
-	gap: 3rem;
-	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-	margin: 3rem 0 0;
-	padding-left: 0;
-	position: relative;
-	left: 0;
-	width: calc(130% + 3rem);
-}
+@media screen and (min-width: 75rem) {
+	.figureGallery {
+		display: grid;
+		gap: 3rem;
+		grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+		margin: 3rem 0 0;
+		padding-left: 0;
+		position: relative;
+		left: 0;
+		width: calc(100% + 18rem);
+	}
 
-.figureGallery figure {
-	margin: 0;
+	.figureGallery figure {
+		margin: 0;
+	}
 }
 
 figcaption {
