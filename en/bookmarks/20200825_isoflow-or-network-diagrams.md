@@ -11,7 +11,7 @@ domainName: isoflow.io
 metaDescription: |
   null
 description: Isoflow is a tool to create visually appealing diagrams.
-featuredImage: assets/img/20200825_isoflow-or-network-diagrams_screenshot.png
+featuredImage: ../../assets/img/20200825_isoflow-or-network-diagrams_screenshot.png
 status: done
 bookmarkLang: en
 ---

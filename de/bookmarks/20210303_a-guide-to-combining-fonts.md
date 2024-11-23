@@ -13,7 +13,7 @@ metaDescription: |
 pocketDescription: |
   Combining fonts is one of the trickiest parts of typography. Here’s a guide, combined with an example to help you get font combinations right. This guide is based on chapter 5 from the book Better Web Typography for a Better Web by Matej Latin.
 description: Auf was geachtet werden sollte wenn verschiedene Schriften miteinander kombiniert werden.
-featuredImage: assets/img/20210303_a-guide-to-combining-fonts.png
+featuredImage: ../../assets/img/20210303_a-guide-to-combining-fonts.png
 timeToRead: 11
 status: needs-translation
 ---

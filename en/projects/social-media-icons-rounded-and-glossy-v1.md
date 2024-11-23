@@ -3,7 +3,7 @@ aliases:
   - Social Media Icons Rounded and Glossy v1
 title: Social Media Icons Rounded and Glossy v1
 date: 2012-07-02
-featuredImage: assets/img/20120702_social-media-icons-rounded-and-glossy-v1.jpg
+featuredImage: ../../assets/img/20120702_social-media-icons-rounded-and-glossy-v1.jpg
 description: “Rounded & Glossy” is a small package with 30 social media icons. The icons have a rounded shape with a glossy effect.
 tags:
   - icons

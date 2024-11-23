@@ -16,7 +16,7 @@ pocketDescription: >-
   browsers or runtime environments, using cssdb.
 description: >-
   Viele wertvolle Neuerungen in CSS werden mittlerweile von den Browsern unterstützt. postcss-preset-env ist ein spannendes Tool um noch weitere, künftige Möglichkeiten bereits heute zu nutzen.
-featuredImage: assets/img/20200721_postcss-preset-env_screenshot.png
+featuredImage: ../../assets/img/20200721_postcss-preset-env_screenshot.png
 newsletter: true
 status: done
 ---

@@ -17,7 +17,7 @@ pocketDescription: >
 description: >-
   Wieso es ein Irrglauben ist, dass Barrierefreiheit nicht nötig ist, wird hier
   etwas beleuchtet.
-featuredImage: assets/img/20210314_our-users-have-no-disabilities.png
+featuredImage: ../../assets/img/20210314_our-users-have-no-disabilities.png
 timeToRead: 6
 status: done
 ---

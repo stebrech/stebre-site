@@ -3,7 +3,7 @@ aliases:
   - FirIA
 title: FirIA
 date: 2020-04-19T00:00:00.000Z
-featuredImage: assets/img/20200419_firia.png
+featuredImage: ../../assets/img/20200419_firia.png
 description: >-
   Since I am enthusiastic about Markdown and the [iA Writer](https://ia.net/writer), I have developed the iA Writer template **FirIA**.
 tags:

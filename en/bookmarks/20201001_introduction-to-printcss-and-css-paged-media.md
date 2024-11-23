@@ -20,7 +20,7 @@ description: >-
   Anyone interested in PrintCSS will not be able to avoid this comparison of the
   best-known solutions.
 featuredImage: >-
-  assets/img/20201001_introduction-to-printcss-and-css-paged-media_screenshot.png
+  ../../assets/img/20201001_introduction-to-printcss-and-css-paged-media_screenshot.png
 timeToRead: 3
 status: done
 ---

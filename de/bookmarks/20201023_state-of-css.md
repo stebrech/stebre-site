@@ -12,7 +12,7 @@ metaDescription: |
 description: >-
   State of CSS ist eine Auswertung einer jährlichen Umfrage zu den Kenntnissen
   der CSS Möglichkeiten und Eigenschaften.
-featuredImage: assets/img/20201023_state-of-css_screenshot.png
+featuredImage: ../../assets/img/20201023_state-of-css_screenshot.png
 status: done
 bookmarkLang: en
 ---

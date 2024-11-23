@@ -22,7 +22,7 @@ description: >
   Unfortunately, checkboxes and radio buttons are not so easy to style with CSS.
   Sara shows how it can be done with SVG graphics and also accessible.
 featuredImage: >-
-  assets/img/20200818_inclusively-hiding-and-styling-checkboxes-and-radio-buttons_screenshot.png
+  ../../assets/img/20200818_inclusively-hiding-and-styling-checkboxes-and-radio-buttons_screenshot.png
 timeToRead: 12
 newsletter: true
 status: done

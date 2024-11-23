@@ -11,33 +11,27 @@ templateClass: home
 				<ul class="socialList">
 					<li>
 						<a href="https://www.linkedin.com/in/stefan-brechbuehl/">
-							<div class="socialIcon">
-								{% image "assets/img/linkedin.svg", i18n.imgAlt.linkedinIcon[page.lang], [60px] %}
-							</div>
+							<img src="/assets/img/linkedin.svg" alt="{{ i18n.imgAlt.linkedinIcon[page.lang] }}" width="40px" eleventy:widths="40,80" sizes="100vw">
 						</a>
 					</li>
 					<li>
 						<a rel="me" href="https://www.github.com/stebrech/">
-							<div class="socialIcon">
-								{% image "assets/img/github.svg", i18n.imgAlt.githubIcon[page.lang], [60px] %}
-							</div>
+							<img src="/assets/img/github.svg" alt="{{ i18n.imgAlt.githubIcon[page.lang] }}" width="40px" eleventy:widths="40,80" sizes="100vw">
 						</a>
 					</li>
 					<li>
 						<a rel="me" href="{{ i18n.links.mastodon[page.lang] }}">
-							<div class="socialIcon">
-								{% image "assets/img/mastodon.svg", i18n.imgAlt.mastodonIcon[page.lang], [60px] %}
-							</div>
+							<img src="/assets/img/mastodon.svg" alt="{{ i18n.imgAlt.mastodonIcon[page.lang] }}" width="40px" eleventy:widths="40,80" sizes="100vw">
 						</a>
 					</li>
 				</ul>
 			</div>
 			<p class="profilePic animate__animated animate__jackInTheBox animate__delay-1s">
-				{% image "assets/img/Stefan.jpg", i18n.imgAlt.profilePic[page.lang] %}
+				<img src="/assets/img/Stefan.jpg" alt="{{ i18n.imgAlt.profilePic[page.lang] }}" width="140px" eleventy:widths="140,280" sizes="100vw">
 			</p>
 		</div>
 		<div class="bgimage">
-			{% image "assets/img/ffflux.svg", "", [700], "(min-width: 700px) 700px, 100vw", "eager" %}
+			<img src="/assets/img/ffflux.svg" alt="" width="700px" eleventy:widths="700,1400" sizes="100vw">
 		</div>
 	</section>
 </div>

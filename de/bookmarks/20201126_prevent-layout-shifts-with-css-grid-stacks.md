@@ -18,7 +18,7 @@ description: >-
   Layout Shifts sind störende Verschiebungen des Layouts, die durch eine Aktion
   ausgelöst werden. Dieser Erfahrungsbericht zeigt wie dies mit CSS Grid
   verhindert werden konnte.
-featuredImage: assets/img/20201126_prevent-layout-shifts-with-css-grid-stacks_screenshot.png
+featuredImage: ../../assets/img/20201126_prevent-layout-shifts-with-css-grid-stacks_screenshot.png
 timeToRead: 9
 status: done
 ---

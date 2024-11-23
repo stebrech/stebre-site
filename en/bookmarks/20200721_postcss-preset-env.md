@@ -16,7 +16,7 @@ pocketDescription: >-
 description: >-
   Many valuable innovations in CSS are now supported by the browsers.
   postcss-preset-env is an exciting tool to use even more future possibilities today.
-featuredImage: assets/img/20200721_postcss-preset-env_screenshot.png
+featuredImage: ../../assets/img/20200721_postcss-preset-env_screenshot.png
 newsletter: true
 status: done
 ---

@@ -39,6 +39,7 @@
 		<script src="/assets/js/menu.js" defer></script>
 		<script src="/assets/js/animateInViewport.js" defer></script>
 		<script src="/assets/js/search.js" defer></script>
+		<script src="/assets/js/figureGallery.js" defer></script>
 		<script src="/pagefind/pagefind-ui.js" defer></script>
 		<script>
 			window.addEventListener('DOMContentLoaded', (event) => {
@@ -67,7 +68,7 @@
 				<div class="right">
 					{% include "includes/lang_switcher.njk" %}
 					<button id="search-icon" aria-label="Search">
-						{% image "assets/img/search.svg", "Search Icon" %}
+						{% include "includes/search.svg" %}
 					</button>
 				</div>
 			</header>

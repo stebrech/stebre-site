@@ -4,7 +4,7 @@ aliases:
 title: accessible-pdf.info
 date: 2017-10-31T00:00:00.000Z
 updated: 2024-11-10
-featuredImage: assets/img/20171031_accessible-pdfinfo.png
+featuredImage: ../../assets/img/20171031_accessible-pdfinfo.png
 description: >-
   Die Erstellung von barrierefreien PDF-Dokumenten ist ein leidenschaftliches
   Thema, mit dem ich mich seit 2014 intensiv beschäftige. In meiner Freizeit

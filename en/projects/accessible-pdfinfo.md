@@ -4,7 +4,7 @@ aliases:
 title: accessible-pdf.info
 date: 2017-10-31T00:00:00.000Z
 updated: 2024-11-10
-featuredImage: assets/img/20171031_accessible-pdfinfo.png
+featuredImage: ../../assets/img/20171031_accessible-pdfinfo.png
 description: >-
   The creation of accessible PDF documents is a passionate topic that I have
   been working on intensively since 2014. In my spare time, I maintain and run

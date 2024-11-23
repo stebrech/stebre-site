@@ -1,10 +1,8 @@
 ---
 title: Datenschutz
-author: Stefan Brechbühl
 date: 2018-02-05
 updated: 2023-02-17
 layout: layouts/post.njk
-featuredImage: assets/img/banner-stebre.png
 description: Ich nehme den Schutz deiner persönlichen Daten sehr ernst. Ich behandle deine personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
 tags:
   - pages_de

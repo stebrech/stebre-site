@@ -1,9 +1,11 @@
-require("dotenv").config();
-const axios = require("axios");
-const fs = require("fs");
-const path = require("path");
-const slugify = require("slugify");
-const puppeteer = require("puppeteer");
+import dotenv from "dotenv";
+import axios from "axios";
+import fs from "fs";
+import path from "path";
+import slugify from "slugify";
+import puppeteer from "puppeteer";
+
+dotenv.config();
 
 const consumerKey = process.env.POCKET_CONSUMER_KEY;
 const accessToken = process.env.POCKET_ACCESS_TOKEN;
@@ -56,6 +58,7 @@ const pocketDataRequest = async () => {
 				authors: authors.join(", "),
 				description: "TODO: Add a description of the article here.",
 				newsletter: false,
+				status: "needs-translation",
 			};
 
 			const dateWithoutHyphens = frontmatterData.date.replace(/-/g, "");
@@ -106,7 +109,11 @@ const pocketDataRequest = async () => {
 			if (frontmatterData.timeToRead) {
 				data += `timeToRead: ${frontmatterData.timeToRead}\n`;
 			}
+
+			data += `status: ${frontmatterData.status}\n`;
+
 			data += "---\n";
+
 			// Start of the content
 			data += "<blockquote";
 			if (frontmatterData.lang) {
@@ -127,7 +134,11 @@ const pocketDataRequest = async () => {
 			// End of the content
 
 			// Create a new markdown file with the frontmatter data
-			fs.writeFileSync(path.resolve(__dirname, `../de/bookmarks/${mdPath}`), data, "utf-8");
+			fs.writeFileSync(
+				path.resolve(import.meta.dirname, `../de/bookmarks/${mdPath}`),
+				data,
+				"utf-8",
+			);
 			console.log(`${filename} | Markdown file has been created`);
 
 			// Archive the bookmark on Pocket

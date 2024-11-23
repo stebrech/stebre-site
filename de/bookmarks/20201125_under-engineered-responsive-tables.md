@@ -23,7 +23,7 @@ pocketDescription: >
 description: >-
   Ein umfangreicher Blogartikel zu responsiven Tabellen mit der Barrierefreiheit
   im Fokus.
-featuredImage: assets/img/20201125_under-engineered-responsive-tables_screenshot.png
+featuredImage: ../../assets/img/20201125_under-engineered-responsive-tables_screenshot.png
 timeToRead: 4
 status: done
 ---

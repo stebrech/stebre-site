@@ -26,7 +26,7 @@ description: >
   for manual testing. Manuel shows a few practical tips on how to test in his
   blog post.
 featuredImage: >-
-  assets/img/20200731_beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build.png
+  ../../assets/img/20200731_beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build.png
 timeToRead: 3
 newsletter: true
 status: done

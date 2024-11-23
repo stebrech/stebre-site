@@ -3,7 +3,6 @@ title: Imprint
 layout: layouts/post.njk
 date: 2012-12-01
 updated: 2022-09-17
-featuredImage: assets/img/banner-stebre.png
 description: Imprint of stebre.ch
 tags:
   - pages_en
