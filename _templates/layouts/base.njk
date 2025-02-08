@@ -66,7 +66,9 @@
 					{% include "includes/nav_main.njk" %}
 				</div>
 				<div class="right">
-					{% include "includes/lang_switcher.njk" %}
+					{% if '/tags' not in page.url %} {# Workaround because of the bug  #}
+						{% include "includes/lang_switcher.njk" %}
+					{% endif	 %}
 					<button id="search-icon" aria-label="Search">
 						{% include "includes/search.svg" %}
 					</button>
