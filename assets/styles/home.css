@@ -102,21 +102,21 @@ h2.sectionTitle {
 	font-weight: var(--font-weight-normal);
 }
 
-.socialList {
+ul.socialList {
 	display: flex;
 	flex-direction: row;
+	margin-top: 1em;
 }
 
-.socialList li {
+ul.socialList li {
 	list-style-type: none;
 	margin: 0 1rem 0 0;
 }
 
-.socialList a::before {
+ul.socialList a::before {
 	content: none;
 }
 
-.socialIcon {
-	max-height: 2rem;
+ul.socialList img {
 	max-width: 2rem;
 }

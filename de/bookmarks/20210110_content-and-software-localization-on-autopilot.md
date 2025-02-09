@@ -13,7 +13,7 @@ metaDescription: |
 pocketDescription: |
   As the scaleway dashboard engineering manager, we use Localazy to set up a friendly environment for us and our translation team. For the first iteration, it was really easy to set up.
 description: Ich habe bisher keine Erfahrung mit localazy gemacht. Es scheint jedoch ein umfangreiches und spannendes Übersetzungstool zu sein.
-featuredImage: assets/img/20210110_content-and-software-localization-on-autopilot.png
+featuredImage: ../../assets/img/20210110_content-and-software-localization-on-autopilot.png
 timeToRead: 5
 status: needs-translation
 ---

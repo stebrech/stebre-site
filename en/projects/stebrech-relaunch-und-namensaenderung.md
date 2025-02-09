@@ -5,7 +5,7 @@ aliases:
 title: 'stebre.ch: Relaunch and name change'
 date: 2022-11-15T00:00:00.000Z
 updated: 2023-09-17T00:00:00.000Z
-featuredImage: assets/img/20221115_stebrech-relaunch-und-namensaenderung.png
+featuredImage: ../../assets/img/20221115_stebrech-relaunch-und-namensaenderung.png
 description: >-
   stebre.ch: I have secretly relaunched my personal website and also changed the
   name. But I don't want to refrain from giving you a little insight.
@@ -31,19 +31,19 @@ With each domain change, I also taught myself a different tool for creating webs
 
 The logo has evolved as follows:
 
-![Logo brechbuehl-web.ch version 1](assets/img/20221115_stebrech-relaunch-und-namensaenderung_1.png)
+![Logo brechbuehl-web.ch version 1](../../assets/img/20221115_stebrech-relaunch-und-namensaenderung_1.png)
 
 _Logo brechbuehl-web.ch Version 1_
 
-![Logo brechbuehl-web.ch Version 2](assets/img/20221115_stebrech-relaunch-und-namensaenderung_2.png)
+![Logo brechbuehl-web.ch Version 2](../../assets/img/20221115_stebrech-relaunch-und-namensaenderung_2.png)
 
 _Logo brechbuehl-web.ch Version 2_
 
-![Logo brechbuehl-web.ch Version 3](assets/img/20221115_stebrech-relaunch-und-namensaenderung_3.png)
+![Logo brechbuehl-web.ch Version 3](../../assets/img/20221115_stebrech-relaunch-und-namensaenderung_3.png)
 
 _Logo brechbuehl-web.ch Version 3_
 
-![Logo brechbuehl-web.ch Version 4](assets/img/20221115_stebrech-relaunch-und-namensaenderung_4.png)
+![Logo brechbuehl-web.ch Version 4](../../assets/img/20221115_stebrech-relaunch-und-namensaenderung_4.png)
 
 _Logo brechbuehl-web.ch Version 4_
 
@@ -56,15 +56,15 @@ With the name change to pixelstrol.ch came the switch to WordPress. From the beg
 
 The various logos I used until 2022 are as follows:
 
-![Logo pixelstrol.ch Version 1](assets/img/20221115_stebrech-relaunch-und-namensaenderung_5.png)
+![Logo pixelstrol.ch Version 1](../../assets/img/20221115_stebrech-relaunch-und-namensaenderung_5.png)
 
 _Logo pixelstrol.ch Version 1_
 
-![Logo pixelstrol.ch Version 2](assets/img/20221115_stebrech-relaunch-und-namensaenderung_6.png)
+![Logo pixelstrol.ch Version 2](../../assets/img/20221115_stebrech-relaunch-und-namensaenderung_6.png)
 
 _Logo pixelstrol.ch Version 2_
 
-![Logo pixelstrol.ch Version 3](assets/img/20221115_stebrech-relaunch-und-namensaenderung_7.png)
+![Logo pixelstrol.ch Version 3](../../assets/img/20221115_stebrech-relaunch-und-namensaenderung_7.png)
 
 _Logo pixelstrol.ch Version 3_
 
@@ -88,7 +88,7 @@ I've also decided to blog more regularly. Let's see if I succeed 😅.
 
 ### The new logo
 
-![Logo Stebre](assets/img/20221115_stebrech-relaunch-und-namensaenderung_8.png)
+![Logo Stebre](../../assets/img/20221115_stebrech-relaunch-und-namensaenderung_8.png)
 
 _Logo Stebre_
 

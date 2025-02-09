@@ -3,7 +3,7 @@ aliases:
   - Landing page of the winter market in Wahlen
 title: Landing page of the winter market in Wahlen
 date: 2024-11-10T00:00:00.000Z
-featuredImage: assets/img/20241110_landingpage-wintermarkt-wahlen.jpg
+featuredImage: ../../assets/img/20241110_landingpage-wintermarkt-wahlen.jpg
 description: >-
   On 30.11.2024 the time has come and the winter market in Wahlen will take
   place again. I have redesigned the landing page and give you a few insights
@@ -42,14 +42,14 @@ I was able to solve the challenge of displaying it centered and scrolling in **a
 
 The self-drawn, graphic elements of the winter market were created by my wife **Dominique**.
 
-![Drawn map with the stands marked as markers. Screenshot.](assets/img/20241110_landingpage-wintermarkt-wahlen-map.jpg)
+![Drawn map with the stands marked as markers. Screenshot.](../../assets/img/20241110_landingpage-wintermarkt-wahlen-map.jpg)
 
 The map could be used in a modified form from the last winter market.
 
-![The first sponsor logos. Screenshot](assets/img/20241110_landingpage-wintermarkt-wahlen-sponsoren.jpg)
+![The first sponsor logos. Screenshot](../../assets/img/20241110_landingpage-wintermarkt-wahlen-sponsoren.jpg)
 
 All sponsor logos have been redrawn.
 
-![Front page of the winter market booklet](assets/img/20241110_landingpage-wintermarkt-wahlen-heft.jpg)
+![Front page of the winter market booklet](../../assets/img/20241110_landingpage-wintermarkt-wahlen-heft.jpg)
 
 The main picture of the winter market adorns the winter market booklet and the flyer.

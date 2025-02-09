@@ -17,7 +17,7 @@ pocketDescription: >
 description: >-
   Why it is a misconception that accessibility is not necessary is explained
   here.
-featuredImage: assets/img/20210314_our-users-have-no-disabilities.png
+featuredImage: ../../assets/img/20210314_our-users-have-no-disabilities.png
 timeToRead: 6
 status: done
 ---

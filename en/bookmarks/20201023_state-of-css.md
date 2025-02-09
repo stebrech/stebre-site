@@ -12,7 +12,7 @@ metaDescription: |
 description: >-
   State of CSS is an evaluation of an annual survey on the knowledge of CSS
   possibilities and properties.
-featuredImage: assets/img/20201023_state-of-css_screenshot.png
+featuredImage: ../../assets/img/20201023_state-of-css_screenshot.png
 status: done
 bookmarkLang: en
 ---

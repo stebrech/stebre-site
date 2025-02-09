@@ -15,7 +15,7 @@ metaDescription: |
 pocketDescription: |
   Form elements like checkboxes and radio buttons look different depending on the user’s browser and operating system. For this reason designers and developers have long been styling their own checkboxes and radio buttons, aiming for consistency no matter the browser or OS.
 description: Es braucht etwas mehr um das Standardaussehen die Formularfelder Checkbox und Radio Button umzugestalten. Die Anleitung zeigt eine barrierefreie Lösung.
-featuredImage: assets/img/20210301_how-to-make-custom-accessible-checkboxes-and-radio-buttons.png
+featuredImage: ../../assets/img/20210301_how-to-make-custom-accessible-checkboxes-and-radio-buttons.png
 timeToRead: 6
 status: needs-translation
 ---

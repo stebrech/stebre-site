@@ -13,7 +13,7 @@ pocketDescription: >
   Next on HowHTTPS.works... Now that we know the why, the next step is to
   understand symmetric and asymmetric encryption. Big words, but easy concepts.
 description: How does https work? A light-hearted explanation with the help of comics.
-featuredImage: assets/img/20200917_how-https-works.png
+featuredImage: ../../assets/img/20200917_how-https-works.png
 status: done
 bookmarkLang: en
 ---

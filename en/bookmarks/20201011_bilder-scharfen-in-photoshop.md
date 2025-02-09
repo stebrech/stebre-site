@@ -19,7 +19,7 @@ pocketDescription: >
 description: >-
   Many roads lead to Rome or to the desired sharpness of an image. The article
   shows various methods in Photoshop.
-featuredImage: assets/img/20201011_bilder-scharfen-in-photoshop.png
+featuredImage: ../../assets/img/20201011_bilder-scharfen-in-photoshop.png
 timeToRead: 11
 status: done
 ---

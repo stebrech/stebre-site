@@ -2,7 +2,7 @@
 title: 11ty mit Notion verbinden
 date: 2023-09-17T00:00:00.000Z
 updated: 2024-02-02T00:00:00.000Z
-featuredImage: assets/img/20230917_11ty-mit-notion-verbinden.png
+featuredImage: ../../assets/img/20230917_11ty-mit-notion-verbinden.png
 description: Für stebre.ch und bisher zwei weiteren Websites habe ich mir etwas neues ausgedacht. Da verwende ich neu den lieb gewonnen Static Site Generator 11ty in Kombination von Notion, einem vielseitigen Content Tool in der Cloud.
 tags:
   - 11ty
@@ -28,13 +28,13 @@ Folgendes YouTube-Video von [11ty Rocks!](https://11ty.rocks/) demonstriert ein 
 
 Wie schon erwähnt, bietet Notion eine Schnittstelle an um die Inhalte anderweitig zu nutzen. Dazu kann unter [https://www.notion.so/my-integrations](https://www.notion.so/my-integrations) eine eigene Einbindung angelegt werden. Es wird ein API-Key erzeugt und die Berechtigungen festgelegt.
 
-![Anleitung wie eine Einbindung erstellt wird. Gif-Animation.](assets/img/20230917_11ty-mit-notion-verbinden_1.gif)
+![Anleitung wie eine Einbindung erstellt wird. Gif-Animation.](../../assets/img/20230917_11ty-mit-notion-verbinden_1.gif)
 
 _Bildquelle:_ [_notion.so_](https://developers.notion.com/docs/create-a-notion-integration)
 
 In Notion kann nun einer Datenbank, beispielsweise Blog, die Einbindung hinzugefügt werden.
 
-![Anleitung wie eine Einbindung zugewiesen wird. Gif-Animation.](assets/img/20230917_11ty-mit-notion-verbinden_2.gif)
+![Anleitung wie eine Einbindung zugewiesen wird. Gif-Animation.](../../assets/img/20230917_11ty-mit-notion-verbinden_2.gif)
 
 _Bildquelle:_ [_notion.so_](https://developers.notion.com/docs/create-a-notion-integration)
 

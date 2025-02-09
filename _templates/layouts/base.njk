@@ -39,6 +39,7 @@
 		<script src="/assets/js/menu.js" defer></script>
 		<script src="/assets/js/animateInViewport.js" defer></script>
 		<script src="/assets/js/search.js" defer></script>
+		<script src="/assets/js/figureGallery.js" defer></script>
 		<script src="/pagefind/pagefind-ui.js" defer></script>
 		<script>
 			window.addEventListener('DOMContentLoaded', (event) => {
@@ -65,9 +66,11 @@
 					{% include "includes/nav_main.njk" %}
 				</div>
 				<div class="right">
-					{% include "includes/lang_switcher.njk" %}
+					{% if '/tags' not in page.url %} {# Workaround because of the bug  #}
+						{% include "includes/lang_switcher.njk" %}
+					{% endif	 %}
 					<button id="search-icon" aria-label="Search">
-						{% image "assets/img/search.svg", "Search Icon" %}
+						{% include "includes/search.svg" %}
 					</button>
 				</div>
 			</header>

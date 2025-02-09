@@ -1,7 +1,7 @@
 ---
 title: Crossmediale Textverarbeitung mit Markdown
 date: 2018-04-16T00:00:00.000Z
-featuredImage: assets/img/20180416_crossmediale-textverarbeitung-mit-markdown.jpg
+featuredImage: ../../assets/img/20180416_crossmediale-textverarbeitung-mit-markdown.jpg
 description: >-
   Eine grosse Herausforderung bei der medienneutralen Datenherstellung ist das
   fehlende Bewusstsein für strukturierte Inhalte. Werden Inhalte (zuerst) in
@@ -61,7 +61,7 @@ Ich bin der Meinung, dass Markdown eine kleine aber feine Alternative zu solchen
 	- Mein Lieblingseditor [iA Writer](https://ia.net/writer) ist für die Verwendung von Markdown-Auszeichnungen vorgesehen und lässt sich direkt mit [WordPress.com](https://wordpress.com/) oder [WordPress](https://wordpress.org/) mit [Jetpack](https://jetpack.com/) verbinden.
 	- Falls Markdown in deinem CMS nicht verwendet werden kann, müsste Markdown zuerst in HTML umgewandelt werden, siehe folgende Abschnitte.
 
-![iA Writer in Aktion. Gif-Animation.](assets/img/20180416_crossmediale-textverarbeitung-mit-markdown_1.gif)
+![iA Writer in Aktion. Gif-Animation.](../../assets/img/20180416_crossmediale-textverarbeitung-mit-markdown_1.gif)
 
 _iA Writer – ein simpler Markdown Editor_
 

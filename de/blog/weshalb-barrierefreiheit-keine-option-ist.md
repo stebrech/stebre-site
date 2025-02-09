@@ -1,7 +1,7 @@
 ---
 title: Weshalb Barrierefreiheit keine Option ist
 date: 2020-02-26
-featuredImage: assets/img/20200226_weshalb-barrierefreiheit-keine-option-ist.jpg
+featuredImage: ../../assets/img/20200226_weshalb-barrierefreiheit-keine-option-ist.jpg
 description: "**… sondern ein Muss.** Die digitale Barrierefreiheit wird gerne als nice-to-have-Erweiterung betrachtet, die man am besten kurz vor Projektende noch schnell «installiert»."
 tags:
   - barrierefreiheit
@@ -70,7 +70,7 @@ Beispiele dafür können sein:
 
 Du kannst dir vorstellen die möglichen Szenarien sind unendlich.
 
-![Seite aus dem Inclusive 101 Toolkit Flyer von Microsoft Design: microsoft.com/design/inclusive](assets/img/20200226_weshalb-barrierefreiheit-keine-option-ist_1.png)
+![Seite aus dem Inclusive 101 Toolkit Flyer von Microsoft Design: microsoft.com/design/inclusive](../../assets/img/20200226_weshalb-barrierefreiheit-keine-option-ist_1.png)
 
 Infografik mit Menschen, die permanent, temporär oder situativ in den vier verschiedenen Sinnen Berührung, Sehen, Hören, Sprechen eingeschränkt sind.
 

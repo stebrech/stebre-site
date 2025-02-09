@@ -19,7 +19,7 @@ pocketDescription: >
   Polski Magyar Română Latviešu Русский Україн
 description: |
   CSS Grid Garden is a fun way to learn how to use layout grids (CSS Grid).
-featuredImage: assets/img/20200731_grid-garden.png
+featuredImage: ../../assets/img/20200731_grid-garden.png
 newsletter: true
 status: done
 ---

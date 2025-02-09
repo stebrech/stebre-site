@@ -26,7 +26,7 @@ description: >
   manuelle Prüfung nicht. Manuel zeigt in seinem Blopost ein paar praktische
   Tipps wie getestet werden kann.
 featuredImage: >-
-  assets/img/20200731_beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build.png
+  ../../assets/img/20200731_beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build.png
 timeToRead: 3
 newsletter: true
 status: done

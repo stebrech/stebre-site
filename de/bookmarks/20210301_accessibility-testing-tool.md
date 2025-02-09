@@ -14,7 +14,7 @@ metaDescription: |
 pocketDescription: |
   How to install ANDI, the accessibility and Section 508 compliance testing tool. ANDI Drag to your bookmarks toolbar.
 description: Ein Bookmarklet für die Überprüfung der Barrierefreiheit einer Website.
-featuredImage: assets/img/20210301_accessibility-testing-tool_screenshot.png
+featuredImage: ../../assets/img/20210301_accessibility-testing-tool_screenshot.png
 status: needs-translation
 ---
 <blockquote>ANDI accessibility testing tool. A free tool to test websites for accessibility.

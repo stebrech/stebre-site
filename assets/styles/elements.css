@@ -132,12 +132,32 @@ img {
 	max-width: 100%;
 }
 
+picture > img {
+	margin-top: 0;
+}
+
+@media screen and (min-width: 75rem) {
+	.figureGallery {
+		display: grid;
+		gap: 3rem;
+		grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+		margin: 3rem 0 0;
+		padding-left: 0;
+		position: relative;
+		left: 0;
+		width: calc(100% + 18rem);
+	}
+
+	.figureGallery figure {
+		margin: 0;
+	}
+}
+
 figcaption {
 	font-size: var(--size-m);
 	font-style: normal;
 	margin: var(--size-s) 0 var(--size-xxl);
-	text-align: center;
-	width: 100%;
+	text-align: left;
 }
 
 hr {
