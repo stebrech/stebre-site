@@ -14,7 +14,7 @@
 							{% elif post.data.postType === "projects" %}
 								<li class="postPreview_tag projects">{{ i18n.mainnav.projects[page.lang] }}</li>
 							{% elif post.data.postType === "blog" %}
-								<li class="postPreview_tag posts">{{ i18n.mainnav.bookmarks[page.lang] }}</li>
+								<li class="postPreview_tag posts">{{ i18n.mainnav.blog[page.lang] }}</li>
 							{% endif %}
 						{% endif %}
 						{% if (page.lang !== "en") and (post.data.bookmarkLang === "en") %}
