@@ -13,7 +13,7 @@ tags:
   - webdev
   - webapp
 featured: true
-weblink: 'https://familienverein-wahlen/wahlner-wintermarkt'
+weblink: 'https://familienverein-wahlen.ch/wahlner-wintermarkt'
 status: done
 ---
 The winter market is organized by the [[en/projects/family-association-wahlen|Familienverein Wahlen]]. The landing page is a subpage of the association.

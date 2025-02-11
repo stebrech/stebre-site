@@ -8,5 +8,5 @@ tags:
   - wordpress
 status: needs-translation
 ---
-Am 26. März hielt ich am [WP Bern Meetup](http://www.meetup.com/WordPress-Bern/) eine kleine Präsentation zum Thema [«Pixelbilder für Web / WP optimieren»](http://slides.com/pixelstrolch/pixelbilder-optimieren/). Eure Anregungen zu erstellten Folien nehme ich gerne in den Kommentaren – oder besser noch – an einem Meetup in Bern entgegen.
+Am 26. März hielt ich am [WP Bern Meetup](http://www.meetup.com/WordPress-Bern/) eine kleine Präsentation zum Thema [«Pixelbilder für Web / WP optimieren»](https://slides.com/stebrech/pixelbilder-optimieren). Eure Anregungen zu erstellten Folien nehme ich gerne in den Kommentaren – oder besser noch – an einem Meetup in Bern entgegen.
 

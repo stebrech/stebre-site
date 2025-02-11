@@ -20,5 +20,5 @@ Durch Themes, Plugins oder durch Hinzufügen von `<?php add_image_size( $name, $
 
 ## Verwendung
 
-Ein Snippet kann in die Datei _functions.php, welche sich im_ Themeordner befindet, kopiert werden. [Eine alternative und bessere Lösung zeige ich in diesem Artikel.](https://www.pixelstrol.ch/wordpress-snippets-sinnvoll-integrieren/)
+Ein Snippet kann in die Datei _functions.php, welche sich im_ Themeordner befindet, kopiert werden. [Eine alternative und bessere Lösung zeige ich in diesem Artikel.](https://stebre.ch/wordpress-snippets-sinnvoll-integrieren/)
 

@@ -8,7 +8,7 @@ tags:
   - pdf
 status: needs-translation
 ---
-Wer den ersten Teil «[Barrierefreie PDFs – Eine Übersicht zur Herausforderung](https://www.pixelstrol.ch/barrierefreie-pdfs-eine-uebersicht-zur-herausforderung/)» noch nicht gelesen hat, findet dort allgemeine Informationen zu möglichen Barrieren, Assistiven Technologien (AT), Prüfungsmöglichkeiten und mehr.
+Wer den ersten Teil «[Barrierefreie PDFs – Eine Übersicht zur Herausforderung](https://stebre.ch/blog/barrierefreie-pdfs--eine-uebersicht-zur-herausforderung/)» noch nicht gelesen hat, findet dort allgemeine Informationen zu möglichen Barrieren, Assistiven Technologien (AT), Prüfungsmöglichkeiten und mehr.
 
 Es wird auch auf das [Matterhorn Protokoll](https://www.pdfa.org/publication/matterhorn-protokoll-1-02-deutsche-uebersetzung/?lang=de) eingegangen. Das Matterhorn Protokoll enthält sämtliche Prüfpunkte (respektive Fehlerbedingungen) um ein barrierefreies Dokument nach dem PDF/UA-Standard herzustellen.
 
