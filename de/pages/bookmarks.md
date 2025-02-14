@@ -2,7 +2,8 @@
 title: Lesezeichen
 layout: layouts/bookmarks.njk
 collection: bookmarks_de
-tags: ["pages_de"]
+tags: 
+  - pages_de
 pagination:
   data: collections.bookmarks_de
   size: 999

@@ -1,14 +1,9 @@
 ---
-aliases:
-  - 'stebre.ch: Relaunch and name change'
-  - stebre.ch
-title: 'stebre.ch: Relaunch and name change'
-date: 2022-11-15T00:00:00.000Z
-updated: 2023-09-17T00:00:00.000Z
+title: "stebre.ch: Relaunch and name change"
+date: 2022-11-15
+updated: 2023-09-17
 featuredImage: ../../assets/img/20221115_stebrech-relaunch-und-namensaenderung.png
-description: >-
-  stebre.ch: I have secretly relaunched my personal website and also changed the
-  name. But I don't want to refrain from giving you a little insight.
+description: "stebre.ch: I have secretly relaunched my personal website and also changed the name. But I don't want to refrain from giving you a little insight."
 tags:
   - 11ty
   - branding

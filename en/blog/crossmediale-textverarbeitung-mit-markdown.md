@@ -1,6 +1,6 @@
 ---
 title: Cross-media text processing with Markdown
-date: 2018-04-16T00:00:00.000Z
+date: 2018-04-16
 featuredImage: ../../assets/img/20180416_crossmediale-textverarbeitung-mit-markdown.jpg
 description: A major challenge in media-neutral data production is the lack of awareness of structured content. If content is (initially) created in text processing programs such as Microsoft Word, attempts are made to make it appealing. In most cases, however, a clean structure falls by the wayside.
 tags:

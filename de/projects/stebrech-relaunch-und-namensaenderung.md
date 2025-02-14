@@ -1,15 +1,9 @@
 ---
-aliases:
-  - 'stebre.ch: Relaunch und Namensänderung'
-  - stebre.ch
-title: 'stebre.ch: Relaunch und Namensänderung'
-date: 2022-11-15T00:00:00.000Z
-updated: 2023-09-17T00:00:00.000Z
-featuredImage: ../../assets/img/20221115_stebrech-relaunch-und-namensaenderung.png
-description: >-
-  stebre.ch: Klammheimlich habe ich ein Relaunch meiner persönlichen Website
-  durchgeführt und zudem noch den Namen geändert. Ich möchte es aber nicht
-  unterlassen dir einen kleinen Einblick zu geben.
+title: "stebre.ch: Relaunch und Namensänderung"
+date: 2022-11-15
+updated: 2023-09-17
+featuredImage: ../../assets/img/20221115_stebrech-relaunch-und-namensaenderung.png 
+description: "stebre.ch: Klammheimlich habe ich ein Relaunch meiner persönlichen Website durchgeführt und zudem noch den Namen geändert. Ich möchte es aber nicht unterlassen dir einen kleinen Einblick zu geben."
 tags:
   - 11ty
   - branding

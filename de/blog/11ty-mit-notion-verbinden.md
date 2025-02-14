@@ -1,7 +1,7 @@
 ---
 title: 11ty mit Notion verbinden
-date: 2023-09-17T00:00:00.000Z
-updated: 2024-02-02T00:00:00.000Z
+date: 2023-09-17
+updated: 2024-02-02
 featuredImage: ../../assets/img/20230917_11ty-mit-notion-verbinden.png
 description: Für stebre.ch und bisher zwei weiteren Websites habe ich mir etwas neues ausgedacht. Da verwende ich neu den lieb gewonnen Static Site Generator 11ty in Kombination von Notion, einem vielseitigen Content Tool in der Cloud.
 tags:

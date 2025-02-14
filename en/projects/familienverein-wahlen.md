@@ -1,23 +1,16 @@
 ---
-aliases:
-  - Family Association Wahlen
 title: Family Association Wahlen
-date: 2022-09-27T00:00:00.000Z
-updated: 2024-02-02T00:00:00.000Z
+date: 2022-09-27
+updated: 2024-02-02
 featuredImage: ../../assets/img/20220927_familienverein-wahlen.png
-description: >-
-  The website for the family association in Wahlen was created in the first quarter
-  of 2021. It is the second project that I have implemented with
-  [Gatsby](https://www.gatsbyjs.com/). The connection to a headless CMS was a
-  première for me and the decision was made in favor of [Netlify
-  CMS](https://decapcms.org/).
+description: The website for the family association in Wahlen was created in the first quarter of 2021. It is the second project that I have implemented with [Gatsby](https://www.gatsbyjs.com/). The connection to a headless CMS was a première for me and the decision was made in favor of [Netlify CMS](https://decapcms.org/).
 tags:
   - branding
   - notion
   - 11ty
   - webdev
 featured: false
-weblink: 'https://familienverein-wahlen.ch'
+weblink: https://familienverein-wahlen.ch
 status: needs-review
 ---
 > [!info] Update 2.2.2024

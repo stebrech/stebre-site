@@ -1,6 +1,6 @@
 ---
 title: Using iPhone as a simple emergency phone
-date: 2023-12-17T00:00:00.000Z
+date: 2023-12-17
 featuredImage: ../../assets/img/20231217_iphone-als-notfalltelefon-nutzen.png
 description: With the “Assistive Access” mode, which is available from iOS version 17, the complete operation of the iPhone can be greatly reduced. Essential apps such as phone, messages and contacts can be displayed with large icons. This helps people with cognitive impairments.
 tags:

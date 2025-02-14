@@ -1,9 +1,6 @@
 ---
-aliases:
-  - Weihnachtsbuch und das resultierende md-book-with-docraptor Repository
-  - md-book-with-docraptor
 title: Weihnachtsbuch und das resultierende md-book-with-docraptor Repository
-date: 2023-12-31T00:00:00.000Z
+date: 2023-12-31
 featuredImage: ../../assets/img/20231231_weihnachtsbuch.png
 description: Mit dem persönlichen PrintCSS-Projekt haben wir eine eigene Weihnachtsgeschichte zu einem Geschenk gemacht. Sie wurde mit dem Prince Renderer in ein PDF umgewandelt und gedruckt. Zudem kann die Geschichte digital als [mobilefreundliche Webseite](https://stebre.ch/weihnachtsbuch2023) gelesen werden.
 tags:

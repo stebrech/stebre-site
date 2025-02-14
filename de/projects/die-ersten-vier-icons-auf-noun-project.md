@@ -1,8 +1,6 @@
 ---
-aliases:
-  - Die ersten vier Icons auf Noun Project
 title: Die ersten vier Icons auf Noun Project
-date: 2014-10-06T00:00:00.000Z
+date: 2014-10-06
 featuredImage: ../../assets/img/20141006_die-ersten-vier-icons-auf-noun-project.png
 description: Auf Noun Project habe ich die vier angezeigten Icons zur Verfügung gestellt.
 tags:

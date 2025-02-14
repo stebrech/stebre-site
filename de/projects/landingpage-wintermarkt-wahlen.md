@@ -1,19 +1,14 @@
 ---
-aliases:
-  - Landingpage Wintermarkt Wahlen
 title: Landingpage Wintermarkt Wahlen
-date: 2024-11-10T00:00:00.000Z
+date: 2024-11-10
 featuredImage: ../../assets/img/20241110_landingpage-wintermarkt-wahlen.jpg
-description: >-
-  Am 30.11.2024 ist es soweit und der Wintermarkt in Wahlen findet wieder statt.
-  Ich habe dafür die Landingpage überarbeitet und gebe ein paar Einblicke in die
-  Neuerungen.
+description: Am 30.11.2024 ist es soweit und der Wintermarkt in Wahlen findet wieder statt. Ich habe dafür die Landingpage überarbeitet und gebe ein paar Einblicke in die Neuerungen.
 tags:
   - 11ty
   - webentwicklung
   - webapp
 featured: true
-weblink: 'https://familienverein-wahlen.ch/wahlner-wintermarkt'
+weblink: https://familienverein-wahlen.ch/wahlner-wintermarkt
 status: done
 ---
 Der Wintermarkt wird vom [[familienverein-wahlen|Familienverein Wahlen]] organisiert. Die Landing Page ist eine Unterseite des Vereins.

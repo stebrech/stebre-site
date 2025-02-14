@@ -1,22 +1,16 @@
 ---
-aliases:
-  - Familienverein Wahlen
 title: Familienverein Wahlen
-date: 2022-09-27T00:00:00.000Z
+date: 2022-09-27
 updated: 2024-02-02T00:00:00.000Z
 featuredImage: ../../assets/img/20220927_familienverein-wahlen.png
-description: >-
-  Im ersten Quartal 2021 entstand die Website für den Familienverein Wahlen. Es
-  ist das zweite Projekt, dass ich mit [Gatsby](https://www.gatsbyjs.com/)
-  umgesetzt habe. Die Anbindung an ein Headless CMS war für mich Première und
-  der Entscheid fiel auf [Netlify CMS](https://decapcms.org/).
+description: Im ersten Quartal 2021 entstand die Website für den Familienverein Wahlen. Es ist das zweite Projekt, dass ich mit [Gatsby](https://www.gatsbyjs.com/) umgesetzt habe. Die Anbindung an ein Headless CMS war für mich Première und der Entscheid fiel auf [Netlify CMS](https://decapcms.org/).
 tags:
   - branding
   - notion
   - 11ty
   - webentwicklung
 featured: false
-weblink: 'https://familienverein-wahlen.ch'
+weblink: https://familienverein-wahlen.ch
 status: done
 ---
 > [!info] Update 2.2.2024

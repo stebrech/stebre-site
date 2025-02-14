@@ -1,8 +1,8 @@
 ---
 title: Impressum
 layout: layouts/post.njk
-date: 2012-12-01T00:00:00.000Z
-updated: 2022-09-17T00:00:00.000Z
+date: 2012-12-01
+updated: 2022-09-17
 description: Impressum von stebre.ch
 tags:
   - pages_de

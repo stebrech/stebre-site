@@ -1,8 +1,6 @@
 ---
-aliases:
-  - Lesezeichen mit der Pocket API nach 11ty importieren
 title: Lesezeichen mit der Pocket API nach 11ty importieren
-date: 2024-03-06T00:00:00.000Z
+date: 2024-03-06
 featuredImage: ../../assets/img/20240308_lesezeichen-mit-der-pocket-api-nach-11ty-importieren.jpg
 description: Pocket bietet eine API, mit der die gespeicherten Lesezeichen verwendet und angepasst werden können. Diese mache ich mir zu nutzen und speichere die Daten in einem Lesezeichenbeitrag auf [stebre.ch](https://stebre.ch/bookmarks). Es werden Lesezeichen mit einem spezifischen Tag berücksichtigt. Nach der Verarbeitung wird der auf Pocket gespeicherte Link archiviert.
 tags:

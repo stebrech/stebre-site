@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "Icon Font: Out Of Circle – WP Post Formats"
 title: "Icon Font: Out Of Circle – WP Post Formats"
 date: 2013-04-27
 featuredImage: ../../assets/img/20130427_icon-font-out-of-circle--wp-post-formats.png

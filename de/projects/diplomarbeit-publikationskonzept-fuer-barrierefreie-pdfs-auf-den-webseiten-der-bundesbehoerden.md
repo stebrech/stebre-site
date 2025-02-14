@@ -1,24 +1,15 @@
 ---
-aliases:
-  - >-
-    Diplomarbeit Publikationskonzept für barrierefreie PDFs auf den Webseiten
-    der Bundesbehörden
-title: >-
-  Diplomarbeit Publikationskonzept für barrierefreie PDFs auf den Webseiten der
-  Bundesbehörden
-date: 2022-10-09T00:00:00.000Z
-featuredImage: >-
-  ../../assets/img/20221009_diplomarbeit-publikationskonzept-fuer-barrierefreie-pdfs-auf-den-webseiten-der-bundesbehoerden.png
-description: >-
-  In meiner Diplomarbeit habe ich geschrieben wie die Bundesbehörden die
-  Barrierefreiheit ihrer PDFs verbessern können.
+title: Diplomarbeit Publikationskonzept für barrierefreie PDFs auf den Webseiten der Bundesbehörden
+date: 2022-10-09
+featuredImage: ../../assets/img/20221009_diplomarbeit-publikationskonzept-fuer-barrierefreie-pdfs-auf-den-webseiten-der-bundesbehoerden.png
+description: In meiner Diplomarbeit habe ich geschrieben wie die Bundesbehörden die   Barrierefreiheit ihrer PDFs verbessern können.
 tags:
   - barrierefreiheit
   - content
   - print-css
   - webentwicklung
 featured: true
-weblink: 'https://da-bfpdf-bund.netlify.app'
+weblink: https://da-bfpdf-bund.netlify.app
 status: done
 ---
 Wesentliche Bestandteile waren das Format kritisch zu hinterfragen und die Aufbereitung medienneutraler zu gestalten um immer im besten geeigneten Format zu publizieren.

@@ -1,15 +1,12 @@
 ---
-aliases:
-  - FirIA
 title: FirIA
-date: 2020-04-19T00:00:00.000Z
+date: 2020-04-19
 featuredImage: ../../assets/img/20200419_firia.png
-description: >-
-  Since I am enthusiastic about Markdown and the [iA Writer](https://ia.net/writer), I have developed the iA Writer template **FirIA**.
+description: Since I am enthusiastic about Markdown and the [iA Writer](https://ia.net/writer), I have developed the iA Writer template **FirIA**.
 tags:
   - markdown
 featured: false
-weblink: 'https://github.com/stebrech/FirIA'
+weblink: https://github.com/stebrech/FirIA
 status: done
 ---
 Hidden in the name FirIA is the font Fira Sans. Everyone has their favorite font. This is currently mine ;-)

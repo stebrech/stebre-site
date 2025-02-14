@@ -1,6 +1,4 @@
 ---
-aliases:
-  - Social Media Icons Rounded and Glossy v1
 title: Social Media Icons Rounded and Glossy v1
 date: 2012-07-02
 featuredImage: ../../assets/img/20120702_social-media-icons-rounded-and-glossy-v1.jpg

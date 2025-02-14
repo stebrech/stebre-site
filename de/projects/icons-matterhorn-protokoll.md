@@ -1,16 +1,12 @@
 ---
-aliases:
-  - Icons «Matterhorn Protokoll»
 title: Icons «Matterhorn Protokoll»
-date: 2018-06-15T00:00:00.000Z
+date: 2018-06-15
 featuredImage: ../../assets/img/20180615_icons-matterhorn-protokoll.png
-description: >-
-  Mit diesen Icons wollte ich die verschiedenen Prüfpunkte des Matterhorn
-  Protokolls visualiseren.
+description: Mit diesen Icons wollte ich die verschiedenen Prüfpunkte des Matterhorn Protokolls visualiseren.
 tags:
   - icons
 featured: false
-weblink: 'https://github.com/stebrech/icons-matterhorn-protocol'
+weblink: https://github.com/stebrech/icons-matterhorn-protocol
 status: done
 ---
 Eigentlich war die Idee, diese Icons auf [[projects/accessible-pdf-info|accessible-pdf.info]] zu verwenden, dies habe ich dann aber wieder verworfen.

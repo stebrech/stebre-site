@@ -1,14 +1,8 @@
 ---
-aliases:
-  - Innocu Logo
 title: Innocu Logo
-date: 2018-03-05T00:00:00.000Z
+date: 2018-03-05
 featuredImage: ../../assets/img/20180305_innocu-logo.png
-description: >-
-  Für meinen Schwiegervater habe ich das Logo Innocu umgesetzt. Es ist eine
-  Wort-Bild-Marke und besteht aus dem Text «INNOCU» – was abgekürzt für
-  Innovation Cueni steht – und dem abstrakten Signet, welches die Buchstaben c
-  und i kombiniert.
+description: Für meinen Schwiegervater habe ich das Logo Innocu umgesetzt. Es ist eine Wort-Bild-Marke und besteht aus dem Text «INNOCU» – was abgekürzt für Innovation Cueni steht – und dem abstrakten Signet, welches die Buchstaben c und i kombiniert.
 tags:
   - animation
   - branding

@@ -1,26 +1,16 @@
 ---
-title: |
-  Introduction to PrintCSS and CSS Paged Media
-date: 2020-10-01T00:00:00.000Z
+title: Introduction to PrintCSS and CSS Paged Media
+slug: introduction-to-printcss-and-css-paged-media
+date: 2020-10-01
 tags:
   - print-css
-slug: introduction-to-printcss-and-css-paged-media
-weblink: 'https://www.print-css.rocks/'
+weblink: https://www.print-css.rocks/
 domainName: print-css.rocks
 bookmarkLang: en
-metaDescription: >
-  PrintCSS/CSS Paged Media (PDF generation from XML and HTML using CSS
-  stylesheets) tutorial and showcase with lessons, tool descriptions and
-  comparions. PDFreactor Antennahouse PrinceXML
-pocketDescription: >
-  This tutorial shows how to generate PDF documents from XML/HTML using the "CSS
-  Paged Media" approach, whereby the complete styling and layout information is
-  kept in cascading stylesheets (CSS).
-description: >-
-  Anyone interested in PrintCSS will not be able to avoid this comparison of the
-  best-known solutions.
-featuredImage: >-
-  ../../assets/img/20201001_introduction-to-printcss-and-css-paged-media_screenshot.png
+metaDescription: PrintCSS/CSS Paged Media (PDF generation from XML and HTML using CSS stylesheets) tutorial and showcase with lessons, tool descriptions and comparions. PDFreactor Antennahouse PrinceXML
+pocketDescription: This tutorial shows how to generate PDF documents from XML/HTML using the "CSS Paged Media" approach, whereby the complete styling and layout information is kept in cascading stylesheets (CSS).
+description: Anyone interested in PrintCSS will not be able to avoid this comparison of the best-known solutions.
+featuredImage: ../../assets/img/20201001_introduction-to-printcss-and-css-paged-media_screenshot.png
 timeToRead: 3
 status: done
 ---

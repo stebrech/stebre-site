@@ -1,20 +1,13 @@
 ---
-aliases:
-  - WordCamp Bern 2017 Design
-  - WordCamp Bern 2017
 title: WordCamp Bern 2017 Design
-date: 2017-09-09T00:00:00.000Z
+date: 2017-09-09
 featuredImage: ../../assets/img/20170909_wordcamp-bern-2017-design.jpg
-description: >-
-  Am 9.9.2017 fand die WordPress-Veranstaltung in Bern statt. Diese
-  Veranstaltungen nennen sich WordCamp und finden weltweit mit der Open Source
-  Community statt. Ich war im Organisationsteam mit dabei und durfte die
-  Gestaltung von Logo, T-Shirts, Batches und Weiterem übernehmen.
+description: Am 9.9.2017 fand die WordPress-Veranstaltung in Bern statt. Diese Veranstaltungen nennen sich WordCamp und finden weltweit mit der Open Source Community statt. Ich war im Organisationsteam mit dabei und durfte die Gestaltung von Logo, T-Shirts, Batches und Weiterem übernehmen.
 tags:
   - branding
   - print
 featured: false
-weblink: 'https://bern.wordcamp.org/2017/'
+weblink: https://bern.wordcamp.org/2017/
 status: done
 ---
 ## Logo-Design

@@ -1,13 +1,8 @@
 ---
-aliases:
-  - Innocu Logo
 title: Innocu Logo
-date: 2018-03-05T00:00:00.000Z
+date: 2018-03-05
 featuredImage: ../../assets/img/20180305_innocu-logo.png
-description: >-
-  I created the Innocu logo for my father-in-law. It is a word-image mark and
-  consists of the text "INNOCU" – which is short for Innovation Cueni – and the
-  abstract signet, which combines the letters c and i.
+description: I created the Innocu logo for my father-in-law. It is a word-image mark and consists of the text "INNOCU" – which is short for Innovation Cueni – and the abstract signet, which combines the letters c and i.
 tags:
   - animation
   - branding

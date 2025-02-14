@@ -2,7 +2,8 @@
 title: Bookmarks
 layout: layouts/bookmarks.njk
 collection: bookmarks_en
-tags: ["pages_en"]
+tags: 
+  - pages_en
 pagination:
   data: collections.bookmarks_en
   size: 999

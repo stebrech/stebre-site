@@ -1,12 +1,8 @@
 ---
-aliases:
-  - Gian the lion
 title: Gian the lion
-date: 2019-04-27T00:00:00.000Z
+date: 2019-04-27
 featuredImage: ../../assets/img/20190427_gian-the-lion.png
-description: >-
-  I drew and vectorized the mascot "Gian the Lion" for the invitation card of
-  our youngest's christening.
+description: I drew and vectorized the mascot "Gian the Lion" for the invitation card of our youngest's christening.
 tags:
   - icons
   - print
