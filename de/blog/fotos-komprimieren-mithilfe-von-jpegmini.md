@@ -6,7 +6,7 @@ description: "[jpegmini.com](https://www.jpegmini.com/) ist ein Tool, welches di
 tags:
   - app
   - bildoptimierung
-status: needs-translation
+status: done-without-translation
 ---
 Seit sich die digitale Fotografie in unser Leben integrierte, brauchen wir uns nicht mehr um die Fotoentwicklung und deren Kosten zu kümmern. Wir knipsen also drauf los und suchen uns die schönsten Bilder aus. Nun speichern wir die Daten auf eigenen Festplatten oder externen Servern ab oder teilen sie in sozialen Netzen. Nach etlichen Fotos folgen die ersten Probleme wie eine logische Namensgebung und Sortierung, aber eben auch die platzraubende Datenmenge.
 

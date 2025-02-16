@@ -5,7 +5,7 @@ featuredImage: ../../assets/img/20130306_e-buchbesprechung-wordpress-fuer-autore
 description: "[WordPress für Autoren und Redakteure](http://www.perun.net/2012/12/19/wordpress-35-fuer-autoren-und-redakteure/) ist ein E-Book und richtet sich an WordPress Neuanwender. Das E-Book ist eine Anleitung und beschreibt das redaktionelle Arbeiten mit WordPress."
 tags:
   - wordpress
-status: needs-translation
+status: done-without-translation
 ---
 Die Autoren sind Vladimir Simovic und Thordis Bonfranchi-Simovic. Insbesondere Vladimir ist im deutschsprachigen Netz für seine themenrelevanten Artikeln im Blog [www.perun.net](http://www.perun.net/) bekannt.
 

@@ -10,9 +10,9 @@ domainName: caniemail.com
 bookmarkLang: en
 metaDescription: Support tables for HTML and CSS in emails
 pocketDescription: Support tables for HTML and CSS in emails
-description: "Analog [caniuse.com](https://caniuse.com) können mit [caniemail.com](https://caniemail) Features geprüft werden ob und durch welche E-Mail-Clients sie unterstützt werden."
+description: Analog [caniuse.com](https://caniuse.com) können mit [caniemail.com](https://caniemail.com) Features geprüft werden ob und durch welche E-Mail-Clients sie unterstützt werden.
 featuredImage: ../../assets/img/20210219_can-i-email.png
-status: needs-translation
+status: done
 ---
 <blockquote lang="en">Support tables for HTML and CSS in emails
-<footer>— on GitHub, <a href="https://www.caniemail.com/">caniemail.com</a></footer></blockquote>
+<footer>— <a href="https://www.caniemail.com/">caniemail.com</a></footer></blockquote>

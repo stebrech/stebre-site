@@ -5,7 +5,7 @@ featuredImage: ../../assets/img/20121128_eigenes-logo-auf-der-wordpress-login-se
 description: Für die Einen unnötige Spielerei, für die Anderen das i-Pünktchen um WordPress zu personalisieren. Ich spreche davon das eigene Logo anstatt dem WordPress Logo auf der Login-Seite anzeigen zu lassen.
 tags:
   - wordpress
-status: needs-translation
+status: done-without-translation
 ---
 ## Vorbereitung
 

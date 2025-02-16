@@ -5,7 +5,7 @@ featuredImage: ../../assets/img/20121225_wp-tipp-individueller-weiterlesen-link.
 description: In diesem kleinem Beitrag möchte ich aufzeigen wie der Text des Weiterlesen-Links individuell angepasst werden kann.
 tags:
   - wordpress
-status: needs-translation
+status: done-without-translation
 ---
 ## Den Weiterlesen-Link setzen
 

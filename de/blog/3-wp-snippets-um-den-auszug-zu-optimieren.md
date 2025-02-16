@@ -4,7 +4,7 @@ date: 2014-02-24
 description: Der Auszug (Excerpt) ist eine kurze unformatierte Zusammenfassung eines Beitrags in WordPress. Falls ihr kein eigener Auszug hinzufügt, nimmt sich WordPress einfach die ersten Wörter des Beitrags.
 tags:
   - wordpress
-status: needs-translation
+status: done-without-translation
 ---
 Wo der Auszug auf deiner Website verwendet wird, ist abhängig vom installierten Theme. Der wichtigste Verwendungszweck ist die Ausgabe des Auszugs als Suchresultat. Er kann aber auch für die Homepage oder die Archivseiten benutzt werden.
 

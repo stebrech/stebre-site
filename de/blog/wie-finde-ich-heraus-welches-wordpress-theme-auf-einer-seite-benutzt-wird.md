@@ -6,7 +6,7 @@ description: Beim Surfen durch das Web gelangt man immer wieder mal auf eine Web
 tags:
   - app
   - wordpress
-status: needs-translation
+status: done-without-translation
 ---
 ## WPTD liefert die Informationen
 

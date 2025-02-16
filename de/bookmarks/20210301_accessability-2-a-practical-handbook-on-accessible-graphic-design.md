@@ -9,9 +9,10 @@ tags:
 weblink: https://rgd.ca/working-in-design/resources/accessability-2-a-practical-handbook-on-accessible-graphic-design
 domainName: rgd.ca
 bookmarkLang: en
-description: Ein praktisches Handbuch für barrierefreies Grafik Design.
+description: Ein praktisches Handbuch für barrierefreies Grafikdesign.
 featuredImage: ../../assets/img/20210301_accessability-2-a-practical-handbook-on-accessible-graphic-design.png
-status: needs-translation
+status: done
 ---
 <blockquote>
-<footer>More than 1.85 million people in Ontario and 4.4 million people in Canada have a disability. This number is on the rise as our population ages. Accessibility is no longer an option — it’s a necessity. — <a href="https://rgd.ca/working-in-design/resources/accessability-2-a-practical-handbook-on-accessible-graphic-design">rgd.ca</a></footer></blockquote>
+More than 1.85 million people in Ontario and 4.4 million people in Canada have a disability. This number is on the rise as our population ages. Accessibility is no longer an option — it’s a necessity. 
+<footer>— <a href="https://rgd.ca/working-in-design/resources/accessability-2-a-practical-handbook-on-accessible-graphic-design">rgd.ca</a></footer></blockquote>

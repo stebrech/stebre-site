@@ -5,7 +5,7 @@ description: Das Aufbohren von WordPress funktioniert entweder via Plugin oder T
 tags:
   - app
   - wordpress
-status: needs-translation
+status: done-without-translation
 ---
 Mithilfe von [GenerateWP.com](http://generatewp.com/) wird dem Nutzer das Durchstöbern der Dokumentation zumindest teilweise abgenommen. Die Code Generatoren helfen bei:
 

@@ -6,7 +6,7 @@ description: Vor einer ganzen Weile habe ich über ein praktisches Tool namens J
 tags:
   - bildoptimierung
   - performance
-status: needs-translation
+status: done-without-translation
 ---
 > [!info] Die Mac App scheint nicht mehr verfügbar zu sein.
 
