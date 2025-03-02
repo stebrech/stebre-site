@@ -1,5 +1,0 @@
-{
-	"tags": "projects_de",
-	"postType": "projects",
-	"permalink": "projects/{{ title | slugify }}/"
-}

@@ -1,5 +1,0 @@
-{
-	"tags": "bookmarks_de",
-	"postType": "bookmarks",
-	"permalink": "bookmarks/{{ slug }}/"
-}

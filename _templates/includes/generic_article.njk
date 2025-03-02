@@ -5,11 +5,13 @@
 				<h1 class="title"{% if (page.lang !== "en") and (post.data.lang === "en") %} lang="en"{% endif %}>
 					{{ title }}
 				</h1>
-				{% if featuredImage %}
 					<div class="featuredImage">
+						{% if socialImage %}
+						<img src="{{ socialImage }}" alt="">
+						{% elif featuredImage %}
 						<img src="{{ featuredImage }}" alt="">
+						{% endif %}
 					</div>
-				{% endif %}
 			</div>
 		</header>
 	</div>

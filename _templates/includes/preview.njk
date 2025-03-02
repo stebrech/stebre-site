@@ -29,13 +29,13 @@
 						{{ post.data.description | markdown | safe }}
 					</div>
 				</div> 
-				{% if post.data.featuredImage %}
-					<div class="postPreview_featuredImage">
-						<div class="container">
-							<img src="{{ post.data.featuredImage }}" alt="">
-						</div>
-					</div>
-				{% endif %}
+				<div class="postPreview_featuredImage">
+					{% if post.data.socialImage %}
+					<img src="{{ post.data.socialImage }}" alt="">
+					{% elif post.data.featuredImage %}
+					<img src="{{ post.data.featuredImage }}" alt="">
+					{% endif %}
+				</div>
 		</article>
 	</div>
 {% endfor %}
