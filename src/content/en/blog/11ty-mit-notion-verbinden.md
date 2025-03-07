@@ -2,7 +2,7 @@
 title: Connect 11ty with Notion
 date: 2023-09-17
 updated: 2024-02-02T00:00:00.000Z
-featuredImage: src/content/assets/img/20230917_11ty-mit-notion-verbinden.png
+featuredImage: /assets/img/20230917_11ty-mit-notion-verbinden.png
 description: I have come up with something new for stebre.ch and two other websites so far. I'm now using the much-loved static site generator 11ty in combination with Notion, a versatile content tool in the cloud.
 tags:
   - 11ty
@@ -28,13 +28,13 @@ The following YouTube video from [11ty Rocks!](https://11ty.rocks/) shows a thre
 
 As already mentioned, Notion offers an API to use the content in other ways. To do this, you can create your own integration at [https://www.notion.so/my-integrations](https://www.notion.so/my-integrations). An API key will be generated and the authorizations are defined.
 
-![Instructions on how to create an integration. Gif animation.](../../assets/img/20230917_11ty-mit-notion-verbinden_1.gif)
+![Instructions on how to create an integration. Gif animation.](/assets/img/20230917_11ty-mit-notion-verbinden_1.gif)
 
 *Image source: [notion.so](https://developers.notion.com/docs/create-a-notion-integration)*
 
 In Notion, the integration can now be added to a database, for example a blog.
 
-![Instructions on how to assign an integration. Gif animation](../../assets/img/20230917_11ty-mit-notion-verbinden_2.gif)
+![Instructions on how to assign an integration. Gif animation](/assets/img/20230917_11ty-mit-notion-verbinden_2.gif)
 
 *Image source: [notion.so](https://developers.notion.com/docs/create-a-notion-integration)*
 

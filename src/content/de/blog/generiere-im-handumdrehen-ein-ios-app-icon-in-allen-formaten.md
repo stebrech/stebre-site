@@ -1,7 +1,7 @@
 ---
 title: Generiere im Handumdrehen ein iOS App Icon in allen Formaten
 date: 2012-12-18
-featuredImage: src/content/assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten.jpg
+featuredImage: /assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten.jpg
 description: Durch einen Beitrag auf codevisually.com bin ich auf ein nettes Helferlein namens [iOS App Icon Template](http://appicontemplate.com/) gestossen. Mithilfe von Photoshop und diesem freien PSD-File lässt sich im Handumdrehen eine eigenes iOS App Icon erstellen.
 tags:
   - app
@@ -22,25 +22,25 @@ Da es sich beim Template um eine PSD File handelt, benötigt man Adobe Photoshop
 
 - Öffnen der Datei in Photoshop Ansicht nach dem Öffnen der Datei in Photoshop
 
-	![App Icon Template - Schritt-1](../../assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten_1.jpg)
+	![App Icon Template - Schritt-1](/assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten_1.jpg)
 
 - Ihr seht nun wie das Icon in den verschiedenen Grössen aussehen würde.
 - Um all diese blaue Icons auf einmal bearbeiten zu können, müsst ihr das zugewiesene Smart Object bearbeiten.
 - Klickt dazu doppelt auf die Ebene mit dem Namen «EDIT THIS SMART OBJECT»
 - Danach öffnet sich ein neues Tabfenster in Photoshop Das neue Fenster «Icon.psb» wurde geöffnet.
 
-	![App Icon Template - Schritt 2](../../assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten_2.jpg)
+	![App Icon Template - Schritt 2](/assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten_2.jpg)
 
 - Jetzt könnt ihr eurer Kreativität freien Lauf lassen und euer Icon gestalten. Ein eigenes Icon erstellen.
 
-	![App Icon Template - Schritt 3](../../assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten_3.jpg)
+	![App Icon Template - Schritt 3](/assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten_3.jpg)
 
 - Als Unterstützung stehen noch einige auswählbare Hintergründe zur Verfügung.
 - Wenn alles passt speichert ihr die Datei und wechselt zurück zum Template File. Nun wird das eigene Icon in den verschiedenen Grössen angezeigt.
 
-	![App Icon Template - Schritt 4](../../assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten_4.jpg)
+	![App Icon Template - Schritt 4](/assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten_4.jpg)
 
 - Mithilfe der mitgelieferten Aktion (.atn File) könnt ihr das Icon in einem Durchlauf in sämtliche Grössen speichern. Der Ordner mit sämtlichen Dateien wird auf dem Desktop gespeichert.
 
-	![App Icon Template - Schritt 5](../../assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten_5.jpg)
+	![App Icon Template - Schritt 5](/assets/img/20121218_generiere-im-handumdrehen-ein-ios-app-icon-in-allen-formaten_5.jpg)
 

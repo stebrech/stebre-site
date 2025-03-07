@@ -1,7 +1,7 @@
 ---
 title: "(E-)Buchbesprechung: WordPress für Autoren und Redakteure"
 date: 2013-03-06
-featuredImage: src/content/assets/img/20130306_e-buchbesprechung-wordpress-fuer-autoren-und-redakteure.jpg
+featuredImage: /assets/img/20130306_e-buchbesprechung-wordpress-fuer-autoren-und-redakteure.jpg
 description: "[WordPress für Autoren und Redakteure](http://www.perun.net/2012/12/19/wordpress-35-fuer-autoren-und-redakteure/) ist ein E-Book und richtet sich an WordPress Neuanwender. Das E-Book ist eine Anleitung und beschreibt das redaktionelle Arbeiten mit WordPress."
 tags:
   - wordpress

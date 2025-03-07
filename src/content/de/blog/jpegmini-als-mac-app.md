@@ -1,7 +1,7 @@
 ---
 title: JPEGmini als Mac App
 date: 2012-07-13
-featuredImage: src/content/assets/img/20120713_jpegmini-als-mac-app.jpg
+featuredImage: /assets/img/20120713_jpegmini-als-mac-app.jpg
 description: Vor einer ganzen Weile habe ich über ein praktisches Tool namens JPEGmini berichtet. JPEGmini verspricht eine verlustfreie Komprimierung. [In meinem Artikel hatte ich einige Tests](https://stebre.ch/blog/fotos-komprimieren-mithilfe-von-jpegmini) mit demselben Bild, aber verschiedener Bildqualität als Ausgangslage, durchgeführt.
 tags:
   - bildoptimierung

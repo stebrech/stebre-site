@@ -1,7 +1,7 @@
 ---
 title: Christmas book and the resulting md-book-with-docraptor repository
 date: 2023-12-31
-featuredImage: src/content/assets/img/20231231_weihnachtsbuch.png
+featuredImage: /assets/img/20231231_weihnachtsbuch.png
 description: With the personal CSS paged media project we made our own Christmas story into a present. It was converted into a PDF with the Prince Renderer and printed. The story can also be read digitally as a [responsive website](https://stebre.ch/weihnachtsbuch2023) [not translated to English].
 tags:
   - content-first
@@ -24,7 +24,7 @@ With the Markdown files I created, I could have implemented the book in InDesign
 
 However, I wanted to solve it with the PDF Renderer [Prince](https://www.princexml.com/) – even if I had to spend a lot more time with it 😅. In addition to wanting to dig deeper and learn from it, the idea was to create a basis for future projects. The strength of CSS paged media is in repetition and standardized output.
 
-![Photo stack of the printed book](../../assets/img/20231231_weihnachtsbuch_1.png)
+![Photo stack of the printed book](/assets/img/20231231_weihnachtsbuch_1.png)
 
 ## md-book-with-docraptor
 
@@ -38,10 +38,10 @@ Of course, layouting with CSS also calls for a screen-optimized version in the s
 
 The website starts with a full-screen title area with the cover image as the background.
 
-![Screenshot of the title area of the website](../../assets/img/20231231_weihnachtsbuch_2.png)
+![Screenshot of the title area of the website](/assets/img/20231231_weihnachtsbuch_2.png)
 A separator character can be selected between the individual chapters. I have chosen the star glyph. While scrolling, the progress is displayed with a bar at the top in the accent color.
 
-![Screenshot of the beginning of a chapter. The progress bar is visible as well as the chapter separator](../../assets/img/20231231_weihnachtsbuch_3.png)
+![Screenshot of the beginning of a chapter. The progress bar is visible as well as the chapter separator](/assets/img/20231231_weihnachtsbuch_3.png)
 The imprint, which appears in the book at the beginning in the content section, is displayed in the footer area of the website.
 
-![Screenshot of the footer](../../assets/img/20231231_weihnachtsbuch_4.png)
+![Screenshot of the footer](/assets/img/20231231_weihnachtsbuch_4.png)

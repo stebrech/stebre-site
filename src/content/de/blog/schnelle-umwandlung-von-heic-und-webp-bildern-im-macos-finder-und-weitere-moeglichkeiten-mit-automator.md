@@ -1,7 +1,7 @@
 ---
 title: Schnelle Umwandlung von HEIC und WebP Bildern im MacOS Finder und weitere Möglichkeiten mit Automator
 date: 2023-02-12
-featuredImage: src/content/assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator.png
+featuredImage: /assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator.png
 description: Bildformate wie `HEIC` und `WebP` werden von vielen Applikationen noch nicht unterstützt. Daher ergeben sich immer wieder Situationen in denen man Bilder in ein `JPEG` oder `PNG` umwandeln muss.
 tags:
   - automatisierung
@@ -29,13 +29,13 @@ Möchte man generell auf das neuere Format verzichten, kann dies in den iOS-Eins
 1. Wähle «Einstellungen» → «Kamera» → «Formate»
 2. Wechsle die Option in «Maximale Kompatibilität»
 
-![iOS-Einstellungen Formate. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_1.jpeg)
+![iOS-Einstellungen Formate. Screenshot.](/assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_1.jpeg)
 
 ## Umwandlung mittels Schnellaktion
 
 Mehrere `HEIC` oder `WebP` Bilder können im Finder ausgewählt und mit einem Rechtsklick auf «Schnellaktionen» → «Bild konvertieren» in ein anderes Format geändert werden.
 
-![Schnellaktion «Bild konvertieren» mit Rechtsklick auswählen. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_2.png)
+![Schnellaktion «Bild konvertieren» mit Rechtsklick auswählen. Screenshot.](/assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_2.png)
 
 In einem zweiten Dialog kann dann das Format
 
@@ -45,7 +45,7 @@ In einem zweiten Dialog kann dann das Format
 
 ausgewählt werden. Zudem muss man sich für eine der vordefinierten Bildgrössen entscheiden.
 
-![Dialog «Bild konvertieren» mit der Auswahl des Formats und der Bildgrösse. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_3.png)
+![Dialog «Bild konvertieren» mit der Auswahl des Formats und der Bildgrösse. Screenshot.](/assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_3.png)
 
 ## Eine eigene Schnellaktion in Automator anlegen
 
@@ -55,21 +55,21 @@ Mit Automator können Abläufe automatisiert werden. Wir schauen uns hier die Er
 2. Wähle als Typ «Schnellaktion» aus
 3. Auf der linken Seite ist deine Bibliothek mit Aktionen und auf der rechten Seite ein noch leerer Workflow
 
-![Neue Schnellaktion in Automator. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_4.png)
+![Neue Schnellaktion in Automator. Screenshot.](/assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_4.png)
 
 ## Beispiel eines Bildworkflows
 
 Um aufzuzeigen was mit Automator umgesetzt werden kann, kreieren wir eine Schnellaktion, die zuerst eine Kopie der ausgewählten Bilder anlegt. Die Kopien werden dann in ein `JPEG` umgewandelt und generell die Grösse in 1200 × 600 px angewendet. Zum Schluss werden die Farben noch in Graustufen geändert.
 
-![Aktion «Finder-Objekte duplizieren» im Workflow platziert. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_5.png)
+![Aktion «Finder-Objekte duplizieren» im Workflow platziert. Screenshot.](/assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_5.png)
 
-![Aktion «Finder-Objekte umbenennen: Text ersetzen» im Workflow platziert. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_6.png)
+![Aktion «Finder-Objekte umbenennen: Text ersetzen» im Workflow platziert. Screenshot.](/assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_6.png)
 
-![Aktion «Bildtyp ändern» im Workflow platziert. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_7.png)
+![Aktion «Bildtyp ändern» im Workflow platziert. Screenshot.](/assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_7.png)
 
-![Aktion «Bildgrösse anpassen» im Workflow platziert. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_8.png)
+![Aktion «Bildgrösse anpassen» im Workflow platziert. Screenshot.](/assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_8.png)
 
-![Aktion «Finder-Objekte umbenennen: Text ersetzen» im Workflow platziert. Screenshot.](../../assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_9.png)
+![Aktion «Finder-Objekte umbenennen: Text ersetzen» im Workflow platziert. Screenshot.](/assets/img/20230212_schnelle-umwandlung-von-heic-und-webp-bildern-im-macos-finder-und-weitere-moeglichkeiten-mit-automator_9.png)
 
 Was jetzt noch fehlt sind die generellen Einstellungen deines Workflows. Diese findest oberhalb, siehe Bereich 2 im Screenshot oben mit den roten Markierungen. Damit die Schnellaktion bei Bildern erscheint muss im ersten Dropdown auf «Bilddateien» und in «Finder» gewechselt werden. Die beiden unteren Dropdown-Felder steuern das Aussehen des Befehls innerhalb des Menüs «Schnellaktionen» und sind optional.
 

@@ -1,7 +1,7 @@
 ---
 title: FirIA
 date: 2020-04-19
-featuredImage: src/content/assets/img/20200419_firia.png
+featuredImage: /assets/img/20200419_firia.png
 description: Da ich von Markdown und dem [iA Writer](https://ia.net/de/writer) begeistert bin, habe ich das iA Writer Template **FirIA** entwickelt.
 tags:
   - markdown

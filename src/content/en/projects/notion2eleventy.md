@@ -2,7 +2,7 @@
 title: notion2eleventy
 date: 2024-01-29
 updated: 2024-05-10
-featuredImage: src/content/assets/img/20230917_11ty-mit-notion-verbinden.png
+featuredImage: /assets/img/20230917_11ty-mit-notion-verbinden.png
 description: "`notion2eleventy` is a plugin for the *Static Site Generator* [Eleventy (short: 11ty)](https://11ty.dev). It loads content from Notion into your 11ty directory. A status-based workflow ensures that only content that has changed is downloaded. The plugin is available as a Node module at [npmjs.com](https://www.npmjs.com/package/@stebrech/notion2eleventy)."
 tags:
   - 11ty

@@ -2,7 +2,7 @@
 title: accessible-pdf.info
 date: 2017-10-31
 updated: 2024-11-10
-featuredImage: src/content/assets/img/20171031_accessible-pdfinfo.png
+featuredImage: /assets/img/20171031_accessible-pdfinfo.png
 description: The creation of accessible PDF documents is a passionate topic that I have been working on intensively since 2014. In my spare time, I maintain and run the website [accessible-pdf.info](https://accessible-pdf.info/en). There I share my experiences and knowledge in German and English.
 tags:
   - accessibility

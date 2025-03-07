@@ -1,7 +1,7 @@
 ---
 title: Zwei starke Responsive-Test-Tools
 date: 2013-07-05
-featuredImage: src/content/assets/img/20130705_zwei-starke-responsive-test-tools.jpg
+featuredImage: /assets/img/20130705_zwei-starke-responsive-test-tools.jpg
 description: Das Web ist mobil. Es werden täglich mehr User, welche ihre Inhalte mit einem mobilen Gerät im Netz aufsuchen. Aufgrund dessen werden Webseiten vermehrt mit einem anpassungsfähigen Design angeboten. Das englische “Zauberwort” dafür heisst Responsive und bedeutet, dass sich eine Webseite an die Auflösung des Ausgabegeräts anpasst.
 tags:
   - app
@@ -14,7 +14,7 @@ Zu diesem Zweck möchte ich euch meine zwei Favoriten-Tools vorstellen:
 
 ## Viewport Resizer
 
-![Viewport Resizer](../../assets/img/20130705_zwei-starke-responsive-test-tools_1.jpg)
+![Viewport Resizer](/assets/img/20130705_zwei-starke-responsive-test-tools_1.jpg)
 
 Der [Viewport Resizer](http://lab.maltewassermann.com/viewport-resizer/) ist ein [Bookmarklet](http://de.wikipedia.org/wiki/Bookmarklet) welches sich ganz einfach im Browser installieren lässt. Auf dessen Website wird ein Button gezeigt, welcher ganz einfach per [Drag and Drop](http://de.wikipedia.org/wiki/Drag_and_Drop) in die Lesezeichen gezogen werden kann. Anschliessend kann jede beliebige Website, mithilfe eines Klicks auf das Lesezeichen, in verschiedenen Ausgabegrössen wie beispielsweise dem iPhone 5 angezeigt werden. Dazu erscheint nach dem Klicken eine dunkle Navigation im oberen Teil des Fensters.
 
@@ -26,7 +26,7 @@ Wer eine bestimmte Auflösung immer wieder benötigt, welche nicht als Shortcut 
 
 ## Responsive-Test von designmodo.com
 
-![Responsive-Test](../../assets/img/20130705_zwei-starke-responsive-test-tools_2.jpg)
+![Responsive-Test](/assets/img/20130705_zwei-starke-responsive-test-tools_2.jpg)
 
 Die Möglichkeiten von [Responsive-Test](http://designmodo.com/responsive-test/) sind sehr ähnlich wie die von Viewport Resizer. Dabei handelt es sich jedoch nicht um ein Bookmarklet sondern um eine Website mit einem Eingabefeld indem die gewünschte Website eingegeben werden kann.
 

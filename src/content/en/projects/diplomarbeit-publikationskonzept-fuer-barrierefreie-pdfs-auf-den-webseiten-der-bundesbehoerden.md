@@ -1,7 +1,7 @@
 ---
 title: Diploma thesis publication concept for accessible PDFs on the websites of the federal authorities
 date: 2022-10-09
-featuredImage: src/content/assets/img/20221009_diplomarbeit-publikationskonzept-fuer-barrierefreie-pdfs-auf-den-webseiten-der-bundesbehoerden.png
+featuredImage: /assets/img/20221009_diplomarbeit-publikationskonzept-fuer-barrierefreie-pdfs-auf-den-webseiten-der-bundesbehoerden.png
 description: In my diploma thesis I wrote how the federal authorities can improve the accessibility of their PDFs.
 tags:
   - accessibility

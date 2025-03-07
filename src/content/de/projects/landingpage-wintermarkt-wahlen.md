@@ -1,7 +1,7 @@
 ---
 title: Landingpage Wintermarkt Wahlen
 date: 2024-11-10
-featuredImage: src/content/assets/img/20241110_landingpage-wintermarkt-wahlen.jpg
+featuredImage: /assets/img/20241110_landingpage-wintermarkt-wahlen.jpg
 description: Am 30.11.2024 ist es soweit und der Wintermarkt in Wahlen findet wieder statt. Ich habe dafür die Landingpage überarbeitet und gebe ein paar Einblicke in die Neuerungen.
 tags:
   - 11ty
@@ -37,14 +37,14 @@ Eine Herausforderung, dass sie zentriert angezeigt wird und in **alle Richtungen
 
 Die selbstgezeichneten, grafischen Elemente des Wintermarkts wurden von meiner Frau **Dominique** kreiert. 
 
-![Gezeichnete Karte mit den Ständen als Marker gekennzeichnet. Screenshot.](../../assets/img/20241110_landingpage-wintermarkt-wahlen-map.jpg)
+![Gezeichnete Karte mit den Ständen als Marker gekennzeichnet. Screenshot.](/assets/img/20241110_landingpage-wintermarkt-wahlen-map.jpg)
 
 Die Karte konnte in abgeänderter Form vom letzten Wintermarkt übernommen werden. 
 
-![Die ersten Sponsorenlogos. Screenshot.](../../assets/img/20241110_landingpage-wintermarkt-wahlen-sponsoren.jpg)
+![Die ersten Sponsorenlogos. Screenshot.](/assets/img/20241110_landingpage-wintermarkt-wahlen-sponsoren.jpg)
 
 Alle Sponsorenlogos wurden nachgezeichnet.
 
-![Frontseite des Wintermarkt-Hefts](../../assets/img/20241110_landingpage-wintermarkt-wahlen-heft.jpg)
+![Frontseite des Wintermarkt-Hefts](/assets/img/20241110_landingpage-wintermarkt-wahlen-heft.jpg)
 
 Das Hauptbild des Wintermarkts schmückt das Wintermarkt-Heft und den Flyer.

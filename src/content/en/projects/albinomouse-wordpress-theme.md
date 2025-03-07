@@ -1,7 +1,7 @@
 ---
 title: AlbinoMouse WordPress Theme
 date: 2013-01-01
-featuredImage: src/content/assets/img/20130101_albinomouse-wordpress-theme.png
+featuredImage: /assets/img/20130101_albinomouse-wordpress-theme.png
 description: "[AlbinoMouse](https://wordpress.org/themes/albinomouse/) was my first WordPress theme, which I developed and made available in the official directory on wordpress.org."
 tags:
   - webdev

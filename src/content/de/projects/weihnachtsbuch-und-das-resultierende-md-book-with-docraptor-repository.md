@@ -1,7 +1,7 @@
 ---
 title: Weihnachtsbuch und das resultierende md-book-with-docraptor Repository
 date: 2023-12-31
-featuredImage: src/content/assets/img/20231231_weihnachtsbuch.png
+featuredImage: /assets/img/20231231_weihnachtsbuch.png
 description: Mit dem persönlichen PrintCSS-Projekt haben wir eine eigene Weihnachtsgeschichte zu einem Geschenk gemacht. Sie wurde mit dem Prince Renderer in ein PDF umgewandelt und gedruckt. Zudem kann die Geschichte digital als [mobilefreundliche Webseite](https://stebre.ch/weihnachtsbuch2023) gelesen werden.
 tags:
   - content-first
@@ -24,7 +24,7 @@ Mit den erstellten Markdown-Files hätte ich das Buch in InDesign oder einem and
 
 Ich wollte es jedoch mit dem PDF Renderer [Prince](https://www.princexml.com/) bewerkstelligen – auch wenn ich damit um ein vielfaches mehr Zeit aufwenden musste 😅. Nebst dem ich mich tiefer damit auseinandersetzen wollte und davon lernen wollte, war die Idee eine Grundlage für künftige Projekte zu schaffen. Die Stärke von PrintCSS zeigt sich bei Wiederholungen und standardisierten Ausgaben.
 
-![Foto Stapel des gedruckten Buches.](../../assets/img/20231231_weihnachtsbuch_1.png)
+![Foto Stapel des gedruckten Buches.](/assets/img/20231231_weihnachtsbuch_1.png)
 
 ## md-book-with-docraptor
 
@@ -38,10 +38,10 @@ Mit dem Layouten mithilfe von CSS muss natürlich auch eine bildschirmoptimierte
 
 Die Webseite startet mit einer bildschirmfüllenden Titelbereich mit dem Coverbild als Hintergrund.
 
-![Screenshot des Titelbereichs der Webseite.](../../assets/img/20231231_weihnachtsbuch_2.png)
+![Screenshot des Titelbereichs der Webseite.](/assets/img/20231231_weihnachtsbuch_2.png)
 Zwischen den einzelnen Kapiteln kann ein Separatorzeichen gewählt werden. Ich habe die Stern-Glyphe gewählt. Während dem Scrollen wird der Fortschritt mit einem Balken oben in der Akzentfarbe angezeigt.
 
-![Screenshot eines Kapitelbeginns. Der Fortschrittsbalken ist sichtbar wie auch der Kapitel-Separator.](../../assets/img/20231231_weihnachtsbuch_3.png)
+![Screenshot eines Kapitelbeginns. Der Fortschrittsbalken ist sichtbar wie auch der Kapitel-Separator.](/assets/img/20231231_weihnachtsbuch_3.png)
 Das Impressum, welches im Buch zu Begin im Inhaltsteil erscheint, wird auf der Webseite im Fussbereich angezeigt.
 
-![Screenshot des Footers.](../../assets/img/20231231_weihnachtsbuch_4.png)
+![Screenshot des Footers.](/assets/img/20231231_weihnachtsbuch_4.png)

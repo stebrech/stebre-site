@@ -84,7 +84,7 @@ export default function (eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("featuredImageOgLink", (image) => {
-		return image.replace(/\.[^/.]+$/, "") + "_450.webp";
+		return image.replace(/\.[^/.]+$/, "") + "_500.webp";
 	});
 
 	eleventyConfig.addFilter("cssmin", function (code) {

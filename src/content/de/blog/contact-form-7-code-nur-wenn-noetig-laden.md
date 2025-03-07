@@ -1,7 +1,7 @@
 ---
 title: Contact Form 7 Code nur wenn nötig laden
 date: 2012-07-26
-featuredImage: src/content/assets/img/20120726_contact-form-7-code-nur-wenn-noetig-laden.jpg
+featuredImage: /assets/img/20120726_contact-form-7-code-nur-wenn-noetig-laden.jpg
 description: Verwendet ihr das WordPress Plugin [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) auf eurer Website? Vielleicht ist euch schon aufgefallen, dass eine JavaScript- und eine CSS-Datei auf jeder einzelnen Seite eurer Website in den Header geladen wird.
 tags:
   - performance
@@ -30,7 +30,7 @@ function deregister_cf7_styles() {
 
 Danach müsst ihr nur noch die Ziffern in den zwei Arrays anpassen. Dort werden die ID’s der Pages eingesetzt, in denen ein Formular von Contact Form 7 verwendet wird. Die ID findet ihr in der Backend-URL des Posts.
 
-![Post ID in Backend URL](../../assets/img/20120726_contact-form-7-code-nur-wenn-noetig-laden_1.jpg)
+![Post ID in Backend URL](/assets/img/20120726_contact-form-7-code-nur-wenn-noetig-laden_1.jpg)
 
 _Post ID in Backend URL_
 

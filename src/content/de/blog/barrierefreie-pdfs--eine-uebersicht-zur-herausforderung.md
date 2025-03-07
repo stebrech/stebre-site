@@ -1,7 +1,7 @@
 ---
 title: Barrierefreie PDFs – Eine Übersicht zur Herausforderung
 date: 2016-10-31
-featuredImage: src/content/assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung.jpg
+featuredImage: /assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung.jpg
 description: Letzte Woche ist die [Schweizer Accessibility-Studie 2016](https://www.access-for-all.ch/ch/aktuell-sp-19351/518-schweizer-accessibility-studie-2016.html) der Stiftung [Zugang für alle](http://www.access-for-all.ch/ch/) erschienen. Sie untersucht Webauftritte öffentlicher Institutionen, also Webseiten von Departementen, Kantonen und grösseren Städten sowie Hochschulen und Newsportalen. Ein auffällig konstantes Manko ist die Zugänglichkeit von PDF-Dokumenten.
 tags:
   - barrierefreiheit
@@ -109,7 +109,7 @@ Das PDF-Format wird auch als Beispiel der möglichen Webinhalte genannt, weshalb
 
 Das wohl umfangreichste und bekannteste Tool um PDFs auf dessen Barrierefreiheit zu testen, ist PAC 2. Es wurde von der Firma xyMedia entwickelt und wird von der Schweizer Stiftung [Zugang für alle](http://www.access-for-all.ch/ch/pdf-werkstatt/pdf-accessibility-checker-pac.html) vertrieben.
 
-![Screenshot PAC](../../assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung_2.png)
+![Screenshot PAC](/assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung_2.png)
 
 Es kann kostenlos heruntergeladen und verwendetet werden ([Donationware](https://de.wikipedia.org/wiki/Donationware)). Obwohl im DTP-Bereich vielfach mit einem Mac-Betriebssystem gearbeitet wird, läuft PAC zurzeit leider nur auf einem Windows-System. Auf Mac und Linux Rechnern muss daher mit einer Virtualisierungssoftware gearbeitet werden.
 
@@ -122,7 +122,7 @@ Prüfung. Die Prüfkriterien von PAC 2 basieren auf genannten Matterhorn Protoko
 
 Bei der technischen Überprüfung werden nebst dem PDF/UA-Standard auch die Konformität des PDF-Standards, WCAG und zusätzliche Punkte kontrolliert.
 
-![Pyramidengrafik zur PAC 2 Prüfung. Prüfung von PDF-, PDF-UA-Standard, WCAG und eigenen Prüfpunkten.](../../assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung_3.jpg)
+![Pyramidengrafik zur PAC 2 Prüfung. Prüfung von PDF-, PDF-UA-Standard, WCAG und eigenen Prüfpunkten.](/assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung_3.jpg)
 
 _Quelle der Grafik: Blog der Stiftung Zugang für alle._
 

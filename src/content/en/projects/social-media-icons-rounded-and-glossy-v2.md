@@ -1,7 +1,7 @@
 ---
 title: Social Media Icons Rounded and Glossy v2
 date: 2012-07-04
-featuredImage: src/content/assets/img/20120704_social-media-icons-rounded-and-glossy-v2.jpg
+featuredImage: /assets/img/20120704_social-media-icons-rounded-and-glossy-v2.jpg
 description: Like [the previous version](https://stebre.ch/projects/social-media-icons-rounded-and-glossy-v1/), the icons consist of a series of symbols from various social media services. These icons have been replaced by a rounder background. In addition, a different gloss effect is used.
 tags:
   - icons

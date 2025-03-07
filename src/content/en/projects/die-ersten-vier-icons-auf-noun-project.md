@@ -1,7 +1,7 @@
 ---
 title: The first four icons on Noun Project
 date: 2014-10-06
-featuredImage: src/content/assets/img/20141006_die-ersten-vier-icons-auf-noun-project.png
+featuredImage: /assets/img/20141006_die-ersten-vier-icons-auf-noun-project.png
 description: I have made the four icons shown available on Noun Project.
 tags:
   - icons

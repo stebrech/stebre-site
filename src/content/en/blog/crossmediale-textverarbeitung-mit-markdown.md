@@ -1,7 +1,7 @@
 ---
 title: Cross-media text processing with Markdown
 date: 2018-04-16
-featuredImage: src/content/assets/img/20180416_crossmediale-textverarbeitung-mit-markdown.jpg
+featuredImage: /assets/img/20180416_crossmediale-textverarbeitung-mit-markdown.jpg
 description: A major challenge in media-neutral data production is the lack of awareness of structured content. If content is (initially) created in text processing programs such as Microsoft Word, attempts are made to make it appealing. In most cases, however, a clean structure falls by the wayside.
 tags:
   - accessibility
@@ -56,7 +56,7 @@ In my opinion is Markdown a small but fine alternative to such services. I see t
 	- My favorite editor [iA Writer](https://ia.net/writer) is designed to use Markdown markup and connects directly to [WordPress.com](https://wordpress.com/) or [WordPress](https://wordpress.org/) with [Jetpack](https://jetpack.com/).
 	- If Markdown cannot be used in your CMS, Markdown must first be converted to HTML, see the following sections.
 
-![iA Writer in action. gif animation](../../assets/img/20180416_crossmediale-textverarbeitung-mit-markdown_1.gif)
+![iA Writer in action. gif animation](/assets/img/20180416_crossmediale-textverarbeitung-mit-markdown_1.gif)
 
 _iA Writer - a simple Markdown editor_
 
