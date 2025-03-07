@@ -3,8 +3,8 @@ title: 'WebAIM: Using VoiceOver to Evaluate Web Accessibility'
 tags:
   - barrierefreiheit
 status: done
-weblink: 'https://webaim.org/articles/voiceover/'
-date: 2021-03-15T00:00:00.000Z
+weblink: https://webaim.org/articles/voiceover/
+date: 2021-03-15
 bookmarkLang: en
 socialImage: 
 description: Eine umfangreiche Sammlung von Tastenbefehlen für VoiceOver.

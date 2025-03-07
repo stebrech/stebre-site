@@ -3,7 +3,7 @@ title: 5 Keys to Accessible Web Typography
 tags:
   - barrierefreiheit
   - typografie
-status: translate
+status: done
 weblink: https://betterwebtype.com/5-keys-to-accessible-web-typography/
 date: 2021-02-25
 bookmarkLang: en

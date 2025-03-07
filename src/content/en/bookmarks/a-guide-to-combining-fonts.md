@@ -3,10 +3,10 @@ title: A Guide to Combining Fonts
 tags:
   - typography
 status: needs-review
-weblink: 'https://betterwebtype.com/guide-to-combining-fonts/'
-date: 2021-03-03T00:00:00.000Z
+weblink: https://betterwebtype.com/guide-to-combining-fonts/
+date: 2021-03-03
 bookmarkLang: en
-socialImage: 'https://betterwebtype.com/assets/img/posts/combining-fonts-guide/post@2x.jpg'
+socialImage: https://betterwebtype.com/assets/img/posts/combining-fonts-guide/post@2x.jpg
 description: What you should pay attention to when combining different fonts.
 ---
 <blockquote>Combining fonts is one of the trickiest parts of typography. Here's a guide, combined with an example to help you get font combinations right.<footer>— <a href="https://betterwebtype.com/guide-to-combining-fonts/">betterwebtype.com</a></footer></blockquote>

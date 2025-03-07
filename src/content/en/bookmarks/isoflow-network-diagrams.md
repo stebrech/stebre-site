@@ -4,8 +4,8 @@ tags:
   - diagram
   - webapp
 status: done
-weblink: 'https://isoflow.io/'
-date: 2020-08-25T00:00:00.000Z
+weblink: https://isoflow.io/
+date: 2020-08-25
 bookmarkLang: en
 socialImage: 
 description: Isoflow is a tool to create visually appealing diagrams.

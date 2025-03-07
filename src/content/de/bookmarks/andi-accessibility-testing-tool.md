@@ -4,8 +4,8 @@ tags:
   - barrierefreiheit
   - testen
 status: done
-weblink: 'https://www.ssa.gov/accessibility/andi/help/install.html'
-date: 2021-03-01T00:00:00.000Z
+weblink: https://www.ssa.gov/accessibility/andi/help/install.html
+date: 2021-03-01
 bookmarkLang: en
 socialImage: 
 description: Ein Bookmarklet für die Überprüfung der Barrierefreiheit einer Website.
