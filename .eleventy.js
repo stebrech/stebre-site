@@ -3,12 +3,12 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
-import pluginCollections from "./_config/collections.js";
-import pluginFilters from "./_config/filters.js";
-import pluginImages from "./_config/images.js";
-import pluginMarkdown from "./_config/markdown.js";
-import pluginPassthroughCopy from "./_config/passthroughCopy.js";
-import pluginWatchTarget from "./_config/watchTarget.js";
+import pluginCollections from "./src/_config/collections.js";
+import pluginFilters from "./src/_config/filters.js";
+import pluginImages from "./src/_config/images.js";
+import pluginMarkdown from "./src/_config/markdown.js";
+import pluginPassthroughCopy from "./src/_config/passthroughCopy.js";
+import pluginWatchTarget from "./src/_config/watchTarget.js";
 
 export default function (eleventyConfig) {
 	// Official plugins
@@ -40,7 +40,7 @@ export default function (eleventyConfig) {
 		htmlTemplateEngine: "njk",
 
 		dir: {
-			input: ".",
+			input: "src",
 			includes: "_templates",
 			data: "_data",
 			output: "_site",

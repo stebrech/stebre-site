@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="{{ page.lang }}" dir="{{ dir }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{% if templateClass !== "home" %}{{ title or tag }} | {% endif %}{{ metadata.title }}</title>
+		<meta name="description" content="{{ description | removeMarkdown or metadata.description[page.lang] }}">
+
+		{#- Atom and JSON feeds included by default #}
+		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_projects.xml" type="application/atom+xml" title="{{ i18n.mainnav.projects[page.lang] }} | {{ metadata.title }}">
+		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_posts.xml" type="application/atom+xml" title="{{ i18n.mainnav.blog[page.lang] }} | {{ metadata.title }}">
+		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed_bookmarks.xml" type="application/atom+xml" title="{{ i18n.mainnav.bookmarks[page.lang] }} | {{ metadata.title }}">
+
+		{#- Stylesheets #}
+		{% set css %}
+			{% include "../../assets/styles/reset.css" %}
+			{% include "../../assets/styles/accessibility.css" %}
+			{% include "../../assets/styles/layout.css" %}
+			{% include "../../assets/styles/elements.css" %}
+			{% if templateClass === "home" or templateClass === "postlist" or templateClass === "taglist" %}
+				{% include "../../assets/styles/post_preview.css" %}
+			{% endif %}
+			{% if templateClass === "linktipps" %}
+				{% include "../../assets/styles/linktipps.css" %}
+			{% endif %}
+			{% if templateClass === "home" %}
+				{% include "../../assets/styles/home.css" %}
+			{% endif %}
+		{% endset %}
+		<style>
+			{{ css | cssmin | safe }}
+		</style>
+		<link rel="stylesheet" href="/assets/styles/animate.min.css">
+		<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+
+		{#- Scripts #}
+		<script src="/../../assets/js/body-scroll-lock-upgrade/index.umd.js"></script>
+		<script src="/../../assets/js/menu.js" defer></script>
+		<script src="/../../assets/js/animateInViewport.js" defer></script>
+		<script src="/../../assets/js/search.js" defer></script>
+		<script src="/../../assets/js/figureGallery.js" defer></script>
+		<script src="/pagefind/pagefind-ui.js" defer></script>
+		<script>
+			window.addEventListener('DOMContentLoaded', (event) => {
+				new PagefindUI({ element: "#search", showSubResults: true });
+			});
+		</script>
+
+		{#- Favicons #}
+		{% include "includes/favicon.njk" %}
+
+		{#- Open Graph #}
+		{% include "includes/og.njk" %}
+
+		{#- Love for 11ty #}
+		<meta name="generator" content="{{ eleventy.generator }}">
+
+	</head>
+	<body class="{% if templateClass %}{{ templateClass }}{% endif %}">
+		<div class="site">
+			<a href="#primary" class="skip_link screen-reader-text">{{ i18n.skiplink[page.lang] }}</a>
+
+			<header class="site_header topnav wrapper" role="banner">
+				<div class="left">
+					{% include "includes/nav_main.njk" %}
+				</div>
+				<div class="right">
+					{% if '/tags' not in page.url %} {# Workaround because of the bug  #}
+						{% include "includes/lang_switcher.njk" %}
+					{% endif	 %}
+					<button id="search-icon" aria-label="Search">
+						{% include "includes/search.svg" %}
+					</button>
+				</div>
+			</header>
+
+			<main id="primary" class="site_main">
+				<div id="search-container" class="containerM screen-reader-text" aria-hidden="true">
+					<div id="search"></div>
+					<div id="search-close-container">
+						<button id="search-close" aria-label="Schliessen">{{ i18n.search.close[page.lang] }}</button>
+					</div>
+				</div>
+				{{ content | safe }}
+			</main>
+			{% include "includes/footer.njk" %}
+		</div>
+	</body>
+</html>
+
+
