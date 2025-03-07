@@ -1,7 +1,7 @@
 <meta property="og:title" content="{{ title }} | {{ metadata.title }}"/>
 <meta property="og:description" content="{{ description | removeMarkdown or metadata.description[page.lang] }}"/>
 {% if featuredImage %}
-	<meta property="og:image" content="{{ metadata.url }}/{{ featuredImage | featuredImageOgLink }}"/>
+	<meta property="og:image" content="{{ metadata.url }}{{ featuredImage | featuredImageOgLink }}"/>
 {% else %}
 	<meta property="og:image" content="{{ metadata.url }}/assets/img/stebrech.png"/>
 {% endif %}
