@@ -6,7 +6,7 @@ description: Durch einen Beitrag auf codevisually.com bin ich auf ein nettes Hel
 tags:
   - app
   - icons
-status: done-without-translation
+status: done
 ---
 Das Beste dabei – es werden sämtliche Grössenformate automatisch erstellt.
 

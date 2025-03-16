@@ -7,7 +7,7 @@ description: PAC ist einzigartiges Prüftool um PDFs auf deren Barrierefreiheit 
 tags:
   - barrierefreiheit
   - pdf
-status: done-without-translation
+status: done
 ---
 PAC ist einzigartiges Prüftool um PDFs auf deren Barrierefreiheit / Zugänglichkeit zu testen. In [[blog/barrierefreie-pdfs--eine-uebersicht-zur-herausforderung|Barrierefreie PDFs – Eine Übersicht zur Herausforderung]] habe ich kurz über das Tool berichtet. Man kann damit Prüfpunkte des [Matterhorn Protokolls](https://pdfa.org/resource/the-matterhorn-protocol/) kontrollieren. Zudem enthält es den _Screenreader_ Modus, welcher die Tags der einzelnen Inhalte farblich darstellt.
 

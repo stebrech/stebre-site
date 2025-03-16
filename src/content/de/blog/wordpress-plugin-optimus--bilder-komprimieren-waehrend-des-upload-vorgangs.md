@@ -7,7 +7,7 @@ tags:
   - bildoptimierung
   - wordpress
   - performance
-status: done-without-translation
+status: done
 ---
 Auf [Cashys Blog](http://stadt-bremerhaven.de/optimus-bilder-fuer-blogs-optimieren/) und [JCFRICKs Tech Blog](http://www.ifrick.ch/2012/10/optimus-wordpress-plugin-bilder-automatisch-optimieren/) habe ich von Optimus erfahren. Optimus kann den Arbeitsprozess, besonders auf bildreichen Webseiten stark beschleunigen, weshalb auch ich über dieses Plugin berichten möchte.
 

@@ -6,7 +6,7 @@ description: Ich möchte euch ein praktisches WordPress Plugin empfehlen, welche
 tags:
   - performance
   - wordpress
-status: done-without-translation
+status: done
 ---
 ## Die Bildgrössen in den Mediathek Einstellungen
 

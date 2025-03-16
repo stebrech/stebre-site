@@ -6,7 +6,7 @@ description: Verwendet ihr das WordPress Plugin [Contact Form 7](https://wordpre
 tags:
   - performance
   - wordpress
-status: done-without-translation
+status: done
 ---
 Dies machen übrigens viele andere Plugins auch. Bei einem Plugin wie [Contact Form 7](http://wordpress.org/plugins/contact-form-7/), welches in der Regel auf ein, zwei Seiten eingesetzt wird, ist es fraglich ob dies Sinn macht. Das Plugin erzeugt dadurch nämlich auf allen anderen Seiten unnötige [HTTP-Requests](http://de.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP-Request-Methoden), was die Seite verlangsamt.
 

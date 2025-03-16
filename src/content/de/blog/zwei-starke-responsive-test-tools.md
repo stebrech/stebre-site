@@ -6,7 +6,7 @@ description: Das Web ist mobil. Es werden täglich mehr User, welche ihre Inhalt
 tags:
   - app
   - webentwicklung
-status: done-without-translation
+status: done
 ---
 Um eine Website auf allen möglichen Geräten zu testen, ist, aufgrund der Anzahl verschiedenen Auflösungen, unmöglich. Aus diesem Grund wurden bereits etliche Tools entwickelt um eine Website direkt im Browser in verschiedenen Ausgabegrössen zu testen.
 

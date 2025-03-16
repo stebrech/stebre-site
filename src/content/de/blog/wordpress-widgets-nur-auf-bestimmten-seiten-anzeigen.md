@@ -5,7 +5,7 @@ featuredImage: /assets/img/20120710_wordpress-widgets-nur-auf-bestimmten-seiten-
 description: "Folgendes Szenario: Ihr betreibt mithilfe von WordPress ein Blog. Zusätzlich bietet ihr noch Inhalte auf einigen [Pages](http://codex.wordpress.org/Post_Types#Page) oder [Custom Post Types](http://codex.wordpress.org/Post_Types#Custom_Types) an. Ihr möchtet in der Sidebar des Blogs einige spezifische Widgets wie zum Beispiel eine Kategorie- oder Tagliste anzeigen. Diese Widgets sollen aber nur im Blog und nicht auf den anderen Pages angezeigt werden."
 tags:
   - wordpress
-status: done-without-translation
+status: done
 ---
 Bei diesem Praxisbeispiel beinhaltet das Page Template dieselbe Sidebar wie das Blog.
 

@@ -8,6 +8,7 @@ import pluginFilters from "./src/_config/filters.js";
 import pluginImages from "./src/_config/images.js";
 import pluginMarkdown from "./src/_config/markdown.js";
 import pluginPassthroughCopy from "./src/_config/passthroughCopy.js";
+import pluginStatus from "./src/_config/status.js";
 import pluginWatchTarget from "./src/_config/watchTarget.js";
 
 export default function (eleventyConfig) {
@@ -27,6 +28,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginImages);
 	eleventyConfig.addPlugin(pluginMarkdown);
 	eleventyConfig.addPlugin(pluginPassthroughCopy);
+	eleventyConfig.addPlugin(pluginStatus);
 	eleventyConfig.addPlugin(pluginWatchTarget);
 
 	return {
