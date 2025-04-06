@@ -11,7 +11,7 @@ status: done
 ---
 Eigentlich war die Idee, diese Icons auf [[projects/accessible-pdf-info|accessible-pdf.info]] zu verwenden, dies habe ich dann aber wieder verworfen.
 
-![Icons Matterhorn Protokoll.](/assets/img/20180615_icons-matterhorn-protokoll_1.gif)
+![Icons Matterhorn Protokoll.](../../../assets/img/20180615_icons-matterhorn-protokoll_1.gif)
 
 Mithilfe des Matterhorn Protokoll kann ein PDF-Dokument ob es PDF/UA konform ist. PDF/UA ist eine PDF-Spezifikation und ISO-Standard, welcher definiert was es benötigt damit ein PDF als barrierefrei und zugänglich gilt.
 

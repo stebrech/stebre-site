@@ -37,14 +37,14 @@ Eine Herausforderung, dass sie zentriert angezeigt wird und in **alle Richtungen
 
 Die selbstgezeichneten, grafischen Elemente des Wintermarkts wurden von meiner Frau **Dominique** kreiert. 
 
-![Gezeichnete Karte mit den Ständen als Marker gekennzeichnet. Screenshot.](/assets/img/20241110_landingpage-wintermarkt-wahlen-map.jpg)
+![Gezeichnete Karte mit den Ständen als Marker gekennzeichnet. Screenshot.](../../../assets/img/20241110_landingpage-wintermarkt-wahlen-map.jpg)
 
 Die Karte konnte in abgeänderter Form vom letzten Wintermarkt übernommen werden. 
 
-![Die ersten Sponsorenlogos. Screenshot.](/assets/img/20241110_landingpage-wintermarkt-wahlen-sponsoren.jpg)
+![Die ersten Sponsorenlogos. Screenshot.](../../../assets/img/20241110_landingpage-wintermarkt-wahlen-sponsoren.jpg)
 
 Alle Sponsorenlogos wurden nachgezeichnet.
 
-![Frontseite des Wintermarkt-Hefts](/assets/img/20241110_landingpage-wintermarkt-wahlen-heft.jpg)
+![Frontseite des Wintermarkt-Hefts](../../../assets/img/20241110_landingpage-wintermarkt-wahlen-heft.jpg)
 
 Das Hauptbild des Wintermarkts schmückt das Wintermarkt-Heft und den Flyer.

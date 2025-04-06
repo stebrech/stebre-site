@@ -15,7 +15,7 @@ In meiner Pocket hat sich vieles, wertvolles angesammelt – zum grossen Teil un
 
 Auf meiner Website möchte ich nur (aus meiner Sicht) relevante Inhalte veröffentlichen. Daher ist dies ein guter Anlass all die gespeicherten Links durchzugehen und mir für später Gespeichertes endlich vorzunehmen.
 
-Zu jedem wertvollen Link einen Blogartikel zu schreiben, fehlt mir die Zeit. Daher ist die Rubrik [[../bookmarks|Lesezeichen]] auf meiner Website entstanden. Da schreibe ich zumindest einen kurzen persönlichen Beschreibungstext dazu. Der Rest möchte ich soweit möglich automatisieren.
+Zu jedem wertvollen Link einen Blogartikel zu schreiben, fehlt mir die Zeit. Daher ist die Rubrik [Lesezeichen](/bookmarks) auf meiner Website entstanden. Da schreibe ich zumindest einen kurzen persönlichen Beschreibungstext dazu. Der Rest möchte ich soweit möglich automatisieren.
 
 ## Metadaten in Pocket
 

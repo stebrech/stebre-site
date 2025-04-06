@@ -9,10 +9,10 @@ tags:
 featured: false
 status: done
 ---
-![Signetvarianten INNOCU](/assets/img/20180305_innocu-logo_1.png)
+![Signetvarianten INNOCU](../../../assets/img/20180305_innocu-logo_1.png)
 
 Das Signet kann ohne Text benutzt und in drei verschiedenen Detailstufen verwendet werden. Damit kann das Signet auf sehr kleiner Fläche als Stempel, z.B. mittels Laserung, angebracht werden.
 
-![Animation des Logos Innocu.](/assets/img/20180305_innocu-logo_2.gif)
+![Animation des Logos Innocu.](../../../assets/img/20180305_innocu-logo_2.gif)
 
 [Innocu Logo Animation auf Dribbble](https://dribbble.com/shots/4301001-Innocu-Animation)
