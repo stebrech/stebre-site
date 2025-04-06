@@ -70,7 +70,7 @@ Beispiele dafür können sein:
 
 Du kannst dir vorstellen die möglichen Szenarien sind unendlich.
 
-![Seite aus dem Inclusive 101 Toolkit Flyer von Microsoft Design: microsoft.com/design/inclusive](/assets/img/20200226_weshalb-barrierefreiheit-keine-option-ist_1.png)
+![Seite aus dem Inclusive 101 Toolkit Flyer von Microsoft Design: microsoft.com/design/inclusive](../../../assets/img/20200226_weshalb-barrierefreiheit-keine-option-ist_1.png)
 
 Infografik mit Menschen, die permanent, temporär oder situativ in den vier verschiedenen Sinnen Berührung, Sehen, Hören, Sprechen eingeschränkt sind.
 

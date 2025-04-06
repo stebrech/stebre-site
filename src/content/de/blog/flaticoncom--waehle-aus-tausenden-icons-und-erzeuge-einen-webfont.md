@@ -5,7 +5,7 @@ featuredImage: /assets/img/20131113_flaticoncom--waehle-aus-tausenden-icons-und-
 description: "[flaticon.com](https://www.flaticon.com/) ist eine Suchmaschine um geeignete Icons im “Flat”-Stil ausfindig zu machen. Der Dienst stammt von den Machern von [freepik](https://www.freepik.com/), einer beliebten Suchmaschine für Vektorgrafiken, Fotos und Photoshop-Dateien."
 tags:
   - icons
-status: done
+status: done-without-translation
 ---
 ## Flat Design - was ist das?
 
@@ -17,11 +17,11 @@ Die Anzahl an Icons, welche auf flaticon.com gefunden werden können, beträgt i
 
 ## Tags, Kategorien und Packs
 
-![flaticon Kategorien und Tags](/assets/img/20131113_flaticoncom--waehle-aus-tausenden-icons-und-erzeuge-einen-webfont_1.jpg)
+![flaticon Kategorien und Tags](../../../assets/img/20131113_flaticoncom--waehle-aus-tausenden-icons-und-erzeuge-einen-webfont_1.jpg)
 
 Da die die Auswahl riesig ist, helfen Kategorien, Tags und Packs für das Auffinden der gesuchten Icons. Wird das Suchfeld benutzt, helfen die Tags (Schlagwörter) die Icons zu beschreiben und beim zutreffenden Suchwort aufzulisten. Die Kategorien sind Oberbegriffe und fassen inhaltlich passende Icons zusammen. Die Packs sind Sammlungen eines Designers welche stilistisch und thematisch zusammengehören.
 
-![flaticon Detailansicht](/assets/img/20131113_flaticoncom--waehle-aus-tausenden-icons-und-erzeuge-einen-webfont_2.jpg)
+![flaticon Detailansicht](../../../assets/img/20131113_flaticoncom--waehle-aus-tausenden-icons-und-erzeuge-einen-webfont_2.jpg)
 
 Die Detailansicht eines Icons beinhaltet die Angabe des Designer und der Lizenz mit dessen das Icon zur Verfügung gestellt wird.
 

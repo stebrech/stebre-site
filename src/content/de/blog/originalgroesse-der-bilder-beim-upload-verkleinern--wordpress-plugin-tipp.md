@@ -6,13 +6,13 @@ description: Ich möchte euch ein praktisches WordPress Plugin empfehlen, welche
 tags:
   - performance
   - wordpress
-status: done
+status: done-without-translation
 ---
 ## Die Bildgrössen in den Mediathek Einstellungen
 
 Wenn man im WordPress Backend ein Bild hochlädt, werden automatisch drei Kopien in verschiedenen Bildgrössen erstellt. Die kleinste Version ist das Miniaturbild, welches bei Bedarf automatisch zugeschnitten wird. Desweiteren wird noch eine Bildkopie in mittlerer und maximaler Bildgrösse erzeugt. Die verschiedenen Bildgrössen könnt ihr natürlich in den Einstellungen selbst definieren.
 
-![Screenshot der Mediathek Einstellungen – Bereich Bildgrösse](/assets/img/20121125_originalgroesse-der-bilder-beim-upload-verkleinern--wordpress-plugin-tipp_1.jpeg)
+![Screenshot der Mediathek Einstellungen – Bereich Bildgrösse](../../../assets/img/20121125_originalgroesse-der-bilder-beim-upload-verkleinern--wordpress-plugin-tipp_1.jpeg)
 
 Tipp: Ihr könnt einzelne Bildgrössen ausschliessen indem ihr jeweils 0 einsetzt. Wird beispielsweise eine Bildgrösse nie verwendet, kann dadurch Platz gespart werden.
 
@@ -30,7 +30,7 @@ Ein weiteres Problem besteht, wenn das verwendete Bilder mit einem Link zum Orig
 
 Beim Medien Uploader erscheint nun ein Kontrollkästchen, welches die Plugin Funktion ausführt oder eben nicht.
 
-![Aktivierung oder Deaktivierung der Plugin Funktion im Medien Uploader](/assets/img/20121125_originalgroesse-der-bilder-beim-upload-verkleinern--wordpress-plugin-tipp_2.jpeg)
+![Aktivierung oder Deaktivierung der Plugin Funktion im Medien Uploader](../../../assets/img/20121125_originalgroesse-der-bilder-beim-upload-verkleinern--wordpress-plugin-tipp_2.jpeg)
 
 _Aktivierung oder Deaktivierung der Plugin Funktion im Medien Uploader_
 

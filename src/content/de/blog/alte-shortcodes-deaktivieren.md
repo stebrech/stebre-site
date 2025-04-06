@@ -55,7 +55,7 @@ ausgeblendet werden. Dies kleiner Codeschnipsel packt man am besten in die `func
 
 Eine weitere Möglichkeit ist die Installation des Plugins [Remove Orphan Shortcodes](https://wordpress.org/plugins/remove-orphan-shortcodes/). Dieses Plugin sucht inaktive Shortcodes und blendet diese aus den Inhalten aus.
 
-![WP Plugin Remove Orphan Shortcodes](/assets/img/20160421_alte-shortcodes-deaktivieren_1.jpg)
+![WP Plugin Remove Orphan Shortcodes](../../../assets/img/20160421_alte-shortcodes-deaktivieren_1.jpg)
 
 ## Welche Shortcodes habe ich an Board?
 

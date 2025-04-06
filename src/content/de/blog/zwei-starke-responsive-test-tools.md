@@ -6,7 +6,7 @@ description: Das Web ist mobil. Es werden täglich mehr User, welche ihre Inhalt
 tags:
   - app
   - webentwicklung
-status: done
+status: done-without-translation
 ---
 Um eine Website auf allen möglichen Geräten zu testen, ist, aufgrund der Anzahl verschiedenen Auflösungen, unmöglich. Aus diesem Grund wurden bereits etliche Tools entwickelt um eine Website direkt im Browser in verschiedenen Ausgabegrössen zu testen.
 
@@ -14,7 +14,7 @@ Zu diesem Zweck möchte ich euch meine zwei Favoriten-Tools vorstellen:
 
 ## Viewport Resizer
 
-![Viewport Resizer](/assets/img/20130705_zwei-starke-responsive-test-tools_1.jpg)
+![Viewport Resizer](../../../assets/img/20130705_zwei-starke-responsive-test-tools_1.jpg)
 
 Der [Viewport Resizer](http://lab.maltewassermann.com/viewport-resizer/) ist ein [Bookmarklet](http://de.wikipedia.org/wiki/Bookmarklet) welches sich ganz einfach im Browser installieren lässt. Auf dessen Website wird ein Button gezeigt, welcher ganz einfach per [Drag and Drop](http://de.wikipedia.org/wiki/Drag_and_Drop) in die Lesezeichen gezogen werden kann. Anschliessend kann jede beliebige Website, mithilfe eines Klicks auf das Lesezeichen, in verschiedenen Ausgabegrössen wie beispielsweise dem iPhone 5 angezeigt werden. Dazu erscheint nach dem Klicken eine dunkle Navigation im oberen Teil des Fensters.
 
@@ -26,7 +26,7 @@ Wer eine bestimmte Auflösung immer wieder benötigt, welche nicht als Shortcut 
 
 ## Responsive-Test von designmodo.com
 
-![Responsive-Test](/assets/img/20130705_zwei-starke-responsive-test-tools_2.jpg)
+![Responsive-Test](../../../assets/img/20130705_zwei-starke-responsive-test-tools_2.jpg)
 
 Die Möglichkeiten von [Responsive-Test](http://designmodo.com/responsive-test/) sind sehr ähnlich wie die von Viewport Resizer. Dabei handelt es sich jedoch nicht um ein Bookmarklet sondern um eine Website mit einem Eingabefeld indem die gewünschte Website eingegeben werden kann.
 

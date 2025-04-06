@@ -56,7 +56,7 @@ Ich bin der Meinung, dass Markdown eine kleine aber feine Alternative zu solchen
 	- Mein Lieblingseditor [iA Writer](https://ia.net/writer) ist für die Verwendung von Markdown-Auszeichnungen vorgesehen und lässt sich direkt mit [WordPress.com](https://wordpress.com/) oder [WordPress](https://wordpress.org/) mit [Jetpack](https://jetpack.com/) verbinden.
 	- Falls Markdown in deinem CMS nicht verwendet werden kann, müsste Markdown zuerst in HTML umgewandelt werden, siehe folgende Abschnitte.
 
-![iA Writer in Aktion. Gif-Animation.](/assets/img/20180416_crossmediale-textverarbeitung-mit-markdown_1.gif)
+![iA Writer in Aktion. Gif-Animation.](../../../assets/img/20180416_crossmediale-textverarbeitung-mit-markdown_1.gif)
 
 _iA Writer – ein simpler Markdown Editor_
 

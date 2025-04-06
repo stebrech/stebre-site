@@ -6,7 +6,7 @@ description: "[jpegmini.com](https://www.jpegmini.com/) ist ein Tool, welches di
 tags:
   - app
   - bildoptimierung
-status: done
+status: done-without-translation
 ---
 Seit sich die digitale Fotografie in unser Leben integrierte, brauchen wir uns nicht mehr um die Fotoentwicklung und deren Kosten zu kümmern. Wir knipsen also drauf los und suchen uns die schönsten Bilder aus. Nun speichern wir die Daten auf eigenen Festplatten oder externen Servern ab oder teilen sie in sozialen Netzen. Nach etlichen Fotos folgen die ersten Probleme wie eine logische Namensgebung und Sortierung, aber eben auch die platzraubende Datenmenge.
 
@@ -32,41 +32,41 @@ Werden Kamera-Rohdaten direkt mit JPEGmini bearbeitet, ist der Komprimierungsfak
 
 Das Bild liegt in der Bildgrösse 300px auf 472px vor. Das Ausgangslagebild, welches im JPEG-Format mit höchster Qualitätsstufe gespeichert wurde, ist **159KB** schwer. Die mit JPEGmini bearbeitete Version beträgt noch **59KB**. Könnt ihr auch den minimen Schärfeverlust sehen?
 
-![Normales JPEG - hohe Auflösung](/assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_1.jpg "Normales JPEG - hohe Auflösung")
+![Normales JPEG - hohe Auflösung](../../../assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_1.jpg "Normales JPEG - hohe Auflösung")
 
-![Normales JPEG - hohe Auflösung - JPEGmini](/assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_2.jpg "Normales JPEG - hohe Auflösung - JPEGmini")
+![Normales JPEG - hohe Auflösung - JPEGmini](../../../assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_2.jpg "Normales JPEG - hohe Auflösung - JPEGmini")
 
 Im zweiten Beispiel nahm ich wieder das Ausgangslagebild und speicherte es erneut als JPEG ab. Diesmal verwendete ich eine mittlere Qualitätsstufe. Die Dateigrösse beträgt noch **47KB** und nach JPEGmini noch **40KB**. Ein minimer Qualitätsverlust gegenüber des Ausgangsbildes ist feststellbar. Der Unterschied zu der mit JPEGmini bearbeiteten Version ist nun grösser. Die scharfen Kanten wirken verpixelter in der mit JPEGmini bearbeiteten Version.
 
-![Normales JPEG - mittlere Auflösung](/assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_3.jpg "Normales JPEG - mittlere Auflösung")
+![Normales JPEG - mittlere Auflösung](../../../assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_3.jpg "Normales JPEG - mittlere Auflösung")
 
-![Normales JPEG - mittlere Auflösung - JPEGmini](/assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_4.jpg "Normales JPEG - mittlere Auflösung - JPEGmini")
+![Normales JPEG - mittlere Auflösung - JPEGmini](../../../assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_4.jpg "Normales JPEG - mittlere Auflösung - JPEGmini")
 
 Vermutlich für alle Zwecke unbrauchbar wird das Bild mit niedrigster Qualitätsstufe. Diese Datei ist noch **30KB** schwer. Mithilfe von JPEGmini wird die Datei nicht mehr verkleinert, die Qualität aber noch einmal minim verschlechtert.
 
-![Normales JPEG - niedrige Auflösung](/assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_5.jpg "Normales JPEG - niedrige Auflösung")
+![Normales JPEG - niedrige Auflösung](../../../assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_5.jpg "Normales JPEG - niedrige Auflösung")
 
-![Normales JPEG - niedrige Auflösung - JPEGmini](/assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_6.jpg "Normales JPEG - niedrige Auflösung - JPEGmini")
+![Normales JPEG - niedrige Auflösung - JPEGmini](../../../assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_6.jpg "Normales JPEG - niedrige Auflösung - JPEGmini")
 
 ### JPEG-Speicherung mit der Photoshop Funktion “Für Web und Geräte speichern”
 
 Nun zeige ich euch noch die Unterschiede zur normalen JPEG Speicherung und der in Photoshop integrierten Funktion “Für Web und Geräte speichern”. Ich nehme auch hier das Ausgangslagebild und speichere es mithilfe von “Für Web und Geräte speichern” im JPEG-Format mit der vordefinierten Einstellung sehr hohe Qualität. Die Dateigrösse beträgt noch **60KB**. Nachdem ich auch dieses Bild mit JPEGmini bearbeitete, beträgt die Dateigrösse noch **42KB** mit kaum sichtbaren Qualitätsverlust.
 
-![JPEG für Web - sehr hohe Auflösung](/assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_7.jpg "JPEG für Web - sehr hohe Auflösung")
+![JPEG für Web - sehr hohe Auflösung](../../../assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_7.jpg "JPEG für Web - sehr hohe Auflösung")
 
-![JPEG für Web - sehr hohe Auflösung - JPEGmini](/assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_8.jpg "JPEG für Web - sehr hohe Auflösung - JPEGmini")
+![JPEG für Web - sehr hohe Auflösung - JPEGmini](../../../assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_8.jpg "JPEG für Web - sehr hohe Auflösung - JPEGmini")
 
 Beim nächsten Beispiel wendete ich wieder die Funktion “Für Web und Geräte speichern” an und benutzte die vordefinierte Einstellung mittlere Qualität. Das Bild ist noch **18KB** und nach JPEGmini noch **16KB** schwer. Mithilfe von JPEGmini werden nur 2KB gespart, die Qualität verschlechtert sich jedoch deutlich.
 
-![JPEG für Web - mittlere Auflösung](/assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_9.jpg "JPEG für Web - mittlere Auflösung")
+![JPEG für Web - mittlere Auflösung](../../../assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_9.jpg "JPEG für Web - mittlere Auflösung")
 
-![JPEG für Web - mittlere Auflösung - JPEGmini](/assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_10.jpg "JPEG für Web - mittlere Auflösung - JPEGmini")
+![JPEG für Web - mittlere Auflösung - JPEGmini](../../../assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_10.jpg "JPEG für Web - mittlere Auflösung - JPEGmini")
 
 Und zu guter Letzt noch ein Beispiel mit der Funktion “Für Web und Geräte speichern” und der vordefinierten Einstellung niedrige Qualität. Hier erhalten wir eine **12KB** leichte Bilddatei. Auch mit dieser niedrigsten Qualitätstufe ändert sich bei der Benutzung von JPEGmini nichts an der Dateigrösse.
 
-![JPEG für Web - niedrige Auflösung](/assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_11.jpg "JPEG für Web - niedrige Auflösung")
+![JPEG für Web - niedrige Auflösung](../../../assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_11.jpg "JPEG für Web - niedrige Auflösung")
 
-![JPEG für Web - niedrige Auflösung - JPEGmini](/assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_12.jpg "JPEG für Web - niedrige Auflösung - JPEGmini")
+![JPEG für Web - niedrige Auflösung - JPEGmini](../../../assets/img/20111014_fotos-komprimieren-mithilfe-von-jpegmini_12.jpg "JPEG für Web - niedrige Auflösung - JPEGmini")
 
 Welche Einstellungen das optimale Ergebnis zwischen Qualität und Dateigrösse erreichen, kann von Bild zu Bild unterscheiden. Natürlich spielt auch der genaue Verwendungszweck eine grosse Rolle.
 

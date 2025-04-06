@@ -19,13 +19,13 @@ Werden mehrere Codeschnipsel eingesetzt, kann der Überblick leicht verloren geh
 
 Um die oben genannte Nachteile auszumerzen, könnt ihr das [WordPress Plugin Code Snippets](http://wordpress.org/plugins/code-snippets/) einsetzen. Nach der Installation des Plugins erscheint im Hauptmenü links ein neuer Link mit dem Namen _Codeschnipsel_.
 
-![Codeschnipsel verwalten](/assets/img/20140121_wordpress-snippets-sinnvoll-integrieren_1.png)
+![Codeschnipsel verwalten](../../../assets/img/20140121_wordpress-snippets-sinnvoll-integrieren_1.png)
 
 Nun habt ihr ein Werkzeug zur Hand, welches euch das Verwalten von Snippets mit gewohnter Benutzeroberfläche ermöglicht und vereinfacht.
 
 Nachdem ihr ein Snippet hinzufügt, muss es noch aktiviert werden. Dies funktioniert auf dieselbe Weise wie ihr Plugins aktiviert/deaktiviert. Benötigt ihr ein Snippet einmal nicht mehr, wollt es jedoch noch nicht löschen, könnt ihr es deaktivieren.
 
-![Codeschnipsel hinzufügen](/assets/img/20140121_wordpress-snippets-sinnvoll-integrieren_2.png)
+![Codeschnipsel hinzufügen](../../../assets/img/20140121_wordpress-snippets-sinnvoll-integrieren_2.png)
 
 ### Exportieren & Importieren
 

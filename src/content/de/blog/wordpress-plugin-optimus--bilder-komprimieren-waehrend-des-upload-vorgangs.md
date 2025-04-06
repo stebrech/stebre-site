@@ -7,7 +7,7 @@ tags:
   - bildoptimierung
   - wordpress
   - performance
-status: done
+status: done-without-translation
 ---
 Auf [Cashys Blog](http://stadt-bremerhaven.de/optimus-bilder-fuer-blogs-optimieren/) und [JCFRICKs Tech Blog](http://www.ifrick.ch/2012/10/optimus-wordpress-plugin-bilder-automatisch-optimieren/) habe ich von Optimus erfahren. Optimus kann den Arbeitsprozess, besonders auf bildreichen Webseiten stark beschleunigen, weshalb auch ich über dieses Plugin berichten möchte.
 
@@ -15,7 +15,7 @@ Auf [Cashys Blog](http://stadt-bremerhaven.de/optimus-bilder-fuer-blogs-optimier
 
 Was Optimus auszeichnet ist die voll automatische Komprimierung während des Upload-Vorgangs. Dabei wird nicht nur das Bild in der Originalgrösse sondern auch sämtliche generierte Thumbnails komprimiert. Wie viel Datenmenge ihr einspart wird mithilfe einer Prozentzahl in der Mediathek dargestellt.
 
-![Optimus Anzeige der Komprimierung in der Mediathek](/assets/img/20121008_wordpress-plugin-optimus--bilder-komprimieren-waehrend-des-upload-vorgangs_1.jpg)
+![Optimus Anzeige der Komprimierung in der Mediathek](../../../assets/img/20121008_wordpress-plugin-optimus--bilder-komprimieren-waehrend-des-upload-vorgangs_1.jpg)
 
 Wie man es von [JPEGmini](https://www.jpegmini.com/) oder Smush.it kennt, entfernt Optimus lediglich unnötige und unsichtbare Bildinformationen. Somit bleibt trotz Komprimierung die Bildqualität bestehen.
 

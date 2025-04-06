@@ -51,7 +51,7 @@ Die häufigste Form ist die Rot/Grün-Sehschwäche, wovon ca. 8% der Männer und
 
 Die Berücksichtigung von Farbensehschwäche beginnt bereits bei der Erstellung und Gestaltung der Inhalte. Es ist zu beachten, dass kombinierende Farben genügend Kontraste aufweisen. Ein Tool um zu prüfen ob genügend Kontraste vorhanden sind, ist der [Colour Contrast Analyzer (CCA).](https://www.paciellogroup.com/resources/contrastanalyser/)
 
-![Grafik: Farbkreise simulieren wie Menschen mit der Rot/Grün-Sehschwäche die Farben wahrnehmen.](/assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung_1.png)
+![Grafik: Farbkreise simulieren wie Menschen mit der Rot/Grün-Sehschwäche die Farben wahrnehmen.](../../../assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung_1.png)
 
 _Quelle:_ [_Understanding Color Blindness: A Guide to Accessible Design_](http://www.cruxcollaborative.com/understanding-color-blindness-guide-to-accessible-design/)
 
@@ -109,7 +109,7 @@ Das PDF-Format wird auch als Beispiel der möglichen Webinhalte genannt, weshalb
 
 Das wohl umfangreichste und bekannteste Tool um PDFs auf dessen Barrierefreiheit zu testen, ist PAC 2. Es wurde von der Firma xyMedia entwickelt und wird von der Schweizer Stiftung [Zugang für alle](http://www.access-for-all.ch/ch/pdf-werkstatt/pdf-accessibility-checker-pac.html) vertrieben.
 
-![Screenshot PAC](/assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung_2.png)
+![Screenshot PAC](../../../assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung_2.png)
 
 Es kann kostenlos heruntergeladen und verwendetet werden ([Donationware](https://de.wikipedia.org/wiki/Donationware)). Obwohl im DTP-Bereich vielfach mit einem Mac-Betriebssystem gearbeitet wird, läuft PAC zurzeit leider nur auf einem Windows-System. Auf Mac und Linux Rechnern muss daher mit einer Virtualisierungssoftware gearbeitet werden.
 
@@ -122,7 +122,7 @@ Prüfung. Die Prüfkriterien von PAC 2 basieren auf genannten Matterhorn Protoko
 
 Bei der technischen Überprüfung werden nebst dem PDF/UA-Standard auch die Konformität des PDF-Standards, WCAG und zusätzliche Punkte kontrolliert.
 
-![Pyramidengrafik zur PAC 2 Prüfung. Prüfung von PDF-, PDF-UA-Standard, WCAG und eigenen Prüfpunkten.](/assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung_3.jpg)
+![Pyramidengrafik zur PAC 2 Prüfung. Prüfung von PDF-, PDF-UA-Standard, WCAG und eigenen Prüfpunkten.](../../../assets/img/20161031_barrierefreie-pdfs--eine-uebersicht-zur-herausforderung_3.jpg)
 
 _Quelle der Grafik: Blog der Stiftung Zugang für alle._
 

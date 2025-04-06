@@ -6,7 +6,7 @@ description: Verwendet ihr das WordPress Plugin [Contact Form 7](https://wordpre
 tags:
   - performance
   - wordpress
-status: done
+status: done-without-translation
 ---
 Dies machen übrigens viele andere Plugins auch. Bei einem Plugin wie [Contact Form 7](http://wordpress.org/plugins/contact-form-7/), welches in der Regel auf ein, zwei Seiten eingesetzt wird, ist es fraglich ob dies Sinn macht. Das Plugin erzeugt dadurch nämlich auf allen anderen Seiten unnötige [HTTP-Requests](http://de.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP-Request-Methoden), was die Seite verlangsamt.
 
@@ -30,7 +30,7 @@ function deregister_cf7_styles() {
 
 Danach müsst ihr nur noch die Ziffern in den zwei Arrays anpassen. Dort werden die ID’s der Pages eingesetzt, in denen ein Formular von Contact Form 7 verwendet wird. Die ID findet ihr in der Backend-URL des Posts.
 
-![Post ID in Backend URL](/assets/img/20120726_contact-form-7-code-nur-wenn-noetig-laden_1.jpg)
+![Post ID in Backend URL](../../../assets/img/20120726_contact-form-7-code-nur-wenn-noetig-laden_1.jpg)
 
 _Post ID in Backend URL_
 
