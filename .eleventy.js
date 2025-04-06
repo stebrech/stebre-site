@@ -1,6 +1,5 @@
 import { EleventyI18nPlugin, EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import pluginRss from "@11ty/eleventy-plugin-rss";
-import pluginNavigation from "@11ty/eleventy-navigation";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
 import pluginCollections from "./src/_config/collections.js";
@@ -18,7 +17,6 @@ export default function (eleventyConfig) {
 		defaultLanguage: "de",
 	});
 	eleventyConfig.addPlugin(pluginRss);
-	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(syntaxHighlight);
 
