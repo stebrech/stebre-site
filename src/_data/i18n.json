@@ -170,32 +170,32 @@
 					"de": "Alle Beiträge",
 					"en": "All posts",
 					"url": {
-						"de": "https://stebre.ch/feed.xml",
-						"en": "https://stebre.ch/en/feed.xml"
+						"de": "/feed.xml",
+						"en": "/en/feed.xml"
 					}
 				},
 				"projects": {
 					"de": "Arbeiten",
 					"en": "Projects",
 					"url": {
-						"de": "https://stebre.ch/feed_projects.xml",
-						"en": "https://stebre.ch/en/feed_projects.xml"
+						"de": "/feed_projects.xml",
+						"en": "/en/feed_projects.xml"
 					}
 				},
 				"blog": {
 					"de": "Blogbeiträge",
 					"en": "Blog posts",
 					"url": {
-						"de": "https://stebre.ch/feed_posts.xml",
-						"en": "https://stebre.ch/en/feed_posts.xml"
+						"de": "/feed_posts.xml",
+						"en": "/en/feed_posts.xml"
 					}
 				},
 				"bookmarks": {
 					"de": "Lesezeichen",
 					"en": "Bookmarks",
 					"url": {
-						"de": "https://stebre.ch/feed_bookmarks.xml",
-						"en": "https://stebre.ch/en/feed_bookmarks.xml"
+						"de": "/feed_bookmarks.xml",
+						"en": "/en/feed_bookmarks.xml"
 					}
 				}
 			}
