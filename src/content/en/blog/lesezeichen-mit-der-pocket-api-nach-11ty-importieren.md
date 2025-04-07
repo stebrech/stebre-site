@@ -1,6 +1,7 @@
 ---
 title: Importing bookmarks to 11ty with the Pocket API
 date: 2024-03-06
+updateted: 2025-04-07
 featuredImage: /assets/img/20240308_lesezeichen-mit-der-pocket-api-nach-11ty-importieren.jpg
 description: Pocket offers an API with which the saved bookmarks can be used and customized. I make use of this and save the data in a bookmark post on [stebre.ch](https://stebre.ch/en/bookmarks). Bookmarks with a specific tag are taken into account. After processing, the link saved on Pocket is archived.
 tags:
@@ -10,6 +11,9 @@ tags:
 featured: true
 status: done
 ---
+> [!INFO] Relocation  
+> This post was moved from Projects to Blog on 4/7/2025.
+
 I've tried several ways to save instructive and helpful web links as favorites or to remember them for later reading. I got stuck with [Pocket](https://getpocket.com), which was taken over by [Mozilla](https://www.mozilla.org/de/) a few years ago and stayed alive.
 
 A lot of valuable stuff has accumulated in my Pocket – most of it unread. That has to change... I would like to recommend these treasures to others. Sharing on social media is all well and good, but short-lived. What could be better than a personal website?

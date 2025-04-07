@@ -1,6 +1,7 @@
 ---
 title: Lesezeichen mit der Pocket API nach 11ty importieren
 date: 2024-03-06
+updated: 2025-04-07
 featuredImage: /assets/img/20240308_lesezeichen-mit-der-pocket-api-nach-11ty-importieren.jpg
 description: Pocket bietet eine API, mit der die gespeicherten Lesezeichen verwendet und angepasst werden können. Diese mache ich mir zu nutzen und speichere die Daten in einem Lesezeichenbeitrag auf [stebre.ch](https://stebre.ch/bookmarks). Es werden Lesezeichen mit einem spezifischen Tag berücksichtigt. Nach der Verarbeitung wird der auf Pocket gespeicherte Link archiviert.
 tags:
@@ -9,6 +10,10 @@ tags:
   - webentwicklung
 status: done
 ---
+
+> [!INFO] Umzug
+> Dieser Beitrag ist am 7.4.2025 von der Rubrik in Blog umgezogen.
+
 Ich habe schon einige Varianten ausprobiert um lehrreiche und hilfreiche Weblinks als Favoriten zu speichern oder fürs später Lesen zu merken. Hängen geblieben bin ich bei [Pocket](https://getpocket.com), welches vor ein paar Jahren von [Mozilla](https://www.mozilla.org/de/) übernommen wurde und am Leben blieb. 
 
 In meiner Pocket hat sich vieles, wertvolles angesammelt – zum grossen Teil ungelesen. Das muss sich ändern… Diese Schätze möchte ich gerne weiterempfehlen. Das Teilen auf Social Media ist gut und recht aber kurzlebig. Was bietet sich besser an als die persönliche Website. 
