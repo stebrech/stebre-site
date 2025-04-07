@@ -28,13 +28,13 @@ The web app is realized with the *Static Site Generator* [11ty](https://www.11ty
 - [countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database)
 - [decimal-point-and-thousand-separator](https://github.com/HthSolid/decimal-point-and-thousand-separator)
 
-The data from both repos is required for a localized display of the amount of money. In the personal settings, the desired country and thus the fields
+The data from both repos is required for a localized display of the amount of money. The desired country is selected in the personal settings. The fields
 
-- Currency abbreviation
+- currency abbreviation
 - thousands separator
-- Decimal point (dot or comma)
+- decimal point (dot or comma)
 
-automatically filled.
+are then filled in automatically.
 
 ![Personal settings for smoke-free app. mobile screenshot.](../../../assets/img/20250406_rauchfrei-tracker_einstellungen.png)
 

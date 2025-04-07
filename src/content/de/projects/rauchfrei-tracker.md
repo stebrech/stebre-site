@@ -28,7 +28,7 @@ Die Web-App ist mit dem *Static Site Generator* [11ty](https://www.11ty.dev/) un
 - [countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database)
 - [decimal-point-and-thousand-separator](https://github.com/HthSolid/decimal-point-and-thousand-separator)
 
-Die Daten der beiden Repos werden für eine lokalisierte Anzeige des Geldbetrags benötigt. In den persönlichen Einstellungen wird das gewünschte Land und damit werden die Felder
+Die Daten der beiden Repos werden für eine lokalisierte Anzeige des Geldbetrags benötigt. In den persönlichen Einstellungen wird das gewünschte Land ausgewählt. Damit werden die Felder
 
 - Währungskürzel
 - Tausendertrennzeichen
