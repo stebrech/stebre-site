@@ -42,9 +42,8 @@
     "dev": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy && npx -y pagefind --site _site",
     "debug": "DEBUG=* npx @11ty/eleventy",
-    "newsletter": "node _scripts/prepareNewsletter.js",
-    "pocket": "node _scripts/fetchPocketSaves.js",
-    "translate": "node _scripts/translate.mjs"
+    "sync": "bash scripts/obsidianSync.sh",
+    "translate": "node scripts/translate.mjs"
   },
   "repository": {
     "type": "git",
