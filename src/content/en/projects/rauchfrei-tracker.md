@@ -9,7 +9,7 @@ tags:
   - 11ty
 featured: true
 weblink: https://rauch-frei.netlify.app/en
-status: needs-review
+status: done
 ---
 I quit smoking on 22.12.2024. Such a project requires a lot of motivation and perseverance. The temptation of stress and boredom is still great today – more than three months after quitting.
 
