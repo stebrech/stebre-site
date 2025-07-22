@@ -5,6 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{% if templateClass !== "home" %}{{ title or tag }} | {% endif %}{{ metadata.title }}</title>
 		<meta name="description" content="{{ description | removeMarkdown or metadata.description[page.lang] }}">
+		
+		{#- Webmentions #}
+		<link rel="me" href="https://github.com/stebrech" />
+		<link rel="webmention" href="https://webmention.io/stebre.ch/webmention" />
 
 		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="{% if page.lang === "en" %}/en{% endif %}/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
