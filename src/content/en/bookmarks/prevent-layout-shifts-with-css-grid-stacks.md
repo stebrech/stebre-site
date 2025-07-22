@@ -3,7 +3,7 @@ title: Prevent layout shifts with CSS grid stacks
 tags:
   - css
   - webdev
-status: done
+status: error
 weblink: https://www.hsablonniere.com/prevent-layout-shifts-with-css-grid-stacks--qcj5jo/
 date: 2020-11-26
 bookmarkLang: en
