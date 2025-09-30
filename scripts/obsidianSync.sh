@@ -30,16 +30,4 @@ rsync -auv \
 	$LOCALPATH_OBSIDIAN/6_Output/stebre.ch/content/de/projects/
 
 # Bookmarks
-## Sync Bookmarks from Obsidian only if they are ready.
-for file in $LOCALPATH_OBSIDIAN/8_Ressourcen/Bookmarks/*.md; do
-	if [[ -f "$file" ]]; then
-		status=$(grep -m 1 '^status:' "$file" | awk '{print $2}')
-		if [[ "$status" == "done" || "$status" == "translate" ]]; then
-			rsync -auv "$file" $LOCALPATH_11TY/src/content/de/bookmarks/
-		fi
-	fi
-done
-## Update the Obsidian Vault
-rsync -auv \
-	$LOCALPATH_11TY/src/content/de/bookmarks/ \
-	$LOCALPATH_OBSIDIAN/8_Ressourcen/Bookmarks/
+csvformat -D ';' $LOCALPATH_11TY/src/_data/bookmarks.csv | tail +2 | column -t -n bookmarks -s ";" -J -N name,title,date,description,weblink,domain,bm_lang,bm_img_url,bm_desc_de,bm_desc_en,bm_tags_de,bm_tags_en > $LOCALPATH_11TY/src/_data/bookmarks.json

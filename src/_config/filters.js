@@ -4,8 +4,20 @@ import removeMd from "remove-markdown";
 import CleanCSS from "clean-css";
 
 export default function (eleventyConfig) {
-	eleventyConfig.addFilter("readableDate", (dateObj) => {
-		return DateTime.fromJSDate(dateObj, { locale: "utc" }).setLocale("de").toFormat("dd.MM.yyyy");
+	const dateFormats = {
+		de: "dd.MM.yyyy",
+		en: "MMM. dd, yyyy",
+	};
+
+	eleventyConfig.addFilter("readableDate", (dateObj, lang = "de") => {
+		const format = dateFormats[lang] || dateFormats["de"];
+		return DateTime.fromJSDate(dateObj, { locale: "utc" }).setLocale(lang).toFormat(format);
+	});
+
+	eleventyConfig.addFilter("readableDateFromString", (dateString, lang = "de") => {
+		const format = dateFormats[lang] || dateFormats["de"];
+		// Expects dateString in format "YYYY-MM-DD"
+		return DateTime.fromISO(dateString, { locale: "utc" }).setLocale(lang).toFormat(format);
 	});
 
 	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
@@ -63,10 +75,23 @@ export default function (eleventyConfig) {
 		);
 	});
 
+	eleventyConfig.addFilter("tagsStringToArray", (tags) => {
+	  const tagArray = (tags) ? tags.split(',').map(tag => tag.trim()) : [];
+		return tagArray;
+	});
+
 	eleventyConfig.addFilter("sortTagList", (tags) => {
 		return (tags || []).sort((a, b) => a.localeCompare(b));
 	});
 
+	eleventyConfig.addFilter("sortByDateDesc", (values) => {
+		return values.slice().sort((a, b) => {
+			const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date);
+			const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date);
+			return dateB - dateA;
+		});
+	});
+	
 	eleventyConfig.addFilter("limit", function (arr, limit) {
 		return arr.slice(0, limit);
 	});

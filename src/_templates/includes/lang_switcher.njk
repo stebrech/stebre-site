@@ -5,6 +5,7 @@
 		</a>
 	</li>
 
+	{% if '/tags' not in page.url and postType !== "bookmarks" %} {# Workaround https://github.com/11ty/eleventy/issues/3555 #}
 	{% for link in page.url | locale_links %}
 		<li class="lang-switch">
 			<a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
@@ -12,4 +13,14 @@
 			</a>
 		</li>
 	{% endfor %}
+	{% elif page.lang === "en" %}
+		<li class="lang-switch">
+			<a href="/" lang="de" hreflang="de">DE</a>
+		</li>
+	{% else %}
+		<li class="lang-switch">
+			<a href="/en" lang="en" hreflang="en">EN</a>
+		</li>
+	{% endif %}
+
 </ul>

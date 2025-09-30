@@ -163,6 +163,10 @@
 				"de": "Zur Website",
 				"en": "Visit website"
 			},
+			"visit": {
+				"de": "Gehe zu",
+				"en": "Visit"
+			},
 			"subscribe2feed": {
 				"de": "RSS-Feed abonnieren",
 				"en": "Subscribe to RSS feed",

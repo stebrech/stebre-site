@@ -6,10 +6,10 @@
 					{{ title }}
 				</h1>
 					<div class="featuredImage">
-						{% if socialImage %}
-						<img src="{{ socialImage }}" alt="">
-						{% elif featuredImage %}
+						{% if featuredImage %}
 						<img src="{{ featuredImage }}" alt="">
+						{% else %}
+						<img src="/assets/img/banner-stebre.png" alt="">
 						{% endif %}
 					</div>
 			</div>
@@ -24,7 +24,11 @@
 					</div>
 				{% endif %}
 				{{ content | safe }}
+				{% if weblink and postType === "bookmarks" %}
+					<p class="bm weblink"><a href={{ weblink }}>{{ i18n.article.metadata.visit[page.lang] }} {{ domain }}</a></p>
+				{% endif %}
 			</div>
+
 			<footer class="metadata">
 				<p>{% if postType === "bookmarks" %}{{ i18n.article.metadata.bookmarkFound[page.lang] }}{% else %}{{ i18n.article.metadata.publishDate[page.lang] }}{% endif %} <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></p>
 				{% if updated %}<p>{{ i18n.article.metadata.lastUpdate[page.lang] }} {{ updated | readableDate }}</p>{% endif %}
@@ -42,11 +46,11 @@
 					<h2>{{ i18n.article.metadata.timeToRead[page.lang] }}</h2>
 					<p>{{ timeToRead }} {{ i18n.article.metadata.minutes[page.lang] }}</p>
 				{% endif %}
-				{% if bookmarkLang %}
+				{% if bm_lang %}
 					<h2>{{ i18n.article.metadata.language[page.lang] }}</h2>
-					<p>{% if bookmarkLang === "en" %}{{ i18n.article.metadata.language.english[page.lang] }}{% elif bookmarkLang === "de" %}{{ i18n.article.metadata.language.german[page.lang] }}{% endif %}</p>
+					<p>{% if bm_lang === "en" %}{{ i18n.article.metadata.language.english[page.lang] }}{% elif bookmarkLang === "de" %}{{ i18n.article.metadata.language.german[page.lang] }}{% endif %}</p>
 				{% endif %}
-				{% if weblink %}
+				{% if weblink and postType !== "bookmarks" %}
 					<p class="weblink"><a href={{ weblink }}>{{ i18n.article.metadata.weblink[page.lang] }}</a></p>
 				{% endif %}
 				{% if page.lang === "de" %}

@@ -7,17 +7,15 @@ export default function (eleventyConfig) {
 		return collection.getFilteredByTag("projects_en").filter((item) => item.data.featured);
 	});
 	eleventyConfig.addCollection("feed", (collection) => {
-		return collection.getFilteredByGlob([
-			"src/content/de/projects/*.md",
-			"src/content/de/blog/*.md",
-			"src/content/de/bookmarks/*.md",
-		]);
+		const projects = collection.getFilteredByTag("projects_de");
+		const blog = collection.getFilteredByTag("blog_de");
+		const bookmarks = collection.getFilteredByTag("bookmarks_de");
+		return [...projects, ...blog, ...bookmarks];
 	});
 	eleventyConfig.addCollection("feed_en", (collection) => {
-		return collection.getFilteredByGlob([
-			"src/content/en/projects/*.md",
-			"src/content/en/blog/*.md",
-			"src/content/en/bookmarks/*.md",
-		]);
+		const projects = collection.getFilteredByTag("projects_en");
+		const blog = collection.getFilteredByTag("blog_en");
+		const bookmarks = collection.getFilteredByTag("bookmarks_en");
+		return [...projects, ...blog, ...bookmarks];
 	});
 }

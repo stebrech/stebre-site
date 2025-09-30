@@ -296,6 +296,10 @@ nav ol {
 	line-height: var(--line-height-dense);
 }
 
+.bm.weblink a {
+	display: inline-flex;
+}
+
 .nav-item:not(.logo) a,
 .weblink a {
 	background-color: var(--color-nav-item-bg, --color-gray-lighter);

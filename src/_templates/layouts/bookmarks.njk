@@ -14,8 +14,55 @@ templateClass: postlist
 
 <section class="results containerM">
 	<div class="layout-list">
-		{% set results = bookmarks %}
-		{% include "includes/preview.njk" %}
+	{%- for bookmark in bookmarks %}
+		<div class="animate__wrapper animate__animated">
+			<article class="postPreview">
+					<div class="postPreview_container">
+						<h3 class="postPreview_title"{% if (page.lang !== "en") and (bookmark.bm_lang === "en") %} lang="en"{% endif %}>
+							<a href="/{% if page.lang === "en" %}en/{% endif %}bookmarks/{{ bookmark.name }}/" class="postPreview_link">{{ bookmark.title }}</a>
+						</h3>
+						<footer class="postPreview_metadata">
+							<p>
+								{{ i18n.article.metadata.bookmarkFound[page.lang] }} 
+								{% if page.lang === "de" %}
+									<time datetime="{{ bookmark.date }}">{{ bookmark.date | readableDateFromString("de") }}</time>
+								{% elif page.lang === "en" %}
+									<time datetime="{{ bookmark.date }}">{{ bookmark.date | readableDateFromString("en") }}</time>
+								{% endif %}
+							</p>
+							<ul>
+							{% if (page.lang !== "en") and (bookmark.bm_lang === "en") %}
+								<li class="postPreview_tag lang">EN</li>
+							{% endif %}
+							{% if page.lang === "de" %}
+								{% set tags = bookmark.bm_tags_de %}
+							{% elif page.lang === "en" %}
+								{% set tags = bookmark.bm_tags_en %}
+							{% endif %}
+
+							{% for tag in tags | tagsStringToArray %}
+								<li class="postPreview_tag">#{{ tag }}</a>
+							{% endfor %}
+							</ul>
+						</footer>
+						<div class="postPreview_excerpt">
+							{% if page.lang === "de" %}
+							{{ bookmark.bm_desc_de | safe }}
+							{% elif page.lang === "en" %}
+							{{ bookmark.bm_desc_en | safe }}
+							{% endif %}
+						</div>
+					</div> 
+					<div class="postPreview_featuredImage">
+						{% if bookmark.bm_img_url %}
+						<img src="{{ bookmark.bm_img_url }}" alt="">
+						{% else %}
+						<img src="/assets/img/banner-stebre.png" alt="">
+						{% endif %}
+					</div>
+			</article>
+		</div>
+	{% endfor %}
 	</div>
-	{# {% include "includes/nav_pagination.njk" %} #}
+	{% include "includes/nav_pagination.njk" %}
 </section>
