@@ -2,7 +2,7 @@
 title: notion2eleventy
 date: 2024-01-29
 updated: 2024-05-10
-featuredImage: /assets/img/20230917_11ty-mit-notion-verbinden.png
+featuredImage: 20230917_11ty-mit-notion-verbinden.png
 description: "`notion2eleventy` ist ein Plugin für den *Static Site Generator* [Eleventy (kurz: 11ty)](https://11ty.dev). Es lädt Inhalte von Notion in dein 11ty-Verzeichnis. Mit einem statusbasierten Workflow wird dafür gesorgt, dass nur die Inhalte heruntergeladen werden, die sich verändert haben. Das Plugin ist als Node Modul auf [npmjs.com](https://www.npmjs.com/package/@stebrech/notion2eleventy) verfügbar."
 tags:
   - 11ty
@@ -98,7 +98,7 @@ const postType1 = {
 		// Needs trailing slash
 		md: "src/posts/",
 		mdAddDatePrefix: true, // ADDED in v0.1.0; REQUIRES optionalMetada.date
-		img: "src/assets/img/",
+		img: "src/public/img/",
 		imgAddDatePrefix: true, // ADDED in v0.1.0; REQUIRES optionalMetada.date
 		movie: "src/assets/movie/",
 		movieAddDatePrefix: true, // ADDED in v0.1.0; REQUIRES optionalMetada.date
@@ -107,7 +107,7 @@ const postType1 = {
 	},
 	markdownPaths: {
 		// URL path used in the markdown files
-		img: "/assets/img/",
+		img: "/public/img/",
 		movie: "/assets/movie/",
 		pdf: "/assets/pdf/",
 	},

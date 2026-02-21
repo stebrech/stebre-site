@@ -6,12 +6,12 @@
 					{{ title }}
 				</h1>
 					<div class="featuredImage">
-						{% if featuredImage %}
-						<img src="{{ featuredImage }}" alt="">
+						{% if ogImgUrl %}
+						<img src="{{ ogImgUrl }}" alt="">
 						{% else %}
-						<img src="/assets/img/banner-stebre.png" alt="">
+						<img src="../../assets/{{ featuredImage }}" alt="">
 						{% endif %}
-					</div>
+				</div>
 			</div>
 		</header>
 	</div>

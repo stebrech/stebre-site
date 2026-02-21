@@ -1,7 +1,7 @@
 ---
 title: Alte Shortcodes deaktivieren
 date: 2016-04-21
-featuredImage: /assets/img/20160421_alte-shortcodes-deaktivieren.jpg
+featuredImage: 20160421_alte-shortcodes-deaktivieren.jpg
 description: Shortcodes wurden in der WordPress Version 2.5 eingeführt. Einen Shortcode erkennt man an den eckigen Klammern […]. Solche Shortcodes können auf sehr einfache Weise in den Beitragseditor eingegeben werden, welche eine hinterlegte Funktion auslösen.
 tags:
   - wordpress
@@ -31,7 +31,7 @@ Obwohl das Theme Review Team Shortcodes als [Plugin Territory](https://make.word
 
 Ein passender Artikel dazu ist: [«Mehr ist nicht mehr – Das Feature-Wettrüsten auf Themeforest»](https://www.claudioschwarz.com/2013/mehr-ist-nicht-mehr-das-feature-wettruesten-auf-themeforest/) von Claudio Schwarz.
 
-Als ich [[../projects/albinomouse-wordpress-theme|AlbinoMouse]] im Jahr 2011 das erste Mal veröffentlicht habe, waren da auch noch Shortcodes drin. Diese Regel war damals noch kein Thema oder ging beim Review unter. Als dies jedoch bei einem späteren Review bemängelt wurde, musste ich die Nutzer im Backend informieren, dass die eventuell benutzten Shortcodes nicht mehr gültig sein werden.
+Als ich [[stebre-website/projects/albinomouse-wordpress-theme|AlbinoMouse]] im Jahr 2011 das erste Mal veröffentlicht habe, waren da auch noch Shortcodes drin. Diese Regel war damals noch kein Thema oder ging beim Review unter. Als dies jedoch bei einem späteren Review bemängelt wurde, musste ich die Nutzer im Backend informieren, dass die eventuell benutzten Shortcodes nicht mehr gültig sein werden.
 
 **Wenn ein Shortcode nämlich nicht mehr gültig ist, bleibt er als normaler Text im Beitrag liegen – was ziemlich unschön ist.**
 
@@ -55,7 +55,7 @@ ausgeblendet werden. Dies kleiner Codeschnipsel packt man am besten in die `func
 
 Eine weitere Möglichkeit ist die Installation des Plugins [Remove Orphan Shortcodes](https://wordpress.org/plugins/remove-orphan-shortcodes/). Dieses Plugin sucht inaktive Shortcodes und blendet diese aus den Inhalten aus.
 
-![WP Plugin Remove Orphan Shortcodes](../../../assets/img/20160421_alte-shortcodes-deaktivieren_1.jpg)
+![WP Plugin Remove Orphan Shortcodes](../../assets/20160421_alte-shortcodes-deaktivieren_1.jpg)
 
 ## Welche Shortcodes habe ich an Board?
 

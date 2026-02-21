@@ -1,7 +1,7 @@
 ---
 title: Rauchfrei Tracker
 date: 2025-04-06
-featuredImage: /assets/img/20250406_rauchfrei-tracker.png
+featuredImage: 20250406_rauchfrei-tracker.png
 description: Der [Rauchfrei Tracker](https://rauch-frei.netlify.app/) ist eine Webapp, die mit ein paar wenigen persönlichen Einstellungen, aufzeigt wie lange man schon nicht mehr raucht und was man finanziell und gesundheitlich damit erreicht hat.
 tags:
   - webapp
@@ -36,7 +36,7 @@ Die Daten der beiden Repos werden für eine lokalisierte Anzeige des Geldbetrags
 
 automatisch abgefüllt.
 
-![Persönliche Einstellungen für rauch-frei App. Handy Screenshot. ](../../../assets/img/20250406_rauchfrei-tracker_einstellungen.png)
+![Persönliche Einstellungen für rauch-frei App. Handy Screenshot. ](../../assets/20250406_rauchfrei-tracker_einstellungen.png)
 
 ### Konsum und Kosten berechnen
 
@@ -50,7 +50,7 @@ Um berechnen zu können wie lange man schon rauchfrei ist und wie viel Geld dami
 
 Mit dem Speichern der persönlichen Einstellungen ergibt sich folgendes Dashboard:
 
-![rauch-frei Dashboard. Handy Screenshot.](../../../assets/img/20250406_rauchfrei-tracker_dashboard.png)
+![rauch-frei Dashboard. Handy Screenshot.](../../assets/20250406_rauchfrei-tracker_dashboard.png)
 
 Die ersten beiden Werte (Streak und der gesparte Betrag) sind vermutlich auf den ersten Blick selbst erklärend. Der Gesundheitslevel ist es nicht und verlinkt daher auf den Schlüssel was die einzelnen Stufen bedeuten.
 

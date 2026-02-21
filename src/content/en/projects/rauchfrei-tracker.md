@@ -1,7 +1,7 @@
 ---
 title: Smoke Free Tracker
 date: 2025-04-06
-featuredImage: /assets/img/20250406_rauchfrei-tracker_en.png
+featuredImage: 20250406_rauchfrei-tracker_en.png
 description: The [Smoke Free Tracker](https://rauch-frei.netlify.app/) is a webapp which, with a few personal settings, shows you how long you have not smoked and what you have achieved financially and health-wise.
 tags:
   - webapp
@@ -36,7 +36,7 @@ The data from both repos is required for a localized display of the amount of mo
 
 are then filled in automatically.
 
-![Personal settings for smoke-free app. mobile screenshot.](../../../assets/img/20250406_rauchfrei-tracker_einstellungen.png)
+![Personal settings for smoke-free app. mobile screenshot.](../../assets/20250406_rauchfrei-tracker_einstellungen.png)
 
 ### Calculate consumption and costs
 
@@ -50,7 +50,7 @@ To be able to calculate how long you have been smoke-free and how much money you
 
 Saving the personal settings results in the following dashboard:
 
-![smoke-free dashboard. mobile screenshot.](../../../assets/img/20250406_rauchfrei-tracker_einstellungen.png)
+![smoke-free dashboard. mobile screenshot.](../../assets/20250406_rauchfrei-tracker_einstellungen.png)
 
 The first two values (Streak and the amount saved) are probably self-explanatory at first glance. The health level is not and therefore links to the key of what the individual levels mean.
 

@@ -30,10 +30,8 @@
 					</div>
 				</div> 
 				<div class="postPreview_featuredImage">
-					{% if post.data.socialImage %}
-					<img src="{{ post.data.socialImage }}" alt="">
-					{% elif post.data.featuredImage %}
-					<img src="{{ post.data.featuredImage }}" alt="">
+					{% if post.data.featuredImage %}
+					<img src="../../assets/{{ post.data.featuredImage }}" alt="">
 					{% endif %}
 				</div>
 		</article>

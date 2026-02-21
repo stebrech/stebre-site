@@ -6,8 +6,8 @@ export default function (eleventyConfig) {
 		// which file extensions to process
 		extensions: "html",
 		formats: ["webp", "auto"],
-		outputDir: path.join(eleventyConfig.dir.output, "/assets/img/"),
-		urlPath: "/assets/img/",
+		outputDir: path.join(eleventyConfig.dir.output, "/img/"),
+		urlPath: "/img/",
 		widths: [500, 1090, "auto"],
 		filenameFormat: function (id, src, width, format, options) {
 			// id: hash of the original image

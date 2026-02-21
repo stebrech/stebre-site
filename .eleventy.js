@@ -27,6 +27,24 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginPassthroughCopy);
 	eleventyConfig.addPlugin(pluginWatchTarget);
 
+
+	// Per-page bundles, see https://github.com/11ty/eleventy-plugin-bundle
+	// Bundle <style> content and adds a {% css %} paired shortcode
+	eleventyConfig.addBundle("css", {
+		toFileDirectory: "css",
+		// Add all <style> content to `css` bundle (use <style eleventy:ignore> to opt-out)
+		// Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
+		bundleHtmlContentFromSelector: "style",
+	});
+
+	// Bundle <script> content and adds a {% js %} paired shortcode
+	eleventyConfig.addBundle("js", {
+		toFileDirectory: "js",
+		// Add all <script> content to the `js` bundle (use <script eleventy:ignore> to opt-out)
+		// Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
+		bundleHtmlContentFromSelector: "script",
+	});
+
 	return {
 		// Control which files Eleventy will process
 		templateFormats: ["md", "njk", "html", "liquid"],

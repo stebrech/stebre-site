@@ -2,7 +2,7 @@
 title: Importing bookmarks to 11ty with the Pocket API
 date: 2024-03-06
 updateted: 2025-04-07
-featuredImage: /assets/img/20240308_lesezeichen-mit-der-pocket-api-nach-11ty-importieren.jpg
+featuredImage: 20240308_lesezeichen-mit-der-pocket-api-nach-11ty-importieren.jpg
 description: Pocket offers an API with which the saved bookmarks can be used and customized. I make use of this and save the data in a bookmark post on [stebre.ch](https://stebre.ch/en/bookmarks). Bookmarks with a specific tag are taken into account. After processing, the link saved on Pocket is archived.
 tags:
   - 11ty
