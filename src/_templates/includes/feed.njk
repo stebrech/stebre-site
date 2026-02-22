@@ -18,7 +18,7 @@
 		<link href="{{ absolutePostUrl }}"/>
 		<updated>{{ post.data.date | dateToRfc3339 }}</updated>
 		<id>{{ absolutePostUrl }}</id>
-		<summary type="html">{{ post.data.description | transformWithHtmlBase(absolutePostUrl, post.url) }}</summary>
+		<summary type="html">{{ post.data.description | transformWithHtmlBase(absolutePostUrl, post.url) | removeMarkdown }}</summary>
 	</entry>
 	{%- endfor %}
 </feed>
