@@ -1,6 +1,6 @@
 ---
 title: 3 WP-Snippets um den Auszug zu optimieren
-created: 2014-02-24
+date: 2014-02-24
 description: Der Auszug (Excerpt) ist eine kurze unformatierte Zusammenfassung eines Beitrags in WordPress. Falls ihr kein eigener Auszug hinzufügt, nimmt sich WordPress einfach die ersten Wörter des Beitrags.
 tags:
   - wordpress
