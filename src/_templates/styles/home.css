@@ -113,6 +113,11 @@ ul.socialList li {
 	margin: 0 1rem 0 0;
 }
 
+ul.socialList a {
+	display: block;
+	height: 40px;
+}
+
 ul.socialList a::before {
 	content: none;
 }

@@ -2,17 +2,17 @@
 	<span id="nav-label" hidden="">{{ i18n.mainnav.hiddenLabel[page.lang] }}</span>
 	<button id="btnOpen" class="open-btn" aria-expanded="false" aria-labelledby="nav-label">
 		{# <img src="/public/img/menu.svg" alt="" width="40" height="24" /> #}
-		{% include "./logo.svg" %}
+		{% include "../img/logo.svg" %}
 		<span class="open-btn-txt">{{ i18n.mainnav.mobileLabel[page.lang] }}</span>
 	</button>	
 	<div class="menu-container" role="dialog" aria-labelledby="nav-label">
 		<button id="btnClose" class="close-btn" aria-label="Close">
-			{% include "./close.svg" %}
+			{% include "../img/close.svg" %}
 		</button>
 		<ul id="mainmenu" class="menu-links visible">
 			<li class="logo nav-item">
 				<a href="{{ i18n.mainnav.home.url[page.lang] }}">
-					{% include "./logo.svg" %}
+					{% include "../img/logo.svg" %}
 				</a>
 			</li>
 			<li class="nav-item{% if i18n.mainnav.projects.url[page.lang] === page.url %} nav-item-active{% endif %}">
