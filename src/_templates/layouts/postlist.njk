@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 templateClass: postlist
 ---
-{% include "includes/section_title.njk" %}
+{% include "includes/header_page/section_title.njk" %}
 
 {% if content %}
 <section class="intro containerM">
@@ -10,7 +10,7 @@ templateClass: postlist
 </section>
 {% endif %}
 
-{% include "includes/section_filtertags.njk" %}
+{% include "includes/header_page/section_filtertags.njk" %}
 
 <section class="results containerL">
   <div class="layout-cards">

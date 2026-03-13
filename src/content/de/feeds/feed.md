@@ -1,5 +1,5 @@
 ---
-layout: includes/feed.njk
+layout: layouts/feed.njk
 collection: feed
 permalink: /feed.xml
 ---

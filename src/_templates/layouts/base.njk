@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{% if templateClass !== "home" %}{{ title or tag }} | {% endif %}{{ metadata.title }}</title>
 		<meta name="description" content="{{ description | removeMarkdown or metadata.description[page.lang] }}">
-		
+
 		{#- Webmentions #}
 		<link rel="me" href="https://github.com/stebrech" />
 		<link rel="webmention" href="https://webmention.io/stebre.ch/webmention" />
@@ -33,7 +33,7 @@
 		<style>{% include "node_modules/animate.css/animate.min.css" %}</style>
 		<style>{% getBundle "css" %}</style>
 
-		<link rel="stylesheet" href="/pagefind/pagefind-ui.css">		
+		<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
 
 		{#- Scripts #}
 		<script>{% include "node_modules/body-scroll-lock-upgrade/lib/index.umd.js" %}</script>
@@ -52,10 +52,10 @@
 
 
 		{#- Favicons #}
-		{% include "includes/favicon.njk" %}
+		{% include "includes/metadata/favicon.njk" %}
 
 		{#- Open Graph #}
-		{% include "includes/og.njk" %}
+		{% include "includes/metadata/og.njk" %}
 
 		{#- Love for 11ty #}
 		<meta name="generator" content="{{ eleventy.generator }}">
@@ -67,10 +67,10 @@
 
 			<header class="site_header topnav wrapper" role="banner">
 				<div class="left">
-					{% include "includes/nav_main.njk" %}
+					{% include "includes/navigation/nav_main.njk" %}
 				</div>
 				<div class="right">
-						{% include "includes/lang_switcher.njk" %}
+						{% include "includes/navigation/lang_switcher.njk" %}
 					<button id="search-icon" aria-label="Search">
 						{% include "img/search.svg" %}
 					</button>

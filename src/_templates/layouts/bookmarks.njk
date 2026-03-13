@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 templateClass: postlist
 ---
-{% include "includes/section_title.njk" %}
+{% include "includes/header_page/section_title.njk" %}
 
 {% if content %}
 <section class="intro containerM">
@@ -10,7 +10,7 @@ templateClass: postlist
 </section>
 {% endif %}
 
-{% include "includes/section_filtertags.njk" %}
+{% include "includes/header_page/section_filtertags.njk" %}
 
 <section class="results containerM">
 	<div class="layout-list">
@@ -23,7 +23,7 @@ templateClass: postlist
 						</h3>
 						<footer class="postPreview_metadata">
 							<p>
-								{{ i18n.article.metadata.bookmarkFound[page.lang] }} 
+								{{ i18n.article.metadata.bookmarkFound[page.lang] }}
 								{% if page.lang === "de" %}
 									<time datetime="{{ bookmark.date }}">{{ bookmark.date | readableDateFromString("de") }}</time>
 								{% elif page.lang === "en" %}
@@ -52,7 +52,7 @@ templateClass: postlist
 							{{ bookmark.description_en | safe }}
 							{% endif %}
 						</div>
-					</div> 
+					</div>
 					<div class="postPreview_featuredImage">
 						{% if bookmark.og_img_url %}
 						<img src="{{ bookmark.og_img_url }}" alt="">
@@ -64,5 +64,5 @@ templateClass: postlist
 		</div>
 	{% endfor %}
 	</div>
-	{% include "includes/nav_pagination.njk" %}
+	{% include "includes/navigation/nav_pagination.njk" %}
 </section>
