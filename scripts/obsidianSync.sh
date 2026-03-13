@@ -30,4 +30,4 @@ rsync -auv \
 	$LOCALPATH_OBSIDIAN/6_Output/stebre.ch/content/de/projects/
 
 # Bookmarks
-csvformat -D ';' $LOCALPATH_11TY/src/_data/bookmarks.csv | tail +2 | column -t -n bookmarks -s ";" -J -N name,title,date,description,weblink,domain,bm_lang,bm_img_url,bm_desc_de,bm_desc_en,bm_tags_de,bm_tags_en > $LOCALPATH_11TY/src/_data/bookmarks.json
+csvformat -D ';' $LOCALPATH_11TY/src/_data/bookmarks.csv | tail +2 | column -t -n bookmarks -s ";" -J -N name,title,url,date,languages,tags,tags_en,domain,author,meta_description,description,description_en,og_img_url > $LOCALPATH_11TY/src/_data/bookmarks.json

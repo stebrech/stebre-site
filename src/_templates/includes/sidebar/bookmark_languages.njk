@@ -1,0 +1,5 @@
+<h2>{{ i18n.article.metadata.language[page.lang] }}</h2>
+<ul class="languages">
+	{% if "de" in bookmarks["languages"] %}<li>{{ i18n.article.metadata.language.german[page.lang] }}</li>{% endif %}
+	{% if "en" in bookmarks["languages"] %}<li>{{ i18n.article.metadata.language.english[page.lang] }}</li>{% endif %}
+</ul>

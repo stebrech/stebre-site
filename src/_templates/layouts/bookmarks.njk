@@ -35,27 +35,27 @@ templateClass: postlist
 								<li class="postPreview_tag lang">EN</li>
 							{% endif %}
 							{% if page.lang === "de" %}
-								{% set tags = bookmark.bm_tags_de %}
+								{% set tags = bookmark.tags %}
 							{% elif page.lang === "en" %}
-								{% set tags = bookmark.bm_tags_en %}
+								{% set tags = bookmark.tags_en %}
 							{% endif %}
 
 							{% for tag in tags | tagsStringToArray %}
-								<li class="postPreview_tag">#{{ tag }}</a>
+								<li class="postPreview_tag">{{ tag }}</a>
 							{% endfor %}
 							</ul>
 						</footer>
 						<div class="postPreview_excerpt">
 							{% if page.lang === "de" %}
-							{{ bookmark.bm_desc_de | safe }}
+							{{ bookmark.description | safe }}
 							{% elif page.lang === "en" %}
-							{{ bookmark.bm_desc_en | safe }}
+							{{ bookmark.description_en | safe }}
 							{% endif %}
 						</div>
 					</div> 
 					<div class="postPreview_featuredImage">
-						{% if bookmark.bm_img_url %}
-						<img src="{{ bookmark.bm_img_url }}" alt="">
+						{% if bookmark.og_img_url %}
+						<img src="{{ bookmark.og_img_url }}" alt="">
 						{% else %}
 						<img src="../../assets/banner-stebre.png" alt="">
 						{% endif %}

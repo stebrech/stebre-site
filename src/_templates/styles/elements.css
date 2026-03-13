@@ -102,6 +102,10 @@ a[href*="//"]:not([href*="stebre.ch"]):focus
 	font-weight: var(--font-weight-bold);
 }
 
+.languages li {
+	margin: 0;
+}
+
 /* a:not(:focus)::before {
 	background: var(--color-secondary);
 	background: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-secondary-light) 100%);

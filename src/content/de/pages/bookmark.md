@@ -1,30 +1,34 @@
 ---js
-const layout = "layouts/post.njk";
+const layout = "layouts/bookmark.njk";
 const postType = "bookmarks";
 const tags = ["bookmarks_de"];
 const pagination = {
   data: "bookmarks.bookmarks",
   size: 1,
   alias: "bookmarks",
-  addAllPagesToCollections: true 
+  addAllPagesToCollections: true
 };
 const eleventyComputed = {
   title: data => data.bookmarks.title,
-  bm_lang: data => data.bookmarks.bm_lang,
-  description: data => data.bookmarks.bm_desc_de,
-  weblink: data => data.bookmarks.weblink,
+  languages: data => {
+    const languages = data.bookmarks.languages ? data.bookmarks.languages.split(',').map(lang => lang.trim()) : [];
+    return languages;
+  },
+  description: data => data.bookmarks.description,
+  weblink: data => data.bookmarks.url,
   domain: data => data.bookmarks.domain,
-  ogImgUrl: data => data.bookmarks.bm_img_url,
+  author: data => data.bookmarks.authors,
+  ogImgUrl: data => data.bookmarks.og_img_url,
   permalink: data => `bookmarks/${data.bookmarks.name}/`,
   date: data => new Date(data.bookmarks.date),
   tags: data => {
-    const tags = data.bookmarks.bm_tags_de ? data.bookmarks.bm_tags_de.split(',').map(tag => tag.trim()) : [];
+    const tags = data.bookmarks.tags ? data.bookmarks.tags.split(',').map(tag => tag.trim()) : [];
     tags.push("bookmarks_de");
     return tags;
   }
 }
 ---
 <blockquote>
-  {{ bookmarks.description }}
+  {{ bookmarks.meta_description }}
   {% if bookmarks.domain %}<br><cite>— {{ bookmarks.domain }}</cite>{% endif %}
 </blockquote>

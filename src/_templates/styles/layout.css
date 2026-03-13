@@ -632,8 +632,17 @@ header.containerM {
 }
 
 .featuredImage {
+	aspect-ratio: 2/1;
 	margin-top: var(--size-xxl);
 	margin-bottom: -1.25rem;
+	overflow: hidden;
+}
+
+.featuredImage picture,
+.featuredImage img {
+	object-fit: cover;
+	min-width: 100%;
+	min-height: 100%;
 }
 
 .contentContainer {

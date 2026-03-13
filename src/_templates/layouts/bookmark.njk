@@ -1,3 +1,7 @@
+---
+layout: layouts/base.njk
+templateClass: bookmark
+---
 <article data-pagefind-body>
 	<div class="headerShadow">
 		<header class="headerPost">
@@ -29,31 +33,22 @@
 				{% endif %}
 			</div>
 			<footer class="metadata">
-				<p>{% if postType === "bookmarks" %}{{ i18n.article.metadata.bookmarkFound[page.lang] }}{% else %}{{ i18n.article.metadata.publishDate[page.lang] }}{% endif %} <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></p>
-				{% if updated %}<p>{{ i18n.article.metadata.lastUpdate[page.lang] }} {{ updated | readableDate }}</p>{% endif %}
+				<p>{{ i18n.article.metadata.publishDate[page.lang] }} <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></p>
 				{% if author %}<p>{{ i18n.article.metadata.author[page.lang] }} {{ author }}</p>{% endif %}
-				{% if tags.length > 1 %}
+
 					<h2>Tags</h2>
 					<ul class="tags">
 						{%- for tag in tags | excludeTagsFromTagList %}
 							{%- set tagUrl %}{% if page.lang === "en" %}/en{% endif %}/tags/{{ tag | slugify }}/{% endset %}
-							<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+							<li><a href="{{ tagUrl }}" class="post-tag">{{ tag | deleteFirstCharacter }}</a></li>
 						{%- endfor %}
 					</ul>
-				{% endif %}
-				{% if weblink %}
-					<p class="weblink"><a href={{ weblink }}>{{ i18n.article.metadata.weblink[page.lang] }}</a></p>
-				{% endif %}
+				{# Available languages #}
+				{% include "../includes/sidebar/bookmark_languages.njk" %}
 				{# Newsletter form | DE ONLY #}
-				{% include "./sidebar/newsletter_form.njk" %}
-				<hr>
-				<h2>{{ i18n.article.metadata.subscribe2feed[page.lang] }}</h2>
-				<ul>
-					<li><a href="{{ i18n.article.metadata.subscribe2feed.all.url[page.lang] }}">{{ i18n.article.metadata.subscribe2feed.all[page.lang] }}</a></li>
-					<li><a href="{{ i18n.article.metadata.subscribe2feed.blog.url[page.lang] }}">{{ i18n.article.metadata.subscribe2feed.blog[page.lang] }}</a></li>
-					<li><a href="{{ i18n.article.metadata.subscribe2feed.projects.url[page.lang] }}">{{ i18n.article.metadata.subscribe2feed.projects[page.lang] }}</a></li>
-					<li><a href="{{ i18n.article.metadata.subscribe2feed.bookmarks.url[page.lang] }}">{{ i18n.article.metadata.subscribe2feed.bookmarks[page.lang] }}</a></li>
-				</ul>
+				{% include "../includes/sidebar/newsletter_form.njk" %}
+				{# Feed Links #}
+				{% include "../includes/sidebar/feed_links.njk" %}
 			</footer>
 		</div>
 	</div>

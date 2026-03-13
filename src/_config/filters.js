@@ -1,7 +1,6 @@
 import { DateTime } from "luxon";
 import markdownIt from "markdown-it";
 import removeMd from "remove-markdown";
-import CleanCSS from "clean-css";
 
 export default function (eleventyConfig) {
 	const dateFormats = {
@@ -91,7 +90,7 @@ export default function (eleventyConfig) {
 			return dateB - dateA;
 		});
 	});
-	
+
 	eleventyConfig.addFilter("limit", function (arr, limit) {
 		return arr.slice(0, limit);
 	});
@@ -112,7 +111,7 @@ export default function (eleventyConfig) {
 		return image.replace(/\.[^/.]+$/, "") + "_500.webp";
 	});
 
-	eleventyConfig.addFilter("cssmin", function (code) {
-		return new CleanCSS({}).minify(code).styles;
+	eleventyConfig.addFilter("deleteFirstCharacter", (str) => {
+		return str.substring(1);
 	});
 }
