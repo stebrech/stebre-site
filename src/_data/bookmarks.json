@@ -167,7 +167,7 @@
          "meta_description": "Own your data, build better experiences.",
          "description": "Eine Formulargenerator für das Erstellen von Umfragen, die in Websites und Apps eingebunden werden können. Es ist eine Open Source, datenschutzfreundliche Lösung, die auch selbst gehostet werden kann.",
          "description_en": "A form generator for creating surveys that can be integrated into websites and apps. It is an open source, privacy-friendly solution that can also be self-hosted.",
-         "og_img_url": "https://formbricks.com/api/og?title=The%20Open%20Source%20Qualtrics%20Alternative"
+         "og_img_url": "https://formbricks.com/og/og-image.png"
       },{
          "name": "rz-byleitfaden-barrierefreiheit",
          "title": "RZ-BY/Leitfaden-Barrierefreiheit",
@@ -307,7 +307,7 @@
          "meta_description": "Personal sites are sick as hell, so this site was built so we can all discover each other's. This directory of links are by folks that want to share their site with the world.",
          "description": "Lasse dich inspirieren von anderen persönlichen Websites.",
          "description_en": "Be inspired by other personal websites.",
-         "og_img_url": "https://personalsit.es/assets/images/opengraph.jpg"
+         "og_img_url": "https://personalsit.es/assets/images/opengraph.webp"
       },{
          "name": "4-css-layouts-without-using-media-queries-polypane",
          "title": "4 CSS layouts without using media queries | Polypane",
