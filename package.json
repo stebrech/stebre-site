@@ -7,7 +7,7 @@
   "type": "module",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-img": "^6.0.1",
+    "@11ty/eleventy-img": "^7.0.0",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "animate.css": "^4.1.1",
@@ -21,7 +21,7 @@
     "normalize.css": "^8.0.1",
     "path": "^0.12.7",
     "prismjs": "^1.29.0",
-    "remove-markdown": "^0.6.0"
+    "remove-markdown": "^0.8.0"
   },
   "devDependencies": {
     "@stebrech/prettier-config": "^1.0.0",
