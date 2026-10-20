@@ -1,19 +1,14 @@
-import dotenv from "dotenv";
-import matter from "gray-matter";
+import 'dotenv/config';
+import matter from "@11ty/gray-matter";
 import fs from "fs";
 import path from "path";
 import deepl from "deepl-node";
 
-// Load environment variables from .env file
-dotenv.config();
-
 const authKey = process.env.DEEPL_API_KEY;
 const deepL = new deepl.Translator(authKey);
 
-// console.log(fs.readdirSync(path.resolve("./de"), { recursive: true }));
-
-const mdFilesDePath = path.resolve("./src/content/de/");
-const mdFilesEnPath = path.resolve("./src/content/en/");
+const mdFilesDePath = path.resolve("./src/content/de");
+const mdFilesEnPath = path.resolve("./src/content/en");
 
 const mdFilesDe = fs
 	.readdirSync(mdFilesDePath, { recursive: true })
@@ -31,11 +26,15 @@ const mdFilesDe = fs
 		};
 	});
 
+let count = 0
+
 mdFilesDe.forEach((file) => {
 	const srcContent = fs.readFileSync(file.srcPath);
 	const srcContentMatter = matter(srcContent);
 
 	if (srcContentMatter.data.status === "translate") {
+		count++;
+
 		fs.copyFileSync(file.srcPath, file.destPathEn);
 
 		// Update status of src content
@@ -62,3 +61,4 @@ mdFilesDe.forEach((file) => {
 		apiCall();
 	}
 });
+console.log(`${count} files translated`)
