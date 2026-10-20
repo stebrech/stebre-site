@@ -475,7 +475,7 @@
          "meta_description": "Form elements like checkboxes and radio buttons look different depending on the user’s browser and operating system. For this reason designers and developers have long been styling their own...",
          "description": "Es braucht etwas mehr um das Standardaussehen die Formularfelder Checkbox und Radio Button umzugestalten. Die Anleitung zeigt eine barrierefreie Lösung.",
          "description_en": "It takes a little more to redesign the standard appearance of the form fields checkbox and radio button. The instructions show an accessible solution.",
-         "og_img_url": "https://cms-assets.tutsplus.com/uploads/users/30/posts/32074/preview_image/pre.png"
+         "og_img_url": null
       },{
          "name": "herausforderung-der-richtige-alternativtext",
          "title": "Herausforderung: Der richtige Alternativtext",
