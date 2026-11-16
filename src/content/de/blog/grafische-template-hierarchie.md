@@ -3,9 +3,14 @@ title: Grafische Template Hierarchie
 date: 2015-09-11
 featuredImage: 20150911_grafische-template-hierarchie.jpg
 description: WordPress Themes bestehen aus verschiedenen Templates um beispielsweise die Blog-Startseite, den einzelnen Beitrag, die Archivseite, etc. unterschiedlich darstellen zu können. Damit die Inhalte im korrekten Template geladen werden, wird eine Rangordnung – die Template Hierarchie benötigt.
+categories:
+  - "[[Posts]]"
 tags:
-  - wordpress
-status: done
+  - stebrech_blog
+tags_de:
+  - WordPress
+translations:
+  - en
 ---
 Wer sich mit dem Entwickeln von WordPress Themes aber auch schon bei der Bearbeitung mithilfe eines [Child Themes](https://codex.wordpress.org/Child_Themes) beschäftigt, sollte diese Hierarchie kennen oder zumindest wissen, dass es sie gibt.
 

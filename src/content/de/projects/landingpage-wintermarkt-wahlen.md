@@ -3,13 +3,18 @@ title: Landingpage Wintermarkt Wahlen
 date: 2024-11-10
 featuredImage: 20241110_landingpage-wintermarkt-wahlen.jpg
 description: Am 30.11.2024 ist es soweit und der Wintermarkt in Wahlen findet wieder statt. Ich habe dafür die Landingpage überarbeitet und gebe ein paar Einblicke in die Neuerungen.
+categories:
+  - "[[Posts]]"
 tags:
+  - stebrech_projects
+tags_de:
   - 11ty
-  - webentwicklung
-  - webapp
+  - WebApp
+  - Webentwicklung
 featured: true
 weblink: https://familienverein-wahlen.ch/wahlner-wintermarkt
-status: done
+translations:
+  - en
 ---
 Der Wintermarkt wird vom [[familienverein-wahlen|Familienverein Wahlen]] organisiert. Die Landing Page ist eine Unterseite des Vereins.
 
@@ -27,7 +32,7 @@ Mithilfe eines zusätzlichen Buttons oberhalb der Standübersicht können entwed
 
 ## Interaktive Karte
 
-Die interaktive Karte wird im ganzen Fenster angezeigt und kann mit dem X-Button oben rechts wieder geschlossen werden. 
+Die interaktive Karte wird im ganzen Fenster angezeigt und kann mit dem X-Button oben rechts wieder geschlossen werden.
 
 Eine Herausforderung, dass sie zentriert angezeigt wird und in **alle Richtungen** gescrollt werden kann, konnte ich mit Hilfe von Vesa Piittinen lösen.
 
@@ -35,11 +40,11 @@ Eine Herausforderung, dass sie zentriert angezeigt wird und in **alle Richtungen
 
 ## Selbstgemacht ist das Motto
 
-Die selbstgezeichneten, grafischen Elemente des Wintermarkts wurden von meiner Frau **Dominique** kreiert. 
+Die selbstgezeichneten, grafischen Elemente des Wintermarkts wurden von meiner Frau **Dominique** kreiert.
 
 ![Gezeichnete Karte mit den Ständen als Marker gekennzeichnet. Screenshot.](../../assets/20241110_landingpage-wintermarkt-wahlen-map.jpg)
 
-Die Karte konnte in abgeänderter Form vom letzten Wintermarkt übernommen werden. 
+Die Karte konnte in abgeänderter Form vom letzten Wintermarkt übernommen werden.
 
 ![Die ersten Sponsorenlogos. Screenshot.](../../assets/20241110_landingpage-wintermarkt-wahlen-sponsoren.jpg)
 

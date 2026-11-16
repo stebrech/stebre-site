@@ -1,0 +1,25 @@
+<div class="animate__wrapper animate__animated">
+	<article class="postPreview">
+		<div class="postPreview_content">
+
+			<h3 class="postPreview_title">
+				<a href="{% if page.lang === "en" %}/en{% endif %}/bookmarks/{{ post.name }}/" class="postPreview_link">{{ post.title }}</a>
+			</h3>
+
+			<footer class="postPreview_metadata">
+				{# Dates #}
+				{% include "includes/previews/parts/metadata_date.njk" %}
+				{# Tags #}
+				{% include "includes/previews/parts/metadata_tags.njk" %}
+			</footer>
+
+			{# Excerpt #}
+			{% include "includes/previews/parts/excerpt.njk" %}
+
+		</div>
+
+		{# Featured image #}
+		{% include "includes/previews/parts/featured_image.njk" %}
+
+	</article>
+</div>

@@ -3,11 +3,16 @@ title: Innocu Logo
 date: 2018-03-05
 featuredImage: 20180305_innocu-logo.png
 description: Für meinen Schwiegervater habe ich das Logo Innocu umgesetzt. Es ist eine Wort-Bild-Marke und besteht aus dem Text «INNOCU» – was abgekürzt für Innovation Cueni steht – und dem abstrakten Signet, welches die Buchstaben c und i kombiniert.
+categories:
+  - "[[Posts]]"
 tags:
-  - animation
-  - branding
+  - stebrech_projects
+tags_de:
+  - Animation
+  - Design
 featured: false
-status: done
+translations:
+  - en
 ---
 ![Signetvarianten INNOCU](../../assets/20180305_innocu-logo_1.png)
 

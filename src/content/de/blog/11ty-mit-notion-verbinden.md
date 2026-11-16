@@ -4,17 +4,20 @@ date: 2023-09-17
 updated: 2024-02-02
 featuredImage: 20230917_11ty-mit-notion-verbinden.png
 description: Für stebre.ch und bisher zwei weiteren Websites habe ich mir etwas neues ausgedacht. Da verwende ich neu den lieb gewonnen Static Site Generator 11ty in Kombination von Notion, einem vielseitigen Content Tool in der Cloud.
+categories:
+  - "[[Posts]]"
 tags:
+  - stebrech_blog
+tags_de:
   - 11ty
-  - markdown
-status: done
+  - Markdown
 ---
 > [!info] Update 2.2.2024
 > Für stebre.ch nutze ich mittlerweile [Obsidian](https://obsidian.md/) zur Erstellung und Verwaltung der Inhalte. Da ich die Notion-Schnittstelle weiterhin für création eliane, [[../projects/familienverein-wahlen|Familienverein Wahlen]] und hoffentlich auch bald für weitere spannende Projekte nutze, pflege ich diese weiter. Mit [[../projects/notion2eleventy|notion2eleventy]] habe ich ein besser konfigurierbares 11ty Plugin gebaut.
 
 ## Was ist 11ty?
 
-[11ty](https://www.11ty.dev/) (auch Eleventy genannt) ist eines von vielen Static Site Generators (kurz: SSG), betrieben mit [Node.js](https://nodejs.org). Ein SSG ist verantwortlich für die eigentliche Ausgabe (Frontend) einer Website/Webapp und ist bewusst von der Inhaltsadministration (Backend) getrennt. 
+[11ty](https://www.11ty.dev/) (auch Eleventy genannt) ist eines von vielen Static Site Generators (kurz: SSG), betrieben mit [Node.js](https://nodejs.org). Ein SSG ist verantwortlich für die eigentliche Ausgabe (Frontend) einer Website/Webapp und ist bewusst von der Inhaltsadministration (Backend) getrennt.
 
 Mit 11ty lässt sich mit nur sehr wenig Code bereits Resultate erzielen, ist also minimalistisch aber konfigurativ stark erweiterbar. Es kommt von Grund auf mit wenig Node.js Abhängigkeiten (Dependencies) aus und gehört zu den Schnellsten wenn es darum geht die Website zu generieren (Build Time). Die vielen möglichen Templatesprachen sind ebenfalls ein grosser Vorteil. Ich nutze eine Kombination aus Markdown und Nunjucks.
 
@@ -51,7 +54,7 @@ Ich wollte die Inhalte innerhalb des 11ty Repositories haben und als Markdown Fi
 > [!info] Update 2.2.2024
 > Der im folgenden aufgezeigten Code ist zum Teil überholt. Mit [[../projects/notion2eleventy|notion2eleventy]] habe ich ihn in ein Node Paket überführt.
 
-Die Konfiguration wie die Markdown-Files heruntergeladen und befüllt werden sollen, habe ich in einer neuen JavaScript-Datei (`fetchContent.js`) vorgenommen. 
+Die Konfiguration wie die Markdown-Files heruntergeladen und befüllt werden sollen, habe ich in einer neuen JavaScript-Datei (`fetchContent.js`) vorgenommen.
 
 Mit der ersten Funktion wird eine der Datenbanken abgefragt und mit dem Metadatenfeld «Status» gefiltert. Ich möchte also nicht jedes Mal alles herunterladen, sondern nur was sich in einem (respektive in einem optionalen zweiten) Status befindet. So bleibt die dafür benötigte Zeit überschaubar.
 
@@ -81,7 +84,7 @@ async function filteredRequest(dbPostType) {
 }
 ```
 
-In der zweiten Funktion wird ein Array erstellt, welches je Treffer ein Objekt mit den benötigten Metadaten enthält. Da es viele gleiche Metadatentypen in den verschiedenen Datenbanken gibt, sind alle Metadaten vorhanden und innerhalb einer Funktion abgedeckt. 
+In der zweiten Funktion wird ein Array erstellt, welches je Treffer ein Objekt mit den benötigten Metadaten enthält. Da es viele gleiche Metadatentypen in den verschiedenen Datenbanken gibt, sind alle Metadaten vorhanden und innerhalb einer Funktion abgedeckt.
 
 ```javascript
 // Create an array for each post type
@@ -144,7 +147,7 @@ function matchAccents(match) {
 }
 ```
 
-Nun kommt `notion-to-md` ins Spiel. Der Inhalt wird innerhalb des erzeugten Arrays in der zuvor noch undefinierten Objekt-Eigenschaft `content` befüllt. Dies findet in einer for-Schleife statt, da das Array aus mehreren Objekten bestehen kann. 
+Nun kommt `notion-to-md` ins Spiel. Der Inhalt wird innerhalb des erzeugten Arrays in der zuvor noch undefinierten Objekt-Eigenschaft `content` befüllt. Dies findet in einer for-Schleife statt, da das Array aus mehreren Objekten bestehen kann.
 
 ```javascript
 // Get content from Notion
@@ -251,7 +254,7 @@ Danach wird der Frontmatter, also die Metadaten am Anfang des Markdown-Files, zu
 
 Auch Assets wie Bilder, PDFs und Filme möchte ich im 11ty Repository gesichert haben. Die Assets sind sowieso nur mit einer kurzzeitig öffentlichen URL aus der AWS Cloud erreichbar.
 
-Die Bilder sind aufgrund der Markdown-Syntax (`![alt](url)`) leicht von den anderen Assetstypen (PDFs und Filme) zu unterscheiden. Schwieriger ist jedoch die Unterscheidung ob das Asset in Notion hochgeladen wurde oder es an einem anderen Ort liegt, beispielsweise ein PDF, welches ich verlinke. Dies habe ich jetzt mal so gelöst, dass die URL `amazonaws` enthalten muss. 
+Die Bilder sind aufgrund der Markdown-Syntax (`![alt](url)`) leicht von den anderen Assetstypen (PDFs und Filme) zu unterscheiden. Schwieriger ist jedoch die Unterscheidung ob das Asset in Notion hochgeladen wurde oder es an einem anderen Ort liegt, beispielsweise ein PDF, welches ich verlinke. Dies habe ich jetzt mal so gelöst, dass die URL `amazonaws` enthalten muss.
 
 ```javascript
 …

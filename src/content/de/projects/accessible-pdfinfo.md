@@ -4,14 +4,19 @@ date: 2017-10-31
 updated: 2024-11-10
 featuredImage: 20171031_accessible-pdfinfo.png
 description: Die Erstellung von barrierefreien PDF-Dokumenten ist ein leidenschaftliches Thema, mit dem ich mich seit 2014 intensiv beschäftige. In meiner Freizeit pflege und betreibe ich die Website [accessible-pdf.info](https://accessible-pdf.info/de). Dort teile ich meine Erfahrungen und Wissen in Deutsch und Englisch.
+categories:
+  - "[[Posts]]"
 tags:
-  - barrierefreiheit
-  - branding
-  - content
-  - webentwicklung
+  - stebrech_projects
+tags_de:
+  - Barrierefreiheit
+  - Design
+  - Content
+  - Webentwicklung
 featured: false
 weblink: https://accessible-pdf.info/de
-status: done
+translations:
+  - en
 ---
 Es ist als freies Nachschlagewerk gedacht. Inhaltliche Änderungen können via Github direkt beantragt werden oder dort diskutiert werden.
 

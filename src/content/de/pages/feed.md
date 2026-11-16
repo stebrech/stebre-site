@@ -1,5 +1,5 @@
 ---
 layout: layouts/feed.njk
-collection: feed
+feedSource: feedDE
 permalink: /feed.xml
 ---

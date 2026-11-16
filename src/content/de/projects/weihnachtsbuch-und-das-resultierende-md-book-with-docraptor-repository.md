@@ -3,24 +3,29 @@ title: Weihnachtsbuch und das resultierende md-book-with-docraptor Repository
 date: 2023-12-31
 featuredImage: 20231231_weihnachtsbuch.png
 description: Mit dem persönlichen PrintCSS-Projekt haben wir eine eigene Weihnachtsgeschichte zu einem Geschenk gemacht. Sie wurde mit dem Prince Renderer in ein PDF umgewandelt und gedruckt. Zudem kann die Geschichte digital als [mobilefreundliche Webseite](https://stebre.ch/weihnachtsbuch2023) gelesen werden.
+categories:
+  - "[[Posts]]"
 tags:
-  - content-first
-  - markdown
-  - print
-  - print-css
+  - stebrech_projects
+tags_de:
+  - ContentFirst
+  - Markdown
+  - Print
+  - PrintCSS
 featured: true
 weblink: https://stebre.ch/weihnachtsbuch2023
-status: done
+translations:
+  - en
 ---
 ## Idee
 
-Als Weihnachtsgeschenk haben wir uns dieses Jahr eine Weihnachtsgeschichte ausgedacht. Die Geschichte «Dr Ben und dr Gian sueche dr Samichlaus» wurde mit Zeichnungen unserer beiden Söhne geschmückt. 
+Als Weihnachtsgeschenk haben wir uns dieses Jahr eine Weihnachtsgeschichte ausgedacht. Die Geschichte «Dr Ben und dr Gian sueche dr Samichlaus» wurde mit Zeichnungen unserer beiden Söhne geschmückt.
 
 Ziel war eine *Content First* gerechte Umsetzung, so dass eine einzige Datengrundlage sowohl für ein gedrucktes Buch wie auch eine Webseite genutzt werden kann. Die Inhalte sind in Markdown – also reinen Textfiles – geschrieben.
 
 ## Prince
 
-Mit den erstellten Markdown-Files hätte ich das Buch in InDesign oder einem anderen Layoutprogramm umsetzen können, sowie ich das vor einer Weile mal in [[../blog/crossmediale-textverarbeitung-mit-markdown|Crossmediale Textverarbeitung mit Markdown]] niedergeschrieben habe. 
+Mit den erstellten Markdown-Files hätte ich das Buch in InDesign oder einem anderen Layoutprogramm umsetzen können, sowie ich das vor einer Weile mal in [[../blog/crossmediale-textverarbeitung-mit-markdown|Crossmediale Textverarbeitung mit Markdown]] niedergeschrieben habe.
 
 Ich wollte es jedoch mit dem PDF Renderer [Prince](https://www.princexml.com/) bewerkstelligen – auch wenn ich damit um ein vielfaches mehr Zeit aufwenden musste 😅. Nebst dem ich mich tiefer damit auseinandersetzen wollte und davon lernen wollte, war die Idee eine Grundlage für künftige Projekte zu schaffen. Die Stärke von PrintCSS zeigt sich bei Wiederholungen und standardisierten Ausgaben.
 
@@ -28,7 +33,7 @@ Ich wollte es jedoch mit dem PDF Renderer [Prince](https://www.princexml.com/) b
 
 ## md-book-with-docraptor
 
-Obwohl ich den Inhalt und das Cover schlussendlich mit dem lokal installierten Prince gerendert habe, entstanden mit diesem Buch zwei Node.js-Skripte, die ich im Repository [md-book-with-docraptor](https://github.com/stebrech/md-book-with-docraptor) auf Github zur Verfügung stelle. 
+Obwohl ich den Inhalt und das Cover schlussendlich mit dem lokal installierten Prince gerendert habe, entstanden mit diesem Buch zwei Node.js-Skripte, die ich im Repository [md-book-with-docraptor](https://github.com/stebrech/md-book-with-docraptor) auf Github zur Verfügung stelle.
 
 Die beiden Skripte werde ich hier nicht im Detail beschreiben. Kurz gesagt wandelt `md2html.js` die Markdown-Files in mehrere HTML-Dateien um und `docraptor.js` sendet die HTML-Dateien, welche den CSS-Code und Assets inline enthalten, an [docraptor.com](https://docraptor.com/). DocRaptor ist ein Onlineservice mit einer API um Prince in der Cloud zu nutzen.
 

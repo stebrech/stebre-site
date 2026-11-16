@@ -3,7 +3,7 @@
   "private": true,
   "description": "SteBre Website",
   "author": "Stefan Brechbühl",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "type": "module",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",

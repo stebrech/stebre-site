@@ -1,9 +1,13 @@
 ---
+layout: layouts/posts.njk
+templateClass: postlist
 title: Blogbeiträge
-layout: layouts/postlist.njk
-collection: blog_de
-tags: 
-  - pages_de
-permalink: /blog/
-status: done
+pagination:
+  data: collections.stebrech_blog
+  size: 9
+  alias: posts
+  reverse: true
+permalink: /blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}/
+tags:
+  - stebrech_pages
 ---

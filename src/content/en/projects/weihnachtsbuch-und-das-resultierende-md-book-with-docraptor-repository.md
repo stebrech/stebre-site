@@ -2,15 +2,18 @@
 title: Christmas book and the resulting md-book-with-docraptor repository
 date: 2023-12-31
 featuredImage: 20231231_weihnachtsbuch.png
-description: With the personal CSS paged media project we made our own Christmas story into a present. It was converted into a PDF with the Prince Renderer and printed. The story can also be read digitally as a [responsive website](https://stebre.ch/weihnachtsbuch2023) [not translated to English].
+description_en: With the personal CSS paged media project we made our own Christmas story into a present. It was converted into a PDF with the Prince Renderer and printed. The story can also be read digitally as a [responsive website](https://stebre.ch/weihnachtsbuch2023) [not translated to English].
+categories:
+  - "[[Posts]]"
 tags:
-  - content-first
-  - markdown
-  - print
-  - print-css
+  - stebrech_en_projects
+tags_en:
+  - ContentFirst
+  - Markdown
+  - Print
+  - PrintCSS
 featured: true
 weblink: https://stebre.ch/weihnachtsbuch2023
-status: done
 ---
 ## Idea
 

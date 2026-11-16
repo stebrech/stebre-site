@@ -1,8 +1,12 @@
 ---
-title: Tag
-layout: layouts/taglist.njk
-tags: 
-  - pages_de
-permalink: /tags/{{ tag }}/
-status: done
+layout: layouts/tags.njk
+pagination:
+  data: collections.tagsDE
+  size: 1
+  alias: tag
+  reverse: true
+  addAllPagesToCollections: true
+permalink: /tags/{{ tag.name | slug }}/
+eleventyComputed:
+  title: "{{ tag.name }}"
 ---

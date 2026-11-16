@@ -3,9 +3,14 @@ title: Das WordPress Backend Theme anpassen und Plugin-, Theme-Editor und Admin 
 date: 2012-04-06
 featuredImage: 20120406_das-wordpress-backend-theme-anpassen-und-plugin--theme-editor-und-admin-bar-ausblenden.jpg
 description: Es bestehen Möglichkeiten das WordPress Backend an persönliche Bedürfnisse anzupassen. Abstimmungen an das Corporate Design wird wohl einer, der bedeutendsten Gründe dafür sein. Nebst Änderungen am Aussehen, möchte ich auch auf das Ausblenden von Plugin-, Theme-Editor und der Admin Bar eingehen.
+categories:
+  - "[[Posts]]"
 tags:
-  - wordpress
-status: done
+  - stebrech_blog
+tags_de:
+  - WordPress
+translations:
+  - en
 ---
 ## Die Oberfläche des Backends ändern
 

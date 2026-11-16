@@ -3,6 +3,6 @@ export default {
 	lang: "en",
 	dateFormat: "LLLL d, yyyy",
 	layout: "layouts/post.njk",
-	featuredImage: "banner-stebre.png",
-	author: "Stefan Brechbühl",
+	featuredImage: "banner-stebre2.png",
+	authors: "Stefan Brechbühl",
 };

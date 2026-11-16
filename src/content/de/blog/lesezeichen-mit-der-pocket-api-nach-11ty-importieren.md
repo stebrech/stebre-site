@@ -4,19 +4,24 @@ date: 2024-03-06
 updated: 2025-04-07
 featuredImage: 20240308_lesezeichen-mit-der-pocket-api-nach-11ty-importieren.jpg
 description: Pocket bietet eine API, mit der die gespeicherten Lesezeichen verwendet und angepasst werden können. Diese mache ich mir zu nutzen und speichere die Daten in einem Lesezeichenbeitrag auf [stebre.ch](https://stebre.ch/bookmarks). Es werden Lesezeichen mit einem spezifischen Tag berücksichtigt. Nach der Verarbeitung wird der auf Pocket gespeicherte Link archiviert.
+categories:
+  - "[[Posts]]"
 tags:
+  - stebrech_blog
+tags_de:
   - 11ty
-  - automatisierung
-  - webentwicklung
-status: done
+  - Automatisierung
+  - Webentwicklung
+translations:
+  - en
 ---
 
 > [!INFO] Umzug
 > Dieser Beitrag ist am 7.4.2025 von der Rubrik in Blog umgezogen.
 
-Ich habe schon einige Varianten ausprobiert um lehrreiche und hilfreiche Weblinks als Favoriten zu speichern oder fürs später Lesen zu merken. Hängen geblieben bin ich bei [Pocket](https://getpocket.com), welches vor ein paar Jahren von [Mozilla](https://www.mozilla.org/de/) übernommen wurde und am Leben blieb. 
+Ich habe schon einige Varianten ausprobiert um lehrreiche und hilfreiche Weblinks als Favoriten zu speichern oder fürs später Lesen zu merken. Hängen geblieben bin ich bei [Pocket](https://getpocket.com), welches vor ein paar Jahren von [Mozilla](https://www.mozilla.org/de/) übernommen wurde und am Leben blieb.
 
-In meiner Pocket hat sich vieles, wertvolles angesammelt – zum grossen Teil ungelesen. Das muss sich ändern… Diese Schätze möchte ich gerne weiterempfehlen. Das Teilen auf Social Media ist gut und recht aber kurzlebig. Was bietet sich besser an als die persönliche Website. 
+In meiner Pocket hat sich vieles, wertvolles angesammelt – zum grossen Teil ungelesen. Das muss sich ändern… Diese Schätze möchte ich gerne weiterempfehlen. Das Teilen auf Social Media ist gut und recht aber kurzlebig. Was bietet sich besser an als die persönliche Website.
 
 Auf meiner Website möchte ich nur (aus meiner Sicht) relevante Inhalte veröffentlichen. Daher ist dies ein guter Anlass all die gespeicherten Links durchzugehen und mir für später Gespeichertes endlich vorzunehmen.
 
@@ -34,7 +39,7 @@ In meinem Fall habe ich eine Applikation mit sämtlichen Rechten erstellt. Für 
 
 ## Node.js Script in 11ty
 
-Nachdem erfolgreichen Einrichten der Authentifizierung und Testen mit Postman habe ich ein Node.js Script erstellt, welches den Import aus Pocket in meine 11ty Site übernimmt. 
+Nachdem erfolgreichen Einrichten der Authentifizierung und Testen mit Postman habe ich ein Node.js Script erstellt, welches den Import aus Pocket in meine 11ty Site übernimmt.
 
 Das Script hat folgende Funktionen:
 
@@ -62,7 +67,7 @@ const pocketDataOptions = {
 const fetch = await axios.get(getPocketDataUrl, pocketDataOptions);
 ```
 
-Die Authentifizierung wird mit den Parametern `consumer_key` und `access_token` erreicht. 
+Die Authentifizierung wird mit den Parametern `consumer_key` und `access_token` erreicht.
 
 Weitere Parameter sind:
 
@@ -72,7 +77,7 @@ Weitere Parameter sind:
 
 ### Beschreibungstexte
 
-Nebst dem Pocket-Beschreibungstexts möchte ich auch die *Description* aus dem Head der entsprechenden Website beziehen. Diese war bisher meist besser als der Beschreibungstext von Pocket. 
+Nebst dem Pocket-Beschreibungstexts möchte ich auch die *Description* aus dem Head der entsprechenden Website beziehen. Diese war bisher meist besser als der Beschreibungstext von Pocket.
 
 Die Funktion, die ich dafür nutze, sieht wie folgt aus:
 
@@ -80,14 +85,14 @@ Die Funktion, die ich dafür nutze, sieht wie folgt aus:
 async function getMetaDescription(url, filename) {
 	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
-	
+
 	try {
 		await page.goto(url);
 		const metaDescription = await page.evaluate(() => {
 			const description = document.querySelector('meta[name="description"]');
 			const ogDescription = document.querySelector('meta[property="og:description"]');
-			
-			if (description) {		
+
+			if (description) {
 				return description.content;
 			} else if (ogDescription) {
 				return ogDescription.content;
@@ -95,7 +100,7 @@ async function getMetaDescription(url, filename) {
 				return null;
 			}
 		});
-		
+
 		await browser.close();
 		console.log(`${filename} | Meta description has been fetched`);
 		return metaDescription;
@@ -118,20 +123,20 @@ Kann kein Bild von Pocket heruntergeladen werden, wird folgende Funktion aufgeru
 
 ```js
 async function getScreenshot(url, filepath, filename) {
-	
+
 	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
-	
+
 	try {
-	
+
 		await page.goto(url);
 		await page.setViewport({ width: 1600, height: 800 });
 		await page.screenshot({ path: filepath });
 		await browser.close();
 		console.log(`${filename} | Screenshot has been saved`);
-	
+
 	} catch (error) {
-	
+
 		await browser.close();
 		console.error(`${filename} | Error getting screenshot:`, error);
 	}

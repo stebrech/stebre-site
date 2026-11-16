@@ -2,14 +2,17 @@
 title: Landing page of the winter market in Wahlen
 date: 2024-11-10
 featuredImage: 20241110_landingpage-wintermarkt-wahlen.jpg
-description: On 30.11.2024 the time has come and the winter market in Wahlen will take place again. I have redesigned the landing page and give you a few insights into the new features.
+description_en: On 30.11.2024 the time has come and the winter market in Wahlen will take place again. I have redesigned the landing page and give you a few insights into the new features.
+categories:
+  - "[[Posts]]"
 tags:
+  - stebrech_en_projects
+tags_en:
   - 11ty
-  - webdev
-  - webapp
+  - Webdev
+  - WebApp
 featured: true
 weblink: https://familienverein-wahlen.ch/wahlner-wintermarkt
-status: done
 ---
 The winter market is organized by the [[en/projects/family-association-wahlen|Familienverein Wahlen]]. The landing page is a subpage of the association.
 

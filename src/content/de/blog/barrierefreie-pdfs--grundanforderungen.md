@@ -3,10 +3,13 @@ title: Barrierefreie PDFs – Grundanforderungen
 date: 2017-02-20
 featuredImage: 20170220_barrierefreie-pdfs--grundanforderungen.jpg
 description: Im zweiten Teil dieser Artikelreihe möchte ich die Grundanforderungen eines zugänglichen PDF-Dokuments etwas beleuchten. Der Beitrag soll aufzeigen was gemacht oder beachtet werden muss.
+categories:
+  - "[[Posts]]"
 tags:
-  - barrierefreiheit
-  - pdf
-status: needs-translation
+  - stebrech_blog
+tags_de:
+  - Barrierefreiheit
+  - PDF
 ---
 Wer den ersten Teil «[Barrierefreie PDFs – Eine Übersicht zur Herausforderung](https://stebre.ch/blog/barrierefreie-pdfs--eine-uebersicht-zur-herausforderung/)» noch nicht gelesen hat, findet dort allgemeine Informationen zu möglichen Barrieren, Assistiven Technologien (AT), Prüfungsmöglichkeiten und mehr.
 

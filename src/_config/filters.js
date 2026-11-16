@@ -75,7 +75,7 @@ export default function (eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("tagsStringToArray", (tags) => {
-	  const tagArray = (tags) ? tags.split(',').map(tag => tag.trim()) : [];
+		const tagArray = (tags) ? tags.split(',').map(tag => tag.trim()) : [];
 		return tagArray;
 	});
 
@@ -83,13 +83,6 @@ export default function (eleventyConfig) {
 		return (tags || []).sort((a, b) => a.localeCompare(b));
 	});
 
-	eleventyConfig.addFilter("sortByDateDesc", (values) => {
-		return values.slice().sort((a, b) => {
-			const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date);
-			const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date);
-			return dateB - dateA;
-		});
-	});
 
 	eleventyConfig.addFilter("limit", function (arr, limit) {
 		return arr.slice(0, limit);
@@ -111,7 +104,4 @@ export default function (eleventyConfig) {
 		return image.replace(/\.[^/.]+$/, "") + "_500.webp";
 	});
 
-	eleventyConfig.addFilter("deleteFirstCharacter", (str) => {
-		return str.substring(1);
-	});
 }

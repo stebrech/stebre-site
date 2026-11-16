@@ -4,13 +4,18 @@ date: 2022-11-15
 updated: 2023-09-17
 featuredImage: 20221115_stebrech-relaunch-und-namensaenderung.png
 description: "stebre.ch: Klammheimlich habe ich ein Relaunch meiner persönlichen Website durchgeführt und zudem noch den Namen geändert. Ich möchte es aber nicht unterlassen dir einen kleinen Einblick zu geben."
+categories:
+  - "[[Posts]]"
 tags:
+  - stebrech_projects
+tags_de:
   - 11ty
-  - branding
-  - content
-  - webentwicklung
+  - Design
+  - Content
+  - Webentwicklung
 featured: false
-status: done
+translations:
+  - en
 ---
 ## Wieso ein neuer Name?
 

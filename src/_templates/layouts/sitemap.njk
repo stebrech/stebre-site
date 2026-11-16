@@ -4,17 +4,25 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>{{ homepage }}</loc>
+		<loc>{{ metadata.url }}{% if page.lang === "en" %}/en{% endif %}</loc>
 		<lastmod>{{ helpers.currentDate() | htmlDateString }}</lastmod>
 		<changefreq>{{ item.data.sitemapChangefreq | default("monthly") }}</changefreq>
 		<priority>{{ item.data.sitemapPriority | default(1.0) }}</priority>
 	</url>
-{%- for item in collections[collection_blog] | reverse %}
+{%- for item in collections[collection_pages] %}
 	<url>
 		<loc>{{ metadata.url }}{{ item.url }}</loc>
 		<lastmod>{{ item.date | htmlDateString }}</lastmod>
 		<changefreq>{{ item.data.sitemapChangefreq | default("monthly") }}</changefreq>
 		<priority>{{ item.data.sitemapPriority | default(0.8) }}</priority>
+	</url>
+{%- endfor %}
+{%- for item in collections[collection_blog] | reverse %}
+	<url>
+		<loc>{{ metadata.url }}{{ item.url }}</loc>
+		<lastmod>{{ item.date | htmlDateString }}</lastmod>
+		<changefreq>{{ item.data.sitemapChangefreq | default("monthly") }}</changefreq>
+		<priority>{{ item.data.sitemapPriority | default(1.0) }}</priority>
 	</url>
 {%- endfor -%}
 {%- for item in collections[collection_projects] | reverse %}
@@ -22,7 +30,7 @@ eleventyExcludeFromCollections: true
 		<loc>{{ metadata.url }}{{ item.url }}</loc>
 		<lastmod>{{ item.date | htmlDateString }}</lastmod>
 		<changefreq>{{ item.data.sitemapChangefreq | default("monthly") }}</changefreq>
-		<priority>{{ item.data.sitemapPriority | default(0.8) }}</priority>
+		<priority>{{ item.data.sitemapPriority | default(1.0) }}</priority>
 	</url>
 {%- endfor -%}
 {%- for item in collections[collection_bookmarks] | reverse %}
@@ -30,15 +38,15 @@ eleventyExcludeFromCollections: true
 		<loc>{{ metadata.url }}{{ item.url }}</loc>
 		<lastmod>{{ item.date | htmlDateString }}</lastmod>
 		<changefreq>{{ item.data.sitemapChangefreq | default("monthly") }}</changefreq>
-		<priority>{{ item.data.sitemapPriority | default(0.4) }}</priority>
+		<priority>{{ item.data.sitemapPriority | default(0.8) }}</priority>
 	</url>
 {%- endfor -%}
-{%- for item in collections[collection_pages] %}
+{%- for item in collections[collection_tags] %}
 	<url>
-		<loc>{{ metadata.url }}{{ item.url }}</loc>
-		<lastmod>{{ item.date | htmlDateString }}</lastmod>
+		<loc>{{ metadata.url }}/tags/{{ item.name | slug }}/</loc>
+		<lastmod>{{ helpers.currentDate() | htmlDateString }}</lastmod>
 		<changefreq>{{ item.data.sitemapChangefreq | default("monthly") }}</changefreq>
-		<priority>{{ item.data.sitemapPriority | default(0.4) }}</priority>
+		<priority>{{ item.data.sitemapPriority | default(0.6) }}</priority>
 	</url>
 {%- endfor %}
 </urlset>

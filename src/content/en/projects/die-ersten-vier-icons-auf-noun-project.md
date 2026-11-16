@@ -2,11 +2,14 @@
 title: The first four icons on Noun Project
 date: 2014-10-06
 featuredImage: 20141006_die-ersten-vier-icons-auf-noun-project.png
-description: I have made the four icons shown available on Noun Project.
+description_en: I have made the four icons shown available on Noun Project.
+categories:
+  - "[[Posts]]"
 tags:
-  - icons
+  - stebrech_en_projects
+tags_en:
+  - Icons
 featured: false
-status: done
 ---
 Click here to download on Noun Project:
 

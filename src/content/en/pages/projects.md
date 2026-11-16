@@ -1,10 +1,12 @@
 ---
+layout: layouts/posts.njk
+templateClass: postlist
 title: Side projects
-layout: layouts/postlist.njk
-collection: projects_en
-tags:
-  - pages_en
-permalink: /en/projects/
-status: done
+pagination:
+  data: collections.stebrech_en_projects
+  size: 9
+  alias: posts
+  reverse: true
+permalink: /en/projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}/
 ---
 Here I give an insight into some projects that I have realized independently. Those contain design work as well as web development.

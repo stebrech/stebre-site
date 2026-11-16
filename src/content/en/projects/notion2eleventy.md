@@ -3,14 +3,17 @@ title: notion2eleventy
 date: 2024-01-29
 updated: 2024-05-10
 featuredImage: 20230917_11ty-mit-notion-verbinden.png
-description: "`notion2eleventy` is a plugin for the *Static Site Generator* [Eleventy (short: 11ty)](https://11ty.dev). It loads content from Notion into your 11ty directory. A status-based workflow ensures that only content that has changed is downloaded. The plugin is available as a Node module at [npmjs.com](https://www.npmjs.com/package/@stebrech/notion2eleventy)."
+description_en: "`notion2eleventy` is a plugin for the *Static Site Generator* [Eleventy (short: 11ty)](https://11ty.dev). It loads content from Notion into your 11ty directory. A status-based workflow ensures that only content that has changed is downloaded. The plugin is available as a Node module at [npmjs.com](https://www.npmjs.com/package/@stebrech/notion2eleventy)."
+categories:
+  - "[[Posts]]"
 tags:
+  - stebrech_en_projects
+tags_en:
   - 11ty
-  - markdown
-  - notion
+  - Markdown
+  - Notion
 featured: true
 weblink: https://github.com/stebrech/notion2eleventy
-status: done
 ---
 ## `notion2eleventy` Features
 
@@ -35,7 +38,7 @@ The dependent modules for `notion2eleventy` are:
 
 ## Install plugin
 
-`notion2eleventy` will be installed with the Node package manager `npm` or `yarn`.  
+`notion2eleventy` will be installed with the Node package manager `npm` or `yarn`.
 
 ```sh
 npm i @stebrech/notion2eleventy

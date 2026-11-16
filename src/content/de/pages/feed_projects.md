@@ -1,5 +1,5 @@
 ---
 layout: layouts/feed.njk
-collection: projects_de
+feedSource: stebrech_projects
 permalink: /feed_projects.xml
 ---

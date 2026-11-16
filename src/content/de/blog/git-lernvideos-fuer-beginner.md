@@ -3,10 +3,15 @@ title: Git Lernvideos für Beginner
 date: 2015-01-25
 featuredImage: 20150125_git-lernvideos-fuer-beginner.png
 description: Die Macher von Tower, einem beliebten Git Client, bieten auf ihrer Website zusätzlich [Lernressourcen zum Thema Git](http://www.git-tower.com/learn/) an. Die Inhalte sind in Englisch und in eBook, Videokurse und Webinar aufgeteilt.
+categories:
+  - "[[Posts]]"
 tags:
-  - git
-  - webentwicklung
-status: done
+  - stebrech_blog
+tags_de:
+  - Git
+  - Webentwicklung
+translations:
+  - en
 ---
 Die Lernvideos werden wiederum in Git mit Kommandozeile und Git mit Tower aufgeteilt. Da ich Tower nutze habe ich mir diese Videos näher angesehen.
 

@@ -1,0 +1,20 @@
+<div class="postPreview_excerpt">
+
+	{# English bookmark archive page. The global data file has both languages available. Therefore the page.lang is used here as well. #}
+	{% if post.description_en and page.lang === "en" %}
+		{{ post.description_en | removeMarkdown }}
+
+	{# German bookmark archive page. The global data file has both languages available. Therefore the page.lang is used here as well. #}
+	{% elif post.description and page.lang === "de" %}
+		{{ post.description | removeMarkdown }}
+
+	{# All other English pages #}
+	{% elif post.data.description_en %}
+		{{ post.data.description_en | removeMarkdown }}
+
+	{# All other German pages #}
+	{% else %}
+		{{ post.data.description | removeMarkdown }}
+	{% endif %}
+
+</div>

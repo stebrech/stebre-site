@@ -3,10 +3,15 @@ title: Contact Form 7 Code nur wenn nötig laden
 date: 2012-07-26
 featuredImage: 20120726_contact-form-7-code-nur-wenn-noetig-laden.jpg
 description: Verwendet ihr das WordPress Plugin [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) auf eurer Website? Vielleicht ist euch schon aufgefallen, dass eine JavaScript- und eine CSS-Datei auf jeder einzelnen Seite eurer Website in den Header geladen wird.
+categories:
+  - "[[Posts]]"
 tags:
-  - performance
-  - wordpress
-status: done
+  - stebrech_blog
+tags_de:
+  - Performance
+  - WordPress
+translations:
+  - en
 ---
 Dies machen übrigens viele andere Plugins auch. Bei einem Plugin wie [Contact Form 7](http://wordpress.org/plugins/contact-form-7/), welches in der Regel auf ein, zwei Seiten eingesetzt wird, ist es fraglich ob dies Sinn macht. Das Plugin erzeugt dadurch nämlich auf allen anderen Seiten unnötige [HTTP-Requests](http://de.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP-Request-Methoden), was die Seite verlangsamt.
 

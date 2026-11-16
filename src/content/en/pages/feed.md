@@ -1,5 +1,5 @@
 ---
 layout: layouts/feed.njk
-collection: feed_en
+feedSource: feedEN
 permalink: /en/feed.xml
 ---

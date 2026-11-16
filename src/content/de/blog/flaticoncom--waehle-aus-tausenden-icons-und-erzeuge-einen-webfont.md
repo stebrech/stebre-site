@@ -3,9 +3,14 @@ title: flaticon.com – Wähle aus tausenden Icons und erzeuge einen Webfont
 date: 2013-11-13
 featuredImage: 20131113_flaticoncom--waehle-aus-tausenden-icons-und-erzeuge-einen-webfont.jpg
 description: "[flaticon.com](https://www.flaticon.com/) ist eine Suchmaschine um geeignete Icons im “Flat”-Stil ausfindig zu machen. Der Dienst stammt von den Machern von [freepik](https://www.freepik.com/), einer beliebten Suchmaschine für Vektorgrafiken, Fotos und Photoshop-Dateien."
+categories:
+  - "[[Posts]]"
 tags:
-  - icons
-status: done
+  - stebrech_blog
+tags_de:
+  - Icons
+translations:
+  - en
 ---
 ## Flat Design - was ist das?
 

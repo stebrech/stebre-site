@@ -3,50 +3,129 @@ layout: layouts/base.njk
 templateClass: post
 ---
 <article data-pagefind-body>
+
 	<div class="headerShadow">
 		<header class="headerPost">
 			<div class="containerM">
-				<h1 class="title"{% if (page.lang !== "en") and (post.data.lang === "en") %} lang="en"{% endif %}>
-					{{ title }}
-				</h1>
-					<div class="featuredImage">
-						{% if ogImgUrl %}
-						<img src="{{ ogImgUrl }}" alt="">
-						{% else %}
-						<img src="../../assets/{{ featuredImage }}" alt="">
-						{% endif %}
+				<h1 class="title">{{ title }}</h1>
+				<div class="featuredImage">
+					{% if og_img_url %}
+					<img src="{{ og_img_url }}" alt="">
+					{% else %}
+					<img src="../../assets/{{ featuredImage }}" alt="">
+					{% endif %}
 				</div>
 			</div>
 		</header>
 	</div>
+
+	{# Main content #}
 	<div class="containerL">
 		<div class="contentContainer">
-			<div class="content"{% if (page.lang !== "en") and (post.data.lang === "en") %} lang="en"{% endif %}>
-				{% if description %}
-					<div class="lead">
-						{{ description | markdown | safe }}
-					</div>
-				{% endif %}
+			<div class="content">
+				<div class="lead">
+					{% if description_en %}
+					{{ description_en | markdown | safe }}
+					{% elif description %}
+					{{ description | markdown | safe }}
+					{% endif %}
+				</div>
 				{{ content | safe }}
-			</div>
-			<footer class="metadata">
-				<p>{% if postType === "bookmarks" %}{{ i18n.article.metadata.bookmarkFound[page.lang] }}{% else %}{{ i18n.article.metadata.publishDate[page.lang] }}{% endif %} <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></p>
-				{% if updated %}<p>{{ i18n.article.metadata.lastUpdate[page.lang] }} {{ updated | readableDate }}</p>{% endif %}
-				{% if author %}<p>{{ i18n.article.metadata.author[page.lang] }} {{ author }}</p>{% endif %}
-				{% if tags.length > 1 %}
-					<h2>Tags</h2>
-					<ul class="tags">
-						{%- for tag in tags | excludeTagsFromTagList %}
-							{%- set tagUrl %}{% if page.lang === "en" %}/en{% endif %}/tags/{{ tag | slugify }}/{% endset %}
-							<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
-						{%- endfor %}
-					</ul>
+
+				{% if "/bookmarks/" in page.url %}
+					<blockquote>
+						{{ meta_description }}
+						{% if domain %}<br><cite>— {{ domain }}</cite>{% endif %}
+					</blockquote>
+					<p class="bm weblink"><a href={{ weblink }}>{{ i18n.article.metadata.visit[page.lang] }} {{ domain }}</a></p>
 				{% endif %}
-				{% if weblink %}
+
+				{# Webmention #}
+				{# <hr>
+				<form id="webmention-form" action="https://webmention.io/stebre.ch/webmention" method="POST">
+					<label for="webmention-form"><!-- insert any description for the form here --></label>
+
+					<input id="webmention-source" type="url" autocomplete="url" required="" pattern="^https?:\/\/(.*)" name="source" placeholder="URL/Permalink of your article" class="error" aria-invalid="true">
+
+					<input id="webmention-submit" type="submit" name="submit" value="Ping me!">
+
+					<input id="webmention-format" type="hidden" name="format" value="html">
+					<input id="webmention-target" type="hidden" name="target" value="">
+				</form> #}
+			</div>
+
+			{# Sidebar #}
+			<footer class="metadata">
+
+				{# Publication date #}
+				{% if "/bookmarks" in page.url %}
+					<p>{{ i18n.article.metadata.bookmarkFound[page.lang] }} <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></p>
+					{% else %}
+					<p>{{ i18n.article.metadata.publishDate[page.lang] }} <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></p>
+				{% endif %}
+				{# Optional modification date #}
+				{% if updated %}
+					<p>{{ i18n.article.metadata.lastUpdate[page.lang] }} {{ updated | readableDate }}</p>
+				{% endif %}
+
+				{# Authors #}
+				{% if authors %}
+					<p>{{ i18n.article.metadata.author[page.lang] }} {{ authors }}</p>
+				{% endif %}
+
+				{# Optional languages #}
+				{% if languages %}
+					<h2>{{ i18n.article.metadata.language[page.lang] }}</h2>
+					{% if "de" in languages and "en" in languages %}
+						<ul class="languages">
+							<li>{{ i18n.article.metadata.language.german[page.lang] }}</li>
+							<li>{{ i18n.article.metadata.language.english[page.lang] }}</li>
+						</ul>
+					{% elif "en" in languages %}
+						<p>{{ i18n.article.metadata.language.english[page.lang] }}</p>
+					{% else %}
+						<p>{{ i18n.article.metadata.language.german[page.lang] }}</p>
+					{% endif %}
+				{% endif %}
+
+				<h2>Tags</h2>
+				<ul class="tags">
+					{% if page.lang === "en" %}
+						{% set tags = tags_en %}
+					{% else %}
+						{% set tags = tags_de %}
+					{% endif %}
+					{%- for tag in tags %}
+					{%- set tagUrl %}{% if page.lang === "en" %}/en{% endif %}/tags/{{ tag | slugify }}/{% endset %}
+						<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+					{%- endfor %}
+				</ul>
+
+				{# Optional weblink #}
+				{% if weblink and "/bookmarks/" not in page.url %}
 					<p class="weblink"><a href={{ weblink }}>{{ i18n.article.metadata.weblink[page.lang] }}</a></p>
 				{% endif %}
+
 				{# Newsletter form | DE ONLY #}
-				{% include "../includes/sidebar/newsletter_form.njk" %}
+				{% if page.lang === "de" %}
+					<hr>
+					<h2>Newsletter abonnieren</h2>
+					<form
+						action="https://buttondown.email/api/emails/embed-subscribe/stebre"
+						method="post"
+						target="popupwindow"
+						onsubmit="window.open('https://buttondown.email/stebre', 'popupwindow')"
+						class="newsletter"
+					>
+						<label for="name">Dein Name</label>
+						<input type="text" name="metadata__name" id="name" />
+						<label for="bd-email">Deine E-Mailadresse</label>
+						<input type="email" name="email" id="bd-email" />
+						<input type="submit" value="Newsletter abonnieren" />
+					</form>
+				{% endif %}
+
+				{# Feed Links #}
 				<hr>
 				<h2>{{ i18n.article.metadata.subscribe2feed[page.lang] }}</h2>
 				<ul>

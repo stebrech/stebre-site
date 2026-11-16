@@ -2,9 +2,6 @@
 title: Was und wer ist SteBre?
 layout: layouts/home.njk
 permalink: /
-collectionProjects: featuredProjectsDe
-collectionBlog: blog_de
-status: done
 ---
 Hey, mein Name ist **Ste**fan **Bre**chbühl. SteBre ist meine persönliche Website. Hier zeige ich [[projects|meine Nebenprojekte]] und [[blog|schreibe über Publishing und technische Themen]].
 

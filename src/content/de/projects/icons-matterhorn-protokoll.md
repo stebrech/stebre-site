@@ -3,11 +3,16 @@ title: Icons «Matterhorn Protokoll»
 date: 2018-06-15
 featuredImage: 20180615_icons-matterhorn-protokoll.png
 description: Mit diesen Icons wollte ich die verschiedenen Prüfpunkte des Matterhorn Protokolls visualiseren.
+categories:
+  - "[[Posts]]"
 tags:
-  - icons
+  - stebrech_projects
+tags_de:
+  - Icons
 featured: false
 weblink: https://github.com/stebrech/icons-matterhorn-protocol
-status: done
+translations:
+  - en
 ---
 Eigentlich war die Idee, diese Icons auf [[projects/accessible-pdf-info|accessible-pdf.info]] zu verwenden, dies habe ich dann aber wieder verworfen.
 

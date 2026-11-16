@@ -1,35 +1,25 @@
 ---js
-const layout = "layouts/bookmark.njk";
-const postType = "bookmarks";
-const tags = ["bookmarks_en"];
+const layout = "layouts/post.njk";
+const templateClass = "post";
+const tags = ["stebrech_en_bookmarks"];
 const pagination = {
-  data: "bookmarks.bookmarks",
+  data: "bookmarks",
   size: 1,
-  alias: "bookmarks",
-  addAllPagesToCollections: true
+  alias: "post",
+  addAllPagesToCollections: true,
+	reverse: true
 };
-const collection = "bookmarks_en";
 const eleventyComputed = {
-  title: data => data.bookmarks.title,
-  languages: data => {
-    const languages = data.bookmarks.languages ? data.bookmarks.languages.split(',').map(lang => lang.trim()) : [];
-    return languages;
-  },
-  description: data => data.bookmarks.description_en,
-  weblink: data => data.bookmarks.url,
-  domain: data => data.bookmarks.domain,
-  author: data => data.bookmarks.authors,
-  ogImgUrl: data => data.bookmarks.og_img_url,
-  permalink: data => `en/bookmarks/${data.bookmarks.name}/`,
-  date: data => new Date(data.bookmarks.date),
-  tags: data => {
-    const tags = data.bookmarks.tags_en ? data.bookmarks.tags_en.split(',').map(tag => tag.trim()) : [];
-    tags.push("bookmarks_en");
-    return tags;
-  }
+	permalink: data => `/en/bookmarks/${data.post.name}/`,
+	title: data => data.post.title,
+	meta_description: data => data.post.meta_description,
+	weblink: data => data.post.url,
+	domain: data => data.post.domain,
+	og_img_url: data => data.post.og_img_url,
+	authors: data => data.post.authors,
+	date: data => new Date(data.post.date),
+	description_en: data => data.post.description_en,
+	tags_en: data => data.post.tags_en,
+	languages: data => data.post.languages
 }
 ---
-<blockquote>
-  {{ bookmarks.meta_description }}
-  {% if bookmarks.domain %}<br><cite>— {{ bookmarks.domain }}</cite>{% endif %}
-</blockquote>

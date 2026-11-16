@@ -1,10 +1,9 @@
 ---
 layout: layouts/sitemap.njk
-homepage: https://stebre.ch
-collection_blog: blog_de
-collection_projects: projects_de
-collection_bookmarks: bookmarks_de
-collection_pages: pages_de
+collection_blog: stebrech_blog
+collection_projects: stebrech_projects
+collection_bookmarks: stebrech_bookmarks
+collection_tags: tagsDE
+collection_pages: stebrech_pages
 permalink: /sitemap.xml
-status: done
 ---

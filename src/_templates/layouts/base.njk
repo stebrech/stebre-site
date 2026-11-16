@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>{% if templateClass !== "home" %}{{ title or tag }} | {% endif %}{{ metadata.title }}</title>
+		<title>{% if templateClass !== "home" %}{{ title }} | {% endif %}{{ metadata.title }}</title>
 		<meta name="description" content="{{ description | removeMarkdown or metadata.description[page.lang] }}">
 
 		{#- Webmentions #}
@@ -21,11 +21,8 @@
 		<style>{% include "../styles/accessibility.css" %}</style>
 		<style>{% include "../styles/layout.css" %}</style>
 		<style>{% include "../styles/elements.css" %}</style>
-		{% if templateClass === "home" or templateClass === "postlist" or templateClass === "taglist" %}
+		{% if templateClass === "home" or templateClass === "postlist" or templateClass === "taglist" or templateClass === "bookmarks" %}
 		<style>{% include "../styles/post_preview.css" %}</style>
-		{% endif %}
-		{% if templateClass === "linktipps" %}
-		<style>{% include "../styles/linktipps.css" %}</style>
 		{% endif %}
 		{% if templateClass === "home" %}
 		<style>{% include "../styles/home.css" %}</style>
@@ -52,10 +49,10 @@
 
 
 		{#- Favicons #}
-		{% include "includes/metadata/favicon.njk" %}
+		{% include "includes/site_metadata/favicon.njk" %}
 
 		{#- Open Graph #}
-		{% include "includes/metadata/og.njk" %}
+		{% include "includes/site_metadata/og.njk" %}
 
 		{#- Love for 11ty #}
 		<meta name="generator" content="{{ eleventy.generator }}">

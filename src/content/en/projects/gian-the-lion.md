@@ -2,11 +2,14 @@
 title: Gian the lion
 date: 2019-04-27
 featuredImage: 20190427_gian-the-lion.png
-description: I drew and vectorized the mascot "Gian the Lion" for the invitation card of our youngest's christening.
+description_en: I drew and vectorized the mascot "Gian the Lion" for the invitation card of our youngest's christening.
+categories:
+  - "[[Posts]]"
 tags:
-  - icons
-  - print
+  - stebrech_en_projects
+tags_en:
+  - Icons
+  - Print
 featured: false
-status: done
 ---
 [Gian the lion on Dribbble](https://dribbble.com/shots/6401002-Gian-the-lion)

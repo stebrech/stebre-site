@@ -4,10 +4,9 @@ date: 2018-02-05
 updated: 2023-02-17
 layout: layouts/post.njk
 description: Ich nehme den Schutz deiner persönlichen Daten sehr ernst. Ich behandle deine personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
-tags:
-  - pages_de
 permalink: /datenschutz/
-status: needs-translation
+tags:
+  stebrech_pages
 ---
 Mit dieser **Datenschutzerklärung** informiere ich, welche Personendaten ich im Zusammenhang mit meinen **Aktivitäten und Tätigkeiten** einschliesslich meiner **stebre.ch-Website** bearbeite. Ich informiere insbesondere, wofür, wie und wo ich Personendaten bearbeite. Ich informiere ausserdem über die Rechte von Personen, deren Daten ich bearbeite.
 
@@ -19,9 +18,9 @@ Ich unterliege dem schweizerischen Datenschutzrecht sowie allenfalls anwendbarem
 
 Verantwortung für die Bearbeitung von Personendaten:
 
-**Stefan Brechbühl** 
-Unter Tannen 6 
-4246 Wahlen 
+**Stefan Brechbühl**
+Unter Tannen 6
+4246 Wahlen
 Schweiz
 
 [mail@stebre.ch](mailto:mail@stebre.ch)

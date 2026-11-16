@@ -3,20 +3,25 @@ title: Rauchfrei Tracker
 date: 2025-04-06
 featuredImage: 20250406_rauchfrei-tracker.png
 description: Der [Rauchfrei Tracker](https://rauch-frei.netlify.app/) ist eine Webapp, die mit ein paar wenigen persönlichen Einstellungen, aufzeigt wie lange man schon nicht mehr raucht und was man finanziell und gesundheitlich damit erreicht hat.
+categories:
+  - "[[Posts]]"
 tags:
-  - webapp
-  - webentwicklung
+  - stebrech_projects
+tags_de:
   - 11ty
+  - WebApp
+  - Webentwicklung
 featured: true
 weblink: https://rauch-frei.netlify.app/
-status: done
+translations:
+  - en
 ---
-Am 22.12.2024 habe ich mit dem Rauchen aufgehört. Ein solches Vorhaben benötigt einiges an Motivation und Durchhaltevermögen. Die Verlockung bei Stress und Langweile ist auch heute – mehr als drei Monaten nach dem Stopp – noch gross. 
+Am 22.12.2024 habe ich mit dem Rauchen aufgehört. Ein solches Vorhaben benötigt einiges an Motivation und Durchhaltevermögen. Die Verlockung bei Stress und Langweile ist auch heute – mehr als drei Monaten nach dem Stopp – noch gross.
 
 Wenn meine Gedanken wieder mal verrückt spielen und mich überreden möchten, werfe ich ein Blick in meine Rauchfrei App. Dann bin ich ein bisschen Stolz über den Fortschritt. Sei es über
 
-- die wachsende Anzahl erreichter rauchfreier Tage, 
-- das gesparte Geld oder 
+- die wachsende Anzahl erreichter rauchfreier Tage,
+- das gesparte Geld oder
 - den erreichten Gesundheitslevel.
 
  Diesen Fortschritt möchte ich nicht zunichte machen.
@@ -40,10 +45,10 @@ automatisch abgefüllt.
 
 ### Konsum und Kosten berechnen
 
-Um berechnen zu können wie lange man schon rauchfrei ist und wie viel Geld damit gespart wurde, benötigt es 
+Um berechnen zu können wie lange man schon rauchfrei ist und wie viel Geld damit gespart wurde, benötigt es
 
 - den Stichtag seit dem nicht mehr geraucht wurde;
-- die durchschnittlich konsumierte Anzahl Zigaretten (oder andere Rauchwaren); 
+- die durchschnittlich konsumierte Anzahl Zigaretten (oder andere Rauchwaren);
 - sowie der Preis pro Stück.
 
 ## Persönliches Dashboard
@@ -56,7 +61,7 @@ Die ersten beiden Werte (Streak und der gesparte Betrag) sind vermutlich auf den
 
 ## Lokale Datenspeicherung
 
-Die persönlichen Daten werden lokal im *Local Storage* gespeichert. Sie verlassen den Browser demnach nicht. 
+Die persönlichen Daten werden lokal im *Local Storage* gespeichert. Sie verlassen den Browser demnach nicht.
 
 Die Kehrseite dieses (Datenschutz-)Vorteils ist, dass die wenigen Einstellungen verloren gehen, wenn die Browserdaten gelöscht werden. Sie sind in einem anderen Browser oder einem anderen Gerät nicht verfügbar und müssen erneut eingegeben.
 

@@ -3,12 +3,17 @@ title: Etiketten für Hausgemachtes
 date: 2018-05-31
 featuredImage: 20180531_etiketten-fuer-hausgemachtes.png
 description: In unserem Garten steht ein Holunderbaum dessen Blüten wir jedes Jahr ernten und Sirup daraus machen. Ausserdem verarbeiten wir auch andere Dinge, die in unserem Garten wachsen.
+categories:
+  - "[[Posts]]"
 tags:
-  - animation
-  - branding
+  - stebrech_projects
+tags_de:
+  - Animation
+  - Design
 featured: false
 weblink: https://dribbble.com/shots/4655287-under-fir-trees-6
-status: done
+translations:
+  - en
 ---
 Dieses Hausgemachte eignet sich gut als kleines Geschenk und «Mitbringsel». Dafür habe ich unsere Adresse als Logo entworfen und in verschiedenen gestalteten Etiketten wiederverwendet.
 

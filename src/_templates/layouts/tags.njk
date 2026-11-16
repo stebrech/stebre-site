@@ -1,8 +1,10 @@
 ---
 layout: layouts/base.njk
-templateClass: postlist
+templateClass: taglist
 ---
-{% include "includes/header_page/section_title.njk" %}
+<header class="header containerM">
+  <h1 class="title">{{ tag.name }}</h1>
+</header>
 
 {% if content %}
 <section class="intro containerM">
@@ -10,4 +12,11 @@ templateClass: postlist
 </section>
 {% endif %}
 
-{% include "includes/header_page/section_filtertags.njk" %}
+<section class="results containerM">
+	<h2 class="sectionTitle">{{ i18n.headings.tagContent[page.lang] }} <code>#{{ tag.name }}</code></h2>
+	<div class="layout-list">
+		{% for post in tag.posts %}
+		{% include "includes/previews/post.njk" %}
+		{% endfor %}
+  </div>
+</section>

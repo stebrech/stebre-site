@@ -1,5 +1,5 @@
 ---
 layout: layouts/feed.njk
-collection: blog_de
+feedSource: stebrech_blog
 permalink: /feed_posts.xml
 ---

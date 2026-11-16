@@ -1,0 +1,52 @@
+{# Bookmarks #}
+{% if templateClass === "bookmarks"  %}
+	<p>{{ i18n.article.metadata.bookmarkFound[page.lang] }}
+	{% if page.lang === "en" %}
+		<time datetime="{{ post.date }}">
+			{{ post.date | readableDateFromString("en") }}
+		</time>
+	{% else %}
+		<time datetime="{{ post.date }}">
+			{{ post.date | readableDateFromString }}
+		</time>
+	{% endif %}
+
+{# Bookmarks on tags page #}
+{% elif templateClass === "taglist" and "/bookmarks/" in post.url %}
+	<p>{{ i18n.article.metadata.bookmarkFound[page.lang] }}
+	{% if page.lang === "en" %}
+		<time datetime="{{ post.data.date }}">
+			{{ post.data.date | readableDate("en") }}
+		</time>
+	{% else %}
+		<time datetime="{{ post.data.date }}">
+			{{ post.data.date | readableDate }}
+		</time>
+	{% endif %}
+
+{# Other post types #}
+{% elif post.data.date %}
+	<p>{{ i18n.article.metadata.publishDate[page.lang] }}
+	{% if page.lang === "en" %}
+		<time datetime="{{ post.data.date | htmlDateString }}">
+			{{ post.data.date | readableDate("en") }}
+		</time>
+	{% else %}
+		<time datetime="{{ post.data.date | htmlDateString }}">
+			{{ post.data.date | readableDate }}
+		</time>
+	{% endif %}
+{% endif %}
+
+{# Modification date #}
+{% if post.data.updated %}
+	<br>{{ i18n.article.metadata.lastUpdate[page.lang] }} <time datetime="{{ post.data.updated | htmlDateString }}">
+		{% if page.lang === "en" %}
+			{{ post.data.updated | readableDate("en") }}
+		{% else %}
+			{{ post.data.updated | readableDate }}
+		{% endif %}
+	</time>
+{% endif %}
+
+</p>

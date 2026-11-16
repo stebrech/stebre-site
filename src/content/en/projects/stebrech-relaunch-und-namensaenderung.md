@@ -3,14 +3,17 @@ title: "stebre.ch: Relaunch and name change"
 date: 2022-11-15
 updated: 2023-09-17
 featuredImage: 20221115_stebrech-relaunch-und-namensaenderung.png
-description: "stebre.ch: I have secretly relaunched my personal website and also changed the name. But I don't want to refrain from giving you a little insight."
+description_en: "stebre.ch: I have secretly relaunched my personal website and also changed the name. But I don't want to refrain from giving you a little insight."
+categories:
+  - "[[Posts]]"
 tags:
+  - stebrech_en_projects
+tags_en:
   - 11ty
-  - branding
-  - content
-  - webdev
+  - Branding
+  - Content
+  - Webdev
 featured: false
-status: done
 ---
 ## Why a new name?
 

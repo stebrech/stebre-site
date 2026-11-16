@@ -3,9 +3,14 @@ title: Eigenes Logo auf der WordPress Login-Seite
 date: 2012-11-28
 featuredImage: 20121128_eigenes-logo-auf-der-wordpress-login-seite.jpg
 description: Für die Einen unnötige Spielerei, für die Anderen das i-Pünktchen um WordPress zu personalisieren. Ich spreche davon das eigene Logo anstatt dem WordPress Logo auf der Login-Seite anzeigen zu lassen.
+categories:
+  - "[[Posts]]"
 tags:
-  - wordpress
-status: done
+  - stebrech_blog
+tags_de:
+  - WordPress
+translations:
+  - en
 ---
 ## Vorbereitung
 

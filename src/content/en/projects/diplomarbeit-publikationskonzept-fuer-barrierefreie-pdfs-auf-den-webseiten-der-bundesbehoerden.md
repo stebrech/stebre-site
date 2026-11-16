@@ -2,15 +2,18 @@
 title: Diploma thesis publication concept for accessible PDFs on the websites of the federal authorities
 date: 2022-10-09
 featuredImage: 20221009_diplomarbeit-publikationskonzept-fuer-barrierefreie-pdfs-auf-den-webseiten-der-bundesbehoerden.png
-description: In my diploma thesis I wrote how the federal authorities can improve the accessibility of their PDFs.
+description_en: In my diploma thesis I wrote how the federal authorities can improve the accessibility of their PDFs.
+categories:
+  - "[[Posts]]"
 tags:
-  - accessibility
-  - content
-  - print-css
-  - webdev
+  - stebrech_en_projects
+tags_en:
+  - Accessibility
+  - Content
+  - PrintCSS
+  - Webdev
 featured: true
 weblink: https://da-bfpdf-bund.netlify.app
-status: done
 ---
 Essential components were to critically scrutinize the format and to make the preparation more media-neutral in order to always publish in the most suitable format.
 

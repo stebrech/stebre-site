@@ -3,9 +3,14 @@ title: "WP Plugin Tipp: Broken Link Checker"
 date: 2013-02-14
 featuredImage: 20130214_wp-plugin-tipp-broken-link-checker.jpg
 description: Insbesondere beim Bloggen schreibt man über Dinge die man im Web entdeckt hat und verlinkt den Artikel damit. Nun kommt es immer wieder vor, dass jene Links nicht mehr gültig sind, indem sie unter einer anderen Adresse erreichbar oder ganz verschwunden sind. Folgendes Plugin hilft dabei, ungültige Links aufzuspüren und zu bearbeiten.
+categories:
+  - "[[Posts]]"
 tags:
-  - wordpress
-status: done
+  - stebrech_blog
+tags_de:
+  - WordPress
+translations:
+  - en
 ---
 ## Broken Link Checker …
 

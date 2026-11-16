@@ -1,5 +1,5 @@
 ---
 layout: layouts/feed.njk
-collection: bookmarks_de
+feedSource: stebrech_bookmarks
 permalink: /feed_bookmarks.xml
 ---

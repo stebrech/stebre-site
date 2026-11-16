@@ -1,0 +1,19 @@
+<div class="postPreview_featuredImage">
+
+	{# Bookmarks list #}
+	{% if post.og_img_url %}
+	<img src="{{ post.og_img_url }}" alt="">
+
+	{# Bookmarks on tag page #}
+	{% elif post.data.og_img_url %}
+	<img src="{{ post.data.og_img_url }}" alt="">
+
+	{# If featured image is available #}
+	{% elif post.data.featuredImage %}
+	<img src="/content/assets/{{post.data.featuredImage}}" alt="">
+
+	{# Default case #}
+	{% else %}
+	<img src="/content/assets/banner-stebre2.png" alt="">
+	{% endif %}
+</div>

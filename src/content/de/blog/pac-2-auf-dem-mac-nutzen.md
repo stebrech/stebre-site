@@ -4,10 +4,15 @@ date: 2017-05-12
 updated: 2023-08-18
 featuredImage: 20170512_pac-2-auf-dem-mac-nutzen.jpg
 description: PAC ist einzigartiges Prüftool um PDFs auf deren Barrierefreiheit / Zugänglichkeit zu testen. In [[blog/barrierefreie-pdfs--eine-uebersicht-zur-herausforderung|Barrierefreie PDFs – Eine Übersicht zur Herausforderung]] habe ich kurz über das Tool berichtet. Man kann damit Prüfpunkte des [Matterhorn Protokolls](https://pdfa.org/resource/the-matterhorn-protocol/) kontrollieren. Zudem enthält es den _Screenreader_ Modus, welcher die Tags der einzelnen Inhalte farblich darstellt.
+categories:
+  - "[[Posts]]"
 tags:
-  - barrierefreiheit
-  - pdf
-status: done
+  - stebrech_blog
+tags_de:
+  - Barrierefreiheit
+  - PDF
+translations:
+  - en
 ---
 PAC ist einzigartiges Prüftool um PDFs auf deren Barrierefreiheit / Zugänglichkeit zu testen. In [[barrierefreie-pdfs--eine-uebersicht-zur-herausforderung|Barrierefreie PDFs – Eine Übersicht zur Herausforderung]] habe ich kurz über das Tool berichtet. Man kann damit Prüfpunkte des [Matterhorn Protokolls](https://pdfa.org/resource/the-matterhorn-protocol/) kontrollieren. Zudem enthält es den _Screenreader_ Modus, welcher die Tags der einzelnen Inhalte farblich darstellt.
 

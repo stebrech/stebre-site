@@ -1,0 +1,26 @@
+<div class="animate__wrapper animate__animated">
+	<article class="postPreview">
+		<div class="postPreview_content">
+
+			<h3 class="postPreview_title">
+				<a href="{{ post.url }}" class="postPreview_link">{{ post.data.title }}</a>
+			</h3>
+
+			<footer class="postPreview_metadata">
+
+				{# Dates #}
+				{% include "includes/previews/parts/metadata_date.njk" %}
+				{# Tags #}
+				{% include "includes/previews/parts/metadata_tags.njk" %}
+			</footer>
+
+			{# Excerpt #}
+			{% include "includes/previews/parts/excerpt.njk" %}
+
+		</div>
+
+		{# Featured image #}
+		{% include "includes/previews/parts/featured_image.njk" %}
+
+	</article>
+</div>

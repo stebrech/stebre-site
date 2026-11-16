@@ -2,14 +2,17 @@
 title: Smoke Free Tracker
 date: 2025-04-06
 featuredImage: 20250406_rauchfrei-tracker_en.png
-description: The [Smoke Free Tracker](https://rauch-frei.netlify.app/) is a webapp which, with a few personal settings, shows you how long you have not smoked and what you have achieved financially and health-wise.
+description_en: The [Smoke Free Tracker](https://rauch-frei.netlify.app/) is a webapp which, with a few personal settings, shows you how long you have not smoked and what you have achieved financially and health-wise.
+categories:
+  - "[[Posts]]"
 tags:
-  - webapp
-  - webdev
+  - stebrech_en_projects
+tags_en:
   - 11ty
+  - WebApp
+  - Webdev
 featured: true
 weblink: https://rauch-frei.netlify.app/en
-status: done
 ---
 I quit smoking on 22.12.2024. Such a project requires a lot of motivation and perseverance. The temptation of stress and boredom is still great today – more than three months after quitting.
 

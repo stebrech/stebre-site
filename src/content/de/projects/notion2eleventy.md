@@ -4,13 +4,18 @@ date: 2024-01-29
 updated: 2024-05-10
 featuredImage: 20230917_11ty-mit-notion-verbinden.png
 description: "`notion2eleventy` ist ein Plugin für den *Static Site Generator* [Eleventy (kurz: 11ty)](https://11ty.dev). Es lädt Inhalte von Notion in dein 11ty-Verzeichnis. Mit einem statusbasierten Workflow wird dafür gesorgt, dass nur die Inhalte heruntergeladen werden, die sich verändert haben. Das Plugin ist als Node Modul auf [npmjs.com](https://www.npmjs.com/package/@stebrech/notion2eleventy) verfügbar."
+categories:
+  - "[[Posts]]"
 tags:
+  - stebrech_projects
+tags_de:
   - 11ty
-  - markdown
-  - notion
+  - Markdown
+  - Notion
 featured: true
 weblink: https://github.com/stebrech/notion2eleventy
-status: done
+translations:
+  - en
 ---
 ## `notion2eleventy` Features
 
@@ -31,17 +36,17 @@ Die abhängigen Module für `notion2eleventy` sind:
 - `notion-to-md` wandelt die Notion-Inhalte in Markdown um
 - `axios` wird für das Herunterladen der Assets genutzt
 - `dotenv` ermöglicht die Verwendung von *Environment*-Variablen um Keys und Umgebungsspezifisches sicher zu nutzen.
-- `fs` ist ein Standardmodul von Node.js und erlaubt die Interaktion mit dem Filesystem 
+- `fs` ist ein Standardmodul von Node.js und erlaubt die Interaktion mit dem Filesystem
 
 ## Plugin installieren
 
-`notion2eleventy` wird mit dem Node Paketmanager `npm` oder `yarn` installiert werden.  
+`notion2eleventy` wird mit dem Node Paketmanager `npm` oder `yarn` installiert werden.
 
 ```sh
 npm i @stebrech/notion2eleventy
 ```
 
-oder 
+oder
 
 ```sh
 yarn add @stebrech/notion2eleventy
@@ -122,10 +127,10 @@ notion2eleventy()
 
 In der Config wird die Funktion `createMarkdownFiles` des Plugins aufgerufen. Werden mehrere Beitragstypen (z.B. Blogbeiträge, Seiten, etc.) benötigt, kann dies mit mehreren Notion Datenbanken gelöst werden. Somit wird die Objektvariable (im Muster `postType1` genannt) dupliziert, angepasst und die Funktion ein zweites Mal aufgerufen.
 
-Es gibt einige Pflicht-Metadatenfelder, die in Notion angelegt werden müssen, wie der 
+Es gibt einige Pflicht-Metadatenfelder, die in Notion angelegt werden müssen, wie der
 
 - Status (Typ Select oder Status);
-- Titel (Typ Titel). 
+- Titel (Typ Titel).
 
 Weitere Metadatenfelder sind optional und können beliebig hinzugefügt und genutzt werden. Diese werden dann in den Frontmatter der Markdowndateien (in camelCase) geschrieben.
 
@@ -172,4 +177,4 @@ Nun sind die Vorbereitungen gemacht und die Skripte in der `package.json`-Datei 
 
 ## Feedback und Verbesserungsvorschläge
 
-Wenn du einen Bug findest oder einen Verbesserungsvorschlag hast, eröffne bitte ein *Issue* oder gleich ein *Pull Request* im [Github-Repository](https://github.com/stebrech/notion2eleventy). 
+Wenn du einen Bug findest oder einen Verbesserungsvorschlag hast, eröffne bitte ein *Issue* oder gleich ein *Pull Request* im [Github-Repository](https://github.com/stebrech/notion2eleventy).

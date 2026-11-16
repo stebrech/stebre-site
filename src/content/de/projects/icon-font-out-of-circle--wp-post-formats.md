@@ -3,11 +3,16 @@ title: "Icon Font: Out Of Circle – WP Post Formats"
 date: 2013-04-27
 featuredImage: 20130427_icon-font-out-of-circle--wp-post-formats.png
 description: «Out Of Circle – WP Post Formats» ist ein kleiner Icon Font, mithilfe man die aktuell vorhanden Post Formate in WordPress grafisch aufpolieren kann.
+tcategories:
+  - "[[Posts]]"
 tags:
-  - icons
+  - stebrech_projects
+tags_de:
+  - Icons
 featured: false
 weblink: https://github.com/stebrech/OOC-WP-PF
-status: done
+translations:
+  - en
 ---
 Mehr zu den Post Formaten könnt ihr in der [offiziellen WordPress Dokumentation](https://wordpress.org/support/article/post-formats/) nachlesen.
 

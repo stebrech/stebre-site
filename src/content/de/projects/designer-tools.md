@@ -3,10 +3,15 @@ title: Designer Tools
 date: 2015-10-13
 featuredImage: 20151013_designer-tools.jpg
 description: "[Designer Tools](https://thenounproject.com/browse/collection-icon/designer-tools-6729/) ist eine kleine Icon Sammlung welche ich in Illustrator gezeichnet und auf Noun Project als Vektorgrafiken zur Verfügung stelle."
+categories:
+  - "[[Posts]]"
 tags:
-  - icons
+  - stebrech_projects
+tags_de:
+  - Icons
 featured: false
 weblink: https://thenounproject.com/browse/collection-icon/designer-tools-6729/
-status: done
+translations:
+  - en
 ---
 

@@ -4,10 +4,9 @@ layout: layouts/post.njk
 date: 2012-12-01
 updated: 2022-09-17
 description: Imprint of stebre.ch
-tags:
-  - pages_en
 permalink: /en/imprint/
-status: done
+tags:
+  - stebrech_en_pages
 ---
 [stebre.ch](https://stebre.ch/en) is the personal website of
 

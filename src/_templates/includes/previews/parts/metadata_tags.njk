@@ -1,0 +1,37 @@
+<ul>
+{# Show post type on a search and tag page #}
+{% if templateClass === "taglist" %}
+	{% if "/bookmarks" in post.url %}
+		<li class="postPreview_tag bookmarks">{{ i18n.mainnav.bookmarks[page.lang] }}</li>
+	{% elif "/projects" in post.url %}
+		<li class="postPreview_tag projects">{{ i18n.mainnav.projects[page.lang] }}</li>
+	{% elif "/blog" in post.url %}
+		<li class="postPreview_tag posts">{{ i18n.mainnav.blog[page.lang] }}</li>
+	{% endif %}
+{% endif %}
+
+{# Language note for English bookmarks on the German page #}
+{% if "/bookmarks" in page.url and page.lang !== "en" and "en" == post["languages"] %}
+	<li class="postPreview_tag lang">EN</li>
+{% endif %}
+{# Language note for German bookmarks on the English page #}
+{% if "/bookmarks" in page.url and page.lang !== "de" and "de" == post["languages"] %}
+	<li class="postPreview_tag lang">DE</li>
+{% endif %}
+
+{# Set tags array #}
+{% if post.tags_en and page.lang === "en"%}
+	{% set tags = post.tags_en %}
+{% elif post.tags_de and page.lang === "de"%}
+	{% set tags = post.tags_de %}
+{% elif page.lang === "en"%}
+	{% set tags = post.data.tags_en %}
+{% else %}
+	{% set tags = post.data.tags_de %}
+{% endif %}
+
+{# Output the tags as list item #}
+{% for tag in tags %}
+	<li class="postPreview_tag">#{{ tag }}</a>
+{% endfor %}
+</ul>

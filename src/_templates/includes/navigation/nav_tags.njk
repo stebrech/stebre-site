@@ -1,0 +1,15 @@
+<nav class="filter containerM">
+	<h2 class="sectionTitle">{{ i18n.headings.taglist[page.lang] }}</h2>
+	<ul class="tagList">
+
+		{% if page.lang === "en" %}
+			{% for tag in collections.tagsEN %}
+			<li><a href="/en/tags/{{ tag.name | slug }}/">{{tag.name}}</a> ({{tag.count}})</li>
+			{% endfor %}
+		{% else %}
+			{% for tag in collections.tagsDE %}
+			<li><a href="/tags/{{ tag.name | slug }}/">{{tag.name}}</a> ({{tag.count}})</li>
+			{% endfor %}
+		{% endif %}
+	</ul>
+</nav>

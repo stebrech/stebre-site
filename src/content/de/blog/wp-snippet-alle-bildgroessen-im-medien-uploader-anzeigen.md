@@ -3,9 +3,14 @@ title: "WP Snippet: Alle Bildgrössen im Medien Uploader anzeigen"
 date: 2014-02-07
 featuredImage: 20140207_wp-snippet-alle-bildgroessen-im-medien-uploader-anzeigen.jpg
 description: Der WordPress Medien Uploader generiert beim Hochladen von Bildern automatisch mehrere Bildkopien in den definierten Bildgrössen. Die Standardgrössen _Miniaturbild, mittlere Bildgrösse und maximale Bildgrösse_ lassen sich in den Einstellungen festlegen.
+categories:
+  - "[[Posts]]"
 tags:
-  - wordpress
-status: done
+  - stebrech_blog
+tags_de:
+  - WordPress
+translations:
+  - en
 ---
 Wird im Editor mithilfe von _Medien hinzufügen_ ein Bild hinzugefügt, lässt sich unter _Dateianhang Anzeigeneinstellung_ eine der Bildgrössen mittels Dropdown-Feld bestimmen. Hier werden aber nur die Standardbildgrössen angezeigt.
 

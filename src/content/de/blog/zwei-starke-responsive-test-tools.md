@@ -3,10 +3,15 @@ title: Zwei starke Responsive-Test-Tools
 date: 2013-07-05
 featuredImage: 20130705_zwei-starke-responsive-test-tools.jpg
 description: Das Web ist mobil. Es werden täglich mehr User, welche ihre Inhalte mit einem mobilen Gerät im Netz aufsuchen. Aufgrund dessen werden Webseiten vermehrt mit einem anpassungsfähigen Design angeboten. Das englische “Zauberwort” dafür heisst Responsive und bedeutet, dass sich eine Webseite an die Auflösung des Ausgabegeräts anpasst.
+categories:
+  - "[[Posts]]"
 tags:
-  - app
-  - webentwicklung
-status: done
+  - stebrech_blog
+tags_de:
+  - ResponsiveDesign
+  - Webentwicklung
+translations:
+  - en
 ---
 Um eine Website auf allen möglichen Geräten zu testen, ist, aufgrund der Anzahl verschiedenen Auflösungen, unmöglich. Aus diesem Grund wurden bereits etliche Tools entwickelt um eine Website direkt im Browser in verschiedenen Ausgabegrössen zu testen.
 

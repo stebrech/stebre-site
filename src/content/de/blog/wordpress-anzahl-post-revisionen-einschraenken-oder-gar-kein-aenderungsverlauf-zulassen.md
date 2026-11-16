@@ -3,9 +3,14 @@ title: "WordPress: Anzahl Post Revisionen einschränken oder gar kein Änderungs
 date: 2012-07-01
 featuredImage: 20120701_wordpress-anzahl-post-revisionen-einschraenken-oder-gar-kein-aenderungsverlauf-zulassen.jpg
 description: Wordpress speichert per Standard den Verlauf der Änderungen eines Artikels. Diese findet man im unteren Teil des Artikel Bearbeitungsmodus mit dem Titel Revisionen. Sofern diese nicht angezeigt werden, können Sie mithilfe der Optionen im Kopfbereich sichtbar gemacht werden.
+categories:
+  - "[[Posts]]"
 tags:
-  - wordpress
-status: done
+  - stebrech_blog
+tags_de:
+  - WordPress
+translations:
+  - en
 ---
 Die Liste dieser Revisionen kann, je nachdem wie lange an einem Artikel “geschraubt” wird, ziemlich lange werden. Sämtliche Revisionen werden dabei in der Datenbank gespeichert.
 

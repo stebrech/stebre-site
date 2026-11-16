@@ -18,7 +18,8 @@
 
 @media screen and (min-width: 40rem) {
 	.layout-list .postPreview {
-		align-items: center; /* Center items vertically */
+		align-items: center;
+		/* Center items vertically */
 		grid-template-columns: 1fr 3fr;
 	}
 }
@@ -81,7 +82,7 @@
 	position: absolute;
 }
 
-.postPreview_container {
+.postPreview_content {
 	margin: var(--size-l);
 }
 

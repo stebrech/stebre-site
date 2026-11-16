@@ -3,15 +3,18 @@ title: Importing bookmarks to 11ty with the Pocket API
 date: 2024-03-06
 updateted: 2025-04-07
 featuredImage: 20240308_lesezeichen-mit-der-pocket-api-nach-11ty-importieren.jpg
-description: Pocket offers an API with which the saved bookmarks can be used and customized. I make use of this and save the data in a bookmark post on [stebre.ch](https://stebre.ch/en/bookmarks). Bookmarks with a specific tag are taken into account. After processing, the link saved on Pocket is archived.
+description_en: Pocket offers an API with which the saved bookmarks can be used and customized. I make use of this and save the data in a bookmark post on [stebre.ch](https://stebre.ch/en/bookmarks). Bookmarks with a specific tag are taken into account. After processing, the link saved on Pocket is archived.
+categories:
+  - "[[Posts]]"
 tags:
+  - stebrech_en_blog
+tags_en:
   - 11ty
-  - automation
-  - webdev
+  - Automation
+  - Webdev
 featured: true
-status: done
 ---
-> [!INFO] Relocation  
+> [!INFO] Relocation
 > This post was moved from Projects to Blog on 4/7/2025.
 
 I've tried several ways to save instructive and helpful web links as favorites or to remember them for later reading. I got stuck with [Pocket](https://getpocket.com), which was taken over by [Mozilla](https://www.mozilla.org/de/) a few years ago and stayed alive.
@@ -80,13 +83,13 @@ The function I use for this looks like this:
 async function getMetaDescription(url, filename) {
 	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
-	
+
 	try {
 		await page.goto(url);
 		const metaDescription = await page.evaluate(() => {
 			const description = document.querySelector('meta[name="description"]');
 			const ogDescription = document.querySelector('meta[property="og:description"]');
-			
+
 			if (description) {
 				return description.content;
 			} else if (ogDescription) {
@@ -95,7 +98,7 @@ async function getMetaDescription(url, filename) {
 				return null;
 			}
 		});
-		
+
 		await browser.close();
 		console.log(`${filename} | Meta description has been fetched`);
 		return metaDescription;
@@ -118,20 +121,20 @@ If no image can be downloaded from Pocket, the following function is called:
 
 ```js
 async function getScreenshot(url, filepath, filename) {
-	
+
 	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
-	
+
 	try {
-	
+
 		await page.goto(url);
 		await page.setViewport({ width: 1600, height: 800 });
 		await page.screenshot({ path: filepath });
 		await browser.close();
 		console.log(`${filename} | Screenshot has been saved`);
-	
+
 	} catch (error) {
-	
+
 		await browser.close();
 		console.error(`${filename} | Error getting screenshot:`, error);
 	}

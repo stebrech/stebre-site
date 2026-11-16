@@ -2,12 +2,16 @@
 title: Cross-media text processing with Markdown
 date: 2018-04-16
 featuredImage: 20180416_crossmediale-textverarbeitung-mit-markdown.jpg
-description: A major challenge in media-neutral data production is the lack of awareness of structured content. If content is (initially) created in text processing programs such as Microsoft Word, attempts are made to make it appealing. In most cases, however, a clean structure falls by the wayside.
+description_en: A major challenge in media-neutral data production is the lack of awareness of structured content. If content is (initially) created in text processing programs such as Microsoft Word, attempts are made to make it appealing. In most cases, however, a clean structure falls by the wayside.
+categories:
+  - "[[Posts]]"
 tags:
-  - accessibility
-  - content-first
-  - indesign
-  - markdown
+  - stebrech_en_blog
+tags_en:
+  - Accessibility
+  - ContentFirst
+  - InDesign
+  - Markdown
 status: needs-review
 ---
 Formatting can be applied quickly and easily with Word and similar software. When printed out on the office printer, nobody may realize that the formatting applied may not have been the best:

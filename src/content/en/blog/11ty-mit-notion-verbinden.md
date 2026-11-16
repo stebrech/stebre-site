@@ -3,11 +3,14 @@ title: Connect 11ty with Notion
 date: 2023-09-17
 updated: 2024-02-02T00:00:00.000Z
 featuredImage: 20230917_11ty-mit-notion-verbinden.png
-description: I have come up with something new for stebre.ch and two other websites so far. I'm now using the much-loved static site generator 11ty in combination with Notion, a versatile content tool in the cloud.
+description_en: I have come up with something new for stebre.ch and two other websites so far. I'm now using the much-loved static site generator 11ty in combination with Notion, a versatile content tool in the cloud.
+categories:
+  - "[[Posts]]"
 tags:
+  - stebrech_en_blog
+tags_en:
   - 11ty
-  - markdown
-status: done
+  - Markdown
 ---
 > [!info] Update 2.2.2024
 > For stebre.ch I now use [Obsidian](https://obsidian.md/) to create and manage the content. Since I continue to use the Notion interface for création eliane, [[en/projects/familienverein-wahlen|Familienverein Wahlen]] and hopefully soon for other exciting projects, I will continue to maintain it. With [[en/projects/notion2eleventy|notion2eleventy]] I have built a more configurable 11ty plugin.

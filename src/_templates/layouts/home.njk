@@ -42,14 +42,26 @@ templateClass: home
 <section class="results containerL">
 	<h2 class="sectionTitle">{{ i18n.headings.projects[page.lang] }}</h2>
 	<div class="layout-cards">
-		{% set results = collections[collectionProjects] | reverse | limit(3) %}
-		{% include "includes/preview.njk" %}
+		{% if page.lang === "en" %}
+			{% set posts = collections.featuredProjectsEN | reverse | limit(3) %}
+		{% else %}
+			{% set posts = collections.featuredProjectsDE | reverse | limit(3) %}
+		{% endif %}
+		{% for post in posts %}
+		{% include "includes/previews/post.njk" %}
+		{% endfor %}
 	</div>
 </section>
 <section class="results containerL">
 	<h2 class="sectionTitle">{{ i18n.headings.blog[page.lang] }}</h2>
 	<div class="layout-cards">
-		{% set results = collections[collectionBlog] | reverse | limit(3) %}
-		{% include "includes/preview.njk" %}
+		{% if page.lang === "en" %}
+			{% set posts = collections.stebrech_en_blog | reverse | limit(3) %}
+		{% else %}
+			{% set posts = collections.stebrech_blog | reverse | limit(3) %}
+		{% endif %}
+		{% for post in posts %}
+		{% include "includes/previews/post.njk" %}
+		{% endfor %}
 	</div>
 </section>

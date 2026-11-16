@@ -2,12 +2,15 @@
 title: Social Media Icons Rounded and Glossy v1
 date: 2012-07-02
 featuredImage: 20120702_social-media-icons-rounded-and-glossy-v1.jpg
-description: “Rounded & Glossy” is a small package with 30 social media icons. The icons have a rounded shape with a glossy effect.
+description_en: “Rounded & Glossy” is a small package with 30 social media icons. The icons have a rounded shape with a glossy effect.
+categories:
+  - "[[Posts]]"
 tags:
-  - icons
+  - stebrech_en_projects
+tags_en:
+  - Icons
 featured: false
 weblink: https://github.com/stebrech/social-media-icons-rounded-glossy-1
-status: done
 ---
 The icons are freely available in 128px and 32px resolution, in PNG file format and also for commercial purposes.
 

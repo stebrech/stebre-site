@@ -3,11 +3,16 @@ title: WordPress Plugin Optimus ­– Bilder komprimieren während des Upload-Vo
 date: 2012-10-08
 featuredImage: 20121008_wordpress-plugin-optimus--bilder-komprimieren-waehrend-des-upload-vorgangs.jpg
 description: Um die Ladezeit einer Website zu verbessern ist die Optimierung von Bildern einer der wichtigsten Massnahmen. [Das neue WordPress Plugin Optimus von Sergej Müller](http://wordpress.org/plugins/optimus/) bietet eine komfortable automatische Optimierung während des Upload-Vorgangs.
+categories:
+  - "[[Posts]]"
 tags:
-  - bildoptimierung
-  - wordpress
-  - performance
-status: done
+  - stebrech_blog
+tags_de:
+  - Bildoptimierung
+  - WordPress
+  - Performance
+translations:
+  - en
 ---
 Auf [Cashys Blog](http://stadt-bremerhaven.de/optimus-bilder-fuer-blogs-optimieren/) und [JCFRICKs Tech Blog](http://www.ifrick.ch/2012/10/optimus-wordpress-plugin-bilder-automatisch-optimieren/) habe ich von Optimus erfahren. Optimus kann den Arbeitsprozess, besonders auf bildreichen Webseiten stark beschleunigen, weshalb auch ich über dieses Plugin berichten möchte.
 
