@@ -4,7 +4,7 @@ templateClass: postlist
 title: Arbeiten
 pagination:
   data: collections.stebrech_projects
-  size: 9
+  size: 12
   alias: posts
   reverse: true
 permalink: /projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}/

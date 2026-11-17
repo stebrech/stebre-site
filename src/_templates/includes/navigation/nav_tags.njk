@@ -1,6 +1,7 @@
-<nav class="filter containerM">
-	<h2 class="sectionTitle">{{ i18n.headings.taglist[page.lang] }}</h2>
-	<ul class="tagList">
+<nav class="tagcloud{% if templateClass === "postlist" %} containerM{% endif %}">
+	<h2 class="sectionTitle">{{ i18n.headings.tagCloud[page.lang] }}</h2>
+	<p>{{ i18n.tagCloudDescription1[page.lang] }} <br>{{ i18n.tagCloudDescription2[page.lang] }}</p>
+	<ul>
 
 		{% if page.lang === "en" %}
 			{% for tag in collections.tagsEN %}

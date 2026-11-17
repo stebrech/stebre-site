@@ -82,10 +82,18 @@
 			"de": "Alle Inhalte mit dem Schlagwort",
 			"en": "All content with the tag"
 		},
-		"taglist": {
-			"de": "Nach einem Schlagwort filtern",
-			"en": "Filter by a tag"
+		"tagCloud": {
+			"de": "Noch keinen spannenden Inhalt gefunden?",
+			"en": "Haven't found any interesting content yet?"
 		}
+	},
+	"tagCloudDescription1": {
+		"de": "Suche dir ein Schlagwort, welches dich interessiert.",
+		"en": "Choose a tag that interests you."
+	},
+	"tagCloudDescription2": {
+		"de": "Darunter findest du alle Beitragstypen, die zu diesem Schlagwort passen.",
+		"en": "You'll find all post types related to that tag."
 	},
 	"skiplink": {
 		"de": "Zum Inhalt springen",

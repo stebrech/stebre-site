@@ -15,13 +15,16 @@ layout: layouts/base.njk
 	{# Card style for posts and projects #}
   <div class="layout-cards">
 		{% for post in posts %}
-		{% include "includes/previews/post.njk" %}
+
+			{% if loop.index == 7 %}
+				{# List of all tags. #}
+				{% include "includes/navigation/nav_tags.njk" %}
+			{% endif %}
+
+			{% include "includes/previews/post.njk" %}
 		{% endfor %}
 	</div>
 
 	{# Page navigation #}
 	{% include "includes/navigation/nav_pagination.njk" %}
 </section>
-
-{# List of all used tags. Filtered by language. #}
-{% include "includes/navigation/nav_tags.njk" %}

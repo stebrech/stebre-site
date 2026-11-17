@@ -4,7 +4,7 @@ templateClass: postlist
 title: Side projects
 pagination:
   data: collections.stebrech_en_projects
-  size: 9
+  size: 12
   alias: posts
   reverse: true
 permalink: /en/projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}/

@@ -16,7 +16,13 @@ layout: layouts/base.njk
 	{# Posts with list style #}
   <div class="layout-list">
 		{% for post in posts %}
-		{% include "includes/previews/bookmark.njk" %}
+
+			{% if loop.index == 7 %}
+				{# List of all tags. #}
+				{% include "includes/navigation/nav_tags.njk" %}
+			{% endif %}
+
+			{% include "includes/previews/bookmark.njk" %}
 		{% endfor %}
 	</div>
 
@@ -24,5 +30,3 @@ layout: layouts/base.njk
 	{% include "includes/navigation/nav_pagination.njk" %}
 </section>
 
-{# List of all used tags. Filtered by language. #}
-{% include "includes/navigation/nav_tags.njk" %}

@@ -578,20 +578,33 @@ header.containerM {
 	margin-top: 2rem;
 }
 
-.filter h2 {
-	margin-top: var(--size-xl);
-}
-
 .header + .results h2 {
 	margin-top: 0;
 }
 
-.tagList {
+.tagcloud {
+	margin-top: var(--size-xl);
+	margin-bottom: var(--size-xxl);
+}
+
+.postlist .tagcloud {
+	grid-column: 1 / span 3;
+}
+
+.tagcloud h2 {
+	margin-top: 0;
+}
+
+.tagcloud p {
+	font-size: var(--size-l)
+}
+
+.tagcloud ul {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.tagList li {
+.tagcloud li {
 	list-style-type: none;
 	margin-right: var(--size-m);
 }
