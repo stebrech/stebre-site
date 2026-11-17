@@ -10,7 +10,6 @@ tags:
 tags_de:
   - WordPress
 translations:
-  - en
 ---
 Die Liste dieser Revisionen kann, je nachdem wie lange an einem Artikel “geschraubt” wird, ziemlich lange werden. Sämtliche Revisionen werden dabei in der Datenbank gespeichert.
 

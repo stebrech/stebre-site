@@ -10,7 +10,6 @@ tags:
 tags_de:
   - WordPress
 translations:
-  - en
 ---
 Die Autoren sind Vladimir Simovic und Thordis Bonfranchi-Simovic. Insbesondere Vladimir ist im deutschsprachigen Netz für seine themenrelevanten Artikeln im Blog [www.perun.net](http://www.perun.net/) bekannt.
 

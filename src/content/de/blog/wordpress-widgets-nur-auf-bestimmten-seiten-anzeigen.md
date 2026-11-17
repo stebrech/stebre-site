@@ -10,7 +10,6 @@ tags:
 tags_de:
   - WordPress
 translations:
-  - en
 ---
 Bei diesem Praxisbeispiel beinhaltet das Page Template dieselbe Sidebar wie das Blog.
 

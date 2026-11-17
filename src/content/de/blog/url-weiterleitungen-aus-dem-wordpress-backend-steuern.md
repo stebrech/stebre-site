@@ -10,7 +10,6 @@ tags:
 tags_de:
   - WordPress
 translations:
-  - en
 ---
 
 ## Übersicht behalten

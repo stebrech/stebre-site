@@ -10,7 +10,6 @@ tags:
 tags_de:
   - Rechtliches
 translations:
-  - en
 ---
  Dieser Generator soll auf schweizerisches Recht abgestimmt sein. Selbstverständlich nimmt der Betreiber keine Gewähr auf Gültigkeit und Richtigkeit des erzeugten Impressums.
 

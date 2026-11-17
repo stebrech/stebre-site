@@ -10,7 +10,6 @@ tags_de:
   - WebApp
   - WordPress
 translations:
-  - en
 ---
 Mithilfe von [GenerateWP.com](http://generatewp.com/) wird dem Nutzer das Durchstöbern der Dokumentation zumindest teilweise abgenommen. Die Code Generatoren helfen bei:
 

@@ -10,7 +10,6 @@ tags:
 tags_de:
   - WordPress
 translations:
-  - en
 ---
 Die Standard-Shortcodes, welche WordPress von Haus aus mitbringt, sind:
 

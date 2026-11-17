@@ -10,7 +10,6 @@ tags:
 tags_de:
   - WordPress
 translations:
-  - en
 ---
 Wer sich mit dem Entwickeln von WordPress Themes aber auch schon bei der Bearbeitung mithilfe eines [Child Themes](https://codex.wordpress.org/Child_Themes) beschäftigt, sollte diese Hierarchie kennen oder zumindest wissen, dass es sie gibt.
 

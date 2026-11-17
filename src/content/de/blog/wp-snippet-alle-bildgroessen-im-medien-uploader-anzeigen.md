@@ -10,7 +10,6 @@ tags:
 tags_de:
   - WordPress
 translations:
-  - en
 ---
 Wird im Editor mithilfe von _Medien hinzufügen_ ein Bild hinzugefügt, lässt sich unter _Dateianhang Anzeigeneinstellung_ eine der Bildgrössen mittels Dropdown-Feld bestimmen. Hier werden aber nur die Standardbildgrössen angezeigt.
 

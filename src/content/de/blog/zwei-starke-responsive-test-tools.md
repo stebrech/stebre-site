@@ -11,7 +11,6 @@ tags_de:
   - ResponsiveDesign
   - Webentwicklung
 translations:
-  - en
 ---
 Um eine Website auf allen möglichen Geräten zu testen, ist, aufgrund der Anzahl verschiedenen Auflösungen, unmöglich. Aus diesem Grund wurden bereits etliche Tools entwickelt um eine Website direkt im Browser in verschiedenen Ausgabegrössen zu testen.
 

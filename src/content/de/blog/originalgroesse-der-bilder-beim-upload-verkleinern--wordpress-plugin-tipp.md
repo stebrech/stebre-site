@@ -11,7 +11,6 @@ tags_de:
   - Performance
   - WordPress
 translations:
-  - en
 ---
 ## Die Bildgrössen in den Mediathek Einstellungen
 

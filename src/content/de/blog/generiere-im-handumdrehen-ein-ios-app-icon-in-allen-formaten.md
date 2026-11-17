@@ -10,7 +10,6 @@ tags:
 tags_de:
   - Icons
 translations:
-  - en
 ---
 Das Beste dabei – es werden sämtliche Grössenformate automatisch erstellt.
 

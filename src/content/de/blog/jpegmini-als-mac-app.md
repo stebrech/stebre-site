@@ -11,7 +11,6 @@ tags_de:
   - Bildoptimierung
   - Performance
 translations:
-  - en
 ---
 > [!info] Die Mac App scheint nicht mehr verfügbar zu sein.
 

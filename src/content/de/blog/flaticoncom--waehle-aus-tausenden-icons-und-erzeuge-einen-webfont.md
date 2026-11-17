@@ -10,7 +10,6 @@ tags:
 tags_de:
   - Icons
 translations:
-  - en
 ---
 ## Flat Design - was ist das?
 

@@ -11,7 +11,6 @@ tags_de:
   - Git
   - Webentwicklung
 translations:
-  - en
 ---
 Die Lernvideos werden wiederum in Git mit Kommandozeile und Git mit Tower aufgeteilt. Da ich Tower nutze habe ich mir diese Videos näher angesehen.
 
